@@ -1,0 +1,26 @@
+<http://www.opengis.net/def/rule/geosparql/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Collection> <http://www.opengis.net/def/rule/geosparql/> .
+<http://www.opengis.net/def/rule/geosparql/> <http://www.w3.org/2004/02/skos/core#member> <http://www.opengis.net/def/rule/geosparql/ehContains> <http://www.opengis.net/def/rule/geosparql/> .
+<http://www.opengis.net/def/rule/geosparql/> <http://www.w3.org/2004/02/skos/core#member> <http://www.opengis.net/def/rule/geosparql/ehCoveredBy> <http://www.opengis.net/def/rule/geosparql/> .
+<http://www.opengis.net/def/rule/geosparql/> <http://www.w3.org/2004/02/skos/core#member> <http://www.opengis.net/def/rule/geosparql/ehCovers> <http://www.opengis.net/def/rule/geosparql/> .
+<http://www.opengis.net/def/rule/geosparql/> <http://www.w3.org/2004/02/skos/core#member> <http://www.opengis.net/def/rule/geosparql/ehDisjoint> <http://www.opengis.net/def/rule/geosparql/> .
+<http://www.opengis.net/def/rule/geosparql/> <http://www.w3.org/2004/02/skos/core#member> <http://www.opengis.net/def/rule/geosparql/ehEquals> <http://www.opengis.net/def/rule/geosparql/> .
+<http://www.opengis.net/def/rule/geosparql/> <http://www.w3.org/2004/02/skos/core#member> <http://www.opengis.net/def/rule/geosparql/ehInside> <http://www.opengis.net/def/rule/geosparql/> .
+<http://www.opengis.net/def/rule/geosparql/> <http://www.w3.org/2004/02/skos/core#member> <http://www.opengis.net/def/rule/geosparql/ehMeet> <http://www.opengis.net/def/rule/geosparql/> .
+<http://www.opengis.net/def/rule/geosparql/> <http://www.w3.org/2004/02/skos/core#member> <http://www.opengis.net/def/rule/geosparql/ehOverlap> <http://www.opengis.net/def/rule/geosparql/> .
+<http://www.opengis.net/def/rule/geosparql/> <http://www.w3.org/2004/02/skos/core#member> <http://www.opengis.net/def/rule/geosparql/rcc8dc> <http://www.opengis.net/def/rule/geosparql/> .
+<http://www.opengis.net/def/rule/geosparql/> <http://www.w3.org/2004/02/skos/core#member> <http://www.opengis.net/def/rule/geosparql/rcc8ec> <http://www.opengis.net/def/rule/geosparql/> .
+<http://www.opengis.net/def/rule/geosparql/> <http://www.w3.org/2004/02/skos/core#member> <http://www.opengis.net/def/rule/geosparql/rcc8eq> <http://www.opengis.net/def/rule/geosparql/> .
+<http://www.opengis.net/def/rule/geosparql/> <http://www.w3.org/2004/02/skos/core#member> <http://www.opengis.net/def/rule/geosparql/rcc8ntpp> <http://www.opengis.net/def/rule/geosparql/> .
+<http://www.opengis.net/def/rule/geosparql/> <http://www.w3.org/2004/02/skos/core#member> <http://www.opengis.net/def/rule/geosparql/rcc8ntppi> <http://www.opengis.net/def/rule/geosparql/> .
+<http://www.opengis.net/def/rule/geosparql/> <http://www.w3.org/2004/02/skos/core#member> <http://www.opengis.net/def/rule/geosparql/rcc8po> <http://www.opengis.net/def/rule/geosparql/> .
+<http://www.opengis.net/def/rule/geosparql/> <http://www.w3.org/2004/02/skos/core#member> <http://www.opengis.net/def/rule/geosparql/rcc8tpp> <http://www.opengis.net/def/rule/geosparql/> .
+<http://www.opengis.net/def/rule/geosparql/> <http://www.w3.org/2004/02/skos/core#member> <http://www.opengis.net/def/rule/geosparql/rcc8tppi> <http://www.opengis.net/def/rule/geosparql/> .
+<http://www.opengis.net/def/rule/geosparql/> <http://www.w3.org/2004/02/skos/core#member> <http://www.opengis.net/def/rule/geosparql/sfContains> <http://www.opengis.net/def/rule/geosparql/> .
+<http://www.opengis.net/def/rule/geosparql/> <http://www.w3.org/2004/02/skos/core#member> <http://www.opengis.net/def/rule/geosparql/sfCrosses> <http://www.opengis.net/def/rule/geosparql/> .
+<http://www.opengis.net/def/rule/geosparql/> <http://www.w3.org/2004/02/skos/core#member> <http://www.opengis.net/def/rule/geosparql/sfDisjoint> <http://www.opengis.net/def/rule/geosparql/> .
+<http://www.opengis.net/def/rule/geosparql/> <http://www.w3.org/2004/02/skos/core#member> <http://www.opengis.net/def/rule/geosparql/sfEquals> <http://www.opengis.net/def/rule/geosparql/> .
+<http://www.opengis.net/def/rule/geosparql/> <http://www.w3.org/2004/02/skos/core#member> <http://www.opengis.net/def/rule/geosparql/sfIntersects> <http://www.opengis.net/def/rule/geosparql/> .
+<http://www.opengis.net/def/rule/geosparql/> <http://www.w3.org/2004/02/skos/core#member> <http://www.opengis.net/def/rule/geosparql/sfOverlaps> <http://www.opengis.net/def/rule/geosparql/> .
+<http://www.opengis.net/def/rule/geosparql/> <http://www.w3.org/2004/02/skos/core#member> <http://www.opengis.net/def/rule/geosparql/sfTouches> <http://www.opengis.net/def/rule/geosparql/> .
+<http://www.opengis.net/def/rule/geosparql/> <http://www.w3.org/2004/02/skos/core#member> <http://www.opengis.net/def/rule/geosparql/sfWithin> <http://www.opengis.net/def/rule/geosparql/> .
+<http://www.opengis.net/def/rule/geosparql/> <http://www.w3.org/2004/02/skos/core#prefLabel> "GeoSPARQL rules"@en <http://www.opengis.net/def/rule/geosparql/> .

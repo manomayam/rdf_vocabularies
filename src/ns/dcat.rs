@@ -1,0 +1,42 @@
+// THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+use crate::namespace;
+
+namespace!(
+    "http://www.w3.org/ns/dcat#",;
+    Catalog, "Catalog",
+    CatalogRecord, "CatalogRecord",
+    DataService, "DataService",
+    Dataset, "Dataset",
+    Distribution, "Distribution",
+    Relationship, "Relationship",
+    Resource, "Resource",
+    Role, "Role",
+    accessService, "accessService",
+    accessURL, "accessURL",
+    bbox, "bbox",
+    byteSize, "byteSize",
+    catalog, "catalog",
+    centroid, "centroid",
+    compressFormat, "compressFormat",
+    contactPoint, "contactPoint",
+    dataset, "dataset",
+    distribution, "distribution",
+    downloadURL, "downloadURL",
+    endDate, "endDate",
+    endpointDescription, "endpointDescription",
+    endpointURL, "endpointURL",
+    hadRole, "hadRole",
+    keyword, "keyword",
+    landingPage, "landingPage",
+    mediaType, "mediaType",
+    packageFormat, "packageFormat",
+    qualifiedRelation, "qualifiedRelation",
+    record, "record",
+    servesDataset, "servesDataset",
+    service, "service",
+    spatialResolutionInMeters, "spatialResolutionInMeters",
+    startDate, "startDate",
+    temporalResolution, "temporalResolution",
+    theme, "theme",
+    themeTaxonomy, "themeTaxonomy"
+);

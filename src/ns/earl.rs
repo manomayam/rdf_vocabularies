@@ -1,0 +1,40 @@
+// THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+use crate::namespace;
+
+namespace!(
+    "https://www.w3.org/ns/earl#",;
+    Assertion, "Assertion",
+    Assertor, "Assertor",
+    CannotTell, "CannotTell",
+    Fail, "Fail",
+    NotApplicable, "NotApplicable",
+    NotTested, "NotTested",
+    OutcomeValue, "OutcomeValue",
+    Pass, "Pass",
+    Software, "Software",
+    TestCase, "TestCase",
+    TestCriterion, "TestCriterion",
+    TestMode, "TestMode",
+    TestRequirement, "TestRequirement",
+    TestResult, "TestResult",
+    TestSubject, "TestSubject",
+    assertedBy, "assertedBy",
+    automatic, "automatic",
+    cantTell, "cantTell",
+    failed, "failed",
+    inapplicable, "inapplicable",
+    info, "info",
+    mainAssertor, "mainAssertor",
+    manual, "manual",
+    mode, "mode",
+    outcome, "outcome",
+    passed, "passed",
+    pointer, "pointer",
+    result, "result",
+    semiAuto, "semiAuto",
+    subject, "subject",
+    test, "test",
+    undisclosed, "undisclosed",
+    unknownMode, "unknownMode",
+    untested, "untested"
+);

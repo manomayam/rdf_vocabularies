@@ -1,0 +1,42 @@
+// THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+use crate::namespace;
+
+namespace!(
+    "http://www.w3.org/ns/sosa/",;
+    ActuatableProperty, "ActuatableProperty",
+    Actuation, "Actuation",
+    Actuator, "Actuator",
+    FeatureOfInterest, "FeatureOfInterest",
+    ObservableProperty, "ObservableProperty",
+    Observation, "Observation",
+    Platform, "Platform",
+    Procedure, "Procedure",
+    Result, "Result",
+    Sample, "Sample",
+    Sampler, "Sampler",
+    Sampling, "Sampling",
+    Sensor, "Sensor",
+    actsOnProperty, "actsOnProperty",
+    hasFeatureOfInterest, "hasFeatureOfInterest",
+    hasResult, "hasResult",
+    hasSample, "hasSample",
+    hasSimpleResult, "hasSimpleResult",
+    hosts, "hosts",
+    isActedOnBy, "isActedOnBy",
+    isFeatureOfInterestOf, "isFeatureOfInterestOf",
+    isHostedBy, "isHostedBy",
+    isObservedBy, "isObservedBy",
+    isResultOf, "isResultOf",
+    isSampleOf, "isSampleOf",
+    madeActuation, "madeActuation",
+    madeByActuator, "madeByActuator",
+    madeBySampler, "madeBySampler",
+    madeBySensor, "madeBySensor",
+    madeObservation, "madeObservation",
+    madeSampling, "madeSampling",
+    observedProperty, "observedProperty",
+    observes, "observes",
+    phenomenonTime, "phenomenonTime",
+    resultTime, "resultTime",
+    usedProcedure, "usedProcedure"
+);
