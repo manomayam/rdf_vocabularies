@@ -88,9 +88,9 @@ def get_ns_term_names(g: rdflib.Graph, ns_base: str):
         name = node.replace(ns_base, "").strip()
         if not name:
             continue
-        yield name
+        yield (node, name)
 
-def get_doc(info: OntoInfo) -> str:
+def get_mod_doc(info: OntoInfo) -> str:
     return f"""//! This module provides terms for `{info.title or info.prefix}` vocabulary
 //!
 //! ## Vocabulary:
@@ -105,18 +105,38 @@ def get_doc(info: OntoInfo) -> str:
 //!
 """
 
+def get_term_doc(g: rdflib.Graph, info: OntoInfo, term):
+    label = get_property(g, term, "http://www.w3.org/2000/01/rdf-schema#label") or get_property(g, term, "http://www.w3.org/2004/02/skos/core#prefLabel") or get_property(g, term, "http://schema.org/name") or ""
+    comment = get_property(g, term, "http://www.w3.org/2000/01/rdf-schema#comment") or get_property(g, term, "http://www.w3.org/2004/02/skos/core#definition") or get_property(g, term, "http://www.w3.org/ns/spec#statement") or ""
+    return f"`{label.replace(NEW_LINE, '<br>')}`: {comment.replace(NEW_LINE, '<br>')}"
+
 def get_ns_mod(g: rdflib.Graph, info: OntoInfo) -> str:
     term_names = sorted(get_ns_term_names(g, info.ns_base_iri))
-    un_allowed_chars_re = re.compile(r"[-\.]")
     sep = ",\n"
     return f"""{GENERATED_NOTICE}
-{get_doc(info)}
+{get_mod_doc(info)}
 use crate::namespace;
 
 namespace!(
     "{info.ns_base_iri}",;
-{sep.join([f'    {sanitize_name(tn)}, "{tn}"' for tn in term_names])}
+{sep.join([f'    /// {get_term_doc(g, info, t)}{NEW_LINE}    {sanitize_name(tn)}, "{tn}"' for (t, tn) in term_names])}
 );
+"""
+
+def get_ns_mod_macroless(g: rdflib.Graph, info: OntoInfo) -> str:
+    term_names = sorted(get_ns_term_names(g, info.ns_base_iri))
+    sep = "\n\n"
+    return f"""{GENERATED_NOTICE}
+{get_mod_doc(info)}
+use sophia_api::term::SimpleIri;
+
+pub static PREFIX:&'static str = "{info.ns_base_iri}";
+
+{sep.join([
+    f'''#[allow(non_upper_case_globals)]
+pub static {sanitize_name(tn)}: SimpleIri = sophia_api::term::SimpleIri::new_unchecked(PREFIX, Some("{tn}"));'''
+    for tn in term_names
+])}
 """
 
 def get_ns_mod_from_file(gfp: str, info: OntoInfo, format=None) -> str:

@@ -3,6 +3,7 @@ pub mod dataset;
 #[cfg(feature = "ns")]
 pub mod ns;
 
+mod _utils;
 
 #[cfg(test)]
 mod tests {

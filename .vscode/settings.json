@@ -17,6 +17,7 @@
         "grddl",
         "gtfs",
         "ical",
+        "inmem",
         "locn",
         "lvont",
         "nquads",

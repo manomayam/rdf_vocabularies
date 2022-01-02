@@ -16,10 +16,16 @@ use crate::namespace;
 
 namespace!(
     "http://www.w3.org/2008/05/skos-xl#",;
+    /// `Label`: A special class of lexical entities.
     Label, "Label",
+    /// `alternative label`: If C skosxl:altLabel L and L skosxl:literalForm V, then X skos:altLabel V.
     altLabel, "altLabel",
+    /// `hidden label`: If C skosxl:hiddenLabel L and L skosxl:literalForm V, then C skos:hiddenLabel V.
     hiddenLabel, "hiddenLabel",
+    /// `label relation`: The property skosxl:labelRelation is used for representing binary ('direct') relations between instances of the class skosxl:Label.
     labelRelation, "labelRelation",
+    /// `literal form`: If two instances of the class skosxl:Label have the same literal form, they are not necessarily the same resource.
     literalForm, "literalForm",
+    /// `preferred label`: If C skosxl:prefLabel L and L skosxl:literalForm V, then X skos:prefLabel V.
     prefLabel, "prefLabel"
 );

@@ -16,48 +16,92 @@ use crate::namespace;
 
 namespace!(
     "http://rdf-vocabulary.ddialliance.org/xkos#",;
+    /// `Classification level`: 
     ClassificationLevel, "ClassificationLevel",
+    /// `Association de concepts`: 
     ConceptAssociation, "ConceptAssociation",
+    /// `Correspondance`: 
     Correspondence, "Correspondence",
+    /// `Explanatory note`: 
     ExplanatoryNote, "ExplanatoryNote",
+    /// `additional content`: 
     additionalContentNote, "additionalContentNote",
+    /// `après`: 
     after, "after",
+    /// `before`: 
     before, "before",
+    /// `belongs to`: 
     belongsTo, "belongsTo",
+    /// `case law`: 
     caseLaw, "caseLaw",
+    /// `en relation causale`: 
     causal, "causal",
+    /// `caused by`: 
     causedBy, "causedBy",
+    /// `causes`: 
     causes, "causes",
+    /// `classified under`: 
     classifiedUnder, "classifiedUnder",
+    /// `compare`: 
     compares, "compares",
+    /// `contenu central`: 
     coreContentNote, "coreContentNote",
+    /// `covers`: 
     covers, "covers",
+    /// `covers exhaustively`: 
     coversExhaustively, "coversExhaustively",
+    /// `couvre sans recouvrement`: 
     coversMutuallyExclusively, "coversMutuallyExclusively",
+    /// `depth`: 
     depth, "depth",
+    /// `disjoint de`: 
     disjoint, "disjoint",
+    /// `exclusions`: 
     exclusionNote, "exclusionNote",
+    /// `follows`: 
     follows, "follows",
+    /// `generalizes`: 
     generalizes, "generalizes",
+    /// `has part`: 
     hasPart, "hasPart",
+    /// `inclusions`: 
     inclusionNote, "inclusionNote",
+    /// `is a part of`: 
     isPartOf, "isPartOf",
+    /// `liste des niveaux`: 
     levels, "levels",
+    /// `comprend`: 
     madeOf, "madeOf",
+    /// `maximum length`: 
     maxLength, "maxLength",
+    /// `suivant`: successeur immédiat dans la séquence
     next, "next",
+    /// `gabarit de code`: 
     notationPattern, "notationPattern",
+    /// `number of levels`: 
     numberOfLevels, "numberOfLevels",
+    /// `organized by`: 
     organizedBy, "organizedBy",
+    /// `plain text`: This property is expected to store plain text literals, without HTML or XML markup.
     plainText, "plainText",
+    /// `precedes`: predecessor in the sequence
     precedes, "precedes",
+    /// `previous`: prédécesseur immédiat dans la séquence
     previous, "previous",
+    /// `has sequential`: 
     sequential, "sequential",
+    /// `concept source`: 
     sourceConcept, "sourceConcept",
+    /// `specializes`: 
     specializes, "specializes",
+    /// `succeeds`: successor in the sequence
     succeeds, "succeeds",
+    /// `supersedes`: 
     supersedes, "supersedes",
+    /// `target concept`: 
     targetConcept, "targetConcept",
+    /// `has temporal`: 
     temporal, "temporal",
+    /// `variante`: 
     variant, "variant"
 );
