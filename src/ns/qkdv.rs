@@ -1,4 +1,17 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+//! This module provides terms for `qkdv` vocabulary
+//!
+//! ## Vocabulary:
+//!
+//! |||
+//! |-----|-----|
+//! |**Title**||
+//! |**Prefix**|qkdv|
+//! |**Namespace base IRI**|[http://qudt.org/vocab/dimensionvector/](http://qudt.org/vocab/dimensionvector/)|
+//! |**Description**||
+//! |**Is defined by**|[http://qudt.org/vocab/dimensionvector/](http://qudt.org/vocab/dimensionvector/)|
+//!
+
 use crate::namespace;
 
 namespace!(

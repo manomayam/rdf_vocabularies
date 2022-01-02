@@ -1,4 +1,17 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+//! This module provides terms for `Vocabulary for multi-dimensional (e.g. statistical) data publishing` vocabulary
+//!
+//! ## Vocabulary:
+//!
+//! |||
+//! |-----|-----|
+//! |**Title**|Vocabulary for multi-dimensional (e.g. statistical) data publishing|
+//! |**Prefix**|qb|
+//! |**Namespace base IRI**|[http://purl.org/linked-data/cube#](http://purl.org/linked-data/cube#)|
+//! |**Description**|This vocabulary allows multi-dimensional data, such as statistics, to be published in RDF. It is based on the core information model from SDMX (and thus also DDI).|
+//! |**Is defined by**|[http://purl.org/linked-data/cube#](http://purl.org/linked-data/cube#)|
+//!
+
 use crate::namespace;
 
 namespace!(

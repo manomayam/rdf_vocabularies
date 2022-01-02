@@ -1,4 +1,17 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+//! This module provides terms for `sd` vocabulary
+//!
+//! ## Vocabulary:
+//!
+//! |||
+//! |-----|-----|
+//! |**Title**||
+//! |**Prefix**|sd|
+//! |**Namespace base IRI**|[http://www.w3.org/ns/sparql-service-description#](http://www.w3.org/ns/sparql-service-description#)|
+//! |**Description**||
+//! |**Is defined by**|[http://www.w3.org/ns/sparql-service-description#](http://www.w3.org/ns/sparql-service-description#)|
+//!
+
 use crate::namespace;
 
 namespace!(

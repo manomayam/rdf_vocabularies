@@ -1,4 +1,17 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+//! This module provides terms for `Lexvo.org Ontology` vocabulary
+//!
+//! ## Vocabulary:
+//!
+//! |||
+//! |-----|-----|
+//! |**Title**|Lexvo.org Ontology|
+//! |**Prefix**|lvont|
+//! |**Namespace base IRI**|[http://lexvo.org/ontology#](http://lexvo.org/ontology#)|
+//! |**Description**|Lexvo.org Ontology|
+//! |**Is defined by**|[http://lexvo.org/ontology#](http://lexvo.org/ontology#)|
+//!
+
 use crate::namespace;
 
 namespace!(

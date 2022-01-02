@@ -1,4 +1,17 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+//! This module provides terms for `schema` vocabulary
+//!
+//! ## Vocabulary:
+//!
+//! |||
+//! |-----|-----|
+//! |**Title**||
+//! |**Prefix**|schema|
+//! |**Namespace base IRI**|[http://schema.org/](http://schema.org/)|
+//! |**Description**||
+//! |**Is defined by**|[https://schema.org/version/latest/schemaorg-current-http.nt](https://schema.org/version/latest/schemaorg-current-http.nt)|
+//!
+
 use crate::namespace;
 
 namespace!(

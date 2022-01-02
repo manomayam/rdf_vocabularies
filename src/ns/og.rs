@@ -1,4 +1,17 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+//! This module provides terms for `og` vocabulary
+//!
+//! ## Vocabulary:
+//!
+//! |||
+//! |-----|-----|
+//! |**Title**||
+//! |**Prefix**|og|
+//! |**Namespace base IRI**|[http://ogp.me/ns#](http://ogp.me/ns#)|
+//! |**Description**||
+//! |**Is defined by**|[http://ogp.me/ns#](http://ogp.me/ns#)|
+//!
+
 use crate::namespace;
 
 namespace!(

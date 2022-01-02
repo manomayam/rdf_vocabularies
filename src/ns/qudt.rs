@@ -1,4 +1,17 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+//! This module provides terms for `qudt` vocabulary
+//!
+//! ## Vocabulary:
+//!
+//! |||
+//! |-----|-----|
+//! |**Title**||
+//! |**Prefix**|qudt|
+//! |**Namespace base IRI**|[http://qudt.org/schema/qudt/](http://qudt.org/schema/qudt/)|
+//! |**Description**||
+//! |**Is defined by**|[http://qudt.org/2.1/schema/qudt](http://qudt.org/2.1/schema/qudt)|
+//!
+
 use crate::namespace;
 
 namespace!(

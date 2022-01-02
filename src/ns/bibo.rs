@@ -1,4 +1,17 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+//! This module provides terms for `The Bibliographic Ontology` vocabulary
+//!
+//! ## Vocabulary:
+//!
+//! |||
+//! |-----|-----|
+//! |**Title**|The Bibliographic Ontology|
+//! |**Prefix**|bibo|
+//! |**Namespace base IRI**|[http://purl.org/ontology/bibo/](http://purl.org/ontology/bibo/)|
+//! |**Description**|The Bibliographic Ontology describes bibliographic things on the semantic Web in RDF.  This ontology can be used as a citation ontology, as a document classification ontology, or simply as a way to describe any kind of document in RDF. It has been inspired by many existing document description metadata formats, and can be used as a common ground for converting other bibliographic data sources.|
+//! |**Is defined by**|[http://purl.org/ontology/bibo/](http://purl.org/ontology/bibo/)|
+//!
+
 use crate::namespace;
 
 namespace!(

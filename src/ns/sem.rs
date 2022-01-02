@@ -1,4 +1,17 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+//! This module provides terms for `sem` vocabulary
+//!
+//! ## Vocabulary:
+//!
+//! |||
+//! |-----|-----|
+//! |**Title**||
+//! |**Prefix**|sem|
+//! |**Namespace base IRI**|[http://semanticweb.cs.vu.nl/2009/11/sem/](http://semanticweb.cs.vu.nl/2009/11/sem/)|
+//! |**Description**||
+//! |**Is defined by**|[http://semanticweb.cs.vu.nl/2009/11/sem/sem.rdf](http://semanticweb.cs.vu.nl/2009/11/sem/sem.rdf)|
+//!
+
 use crate::namespace;
 
 namespace!(

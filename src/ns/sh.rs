@@ -1,4 +1,17 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+//! This module provides terms for `W3C Shapes Constraint Language (SHACL) Vocabulary` vocabulary
+//!
+//! ## Vocabulary:
+//!
+//! |||
+//! |-----|-----|
+//! |**Title**|W3C Shapes Constraint Language (SHACL) Vocabulary|
+//! |**Prefix**|sh|
+//! |**Namespace base IRI**|[http://www.w3.org/ns/shacl#](http://www.w3.org/ns/shacl#)|
+//! |**Description**|This vocabulary defines terms used in SHACL, the W3C Shapes Constraint Language.|
+//! |**Is defined by**|[http://www.w3.org/ns/shacl#](http://www.w3.org/ns/shacl#)|
+//!
+
 use crate::namespace;
 
 namespace!(

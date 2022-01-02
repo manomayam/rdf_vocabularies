@@ -1,4 +1,17 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+//! This module provides terms for `Description of a Project (DOAP) vocabulary` vocabulary
+//!
+//! ## Vocabulary:
+//!
+//! |||
+//! |-----|-----|
+//! |**Title**|Description of a Project (DOAP) vocabulary|
+//! |**Prefix**|doap|
+//! |**Namespace base IRI**|[http://usefulinc.com/ns/doap#](http://usefulinc.com/ns/doap#)|
+//! |**Description**|The Description of a Project (DOAP) vocabulary, described using W3C RDF Schema and the Web Ontology Language.|
+//! |**Is defined by**|[http://usefulinc.com/ns/doap#](http://usefulinc.com/ns/doap#)|
+//!
+
 use crate::namespace;
 
 namespace!(

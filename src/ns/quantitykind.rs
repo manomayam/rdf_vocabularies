@@ -1,4 +1,17 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+//! This module provides terms for `QUDT VOCAB Quantity Kinds  Release 2.1.12` vocabulary
+//!
+//! ## Vocabulary:
+//!
+//! |||
+//! |-----|-----|
+//! |**Title**|QUDT VOCAB Quantity Kinds  Release 2.1.12|
+//! |**Prefix**|quantitykind|
+//! |**Namespace base IRI**|[http://qudt.org/vocab/quantitykind/](http://qudt.org/vocab/quantitykind/)|
+//! |**Description**||
+//! |**Is defined by**|[http://qudt.org/vocab/quantitykind/](http://qudt.org/vocab/quantitykind/)|
+//!
+
 use crate::namespace;
 
 namespace!(

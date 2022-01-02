@@ -1,4 +1,17 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+//! This module provides terms for `Ontology for vCard` vocabulary
+//!
+//! ## Vocabulary:
+//!
+//! |||
+//! |-----|-----|
+//! |**Title**|Ontology for vCard|
+//! |**Prefix**|vcard|
+//! |**Namespace base IRI**|[http://www.w3.org/2006/vcard/ns#](http://www.w3.org/2006/vcard/ns#)|
+//! |**Description**|Ontology for vCard based on RFC6350|
+//! |**Is defined by**|[http://www.w3.org/2006/vcard/ns#](http://www.w3.org/2006/vcard/ns#)|
+//!
+
 use crate::namespace;
 
 namespace!(

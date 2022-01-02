@@ -1,4 +1,17 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+//! This module provides terms for `xsd` vocabulary
+//!
+//! ## Vocabulary:
+//!
+//! |||
+//! |-----|-----|
+//! |**Title**||
+//! |**Prefix**|xsd|
+//! |**Namespace base IRI**|[http://www.w3.org/2001/XMLSchema#](http://www.w3.org/2001/XMLSchema#)|
+//! |**Description**||
+//! |**Is defined by**|[https://raw.githubusercontent.com/ruby-rdf/rdf/master/etc/xsd.ttl](https://raw.githubusercontent.com/ruby-rdf/rdf/master/etc/xsd.ttl)|
+//!
+
 use crate::namespace;
 
 namespace!(

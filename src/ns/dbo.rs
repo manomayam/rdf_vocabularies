@@ -1,4 +1,17 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+//! This module provides terms for `The DBpedia Ontology` vocabulary
+//!
+//! ## Vocabulary:
+//!
+//! |||
+//! |-----|-----|
+//! |**Title**|The DBpedia Ontology|
+//! |**Prefix**|dbo|
+//! |**Namespace base IRI**|[http://dbpedia.org/ontology/](http://dbpedia.org/ontology/)|
+//! |**Description**|The DBpedia ontology provides the classes and properties used in the DBpedia data set.|
+//! |**Is defined by**|[http://downloads.dbpedia.org/2016-10/dbpedia_2016-10.nt](http://downloads.dbpedia.org/2016-10/dbpedia_2016-10.nt)|
+//!
+
 use crate::namespace;
 
 namespace!(

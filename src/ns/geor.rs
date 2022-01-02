@@ -1,4 +1,17 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+//! This module provides terms for `geor` vocabulary
+//!
+//! ## Vocabulary:
+//!
+//! |||
+//! |-----|-----|
+//! |**Title**||
+//! |**Prefix**|geor|
+//! |**Namespace base IRI**|[http://www.opengis.net/def/rule/geosparql/](http://www.opengis.net/def/rule/geosparql/)|
+//! |**Description**||
+//! |**Is defined by**|[http://www.opengis.net/def/rule/geosparql/](http://www.opengis.net/def/rule/geosparql/)|
+//!
+
 use crate::namespace;
 
 namespace!(

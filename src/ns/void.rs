@@ -1,4 +1,17 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+//! This module provides terms for `void` vocabulary
+//!
+//! ## Vocabulary:
+//!
+//! |||
+//! |-----|-----|
+//! |**Title**||
+//! |**Prefix**|void|
+//! |**Namespace base IRI**|[http://rdfs.org/ns/void#](http://rdfs.org/ns/void#)|
+//! |**Description**||
+//! |**Is defined by**|[http://vocab.deri.ie/void.ttl](http://vocab.deri.ie/void.ttl)|
+//!
+
 use crate::namespace;
 
 namespace!(

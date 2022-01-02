@@ -1,4 +1,17 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+//! This module provides terms for `dpv` vocabulary
+//!
+//! ## Vocabulary:
+//!
+//! |||
+//! |-----|-----|
+//! |**Title**||
+//! |**Prefix**|dpv|
+//! |**Namespace base IRI**|[http://www.w3.org/ns/dpv#](http://www.w3.org/ns/dpv#)|
+//! |**Description**||
+//! |**Is defined by**|[https://dpvcg.github.io/dpv/dpv.n3](https://dpvcg.github.io/dpv/dpv.n3)|
+//!
+
 use crate::namespace;
 
 namespace!(

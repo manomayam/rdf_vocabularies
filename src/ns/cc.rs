@@ -1,4 +1,17 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+//! This module provides terms for `cc` vocabulary
+//!
+//! ## Vocabulary:
+//!
+//! |||
+//! |-----|-----|
+//! |**Title**||
+//! |**Prefix**|cc|
+//! |**Namespace base IRI**|[http://creativecommons.org/ns#](http://creativecommons.org/ns#)|
+//! |**Description**||
+//! |**Is defined by**|[https://creativecommons.org/schema.rdf](https://creativecommons.org/schema.rdf)|
+//!
+
 use crate::namespace;
 
 namespace!(

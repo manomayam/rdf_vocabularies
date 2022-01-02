@@ -1,4 +1,17 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+//! This module provides terms for `OWL-Time` vocabulary
+//!
+//! ## Vocabulary:
+//!
+//! |||
+//! |-----|-----|
+//! |**Title**|OWL-Time|
+//! |**Prefix**|time|
+//! |**Namespace base IRI**|[http://www.w3.org/2006/time#](http://www.w3.org/2006/time#)|
+//! |**Description**||
+//! |**Is defined by**|[http://www.w3.org/2006/time#](http://www.w3.org/2006/time#)|
+//!
+
 use crate::namespace;
 
 namespace!(

@@ -1,4 +1,17 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+//! This module provides terms for `DCMI Metadata Terms - other` vocabulary
+//!
+//! ## Vocabulary:
+//!
+//! |||
+//! |-----|-----|
+//! |**Title**|DCMI Metadata Terms - other|
+//! |**Prefix**|dcterms|
+//! |**Namespace base IRI**|[http://purl.org/dc/terms/](http://purl.org/dc/terms/)|
+//! |**Description**||
+//! |**Is defined by**|[http://purl.org/dc/terms/](http://purl.org/dc/terms/)|
+//!
+
 use crate::namespace;
 
 namespace!(

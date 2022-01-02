@@ -1,4 +1,17 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+//! This module provides terms for `Sensor, Observation, Sample, and Actuator (SOSA) Ontology` vocabulary
+//!
+//! ## Vocabulary:
+//!
+//! |||
+//! |-----|-----|
+//! |**Title**|Sensor, Observation, Sample, and Actuator (SOSA) Ontology|
+//! |**Prefix**|sosa|
+//! |**Namespace base IRI**|[http://www.w3.org/ns/sosa/](http://www.w3.org/ns/sosa/)|
+//! |**Description**|This ontology is based on the SSN Ontology by the W3C Semantic Sensor Networks Incubator Group (SSN-XG), together with considerations from the W3C/OGC Spatial Data on the Web Working Group.|
+//! |**Is defined by**|[http://www.w3.org/ns/sosa/](http://www.w3.org/ns/sosa/)|
+//!
+
 use crate::namespace;
 
 namespace!(

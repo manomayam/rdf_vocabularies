@@ -1,4 +1,17 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+//! This module provides terms for `RDA Unconstrained properties` vocabulary
+//!
+//! ## Vocabulary:
+//!
+//! |||
+//! |-----|-----|
+//! |**Title**|RDA Unconstrained properties|
+//! |**Prefix**|rdau|
+//! |**Namespace base IRI**|[http://rdaregistry.info/Elements/u/](http://rdaregistry.info/Elements/u/)|
+//! |**Description**||
+//! |**Is defined by**|[http://rdaregistry.info/Elements/u.nt](http://rdaregistry.info/Elements/u.nt)|
+//!
+
 use crate::namespace;
 
 namespace!(

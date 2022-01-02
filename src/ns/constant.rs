@@ -1,4 +1,17 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+//! This module provides terms for `constant` vocabulary
+//!
+//! ## Vocabulary:
+//!
+//! |||
+//! |-----|-----|
+//! |**Title**||
+//! |**Prefix**|constant|
+//! |**Namespace base IRI**|[http://qudt.org/vocab/constant/](http://qudt.org/vocab/constant/)|
+//! |**Description**||
+//! |**Is defined by**|[http://qudt.org/vocab/constant/](http://qudt.org/vocab/constant/)|
+//!
+
 use crate::namespace;
 
 namespace!(

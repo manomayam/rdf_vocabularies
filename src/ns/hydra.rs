@@ -1,4 +1,17 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+//! This module provides terms for `The Hydra Core Vocabulary` vocabulary
+//!
+//! ## Vocabulary:
+//!
+//! |||
+//! |-----|-----|
+//! |**Title**|The Hydra Core Vocabulary|
+//! |**Prefix**|hydra|
+//! |**Namespace base IRI**|[http://www.w3.org/ns/hydra/core#](http://www.w3.org/ns/hydra/core#)|
+//! |**Description**|The Hydra Core Vocabulary is a lightweight vocabulary to create hypermedia-driven Web APIs. By specifying a number of concepts commonly used in Web APIs it enables the creation of generic API clients.|
+//! |**Is defined by**|[http://www.w3.org/ns/hydra/core#](http://www.w3.org/ns/hydra/core#)|
+//!
+
 use crate::namespace;
 
 namespace!(

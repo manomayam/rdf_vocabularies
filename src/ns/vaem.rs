@@ -1,4 +1,17 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+//! This module provides terms for `vaem` vocabulary
+//!
+//! ## Vocabulary:
+//!
+//! |||
+//! |-----|-----|
+//! |**Title**||
+//! |**Prefix**|vaem|
+//! |**Namespace base IRI**|[http://www.linkedmodel.org/schema/vaem#](http://www.linkedmodel.org/schema/vaem#)|
+//! |**Description**||
+//! |**Is defined by**|[http://www.linkedmodel.org/schema/vaem#](http://www.linkedmodel.org/schema/vaem#)|
+//!
+
 use crate::namespace;
 
 namespace!(

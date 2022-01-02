@@ -1,4 +1,17 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+//! This module provides terms for `geof` vocabulary
+//!
+//! ## Vocabulary:
+//!
+//! |||
+//! |-----|-----|
+//! |**Title**||
+//! |**Prefix**|geof|
+//! |**Namespace base IRI**|[http://www.opengis.net/def/function/geosparql/](http://www.opengis.net/def/function/geosparql/)|
+//! |**Description**||
+//! |**Is defined by**|[http://www.opengis.net/def/function/geosparql/](http://www.opengis.net/def/function/geosparql/)|
+//!
+
 use crate::namespace;
 
 namespace!(

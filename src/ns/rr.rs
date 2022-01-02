@@ -1,4 +1,17 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+//! This module provides terms for `R2RML vocabulary` vocabulary
+//!
+//! ## Vocabulary:
+//!
+//! |||
+//! |-----|-----|
+//! |**Title**|R2RML vocabulary|
+//! |**Prefix**|rr|
+//! |**Namespace base IRI**|[http://www.w3.org/ns/r2rml#](http://www.w3.org/ns/r2rml#)|
+//! |**Description**|RDB to RDF Mapping Language - Vocabulary|
+//! |**Is defined by**|[http://www.w3.org/ns/r2rml#](http://www.w3.org/ns/r2rml#)|
+//!
+
 use crate::namespace;
 
 namespace!(

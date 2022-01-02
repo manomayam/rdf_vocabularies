@@ -1,4 +1,17 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+//! This module provides terms for `sou` vocabulary
+//!
+//! ## Vocabulary:
+//!
+//! |||
+//! |-----|-----|
+//! |**Title**||
+//! |**Prefix**|sou|
+//! |**Namespace base IRI**|[http://qudt.org/vocab/sou/](http://qudt.org/vocab/sou/)|
+//! |**Description**||
+//! |**Is defined by**|[http://qudt.org/vocab/sou/](http://qudt.org/vocab/sou/)|
+//!
+
 use crate::namespace;
 
 namespace!(

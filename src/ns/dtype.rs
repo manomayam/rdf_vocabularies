@@ -1,4 +1,17 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+//! This module provides terms for `dtype` vocabulary
+//!
+//! ## Vocabulary:
+//!
+//! |||
+//! |-----|-----|
+//! |**Title**||
+//! |**Prefix**|dtype|
+//! |**Namespace base IRI**|[http://www.linkedmodel.org/schema/dtype#](http://www.linkedmodel.org/schema/dtype#)|
+//! |**Description**||
+//! |**Is defined by**|[http://www.linkedmodel.org/schema/dtype#](http://www.linkedmodel.org/schema/dtype#)|
+//!
+
 use crate::namespace;
 
 namespace!(

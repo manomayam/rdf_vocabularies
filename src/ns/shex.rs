@@ -1,4 +1,17 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+//! This module provides terms for `shex` vocabulary
+//!
+//! ## Vocabulary:
+//!
+//! |||
+//! |-----|-----|
+//! |**Title**||
+//! |**Prefix**|shex|
+//! |**Namespace base IRI**|[http://www.w3.org/ns/shex#](http://www.w3.org/ns/shex#)|
+//! |**Description**||
+//! |**Is defined by**|[http://www.w3.org/ns/shex#](http://www.w3.org/ns/shex#)|
+//!
+
 use crate::namespace;
 
 namespace!(
