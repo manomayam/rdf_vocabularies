@@ -1,0 +1,161 @@
+use std::path::{Path, PathBuf};
+
+use indexmap::IndexMap;
+use serde::Serialize;
+use sophia_api::term::SimpleIri;
+use sophia_term::ArcTerm;
+
+
+use crate::helpers::{
+    key_words::sanitize_ident,
+    rdf_arc_dataset::{
+        get_arc_dataset, get_object_of_functional_statement_with, get_subjects_of_statements_with,
+    },
+    rdf_term::{some_if_iri, some_if_literal},
+    rdf_types::{ArcDataset, ArcIri, ArcLiteral, ser::{SerdeIri, SerdeLiteral, SerdeOptLiteral}},
+};
+
+pub static TERM_PRED_TYPE: SimpleIri =
+    SimpleIri::new_unchecked("http://www.w3.org/1999/02/22-rdf-syntax-ns#", Some("type"));
+pub static TERM_PRED_PREFIX: SimpleIri =
+    SimpleIri::new_unchecked("http://www.w3.org/ns/rdfa#", Some("prefix"));
+pub static TERM_PRED_FILE_NAME: SimpleIri =
+    SimpleIri::new_unchecked("http://dbpedia.org/ontology/", Some("FILENAME"));
+pub static TERM_PRED_TITLE: SimpleIri =
+    SimpleIri::new_unchecked("http://purl.org/dc/terms/", Some("title"));
+pub static TERM_PRED_DESCRIPTION: SimpleIri =
+    SimpleIri::new_unchecked("http://purl.org/dc/terms/", Some("description"));
+pub static TERM_PRED_IS_DEFINED_BY: SimpleIri =
+    SimpleIri::new_unchecked("http://www.w3.org/2000/01/rdf-schema#", Some("isDefinedBy"));
+pub static TERM_PRED_RDFA_URI: SimpleIri =
+    SimpleIri::new_unchecked("http://www.w3.org/ns/rdfa#", Some("uri"));
+pub static TERM_TYPE_PREFIX_MAPPING: SimpleIri =
+    SimpleIri::new_unchecked("http://www.w3.org/ns/rdfa#", Some("PrefixMapping"));
+
+/// This Struct models prefix-mappings as recorded in `ontologies/_index.nq` index file
+#[derive(Serialize)]
+pub struct OntoPrefixMapping {
+    #[serde(with = "SerdeIri")]
+    pub id: ArcIri,
+    #[serde(with = "SerdeLiteral")]
+    pub prefix: ArcLiteral,
+    pub safe_prefix: String,
+    pub abs_file_path: PathBuf,
+    #[serde(with = "SerdeOptLiteral")]
+    pub title: Option<ArcLiteral>,
+    #[serde(with = "SerdeOptLiteral")]
+    pub description: Option<ArcLiteral>,
+    #[serde(with = "SerdeIri")]
+    pub namespace_base: ArcIri,
+    #[serde(with = "SerdeIri")]
+    pub is_defined_by: ArcIri,
+}
+
+/// This is index of ontologies, indexed by PrefixMapping Term.
+pub struct OntoIndex {
+    pub index: IndexMap<ArcIri, OntoPrefixMapping>,
+}
+
+impl OntoIndex {
+
+    /// Given index_files, and base directory creates an onto_index and returns it.
+    pub fn new_from_index_files(index_file_paths: &[&Path], base_dir_path: &Path) -> Self {
+        let index_dataset = get_arc_dataset(index_file_paths);
+        Self::new(&index_dataset, base_dir_path)
+    }
+
+    /// Given index dataset, and base directory creates an onto_index and returns it.
+    pub fn new(index_dataset: &ArcDataset, base_dir_path: &Path) -> Self {
+        let mut prefix_mapping_ids = get_subjects_of_statements_with(
+            &index_dataset,
+            &TERM_PRED_TYPE,
+            &TERM_TYPE_PREFIX_MAPPING,
+            Option::<&ArcTerm>::None,
+        );
+        prefix_mapping_ids.sort();
+
+        let mut index: IndexMap<ArcIri, OntoPrefixMapping> =
+            IndexMap::with_capacity(prefix_mapping_ids.len() + 1);
+
+        for id in prefix_mapping_ids {
+            if let Some(prefix_mapping) = Self::get_prefix_mapping(&id, &index_dataset, base_dir_path) {
+                index.insert(id, prefix_mapping);
+            }
+        }
+        Self { index }
+    }
+
+    fn get_prefix_mapping(
+        id: &ArcIri,
+        dataset: &ArcDataset,
+        base_dir_path: &Path,
+    ) -> Option<OntoPrefixMapping> {
+        let prefix = some_if_literal(&get_object_of_functional_statement_with(
+            dataset,
+            id,
+            &TERM_PRED_PREFIX,
+            Option::<&ArcTerm>::None,
+        )?)?
+        .clone();
+
+        let file_name = some_if_literal(&get_object_of_functional_statement_with(
+            dataset,
+            id,
+            &TERM_PRED_FILE_NAME,
+            Option::<&ArcTerm>::None,
+        )?)?
+        .clone();
+
+        let title = if let Some(val) = get_object_of_functional_statement_with(
+            dataset,
+            id,
+            &TERM_PRED_TITLE,
+            Option::<&ArcTerm>::None,
+        ) {
+            Some(some_if_literal(&val)?.clone())
+        } else {
+            None
+        };
+
+        let description = if let Some(val) = get_object_of_functional_statement_with(
+            dataset,
+            id,
+            &TERM_PRED_DESCRIPTION,
+            Option::<&ArcTerm>::None,
+        ) {
+            Some(some_if_literal(&val)?.clone())
+        } else {
+            None
+        };
+
+        let is_defined_by = some_if_iri(&get_object_of_functional_statement_with(
+            dataset,
+            id,
+            &TERM_PRED_IS_DEFINED_BY,
+            Option::<&ArcTerm>::None,
+        )?)?
+        .clone();
+
+        let namespace_base = some_if_iri(&get_object_of_functional_statement_with(
+            dataset,
+            id,
+            &TERM_PRED_RDFA_URI,
+            Option::<&ArcTerm>::None,
+        )?)?
+        .clone();
+
+        let abs_file_path = base_dir_path.join(file_name.txt().as_ref());
+
+        Some(OntoPrefixMapping {
+            id: id.clone(),
+            safe_prefix: sanitize_ident(prefix.txt()),
+            prefix,
+            abs_file_path,
+            title,
+            description,
+            is_defined_by,
+            namespace_base,
+        })
+    }
+}
+

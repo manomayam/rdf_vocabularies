@@ -206,8 +206,6 @@ def get_onto_info_from_onto_file(index_graph: rdflib.Graph, onto_dir: str, onto_
 
 def gen_vocabs_from_ontologies(repo_root_dir: str):
     onto_dir = os.path.join(repo_root_dir, 'ontologies/')
-    dataset_dir = os.path.join(repo_root_dir, 'src/dataset/')
-    ns_dir = os.path.join(repo_root_dir, 'src/ns/')
 
     index_file = os.path.join(onto_dir, "_index.nq")
     if not os.path.exists(index_file):
