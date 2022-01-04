@@ -59,7 +59,6 @@ pub static RUST_KEY_WORDS: [&str; 58] = [
     "yield",
 ];
 
-
 pub fn sanitize_ident(ident: &str) -> String {
     let ident = ident.replace("-", "_").replace(".", "_");
     if RUST_KEY_WORDS.contains(&ident.as_str()) {

@@ -1,18 +1,23 @@
 use std::path::{Path, PathBuf};
 
+use anyhow::Context;
 use indexmap::IndexMap;
 use serde::Serialize;
 use sophia_api::term::SimpleIri;
 use sophia_term::ArcTerm;
 
-
 use crate::helpers::{
     key_words::sanitize_ident,
     rdf_arc_dataset::{
-        get_arc_dataset, get_object_of_functional_statement_with, get_subjects_of_statements_with,
+        get_arc_dataset, get_lang_literal_object_of_statement_with,
+        get_object_of_functional_statement_with, get_subjects_of_statements_with, EN_LANG_TAG,
     },
-    rdf_term::{some_if_iri, some_if_literal},
-    rdf_types::{ArcDataset, ArcIri, ArcLiteral, ser::{SerdeIri, SerdeLiteral, SerdeOptLiteral}},
+    rdf_term::some_if_iri,
+    rdf_types::{
+        literal_without_new_line,
+        ser::{SerdeIri, SerdeLiteral, SerdeOptLiteral},
+        ArcDataset, ArcIri, ArcLiteral,
+    },
 };
 
 pub static TERM_PRED_TYPE: SimpleIri =
@@ -20,7 +25,7 @@ pub static TERM_PRED_TYPE: SimpleIri =
 pub static TERM_PRED_PREFIX: SimpleIri =
     SimpleIri::new_unchecked("http://www.w3.org/ns/rdfa#", Some("prefix"));
 pub static TERM_PRED_FILE_NAME: SimpleIri =
-    SimpleIri::new_unchecked("http://dbpedia.org/ontology/", Some("FILENAME"));
+    SimpleIri::new_unchecked("http://dbpedia.org/ontology/", Some("filename"));
 pub static TERM_PRED_TITLE: SimpleIri =
     SimpleIri::new_unchecked("http://purl.org/dc/terms/", Some("title"));
 pub static TERM_PRED_DESCRIPTION: SimpleIri =
@@ -57,11 +62,14 @@ pub struct OntoIndex {
 }
 
 impl OntoIndex {
-
     /// Given index_files, and base directory creates an onto_index and returns it.
-    pub fn new_from_index_files(index_file_paths: &[&Path], base_dir_path: &Path) -> Self {
-        let index_dataset = get_arc_dataset(index_file_paths);
-        Self::new(&index_dataset, base_dir_path)
+    pub fn new_from_index_files(
+        index_file_paths: &[PathBuf],
+        base_dir_path: &Path,
+    ) -> anyhow::Result<Self> {
+        let index_dataset = get_arc_dataset(index_file_paths)
+            .with_context(|| format!("error in loading ontology indices"))?;
+        Ok(Self::new(&index_dataset, base_dir_path))
     }
 
     /// Given index dataset, and base directory creates an onto_index and returns it.
@@ -78,7 +86,9 @@ impl OntoIndex {
             IndexMap::with_capacity(prefix_mapping_ids.len() + 1);
 
         for id in prefix_mapping_ids {
-            if let Some(prefix_mapping) = Self::get_prefix_mapping(&id, &index_dataset, base_dir_path) {
+            if let Some(prefix_mapping) =
+                Self::get_prefix_mapping(&id, &index_dataset, base_dir_path)
+            {
                 index.insert(id, prefix_mapping);
             }
         }
@@ -90,40 +100,43 @@ impl OntoIndex {
         dataset: &ArcDataset,
         base_dir_path: &Path,
     ) -> Option<OntoPrefixMapping> {
-        let prefix = some_if_literal(&get_object_of_functional_statement_with(
+        let prefix = get_lang_literal_object_of_statement_with(
             dataset,
             id,
             &TERM_PRED_PREFIX,
             Option::<&ArcTerm>::None,
-        )?)?
+            EN_LANG_TAG,
+        )?
         .clone();
 
-        let file_name = some_if_literal(&get_object_of_functional_statement_with(
+        let file_name = get_lang_literal_object_of_statement_with(
             dataset,
             id,
             &TERM_PRED_FILE_NAME,
             Option::<&ArcTerm>::None,
-        )?)?
-        .clone();
+            EN_LANG_TAG,
+        )?;
 
-        let title = if let Some(val) = get_object_of_functional_statement_with(
+        let title = if let Some(val) = get_lang_literal_object_of_statement_with(
             dataset,
             id,
             &TERM_PRED_TITLE,
             Option::<&ArcTerm>::None,
+            EN_LANG_TAG,
         ) {
-            Some(some_if_literal(&val)?.clone())
+            Some(literal_without_new_line(val))
         } else {
             None
         };
 
-        let description = if let Some(val) = get_object_of_functional_statement_with(
+        let description = if let Some(val) = get_lang_literal_object_of_statement_with(
             dataset,
             id,
             &TERM_PRED_DESCRIPTION,
             Option::<&ArcTerm>::None,
+            EN_LANG_TAG,
         ) {
-            Some(some_if_literal(&val)?.clone())
+            Some(literal_without_new_line(val))
         } else {
             None
         };
@@ -158,4 +171,3 @@ impl OntoIndex {
         })
     }
 }
-

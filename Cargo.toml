@@ -17,7 +17,6 @@ sophia_rio = {version = "0.7.1", optional = true}
 sophia_inmem = {version = "0.7.1", optional = true}
 rio_turtle = {version = "0.6.1", optional = true}
 mownstr = {version = "0.1.3", optional = true}
-serde = "1.0.133"
 
 
 

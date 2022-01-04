@@ -1,0 +1,25 @@
+// THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+{{#with onto_mapping}}
+//! This module provides terms for `{{~#if title}}{{{title}}}{{else}}{{prefix}}{{/if}}` vocabulary
+//!
+//! ## Vocabulary:
+//!
+//! |||
+//! |-----|-----|
+//! |**Title**|{{{title}}}|
+//! |**Prefix**|{{{prefix}}}|
+//! |**Namespace base IRI**|[{{{namespace_base}}}]({{{namespace_base}}})|
+//! |**Description**|{{{description}}}|
+//! |**Is defined by**|[{{{is_defined_by}}}]({{{is_defined_by}}})|
+{{/with}}
+//!
+
+use crate::namespace;
+
+namespace!(
+    "{{{onto_mapping.namespace_base}}}",;
+    {{#each entities}}
+    /// `{{#if label}}{{{label}}}{{else}}{{term_suffix}}{{/if}}`: {{{comment}}}
+    {{{safe_term_suffix}}}, "{{{term_suffix}}}"{{#unless @last}},{{/unless}}
+    {{/each}}
+);

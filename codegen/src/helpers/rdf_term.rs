@@ -31,10 +31,13 @@ where
 pub mod tests {
     use std::sync::Arc;
 
-    use claim::{assert_some, assert_none};
+    use claim::{assert_none, assert_some};
     use sophia_term::{literal::Literal, Term};
 
-    use crate::helpers::{rdf_types::{ArcLiteral, ArcIri}, rdf_term::some_if_iri};
+    use crate::helpers::{
+        rdf_term::some_if_iri,
+        rdf_types::{ArcIri, ArcLiteral},
+    };
 
     use super::some_if_literal;
 
@@ -50,7 +53,8 @@ pub mod tests {
 
     #[test]
     fn some_if_literal_returns_none_on_iri() {
-        let iri1: ArcIri = ArcIri::new_unchecked(Arc::from("http://www.w3.org/1999/02/22-rdf-syntax-ns#term"));
+        let iri1: ArcIri =
+            ArcIri::new_unchecked(Arc::from("http://www.w3.org/1999/02/22-rdf-syntax-ns#term"));
         let iri1_term = Term::Iri(iri1.clone());
 
         let iri1_val = some_if_literal(&iri1_term);
@@ -59,7 +63,8 @@ pub mod tests {
 
     #[test]
     fn some_if_iri_returns_some_on_iri() {
-        let iri1: ArcIri = ArcIri::new_unchecked(Arc::from("http://www.w3.org/1999/02/22-rdf-syntax-ns#term"));
+        let iri1: ArcIri =
+            ArcIri::new_unchecked(Arc::from("http://www.w3.org/1999/02/22-rdf-syntax-ns#term"));
         let iri1_term = Term::Iri(iri1.clone());
 
         let iri1_val = some_if_iri(&iri1_term);
@@ -75,5 +80,4 @@ pub mod tests {
         let l1_val = some_if_iri(&l1_term);
         assert_none!(l1_val);
     }
-
 }

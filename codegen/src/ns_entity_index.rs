@@ -1,15 +1,16 @@
 use std::path::Path;
 
+use anyhow::Context;
 use indexmap::IndexMap;
 use serde::Serialize;
 use sophia_api::{dataset::Dataset, term::SimpleIri};
-use sophia_term::ArcTerm;
 
 use crate::helpers::{
     key_words::sanitize_ident,
-    rdf_arc_dataset::{get_arc_dataset, get_object_of_functional_statement_with},
-    rdf_term::{some_if_iri, some_if_literal},
+    rdf_arc_dataset::{get_arc_dataset, get_lang_literal_object_of_statement_with, EN_LANG_TAG},
+    rdf_term::some_if_iri,
     rdf_types::{
+        literal_without_new_line,
         ser::{SerdeIri, SerdeOptLiteral},
         ArcDataset, ArcIri, ArcLiteral,
     },
@@ -44,27 +45,36 @@ pub struct NSEntityIndex {
 
 impl NSEntityIndex {
     /// Given an ontology file and the namespace base, creates a namespace_entity_index and returns it.
-    pub fn new_from_onto_file(namespace_base: &ArcIri, onto_file_path: &Path) -> Self {
-        let onto_dataset = get_arc_dataset(&[onto_file_path]);
-        Self::new(namespace_base, &onto_dataset)
+    pub fn new_from_onto_file(
+        namespace_base: &ArcIri,
+        onto_file_path: &Path,
+    ) -> anyhow::Result<Self> {
+        let onto_dataset = get_arc_dataset(&[onto_file_path.to_path_buf()]).with_context(|| {
+            format!(
+                "error in loading ontology dataset for namespace {}",
+                namespace_base
+            )
+        })?;
+        Ok(Self::new(namespace_base, &onto_dataset))
     }
 
     /// Given an ontology dataset and the namespace base, creates a namespace_entity_index and returns it.
     pub fn new(namespace_base: &ArcIri, onto_dataset: &ArcDataset) -> Self {
         let entity_terms = onto_dataset.iris().unwrap();
-        let entity_ids_sorted: Vec<ArcIri> = entity_terms
+        let mut entity_ids_sorted: Vec<ArcIri> = entity_terms
             .iter()
             .filter_map(|t| Some(some_if_iri(t)?.clone()))
             .collect();
+        entity_ids_sorted.sort();
 
         let mut index: IndexMap<ArcIri, NSEntity> =
             IndexMap::with_capacity(entity_ids_sorted.len() + 1);
-
         for entity_id in entity_ids_sorted {
             if let Some(entity) = Self::get_entity_info(&entity_id, onto_dataset, namespace_base) {
                 index.insert(entity_id, entity);
             }
         }
+
         Self {
             index,
             namespace_base: namespace_base.clone(),
@@ -82,26 +92,28 @@ impl NSEntityIndex {
         } else {
             sanitize_ident(&term_suffix)
         };
-        let label = if let Some(val) = get_object_of_functional_statement_with(
+        let label = if let Some(val) = get_lang_literal_object_of_statement_with(
             onto_dataset,
             id,
             &TERM_PRED_LABEL,
-            Option::<&ArcTerm>::None,
+            Some(namespace_base),
+            EN_LANG_TAG,
         ) {
-            Some(some_if_literal(&val)?.clone())
+            Some(literal_without_new_line(val))
         } else {
             None
         };
 
         let mut comment = None;
         for pred in [TERM_PRED_COMMENT, TERM_PRED_SPEC_STATEMENT] {
-            if let Some(val) = get_object_of_functional_statement_with(
+            if let Some(val) = get_lang_literal_object_of_statement_with(
                 onto_dataset,
                 id,
                 &pred,
-                Option::<&ArcTerm>::None,
+                Some(namespace_base),
+                EN_LANG_TAG,
             ) {
-                comment = Some(some_if_literal(&val)?.clone());
+                comment = Some(literal_without_new_line(val));
                 break;
             }
         }
