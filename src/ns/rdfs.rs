@@ -7,15 +7,15 @@
 //! |-----|-----|
 //! |**Title**|The RDF Schema vocabulary (RDFS)|
 //! |**Prefix**|rdfs|
-//! |**Namespace base IRI**|[<http://www.w3.org/2000/01/rdf-schema#>](<http://www.w3.org/2000/01/rdf-schema#>)|
+//! |**Namespace base IRI**|[http://www.w3.org/2000/01/rdf-schema#](http://www.w3.org/2000/01/rdf-schema#)|
 //! |**Description**||
-//! |**Is defined by**|[<http://www.w3.org/2000/01/rdf-schema#>](<http://www.w3.org/2000/01/rdf-schema#>)|
+//! |**Is defined by**|[http://www.w3.org/2000/01/rdf-schema#](http://www.w3.org/2000/01/rdf-schema#)|
 //!
 
 use crate::namespace;
 
 namespace!(
-    "<http://www.w3.org/2000/01/rdf-schema#>",;
+    "http://www.w3.org/2000/01/rdf-schema#",;
     /// ``: 
     NAMESPACE_BASE, "",
     /// `Class`: The class of classes.

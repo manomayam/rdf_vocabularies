@@ -7,15 +7,15 @@
 //! |-----|-----|
 //! |**Title**|Semantic Sensor Network Ontology|
 //! |**Prefix**|ssn|
-//! |**Namespace base IRI**|[<http://www.w3.org/ns/ssn/>](<http://www.w3.org/ns/ssn/>)|
+//! |**Namespace base IRI**|[http://www.w3.org/ns/ssn/](http://www.w3.org/ns/ssn/)|
 //! |**Description**|This ontology describes sensors, actuators and observations, and related concepts. It does not describe domain concepts, time, locations, etc. these are intended to be included from other ontologies via OWL imports.|
-//! |**Is defined by**|[<http://www.w3.org/ns/ssn/>](<http://www.w3.org/ns/ssn/>)|
+//! |**Is defined by**|[http://www.w3.org/ns/ssn/](http://www.w3.org/ns/ssn/)|
 //!
 
 use crate::namespace;
 
 namespace!(
-    "<http://www.w3.org/ns/ssn/>",;
+    "http://www.w3.org/ns/ssn/",;
     /// ``: Please report any errors to the W3C Spatial Data on the Web Working Group via the SDW WG Public List public-sdw-wg@w3.org
     NAMESPACE_BASE, "",
     /// `Deployment`: Describes the Deployment of one or more Systems for a particular purpose. Deployment may be done on a Platform.

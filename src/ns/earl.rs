@@ -7,15 +7,15 @@
 //! |-----|-----|
 //! |**Title**|Evaluation and Report Language (EARL) 1.0 Schema|
 //! |**Prefix**|earl|
-//! |**Namespace base IRI**|[<https://www.w3.org/ns/earl#>](<https://www.w3.org/ns/earl#>)|
+//! |**Namespace base IRI**|[https://www.w3.org/ns/earl#](https://www.w3.org/ns/earl#)|
 //! |**Description**|Formal schema of the Evaluation and Report Language (EARL) 1.0|
-//! |**Is defined by**|[<https://www.w3.org/ns/earl#>](<https://www.w3.org/ns/earl#>)|
+//! |**Is defined by**|[https://www.w3.org/ns/earl#](https://www.w3.org/ns/earl#)|
 //!
 
 use crate::namespace;
 
 namespace!(
-    "<https://www.w3.org/ns/earl#>",;
+    "https://www.w3.org/ns/earl#",;
     /// ``: 
     NAMESPACE_BASE, "",
     /// `Assertion`: a statement that embodies the results of a test

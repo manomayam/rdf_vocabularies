@@ -7,15 +7,15 @@
 //! |-----|-----|
 //! |**Title**|SemWeb Vocab Status ontology|
 //! |**Prefix**|vs|
-//! |**Namespace base IRI**|[<http://www.w3.org/2003/06/sw-vocab-status/ns#>](<http://www.w3.org/2003/06/sw-vocab-status/ns#>)|
+//! |**Namespace base IRI**|[http://www.w3.org/2003/06/sw-vocab-status/ns#](http://www.w3.org/2003/06/sw-vocab-status/ns#)|
 //! |**Description**|An RDF vocabulary for relating SW vocabulary terms to their status.|
-//! |**Is defined by**|[<http://www.w3.org/2003/06/sw-vocab-status/ns#>](<http://www.w3.org/2003/06/sw-vocab-status/ns#>)|
+//! |**Is defined by**|[http://www.w3.org/2003/06/sw-vocab-status/ns#](http://www.w3.org/2003/06/sw-vocab-status/ns#)|
 //!
 
 use crate::namespace;
 
 namespace!(
-    "<http://www.w3.org/2003/06/sw-vocab-status/ns#>",;
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#",;
     /// ``: 
     NAMESPACE_BASE, "",
     /// `more info`: more information about the status etc of a term, typically human oriented

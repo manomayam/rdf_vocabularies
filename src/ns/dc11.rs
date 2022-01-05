@@ -7,15 +7,15 @@
 //! |-----|-----|
 //! |**Title**|Dublin Core Metadata Element Set, Version 1.1|
 //! |**Prefix**|dc11|
-//! |**Namespace base IRI**|[<http://purl.org/dc/elements/1.1/>](<http://purl.org/dc/elements/1.1/>)|
+//! |**Namespace base IRI**|[http://purl.org/dc/elements/1.1/](http://purl.org/dc/elements/1.1/)|
 //! |**Description**||
-//! |**Is defined by**|[<http://purl.org/dc/elements/1.1/>](<http://purl.org/dc/elements/1.1/>)|
+//! |**Is defined by**|[http://purl.org/dc/elements/1.1/](http://purl.org/dc/elements/1.1/)|
 //!
 
 use crate::namespace;
 
 namespace!(
-    "<http://purl.org/dc/elements/1.1/>",;
+    "http://purl.org/dc/elements/1.1/",;
     /// ``: 
     NAMESPACE_BASE, "",
     /// `Contributor`: An entity responsible for making contributions to the resource.

@@ -7,15 +7,15 @@
 //! |-----|-----|
 //! |**Title**||
 //! |**Prefix**|cc|
-//! |**Namespace base IRI**|[<http://creativecommons.org/ns#>](<http://creativecommons.org/ns#>)|
+//! |**Namespace base IRI**|[http://creativecommons.org/ns#](http://creativecommons.org/ns#)|
 //! |**Description**||
-//! |**Is defined by**|[<https://creativecommons.org/schema.rdf>](<https://creativecommons.org/schema.rdf>)|
+//! |**Is defined by**|[https://creativecommons.org/schema.rdf](https://creativecommons.org/schema.rdf)|
 //!
 
 use crate::namespace;
 
 namespace!(
-    "<http://creativecommons.org/ns#>",;
+    "http://creativecommons.org/ns#",;
     /// ``: 
     NAMESPACE_BASE, "",
     /// `Attribution`: credit be given to 		    copyright holder and/or author

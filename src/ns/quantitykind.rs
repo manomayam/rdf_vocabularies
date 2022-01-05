@@ -7,15 +7,15 @@
 //! |-----|-----|
 //! |**Title**|QUDT VOCAB Quantity Kinds  Release 2.1.12|
 //! |**Prefix**|quantitykind|
-//! |**Namespace base IRI**|[<http://qudt.org/vocab/quantitykind/>](<http://qudt.org/vocab/quantitykind/>)|
+//! |**Namespace base IRI**|[http://qudt.org/vocab/quantitykind/](http://qudt.org/vocab/quantitykind/)|
 //! |**Description**||
-//! |**Is defined by**|[<http://qudt.org/vocab/quantitykind/>](<http://qudt.org/vocab/quantitykind/>)|
+//! |**Is defined by**|[http://qudt.org/vocab/quantitykind/](http://qudt.org/vocab/quantitykind/)|
 //!
 
 use crate::namespace;
 
 namespace!(
-    "<http://qudt.org/vocab/quantitykind/>",;
+    "http://qudt.org/vocab/quantitykind/",;
     /// ``: 
     NAMESPACE_BASE, "",
     /// `Absolute Activity`: 

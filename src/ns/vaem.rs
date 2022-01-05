@@ -7,15 +7,15 @@
 //! |-----|-----|
 //! |**Title**||
 //! |**Prefix**|vaem|
-//! |**Namespace base IRI**|[<http://www.linkedmodel.org/schema/vaem#>](<http://www.linkedmodel.org/schema/vaem#>)|
+//! |**Namespace base IRI**|[http://www.linkedmodel.org/schema/vaem#](http://www.linkedmodel.org/schema/vaem#)|
 //! |**Description**||
-//! |**Is defined by**|[<http://www.linkedmodel.org/schema/vaem#>](<http://www.linkedmodel.org/schema/vaem#>)|
+//! |**Is defined by**|[http://www.linkedmodel.org/schema/vaem#](http://www.linkedmodel.org/schema/vaem#)|
 //!
 
 use crate::namespace;
 
 namespace!(
-    "<http://www.linkedmodel.org/schema/vaem#>",;
+    "http://www.linkedmodel.org/schema/vaem#",;
     /// ``: 
     NAMESPACE_BASE, "",
     /// `Aspect Dimension`: 

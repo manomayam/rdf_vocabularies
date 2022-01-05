@@ -7,15 +7,15 @@
 //! |-----|-----|
 //! |**Title**|Lexvo.org Ontology|
 //! |**Prefix**|lvont|
-//! |**Namespace base IRI**|[<http://lexvo.org/ontology#>](<http://lexvo.org/ontology#>)|
+//! |**Namespace base IRI**|[http://lexvo.org/ontology#](http://lexvo.org/ontology#)|
 //! |**Description**|Lexvo.org Ontology|
-//! |**Is defined by**|[<http://lexvo.org/ontology#>](<http://lexvo.org/ontology#>)|
+//! |**Is defined by**|[http://lexvo.org/ontology#](http://lexvo.org/ontology#)|
 //!
 
 use crate::namespace;
 
 namespace!(
-    "<http://lexvo.org/ontology#>",;
+    "http://lexvo.org/ontology#",;
     /// ``: 
     NAMESPACE_BASE, "",
     /// `radical`: A CJK character radical.

@@ -7,15 +7,15 @@
 //! |-----|-----|
 //! |**Title**||
 //! |**Prefix**|dpv|
-//! |**Namespace base IRI**|[<http://www.w3.org/ns/dpv#>](<http://www.w3.org/ns/dpv#>)|
+//! |**Namespace base IRI**|[http://www.w3.org/ns/dpv#](http://www.w3.org/ns/dpv#)|
 //! |**Description**||
-//! |**Is defined by**|[<https://dpvcg.github.io/dpv/dpv.jsonld>](<https://dpvcg.github.io/dpv/dpv.jsonld>)|
+//! |**Is defined by**|[https://dpvcg.github.io/dpv/dpv.jsonld](https://dpvcg.github.io/dpv/dpv.jsonld)|
 //!
 
 use crate::namespace;
 
 namespace!(
-    "<http://www.w3.org/ns/dpv#>",;
+    "http://www.w3.org/ns/dpv#",;
     /// ``: 
     NAMESPACE_BASE, "",
     /// `Academic Research`: 

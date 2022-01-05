@@ -7,15 +7,15 @@
 //! |-----|-----|
 //! |**Title**|GS1 Vocabulary|
 //! |**Prefix**|gs1|
-//! |**Namespace base IRI**|[<https://gs1.org/voc/>](<https://gs1.org/voc/>)|
+//! |**Namespace base IRI**|[https://gs1.org/voc/](https://gs1.org/voc/)|
 //! |**Description**||
-//! |**Is defined by**|[<https://raw.githubusercontent.com/gs1/WebVoc/master/gs1Voc_v1_3.ttl>](<https://raw.githubusercontent.com/gs1/WebVoc/master/gs1Voc_v1_3.ttl>)|
+//! |**Is defined by**|[https://raw.githubusercontent.com/gs1/WebVoc/master/gs1Voc_v1_3.ttl](https://raw.githubusercontent.com/gs1/WebVoc/master/gs1Voc_v1_3.ttl)|
 //!
 
 use crate::namespace;
 
 namespace!(
-    "<https://gs1.org/voc/>",;
+    "https://gs1.org/voc/",;
     /// ``: 
     NAMESPACE_BASE, "",
     /// `Application identifier`: A Data Type that corresponds to GS1 Application Identifiers defined in the GS1 General Specifications

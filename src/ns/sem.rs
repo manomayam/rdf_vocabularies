@@ -7,15 +7,15 @@
 //! |-----|-----|
 //! |**Title**||
 //! |**Prefix**|sem|
-//! |**Namespace base IRI**|[<http://semanticweb.cs.vu.nl/2009/11/sem/>](<http://semanticweb.cs.vu.nl/2009/11/sem/>)|
+//! |**Namespace base IRI**|[http://semanticweb.cs.vu.nl/2009/11/sem/](http://semanticweb.cs.vu.nl/2009/11/sem/)|
 //! |**Description**||
-//! |**Is defined by**|[<http://semanticweb.cs.vu.nl/2009/11/sem/sem.rdf>](<http://semanticweb.cs.vu.nl/2009/11/sem/sem.rdf>)|
+//! |**Is defined by**|[http://semanticweb.cs.vu.nl/2009/11/sem/sem.rdf](http://semanticweb.cs.vu.nl/2009/11/sem/sem.rdf)|
 //!
 
 use crate::namespace;
 
 namespace!(
-    "<http://semanticweb.cs.vu.nl/2009/11/sem/>",;
+    "http://semanticweb.cs.vu.nl/2009/11/sem/",;
     /// ``: 
     NAMESPACE_BASE, "",
     /// `Actor`: Actors are entities that take part in an Event, either actively or passively. Actors do not necessarily have to be sentient. They can also be objects. Actors are a thing, animate or inanimate, physical or non-physical. 

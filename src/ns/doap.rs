@@ -7,15 +7,15 @@
 //! |-----|-----|
 //! |**Title**|Description of a Project (DOAP) vocabulary|
 //! |**Prefix**|doap|
-//! |**Namespace base IRI**|[<http://usefulinc.com/ns/doap#>](<http://usefulinc.com/ns/doap#>)|
+//! |**Namespace base IRI**|[http://usefulinc.com/ns/doap#](http://usefulinc.com/ns/doap#)|
 //! |**Description**|The Description of a Project (DOAP) vocabulary, described using W3C RDF Schema and the Web Ontology Language.|
-//! |**Is defined by**|[<http://usefulinc.com/ns/doap#>](<http://usefulinc.com/ns/doap#>)|
+//! |**Is defined by**|[http://usefulinc.com/ns/doap#](http://usefulinc.com/ns/doap#)|
 //!
 
 use crate::namespace;
 
 namespace!(
-    "<http://usefulinc.com/ns/doap#>",;
+    "http://usefulinc.com/ns/doap#",;
     /// ``: 
     NAMESPACE_BASE, "",
     /// `GNU Arch repository`: GNU Arch source code repository.

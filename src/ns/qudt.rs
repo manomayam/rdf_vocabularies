@@ -7,15 +7,15 @@
 //! |-----|-----|
 //! |**Title**||
 //! |**Prefix**|qudt|
-//! |**Namespace base IRI**|[<http://qudt.org/schema/qudt/>](<http://qudt.org/schema/qudt/>)|
+//! |**Namespace base IRI**|[http://qudt.org/schema/qudt/](http://qudt.org/schema/qudt/)|
 //! |**Description**||
-//! |**Is defined by**|[<http://qudt.org/2.1/schema/datatype>](<http://qudt.org/2.1/schema/datatype>)|
+//! |**Is defined by**|[http://qudt.org/2.1/schema/datatype](http://qudt.org/2.1/schema/datatype)|
 //!
 
 use crate::namespace;
 
 namespace!(
-    "<http://qudt.org/schema/qudt/>",;
+    "http://qudt.org/schema/qudt/",;
     /// ``: 
     NAMESPACE_BASE, "",
     /// `Abstract Datatype`: 

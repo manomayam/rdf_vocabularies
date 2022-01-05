@@ -7,15 +7,15 @@
 //! |-----|-----|
 //! |**Title**||
 //! |**Prefix**|geof|
-//! |**Namespace base IRI**|[<http://www.opengis.net/def/function/geosparql/>](<http://www.opengis.net/def/function/geosparql/>)|
+//! |**Namespace base IRI**|[http://www.opengis.net/def/function/geosparql/](http://www.opengis.net/def/function/geosparql/)|
 //! |**Description**||
-//! |**Is defined by**|[<http://www.opengis.net/def/function/geosparql/>](<http://www.opengis.net/def/function/geosparql/>)|
+//! |**Is defined by**|[http://www.opengis.net/def/function/geosparql/](http://www.opengis.net/def/function/geosparql/)|
 //!
 
 use crate::namespace;
 
 namespace!(
-    "<http://www.opengis.net/def/function/geosparql/>",;
+    "http://www.opengis.net/def/function/geosparql/",;
     /// ``: 
     NAMESPACE_BASE, "",
     /// `boundary`: 

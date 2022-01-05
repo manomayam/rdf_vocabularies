@@ -7,15 +7,15 @@
 //! |-----|-----|
 //! |**Title**|SKOS XL Vocabulary|
 //! |**Prefix**|skosxl|
-//! |**Namespace base IRI**|[<http://www.w3.org/2008/05/skos-xl#>](<http://www.w3.org/2008/05/skos-xl#>)|
+//! |**Namespace base IRI**|[http://www.w3.org/2008/05/skos-xl#](http://www.w3.org/2008/05/skos-xl#)|
 //! |**Description**|An RDF vocabulary extending SKOS and allowing the description and linking of lexical entities.|
-//! |**Is defined by**|[<http://www.w3.org/2008/05/skos-xl#>](<http://www.w3.org/2008/05/skos-xl#>)|
+//! |**Is defined by**|[http://www.w3.org/2008/05/skos-xl#](http://www.w3.org/2008/05/skos-xl#)|
 //!
 
 use crate::namespace;
 
 namespace!(
-    "<http://www.w3.org/2008/05/skos-xl#>",;
+    "http://www.w3.org/2008/05/skos-xl#",;
     /// ``: 
     NAMESPACE_BASE, "",
     /// `Label`: 

@@ -7,15 +7,15 @@
 //! |-----|-----|
 //! |**Title**||
 //! |**Prefix**|ma|
-//! |**Namespace base IRI**|[<http://www.w3.org/ns/ma-ont#>](<http://www.w3.org/ns/ma-ont#>)|
+//! |**Namespace base IRI**|[http://www.w3.org/ns/ma-ont#](http://www.w3.org/ns/ma-ont#)|
 //! |**Description**|Created by Tobias Buerger, Jean Pierre Evain and Pierre-Antoine Champin with the RDFS Taskforce within the W3C Media Annotation Working Group.|
-//! |**Is defined by**|[<http://www.w3.org/ns/ma-ont#>](<http://www.w3.org/ns/ma-ont#>)|
+//! |**Is defined by**|[http://www.w3.org/ns/ma-ont#](http://www.w3.org/ns/ma-ont#)|
 //!
 
 use crate::namespace;
 
 namespace!(
-    "<http://www.w3.org/ns/ma-ont#>",;
+    "http://www.w3.org/ns/ma-ont#",;
     /// ``: 
     NAMESPACE_BASE, "",
     /// `Agent`: A person or organisation contributing to the media resource.

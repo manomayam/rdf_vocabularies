@@ -7,15 +7,15 @@
 //! |-----|-----|
 //! |**Title**||
 //! |**Prefix**|og|
-//! |**Namespace base IRI**|[<http://ogp.me/ns#>](<http://ogp.me/ns#>)|
+//! |**Namespace base IRI**|[http://ogp.me/ns#](http://ogp.me/ns#)|
 //! |**Description**||
-//! |**Is defined by**|[<http://ogp.me/ns#>](<http://ogp.me/ns#>)|
+//! |**Is defined by**|[http://ogp.me/ns#](http://ogp.me/ns#)|
 //!
 
 use crate::namespace;
 
 namespace!(
-    "<http://ogp.me/ns#>",;
+    "http://ogp.me/ns#",;
     /// ``: 
     NAMESPACE_BASE, "",
     /// `audio`: A relevant audio URL for your object.

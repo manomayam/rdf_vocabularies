@@ -7,15 +7,15 @@
 //! |-----|-----|
 //! |**Title**|QUDT Units of Measure for All Units Release 2.1.12|
 //! |**Prefix**|unit|
-//! |**Namespace base IRI**|[<http://qudt.org/vocab/unit/>](<http://qudt.org/vocab/unit/>)|
+//! |**Namespace base IRI**|[http://qudt.org/vocab/unit/](http://qudt.org/vocab/unit/)|
 //! |**Description**||
-//! |**Is defined by**|[<http://qudt.org/vocab/unit/>](<http://qudt.org/vocab/unit/>)|
+//! |**Is defined by**|[http://qudt.org/vocab/unit/](http://qudt.org/vocab/unit/)|
 //!
 
 use crate::namespace;
 
 namespace!(
-    "<http://qudt.org/vocab/unit/>",;
+    "http://qudt.org/vocab/unit/",;
     /// ``: 
     NAMESPACE_BASE, "",
     /// `Ampere`: 

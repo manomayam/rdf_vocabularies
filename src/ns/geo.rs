@@ -7,15 +7,15 @@
 //! |-----|-----|
 //! |**Title**||
 //! |**Prefix**|geo|
-//! |**Namespace base IRI**|[<http://www.opengis.net/ont/geosparql#>](<http://www.opengis.net/ont/geosparql#>)|
+//! |**Namespace base IRI**|[http://www.opengis.net/ont/geosparql#](http://www.opengis.net/ont/geosparql#)|
 //! |**Description**|An RDF/OWL vocabulary for representing spatial information|
-//! |**Is defined by**|[<http://www.modelservers.org/public/ontologies/vcon/geosparql_vocab_all.rdf>](<http://www.modelservers.org/public/ontologies/vcon/geosparql_vocab_all.rdf>)|
+//! |**Is defined by**|[http://www.modelservers.org/public/ontologies/vcon/geosparql_vocab_all.rdf](http://www.modelservers.org/public/ontologies/vcon/geosparql_vocab_all.rdf)|
 //!
 
 use crate::namespace;
 
 namespace!(
-    "<http://www.opengis.net/ont/geosparql#>",;
+    "http://www.opengis.net/ont/geosparql#",;
     /// ``: 
     NAMESPACE_BASE, "",
     /// `Feature`:        This class represents the top-level feature type. This class is        equivalent to GFI_Feature defined in ISO 19156:2011, and it is        superclass of all feature types.     

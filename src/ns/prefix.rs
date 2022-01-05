@@ -7,15 +7,15 @@
 //! |-----|-----|
 //! |**Title**||
 //! |**Prefix**|prefix|
-//! |**Namespace base IRI**|[<http://qudt.org/vocab/prefix/>](<http://qudt.org/vocab/prefix/>)|
+//! |**Namespace base IRI**|[http://qudt.org/vocab/prefix/](http://qudt.org/vocab/prefix/)|
 //! |**Description**||
-//! |**Is defined by**|[<http://qudt.org/2.1/vocab/prefix>](<http://qudt.org/2.1/vocab/prefix>)|
+//! |**Is defined by**|[http://qudt.org/2.1/vocab/prefix](http://qudt.org/2.1/vocab/prefix)|
 //!
 
 use crate::namespace;
 
 namespace!(
-    "<http://qudt.org/vocab/prefix/>",;
+    "http://qudt.org/vocab/prefix/",;
     /// ``: 
     NAMESPACE_BASE, "",
     /// `Atto`: 

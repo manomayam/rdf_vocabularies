@@ -7,15 +7,15 @@
 //! |-----|-----|
 //! |**Title**||
 //! |**Prefix**|acl|
-//! |**Namespace base IRI**|[<http://www.w3.org/ns/auth/acl#>](<http://www.w3.org/ns/auth/acl#>)|
+//! |**Namespace base IRI**|[http://www.w3.org/ns/auth/acl#](http://www.w3.org/ns/auth/acl#)|
 //! |**Description**||
-//! |**Is defined by**|[<http://www.w3.org/ns/auth/acl#>](<http://www.w3.org/ns/auth/acl#>)|
+//! |**Is defined by**|[http://www.w3.org/ns/auth/acl#](http://www.w3.org/ns/auth/acl#)|
 //!
 
 use crate::namespace;
 
 namespace!(
-    "<http://www.w3.org/ns/auth/acl#>",;
+    "http://www.w3.org/ns/auth/acl#",;
     /// ``: 
     NAMESPACE_BASE, "",
     /// `Access`: Any kind of access to a resource. Don't use this, use R W and RW

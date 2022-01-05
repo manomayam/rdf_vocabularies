@@ -7,15 +7,15 @@
 //! |-----|-----|
 //! |**Title**|Activity Streams 2.0|
 //! |**Prefix**|as|
-//! |**Namespace base IRI**|[<https://www.w3.org/ns/activitystreams#>](<https://www.w3.org/ns/activitystreams#>)|
+//! |**Namespace base IRI**|[https://www.w3.org/ns/activitystreams#](https://www.w3.org/ns/activitystreams#)|
 //! |**Description**|Extended Activity Streams 2.0 Vocabulary|
-//! |**Is defined by**|[<https://raw.githubusercontent.com/zazuko/activitystreams/owl-fix/vocabulary/activitystreams2.owl>](<https://raw.githubusercontent.com/zazuko/activitystreams/owl-fix/vocabulary/activitystreams2.owl>)|
+//! |**Is defined by**|[https://raw.githubusercontent.com/zazuko/activitystreams/owl-fix/vocabulary/activitystreams2.owl](https://raw.githubusercontent.com/zazuko/activitystreams/owl-fix/vocabulary/activitystreams2.owl)|
 //!
 
 use crate::namespace;
 
 namespace!(
-    "<https://www.w3.org/ns/activitystreams#>",;
+    "https://www.w3.org/ns/activitystreams#",;
     /// `Activity Streams 2.0`: Extended Activity Streams 2.0 Vocabulary
     NAMESPACE_BASE, "",
     /// `Accept`: Actor accepts the Object

@@ -7,15 +7,15 @@
 //! |-----|-----|
 //! |**Title**|DCMI Type Vocabulary|
 //! |**Prefix**|dcmitype|
-//! |**Namespace base IRI**|[<http://purl.org/dc/dcmitype/>](<http://purl.org/dc/dcmitype/>)|
+//! |**Namespace base IRI**|[http://purl.org/dc/dcmitype/](http://purl.org/dc/dcmitype/)|
 //! |**Description**||
-//! |**Is defined by**|[<http://purl.org/dc/dcmitype/>](<http://purl.org/dc/dcmitype/>)|
+//! |**Is defined by**|[http://purl.org/dc/dcmitype/](http://purl.org/dc/dcmitype/)|
 //!
 
 use crate::namespace;
 
 namespace!(
-    "<http://purl.org/dc/dcmitype/>",;
+    "http://purl.org/dc/dcmitype/",;
     /// ``: 
     NAMESPACE_BASE, "",
     /// `Collection`: An aggregation of resources.

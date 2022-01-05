@@ -2,6 +2,7 @@ use std::path::Path;
 
 use anyhow::Context;
 use indexmap::IndexMap;
+use rdf_utils::models::arc::{ArcIri, ArcLiteral, IndexedArcDataset};
 use serde::Serialize;
 use sophia_api::{dataset::Dataset, term::SimpleIri};
 
@@ -11,8 +12,7 @@ use crate::helpers::{
     rdf_term::some_if_iri,
     rdf_types::{
         literal_without_new_line,
-        ser::{SerdeIri, SerdeOptLiteral},
-        ArcDataset, ArcIri, ArcLiteral,
+        ser::{SerdeIri, SerdeOptLiteral}
     },
 };
 
@@ -59,7 +59,7 @@ impl NSEntityIndex {
     }
 
     /// Given an ontology dataset and the namespace base, creates a namespace_entity_index and returns it.
-    pub fn new(namespace_base: &ArcIri, onto_dataset: &ArcDataset) -> Self {
+    pub fn new(namespace_base: &ArcIri, onto_dataset: &IndexedArcDataset) -> Self {
         let entity_terms = onto_dataset.iris().unwrap();
         let mut entity_ids_sorted: Vec<ArcIri> = entity_terms
             .iter()
@@ -83,20 +83,20 @@ impl NSEntityIndex {
 
     fn get_entity_info(
         id: &ArcIri,
-        onto_dataset: &ArcDataset,
-        namespace_base: &ArcIri,
+        vocab_dataset: &IndexedArcDataset,
+        vocab_ns_base: &ArcIri,
     ) -> Option<NSEntity> {
-        let term_suffix: String = id.match_ns(namespace_base)?.collect();
+        let term_suffix: String = id.match_ns(vocab_ns_base)?.collect();
         let safe_term_suffix = if term_suffix.is_empty() {
             NAMESPACE_BASE_TERM_IDENT.into()
         } else {
             sanitize_ident(&term_suffix)
         };
         let label = if let Some(val) = get_lang_literal_object_of_statement_with(
-            onto_dataset,
+            vocab_dataset,
             id,
             &TERM_PRED_LABEL,
-            Some(namespace_base),
+            Some(vocab_ns_base),
             EN_LANG_TAG,
         ) {
             Some(literal_without_new_line(val))
@@ -107,10 +107,10 @@ impl NSEntityIndex {
         let mut comment = None;
         for pred in [TERM_PRED_COMMENT, TERM_PRED_SPEC_STATEMENT] {
             if let Some(val) = get_lang_literal_object_of_statement_with(
-                onto_dataset,
+                vocab_dataset,
                 id,
                 &pred,
-                Some(namespace_base),
+                Some(vocab_ns_base),
                 EN_LANG_TAG,
             ) {
                 comment = Some(literal_without_new_line(val));

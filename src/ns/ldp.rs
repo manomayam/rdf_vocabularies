@@ -7,15 +7,15 @@
 //! |-----|-----|
 //! |**Title**|The W3C Linked Data Platform (LDP) Vocabulary|
 //! |**Prefix**|ldp|
-//! |**Namespace base IRI**|[<http://www.w3.org/ns/ldp#>](<http://www.w3.org/ns/ldp#>)|
+//! |**Namespace base IRI**|[http://www.w3.org/ns/ldp#](http://www.w3.org/ns/ldp#)|
 //! |**Description**|Vocabulary URIs defined in the Linked Data Platform (LDP) namespace.|
-//! |**Is defined by**|[<http://www.w3.org/ns/ldp#>](<http://www.w3.org/ns/ldp#>)|
+//! |**Is defined by**|[http://www.w3.org/ns/ldp#](http://www.w3.org/ns/ldp#)|
 //!
 
 use crate::namespace;
 
 namespace!(
-    "<http://www.w3.org/ns/ldp#>",;
+    "http://www.w3.org/ns/ldp#",;
     /// `W3C Linked Data Platform (LDP)`: This ontology provides an informal representation of the concepts and terms as defined in the LDP specification.  Consult the LDP specification for normative reference.
     NAMESPACE_BASE, "",
     /// `Ascending`: Ascending order.

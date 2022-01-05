@@ -7,15 +7,15 @@
 //! |-----|-----|
 //! |**Title**|Web Annotation Ontology|
 //! |**Prefix**|oa|
-//! |**Namespace base IRI**|[<http://www.w3.org/ns/oa#>](<http://www.w3.org/ns/oa#>)|
+//! |**Namespace base IRI**|[http://www.w3.org/ns/oa#](http://www.w3.org/ns/oa#)|
 //! |**Description**|The Web Annotation ontology defines the terms of the Web Annotation vocabulary. Any changes to this document MUST be from a Working Group in the W3C that has established expertise in the area.|
-//! |**Is defined by**|[<http://www.w3.org/ns/oa#>](<http://www.w3.org/ns/oa#>)|
+//! |**Is defined by**|[http://www.w3.org/ns/oa#](http://www.w3.org/ns/oa#)|
 //!
 
 use crate::namespace;
 
 namespace!(
-    "<http://www.w3.org/ns/oa#>",;
+    "http://www.w3.org/ns/oa#",;
     /// ``: The Web Annotation ontology defines the terms of the Web Annotation vocabulary. Any changes to this document MUST be from a Working Group in the W3C that has established expertise in the area.
     NAMESPACE_BASE, "",
     /// `Annotation`: The class for Web Annotations.

@@ -7,15 +7,15 @@
 //! |-----|-----|
 //! |**Title**|RDA Unconstrained properties|
 //! |**Prefix**|rdau|
-//! |**Namespace base IRI**|[<http://rdaregistry.info/Elements/u/>](<http://rdaregistry.info/Elements/u/>)|
+//! |**Namespace base IRI**|[http://rdaregistry.info/Elements/u/](http://rdaregistry.info/Elements/u/)|
 //! |**Description**||
-//! |**Is defined by**|[<http://rdaregistry.info/Elements/u.nt>](<http://rdaregistry.info/Elements/u.nt>)|
+//! |**Is defined by**|[http://rdaregistry.info/Elements/u.nt](http://rdaregistry.info/Elements/u.nt)|
 //!
 
 use crate::namespace;
 
 namespace!(
-    "<http://rdaregistry.info/Elements/u/>",;
+    "http://rdaregistry.info/Elements/u/",;
     /// ``: 
     NAMESPACE_BASE, "",
     /// `.da`: 

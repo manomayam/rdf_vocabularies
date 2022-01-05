@@ -7,15 +7,15 @@
 //! |-----|-----|
 //! |**Title**|The GoodRelations Vocabulary for Semantic Web-based E-Commerce|
 //! |**Prefix**|gr|
-//! |**Namespace base IRI**|[<http://purl.org/goodrelations/v1#>](<http://purl.org/goodrelations/v1#>)|
+//! |**Namespace base IRI**|[http://purl.org/goodrelations/v1#](http://purl.org/goodrelations/v1#)|
 //! |**Description**|The GoodRelations ontology provides the vocabulary for annotating e-commerce offerings (1) to sell, lease, repair, dispose, or maintain commodity products and (2) to provide commodity services.  GoodRelations allows describing the relationship between (1) Web resources, (2) offerings made by those Web resources, (3) legal entities, (4) prices, (5) terms and conditions, and the aforementioned ontologies for products and services (6).   For more information, see http://purl.org/goodrelations/  Note: The base URI of GoodRelations is http://purl.org/goodrelations/v1. Please make sure you are only using element identifiers in this namespace, e.g. http://purl.org/goodrelations/v1#BusinessEntity. There may be copies of the ontology file on the Web which can be retrieved from other locations, BUT THOSE LOCATIONS MUST NOT BE USED AS THE BASIS OF IDENTIFIERS.  If you use GoodRelations for scientific purposes, please cite our paper:  Hepp, Martin: GoodRelations: An Ontology for Describing Products and Services Offers on the Web, Proceedings of the 16th International Conference on Knowledge Engineering and Knowledge Management (EKAW2008), September 29 - October 3, 2008, Acitrezza, Italy, Springer LNCS, Vol. 5268, pp. 332-347.  PDF at http://www.heppnetz.de/publications/|
-//! |**Is defined by**|[<http://purl.org/goodrelations/v1#>](<http://purl.org/goodrelations/v1#>)|
+//! |**Is defined by**|[http://purl.org/goodrelations/v1#](http://purl.org/goodrelations/v1#)|
 //!
 
 use crate::namespace;
 
 namespace!(
-    "<http://purl.org/goodrelations/v1#>",;
+    "http://purl.org/goodrelations/v1#",;
     /// ``: 
     NAMESPACE_BASE, "",
     /// `Actual product or service instance (DEPRECATED)`: DEPRECATED - This class is superseded by gr:Individual. Replace all occurrences of gr:ActualProductOrServiceInstance by gr:Individual, if possible.

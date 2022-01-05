@@ -1,15 +1,4 @@
-use std::sync::Arc;
-
-use sophia_inmem::dataset::{GenericDataset, GspoWrapper, OgpsWrapper};
-use sophia_term::blank_node::BlankNode;
-use sophia_term::factory::ArcTermFactory;
-use sophia_term::iri::Iri;
-use sophia_term::literal::Literal;
-
-pub type ArcDataset = OgpsWrapper<GspoWrapper<GenericDataset<u32, ArcTermFactory>>>;
-pub type ArcIri = Iri<Arc<str>>;
-pub type ArcLiteral = Literal<Arc<str>>;
-pub type ArcBNode = BlankNode<Arc<str>>;
+use rdf_utils::models::arc::{ArcIri, ArcLiteral};
 
 pub fn literal_without_new_line(literal: ArcLiteral) -> ArcLiteral {
     if !literal.txt().contains("\n") {
@@ -26,7 +15,11 @@ pub mod ser {
 
     #[derive(Serialize)]
     #[serde(remote = "ArcIri")]
-    pub struct SerdeIri(#[serde(getter = "ArcIri::to_string")] String);
+    pub struct SerdeIri(#[serde(getter = "iri_to_string")] String);
+
+    pub fn iri_to_string(iri: &ArcIri) -> String {
+        iri.chars().collect::<String>()
+    }
 
     #[derive(Serialize)]
     #[serde(remote = "ArcLiteral")]

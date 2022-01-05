@@ -7,15 +7,15 @@
 //! |-----|-----|
 //! |**Title**||
 //! |**Prefix**|test|
-//! |**Namespace base IRI**|[<http://www.w3.org/2006/03/test-description#>](<http://www.w3.org/2006/03/test-description#>)|
+//! |**Namespace base IRI**|[http://www.w3.org/2006/03/test-description#](http://www.w3.org/2006/03/test-description#)|
 //! |**Description**||
-//! |**Is defined by**|[<http://www.w3.org/2006/03/test-description#>](<http://www.w3.org/2006/03/test-description#>)|
+//! |**Is defined by**|[http://www.w3.org/2006/03/test-description#](http://www.w3.org/2006/03/test-description#)|
 //!
 
 use crate::namespace;
 
 namespace!(
-    "<http://www.w3.org/2006/03/test-description#>",;
+    "http://www.w3.org/2006/03/test-description#",;
     /// ``: 
     NAMESPACE_BASE, "",
     /// `Status in a review process`: A particular stage in a review process

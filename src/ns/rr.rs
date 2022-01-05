@@ -7,15 +7,15 @@
 //! |-----|-----|
 //! |**Title**|R2RML vocabulary|
 //! |**Prefix**|rr|
-//! |**Namespace base IRI**|[<http://www.w3.org/ns/r2rml#>](<http://www.w3.org/ns/r2rml#>)|
+//! |**Namespace base IRI**|[http://www.w3.org/ns/r2rml#](http://www.w3.org/ns/r2rml#)|
 //! |**Description**|RDB to RDF Mapping Language - Vocabulary|
-//! |**Is defined by**|[<http://www.w3.org/ns/r2rml#>](<http://www.w3.org/ns/r2rml#>)|
+//! |**Is defined by**|[http://www.w3.org/ns/r2rml#](http://www.w3.org/ns/r2rml#)|
 //!
 
 use crate::namespace;
 
 namespace!(
-    "<http://www.w3.org/ns/r2rml#>",;
+    "http://www.w3.org/ns/r2rml#",;
     /// ``: 
     NAMESPACE_BASE, "",
     /// `BaseTableOrView`: 

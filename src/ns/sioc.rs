@@ -7,15 +7,15 @@
 //! |-----|-----|
 //! |**Title**|SIOC Core Ontology Namespace|
 //! |**Prefix**|sioc|
-//! |**Namespace base IRI**|[<http://rdfs.org/sioc/ns#>](<http://rdfs.org/sioc/ns#>)|
+//! |**Namespace base IRI**|[http://rdfs.org/sioc/ns#](http://rdfs.org/sioc/ns#)|
 //! |**Description**|SIOC (Semantically-Interlinked Online Communities) is an ontology for describing the information in online communities.  This information can be used to export information from online communities and to link them together. The scope of the application areas that SIOC can be used for includes (and is not limited to) weblogs, message boards, mailing lists and chat channels.|
-//! |**Is defined by**|[<http://rdfs.org/sioc/ns#>](<http://rdfs.org/sioc/ns#>)|
+//! |**Is defined by**|[http://rdfs.org/sioc/ns#](http://rdfs.org/sioc/ns#)|
 //!
 
 use crate::namespace;
 
 namespace!(
-    "<http://rdfs.org/sioc/ns#>",;
+    "http://rdfs.org/sioc/ns#",;
     /// ``: 
     NAMESPACE_BASE, "",
     /// `Community`: Community is a high-level concept that defines an online community and what it consists of.

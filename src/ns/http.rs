@@ -7,15 +7,15 @@
 //! |-----|-----|
 //! |**Title**|HTTP in RDF|
 //! |**Prefix**|http|
-//! |**Namespace base IRI**|[<http://www.w3.org/2011/http#>](<http://www.w3.org/2011/http#>)|
+//! |**Namespace base IRI**|[http://www.w3.org/2011/http#](http://www.w3.org/2011/http#)|
 //! |**Description**|A namespace for describing HTTP messages (http://www.w3.org/Protocols/rfc2616/rfc2616.html)|
-//! |**Is defined by**|[<http://www.w3.org/2011/http#>](<http://www.w3.org/2011/http#>)|
+//! |**Is defined by**|[http://www.w3.org/2011/http#](http://www.w3.org/2011/http#)|
 //!
 
 use crate::namespace;
 
 namespace!(
-    "<http://www.w3.org/2011/http#>",;
+    "http://www.w3.org/2011/http#",;
     /// ``: 
     NAMESPACE_BASE, "",
     /// `Connection`: A connection used for HTTP transfer.

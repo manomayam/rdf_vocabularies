@@ -7,15 +7,15 @@
 //! |-----|-----|
 //! |**Title**|OWL-Time|
 //! |**Prefix**|time|
-//! |**Namespace base IRI**|[<http://www.w3.org/2006/time#>](<http://www.w3.org/2006/time#>)|
+//! |**Namespace base IRI**|[http://www.w3.org/2006/time#](http://www.w3.org/2006/time#)|
 //! |**Description**||
-//! |**Is defined by**|[<http://www.w3.org/2006/time#>](<http://www.w3.org/2006/time#>)|
+//! |**Is defined by**|[http://www.w3.org/2006/time#](http://www.w3.org/2006/time#)|
 //!
 
 use crate::namespace;
 
 namespace!(
-    "<http://www.w3.org/2006/time#>",;
+    "http://www.w3.org/2006/time#",;
     /// ``: 
     NAMESPACE_BASE, "",
     /// `2006`: 

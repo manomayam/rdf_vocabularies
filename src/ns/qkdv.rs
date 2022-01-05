@@ -7,15 +7,15 @@
 //! |-----|-----|
 //! |**Title**||
 //! |**Prefix**|qkdv|
-//! |**Namespace base IRI**|[<http://qudt.org/vocab/dimensionvector/>](<http://qudt.org/vocab/dimensionvector/>)|
+//! |**Namespace base IRI**|[http://qudt.org/vocab/dimensionvector/](http://qudt.org/vocab/dimensionvector/)|
 //! |**Description**||
-//! |**Is defined by**|[<http://qudt.org/vocab/dimensionvector/>](<http://qudt.org/vocab/dimensionvector/>)|
+//! |**Is defined by**|[http://qudt.org/vocab/dimensionvector/](http://qudt.org/vocab/dimensionvector/)|
 //!
 
 use crate::namespace;
 
 namespace!(
-    "<http://qudt.org/vocab/dimensionvector/>",;
+    "http://qudt.org/vocab/dimensionvector/",;
     /// ``: 
     NAMESPACE_BASE, "",
     /// `A-1E0L-3I0M0H0T0D0`: 

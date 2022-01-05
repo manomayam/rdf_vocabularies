@@ -7,15 +7,15 @@
 //! |-----|-----|
 //! |**Title**|Vocabulary for multi-dimensional (e.g. statistical) data publishing|
 //! |**Prefix**|qb|
-//! |**Namespace base IRI**|[<http://purl.org/linked-data/cube#>](<http://purl.org/linked-data/cube#>)|
+//! |**Namespace base IRI**|[http://purl.org/linked-data/cube#](http://purl.org/linked-data/cube#)|
 //! |**Description**|This vocabulary allows multi-dimensional data, such as statistics, to be published in RDF. It is based on the core information model from SDMX (and thus also DDI).|
-//! |**Is defined by**|[<http://purl.org/linked-data/cube#>](<http://purl.org/linked-data/cube#>)|
+//! |**Is defined by**|[http://purl.org/linked-data/cube#](http://purl.org/linked-data/cube#)|
 //!
 
 use crate::namespace;
 
 namespace!(
-    "<http://purl.org/linked-data/cube#>",;
+    "http://purl.org/linked-data/cube#",;
     /// ``: 
     NAMESPACE_BASE, "",
     /// `Attachable (abstract)`: Abstract superclass for everything that can have attributes and dimensions

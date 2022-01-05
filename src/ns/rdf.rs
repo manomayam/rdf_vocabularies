@@ -7,15 +7,15 @@
 //! |-----|-----|
 //! |**Title**|The RDF Concepts Vocabulary (RDF)|
 //! |**Prefix**|rdf|
-//! |**Namespace base IRI**|[<http://www.w3.org/1999/02/22-rdf-syntax-ns#>](<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)|
+//! |**Namespace base IRI**|[http://www.w3.org/1999/02/22-rdf-syntax-ns#](http://www.w3.org/1999/02/22-rdf-syntax-ns#)|
 //! |**Description**|This is the RDF Schema for the RDF vocabulary terms in the RDF Namespace, defined in RDF 1.1 Concepts.|
-//! |**Is defined by**|[<http://www.w3.org/1999/02/22-rdf-syntax-ns#>](<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)|
+//! |**Is defined by**|[http://www.w3.org/1999/02/22-rdf-syntax-ns#](http://www.w3.org/1999/02/22-rdf-syntax-ns#)|
 //!
 
 use crate::namespace;
 
 namespace!(
-    "<http://www.w3.org/1999/02/22-rdf-syntax-ns#>",;
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#",;
     /// ``: 
     NAMESPACE_BASE, "",
     /// `Alt`: The class of containers of alternatives.

@@ -7,15 +7,15 @@
 //! |-----|-----|
 //! |**Title**||
 //! |**Prefix**|grddl|
-//! |**Namespace base IRI**|[<http://www.w3.org/2003/g/data-view#>](<http://www.w3.org/2003/g/data-view#>)|
+//! |**Namespace base IRI**|[http://www.w3.org/2003/g/data-view#](http://www.w3.org/2003/g/data-view#)|
 //! |**Description**||
-//! |**Is defined by**|[<http://www.w3.org/2003/g/data-view#>](<http://www.w3.org/2003/g/data-view#>)|
+//! |**Is defined by**|[http://www.w3.org/2003/g/data-view#](http://www.w3.org/2003/g/data-view#)|
 //!
 
 use crate::namespace;
 
 namespace!(
-    "<http://www.w3.org/2003/g/data-view#>",;
+    "http://www.w3.org/2003/g/data-view#",;
     /// ``: 
     NAMESPACE_BASE, "",
     /// `InformationResource`: A resource which has the property that all of its essential characteristics can be conveyed in a message

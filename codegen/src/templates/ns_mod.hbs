@@ -1,5 +1,5 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
-{{#with onto_mapping}}
+{{#with vocab}}
 //! This module provides terms for `{{~#if title}}{{{title}}}{{else}}{{prefix}}{{/if}}` vocabulary
 //!
 //! ## Vocabulary:
@@ -17,7 +17,7 @@
 use crate::namespace;
 
 namespace!(
-    "{{{onto_mapping.namespace_base}}}",;
+    "{{{vocab.namespace_base}}}",;
     {{#each entities}}
     /// `{{#if label}}{{{label}}}{{else}}{{term_suffix}}{{/if}}`: {{{comment}}}
     {{{safe_term_suffix}}}, "{{{term_suffix}}}"{{#unless @last}},{{/unless}}

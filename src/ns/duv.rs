@@ -7,15 +7,15 @@
 //! |-----|-----|
 //! |**Title**|Dataset Usage Vocabulary|
 //! |**Prefix**|duv|
-//! |**Namespace base IRI**|[<http://www.w3.org/ns/duv#>](<http://www.w3.org/ns/duv#>)|
+//! |**Namespace base IRI**|[http://www.w3.org/ns/duv#](http://www.w3.org/ns/duv#)|
 //! |**Description**|The Dataset Usage Vocabulary (DUV) is used to describe consumer experiences, citations, and feedback about datasets from the human perspective.|
-//! |**Is defined by**|[<http://www.w3.org/ns/duv#>](<http://www.w3.org/ns/duv#>)|
+//! |**Is defined by**|[http://www.w3.org/ns/duv#](http://www.w3.org/ns/duv#)|
 //!
 
 use crate::namespace;
 
 namespace!(
-    "<http://www.w3.org/ns/duv#>",;
+    "http://www.w3.org/ns/duv#",;
     /// ``: 
     NAMESPACE_BASE, "",
     /// `Rating Feedback`: Predefined criteria used to express a user opinion about a dataset or distribution using a discrete range of values.

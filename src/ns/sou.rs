@@ -7,15 +7,15 @@
 //! |-----|-----|
 //! |**Title**||
 //! |**Prefix**|sou|
-//! |**Namespace base IRI**|[<http://qudt.org/vocab/sou/>](<http://qudt.org/vocab/sou/>)|
+//! |**Namespace base IRI**|[http://qudt.org/vocab/sou/](http://qudt.org/vocab/sou/)|
 //! |**Description**||
-//! |**Is defined by**|[<http://qudt.org/vocab/sou/>](<http://qudt.org/vocab/sou/>)|
+//! |**Is defined by**|[http://qudt.org/vocab/sou/](http://qudt.org/vocab/sou/)|
 //!
 
 use crate::namespace;
 
 namespace!(
-    "<http://qudt.org/vocab/sou/>",;
+    "http://qudt.org/vocab/sou/",;
     /// ``: 
     NAMESPACE_BASE, "",
     /// `Astronomic System Of Units`: 

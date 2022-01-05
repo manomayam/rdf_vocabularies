@@ -7,15 +7,15 @@
 //! |-----|-----|
 //! |**Title**|W3C Shapes Constraint Language (SHACL) Vocabulary|
 //! |**Prefix**|sh|
-//! |**Namespace base IRI**|[<http://www.w3.org/ns/shacl#>](<http://www.w3.org/ns/shacl#>)|
+//! |**Namespace base IRI**|[http://www.w3.org/ns/shacl#](http://www.w3.org/ns/shacl#)|
 //! |**Description**|This vocabulary defines terms used in SHACL, the W3C Shapes Constraint Language.|
-//! |**Is defined by**|[<http://www.w3.org/ns/shacl#>](<http://www.w3.org/ns/shacl#>)|
+//! |**Is defined by**|[http://www.w3.org/ns/shacl#](http://www.w3.org/ns/shacl#)|
 //!
 
 use crate::namespace;
 
 namespace!(
-    "<http://www.w3.org/ns/shacl#>",;
+    "http://www.w3.org/ns/shacl#",;
     /// `W3C Shapes Constraint Language (SHACL) Vocabulary`: This vocabulary defines terms used in SHACL, the W3C Shapes Constraint Language.
     NAMESPACE_BASE, "",
     /// `Abstract result`: The base class of validation results, typically not instantiated directly.

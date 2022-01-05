@@ -7,15 +7,15 @@
 //! |-----|-----|
 //! |**Title**||
 //! |**Prefix**|shex|
-//! |**Namespace base IRI**|[<http://www.w3.org/ns/shex#>](<http://www.w3.org/ns/shex#>)|
+//! |**Namespace base IRI**|[http://www.w3.org/ns/shex#](http://www.w3.org/ns/shex#)|
 //! |**Description**||
-//! |**Is defined by**|[<http://www.w3.org/ns/shex#>](<http://www.w3.org/ns/shex#>)|
+//! |**Is defined by**|[http://www.w3.org/ns/shex#](http://www.w3.org/ns/shex#)|
 //!
 
 use crate::namespace;
 
 namespace!(
-    "<http://www.w3.org/ns/shex#>",;
+    "http://www.w3.org/ns/shex#",;
     /// ``: 
     NAMESPACE_BASE, "",
     /// `Annotation`: Annotations provide a format-independent way to provide additional information about elements in a schema. 

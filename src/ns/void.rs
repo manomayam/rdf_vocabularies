@@ -7,15 +7,15 @@
 //! |-----|-----|
 //! |**Title**||
 //! |**Prefix**|void|
-//! |**Namespace base IRI**|[<http://rdfs.org/ns/void#>](<http://rdfs.org/ns/void#>)|
+//! |**Namespace base IRI**|[http://rdfs.org/ns/void#](http://rdfs.org/ns/void#)|
 //! |**Description**||
-//! |**Is defined by**|[<http://vocab.deri.ie/void.ttl>](<http://vocab.deri.ie/void.ttl>)|
+//! |**Is defined by**|[http://vocab.deri.ie/void.ttl](http://vocab.deri.ie/void.ttl)|
 //!
 
 use crate::namespace;
 
 namespace!(
-    "<http://rdfs.org/ns/void#>",;
+    "http://rdfs.org/ns/void#",;
     /// ``: 
     NAMESPACE_BASE, "",
     /// `dataset`: A set of RDF triples that are published, maintained or aggregated by a single provider.

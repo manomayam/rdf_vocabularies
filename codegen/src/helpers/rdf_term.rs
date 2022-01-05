@@ -1,5 +1,4 @@
 //! This module provides various helpers to handle sophia rdf terms
-
 use sophia_term::{iri::Iri, literal::Literal, Term};
 use std::hash::Hash;
 
@@ -32,12 +31,10 @@ pub mod tests {
     use std::sync::Arc;
 
     use claim::{assert_none, assert_some};
+    use rdf_utils::models::arc::{ArcIri, ArcLiteral};
     use sophia_term::{literal::Literal, Term};
 
-    use crate::helpers::{
-        rdf_term::some_if_iri,
-        rdf_types::{ArcIri, ArcLiteral},
-    };
+    use crate::helpers::rdf_term::some_if_iri;
 
     use super::some_if_literal;
 

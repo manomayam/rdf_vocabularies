@@ -7,15 +7,15 @@
 //! |-----|-----|
 //! |**Title**|QUDT Disciplines Ontology|
 //! |**Prefix**|discipline|
-//! |**Namespace base IRI**|[<http://qudt.org/vocab/discipline/>](<http://qudt.org/vocab/discipline/>)|
+//! |**Namespace base IRI**|[http://qudt.org/vocab/discipline/](http://qudt.org/vocab/discipline/)|
 //! |**Description**||
-//! |**Is defined by**|[<http://qudt.org/vocab/discipline/>](<http://qudt.org/vocab/discipline/>)|
+//! |**Is defined by**|[http://qudt.org/vocab/discipline/](http://qudt.org/vocab/discipline/)|
 //!
 
 use crate::namespace;
 
 namespace!(
-    "<http://qudt.org/vocab/discipline/>",;
+    "http://qudt.org/vocab/discipline/",;
     /// ``: 
     NAMESPACE_BASE, "",
     /// `Acoustics`: 

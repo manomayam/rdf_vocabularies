@@ -7,15 +7,15 @@
 //! |-----|-----|
 //! |**Title**||
 //! |**Prefix**|xhv|
-//! |**Namespace base IRI**|[<http://www.w3.org/1999/xhtml/vocab#>](<http://www.w3.org/1999/xhtml/vocab#>)|
+//! |**Namespace base IRI**|[http://www.w3.org/1999/xhtml/vocab#](http://www.w3.org/1999/xhtml/vocab#)|
 //! |**Description**||
-//! |**Is defined by**|[<https://www.w3.org/2012/pyRdfa/extract?uri=https%3A%2F%2Fwww.w3.org%2F1999%2Fxhtml%2Fvocab.xhtml&format=turtle&rdfagraph=output&vocab_expansion=false&rdfa_lite=false&embedded_rdf=true&space_preserve=true&vocab_cache=true&vocab_cache_report=false&vocab_cache_refresh=false>](<https://www.w3.org/2012/pyRdfa/extract?uri=https%3A%2F%2Fwww.w3.org%2F1999%2Fxhtml%2Fvocab.xhtml&format=turtle&rdfagraph=output&vocab_expansion=false&rdfa_lite=false&embedded_rdf=true&space_preserve=true&vocab_cache=true&vocab_cache_report=false&vocab_cache_refresh=false>)|
+//! |**Is defined by**|[https://www.w3.org/2012/pyRdfa/extract?uri=https%3A%2F%2Fwww.w3.org%2F1999%2Fxhtml%2Fvocab.xhtml&format=turtle&rdfagraph=output&vocab_expansion=false&rdfa_lite=false&embedded_rdf=true&space_preserve=true&vocab_cache=true&vocab_cache_report=false&vocab_cache_refresh=false](https://www.w3.org/2012/pyRdfa/extract?uri=https%3A%2F%2Fwww.w3.org%2F1999%2Fxhtml%2Fvocab.xhtml&format=turtle&rdfagraph=output&vocab_expansion=false&rdfa_lite=false&embedded_rdf=true&space_preserve=true&vocab_cache=true&vocab_cache_report=false&vocab_cache_refresh=false)|
 //!
 
 use crate::namespace;
 
 namespace!(
-    "<http://www.w3.org/1999/xhtml/vocab#>",;
+    "http://www.w3.org/1999/xhtml/vocab#",;
     /// ``: 
     NAMESPACE_BASE, "",
     /// `alert`: A message       with important, and usually time-sensitive, information. Also see       alertdialog and status.

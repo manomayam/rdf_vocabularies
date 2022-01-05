@@ -7,15 +7,15 @@
 //! |-----|-----|
 //! |**Title**|CSVW Namespace Vocabulary Terms|
 //! |**Prefix**|csvw|
-//! |**Namespace base IRI**|[<http://www.w3.org/ns/csvw#>](<http://www.w3.org/ns/csvw#>)|
+//! |**Namespace base IRI**|[http://www.w3.org/ns/csvw#](http://www.w3.org/ns/csvw#)|
 //! |**Description**|This document describes the RDFS vocabulary description used in the Metadata Vocabulary for Tabular Data [[tabular-metadata]] along with the default JSON-LD Context.|
-//! |**Is defined by**|[<http://www.w3.org/ns/csvw#>](<http://www.w3.org/ns/csvw#>)|
+//! |**Is defined by**|[http://www.w3.org/ns/csvw#](http://www.w3.org/ns/csvw#)|
 //!
 
 use crate::namespace;
 
 namespace!(
-    "<http://www.w3.org/ns/csvw#>",;
+    "http://www.w3.org/ns/csvw#",;
     /// ``: 
     NAMESPACE_BASE, "",
     /// `Cell`: A Cell represents a cell at the intersection of a Row and a Column within a Table.

@@ -7,15 +7,15 @@
 //! |-----|-----|
 //! |**Title**||
 //! |**Prefix**|xsd|
-//! |**Namespace base IRI**|[<http://www.w3.org/2001/XMLSchema#>](<http://www.w3.org/2001/XMLSchema#>)|
+//! |**Namespace base IRI**|[http://www.w3.org/2001/XMLSchema#](http://www.w3.org/2001/XMLSchema#)|
 //! |**Description**||
-//! |**Is defined by**|[<https://raw.githubusercontent.com/ruby-rdf/rdf/master/etc/xsd.ttl>](<https://raw.githubusercontent.com/ruby-rdf/rdf/master/etc/xsd.ttl>)|
+//! |**Is defined by**|[https://raw.githubusercontent.com/ruby-rdf/rdf/master/etc/xsd.ttl](https://raw.githubusercontent.com/ruby-rdf/rdf/master/etc/xsd.ttl)|
 //!
 
 use crate::namespace;
 
 namespace!(
-    "<http://www.w3.org/2001/XMLSchema#>",;
+    "http://www.w3.org/2001/XMLSchema#",;
     /// ``: 
     NAMESPACE_BASE, "",
     /// `ENTITIES`:      ENTITIES represents the ENTITIES attribute type from [XML]. The ·value     space· of ENTITIES is the set of finite, non-zero-length sequences of     ·ENTITY· values that have been declared as unparsed entities in a document     type definition. The ·lexical space· of ENTITIES is the set of     space-separated lists of tokens, of which each token is in the ·lexical     space· of ENTITY. The ·item type· of ENTITIES is ENTITY. ENTITIES is     derived from ·anySimpleType· in two steps: an anonymous list type is     defined, whose ·item type· is ENTITY; this is the ·base type· of ENTITIES,     which restricts its value space to lists with at least one item.   

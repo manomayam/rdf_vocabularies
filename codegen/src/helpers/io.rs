@@ -1,5 +1,5 @@
 use std::{
-    fs::File,
+    fs::{File, self},
     io::{BufWriter, Write},
     path::Path,
 };
@@ -14,4 +14,9 @@ pub fn write_to_file(content: &str, file_path: &Path) -> anyhow::Result<()> {
     .write(content.as_bytes())
     .with_context(|| format!("error in writing to file {}", file_path.to_string_lossy()))?;
     Ok(())
+}
+
+pub fn read_from_file(file_path: &Path) -> anyhow::Result<String> {
+    Ok(fs::read_to_string(file_path)
+            .with_context(|| format!("error in reading file {}", file_path.to_string_lossy()))?)
 }

@@ -7,15 +7,15 @@
 //! |-----|-----|
 //! |**Title**|Friend of a Friend (FOAF) vocabulary|
 //! |**Prefix**|foaf|
-//! |**Namespace base IRI**|[<http://xmlns.com/foaf/0.1/>](<http://xmlns.com/foaf/0.1/>)|
+//! |**Namespace base IRI**|[http://xmlns.com/foaf/0.1/](http://xmlns.com/foaf/0.1/)|
 //! |**Description**|The Friend of a Friend (FOAF) RDF vocabulary, described using W3C RDF Schema and the Web Ontology Language.|
-//! |**Is defined by**|[<http://xmlns.com/foaf/0.1/>](<http://xmlns.com/foaf/0.1/>)|
+//! |**Is defined by**|[http://xmlns.com/foaf/0.1/](http://xmlns.com/foaf/0.1/)|
 //!
 
 use crate::namespace;
 
 namespace!(
-    "<http://xmlns.com/foaf/0.1/>",;
+    "http://xmlns.com/foaf/0.1/",;
     /// ``: 
     NAMESPACE_BASE, "",
     /// `Agent`: An agent (eg. person, group, software or physical artifact).

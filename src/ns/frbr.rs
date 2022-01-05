@@ -7,15 +7,15 @@
 //! |-----|-----|
 //! |**Title**||
 //! |**Prefix**|frbr|
-//! |**Namespace base IRI**|[<http://purl.org/vocab/frbr/core#>](<http://purl.org/vocab/frbr/core#>)|
+//! |**Namespace base IRI**|[http://purl.org/vocab/frbr/core#](http://purl.org/vocab/frbr/core#)|
 //! |**Description**||
-//! |**Is defined by**|[<http://purl.org/spar/frbr.nt>](<http://purl.org/spar/frbr.nt>)|
+//! |**Is defined by**|[http://purl.org/spar/frbr.nt](http://purl.org/spar/frbr.nt)|
 //!
 
 use crate::namespace;
 
 namespace!(
-    "<http://purl.org/vocab/frbr/core#>",;
+    "http://purl.org/vocab/frbr/core#",;
     /// ``: 
     NAMESPACE_BASE, "",
     /// `concept`: An abstract notion or idea.  The entity defined as concept encompasses a comprehensive range of abstractions that may be the subject of a work: fields of knowledge, disciplines, schools of thought (philosophies, religions, political ideologies, etc.), theories, processes, techniques, practices, etc.  A concept may be broad in nature or narrowly defined and precise. 

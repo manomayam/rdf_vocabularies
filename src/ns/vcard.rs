@@ -7,15 +7,15 @@
 //! |-----|-----|
 //! |**Title**|Ontology for vCard|
 //! |**Prefix**|vcard|
-//! |**Namespace base IRI**|[<http://www.w3.org/2006/vcard/ns#>](<http://www.w3.org/2006/vcard/ns#>)|
+//! |**Namespace base IRI**|[http://www.w3.org/2006/vcard/ns#](http://www.w3.org/2006/vcard/ns#)|
 //! |**Description**|Ontology for vCard based on RFC6350|
-//! |**Is defined by**|[<http://www.w3.org/2006/vcard/ns#>](<http://www.w3.org/2006/vcard/ns#>)|
+//! |**Is defined by**|[http://www.w3.org/2006/vcard/ns#](http://www.w3.org/2006/vcard/ns#)|
 //!
 
 use crate::namespace;
 
 namespace!(
-    "<http://www.w3.org/2006/vcard/ns#>",;
+    "http://www.w3.org/2006/vcard/ns#",;
     /// ``: 
     NAMESPACE_BASE, "",
     /// `Acquaintance`: 

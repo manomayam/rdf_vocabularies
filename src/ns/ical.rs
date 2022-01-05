@@ -7,15 +7,15 @@
 //! |-----|-----|
 //! |**Title**||
 //! |**Prefix**|ical|
-//! |**Namespace base IRI**|[<http://www.w3.org/2002/12/cal/icaltzd#>](<http://www.w3.org/2002/12/cal/icaltzd#>)|
+//! |**Namespace base IRI**|[http://www.w3.org/2002/12/cal/icaltzd#](http://www.w3.org/2002/12/cal/icaltzd#)|
 //! |**Description**||
-//! |**Is defined by**|[<http://www.w3.org/2002/12/cal/icaltzd.rdf>](<http://www.w3.org/2002/12/cal/icaltzd.rdf>)|
+//! |**Is defined by**|[http://www.w3.org/2002/12/cal/icaltzd.rdf](http://www.w3.org/2002/12/cal/icaltzd.rdf)|
 //!
 
 use crate::namespace;
 
 namespace!(
-    "<http://www.w3.org/2002/12/cal/icaltzd#>",;
+    "http://www.w3.org/2002/12/cal/icaltzd#",;
     /// ``: 
     NAMESPACE_BASE, "",
     /// `DomainOf_rrule`: 

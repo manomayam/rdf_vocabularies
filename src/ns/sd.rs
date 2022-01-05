@@ -7,15 +7,15 @@
 //! |-----|-----|
 //! |**Title**||
 //! |**Prefix**|sd|
-//! |**Namespace base IRI**|[<http://www.w3.org/ns/sparql-service-description#>](<http://www.w3.org/ns/sparql-service-description#>)|
+//! |**Namespace base IRI**|[http://www.w3.org/ns/sparql-service-description#](http://www.w3.org/ns/sparql-service-description#)|
 //! |**Description**||
-//! |**Is defined by**|[<http://www.w3.org/ns/sparql-service-description#>](<http://www.w3.org/ns/sparql-service-description#>)|
+//! |**Is defined by**|[http://www.w3.org/ns/sparql-service-description#](http://www.w3.org/ns/sparql-service-description#)|
 //!
 
 use crate::namespace;
 
 namespace!(
-    "<http://www.w3.org/ns/sparql-service-description#>",;
+    "http://www.w3.org/ns/sparql-service-description#",;
     /// ``: 
     NAMESPACE_BASE, "",
     /// `Aggregate`: An instance of sd:Aggregate represents an aggregate that may be used in a SPARQL aggregate query (for instance in a HAVING clause or SELECT expression) besides the standard list of supported aggregates COUNT, SUM, MIN, MAX, AVG, GROUP_CONCAT, and SAMPLE.

@@ -7,15 +7,15 @@
 //! |-----|-----|
 //! |**Title**||
 //! |**Prefix**|dtype|
-//! |**Namespace base IRI**|[<http://www.linkedmodel.org/schema/dtype#>](<http://www.linkedmodel.org/schema/dtype#>)|
+//! |**Namespace base IRI**|[http://www.linkedmodel.org/schema/dtype#](http://www.linkedmodel.org/schema/dtype#)|
 //! |**Description**||
-//! |**Is defined by**|[<http://www.linkedmodel.org/schema/dtype#>](<http://www.linkedmodel.org/schema/dtype#>)|
+//! |**Is defined by**|[http://www.linkedmodel.org/schema/dtype#](http://www.linkedmodel.org/schema/dtype#)|
 //!
 
 use crate::namespace;
 
 namespace!(
-    "<http://www.linkedmodel.org/schema/dtype#>",;
+    "http://www.linkedmodel.org/schema/dtype#",;
     /// ``: 
     NAMESPACE_BASE, "",
     /// `Codelist`: 

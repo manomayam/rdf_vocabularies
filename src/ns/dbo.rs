@@ -7,15 +7,15 @@
 //! |-----|-----|
 //! |**Title**|The DBpedia Ontology|
 //! |**Prefix**|dbo|
-//! |**Namespace base IRI**|[<http://dbpedia.org/ontology/>](<http://dbpedia.org/ontology/>)|
+//! |**Namespace base IRI**|[http://dbpedia.org/ontology/](http://dbpedia.org/ontology/)|
 //! |**Description**|The DBpedia ontology provides the classes and properties used in the DBpedia data set.|
-//! |**Is defined by**|[<http://dbpedia.org/ontology/>](<http://dbpedia.org/ontology/>)|
+//! |**Is defined by**|[http://dbpedia.org/ontology/](http://dbpedia.org/ontology/)|
 //!
 
 use crate::namespace;
 
 namespace!(
-    "<http://dbpedia.org/ontology/>",;
+    "http://dbpedia.org/ontology/",;
     /// ``:                This ontology is generated from the manually created specifications in the DBpedia Mappings               Wiki. Each release of this ontology corresponds to a new release of the DBpedia data set which               contains instance data extracted from the different language versions of Wikipedia. For               information regarding changes in this ontology, please refer to the DBpedia Mappings Wiki.             
     NAMESPACE_BASE, "",
     /// `%3Chttp://vocab.org/transit/terms/stop%3E`: 

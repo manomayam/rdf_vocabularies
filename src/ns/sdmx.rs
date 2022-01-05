@@ -7,15 +7,15 @@
 //! |-----|-----|
 //! |**Title**|Vocabulary for publishing SDMX statistical data in RDF|
 //! |**Prefix**|sdmx|
-//! |**Namespace base IRI**|[<http://purl.org/linked-data/sdmx#>](<http://purl.org/linked-data/sdmx#>)|
+//! |**Namespace base IRI**|[http://purl.org/linked-data/sdmx#](http://purl.org/linked-data/sdmx#)|
 //! |**Description**|This vocabulary extends the data cube vocabulary to support publication of statistical data in RDF, using an information model based on SDMX|
-//! |**Is defined by**|[<http://purl.org/linked-data/sdmx#>](<http://purl.org/linked-data/sdmx#>)|
+//! |**Is defined by**|[http://purl.org/linked-data/sdmx#](http://purl.org/linked-data/sdmx#)|
 //!
 
 use crate::namespace;
 
 namespace!(
-    "<http://purl.org/linked-data/sdmx#>",;
+    "http://purl.org/linked-data/sdmx#",;
     /// ``: 
     NAMESPACE_BASE, "",
     /// `Concept scheme`: 
