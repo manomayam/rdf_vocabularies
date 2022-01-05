@@ -106,7 +106,7 @@ namespace!(
     HyperlinkViewer, "HyperlinkViewer",
     /// `ID`: ID properties are short strings or other literals that identify the focus node among siblings. Examples may include social security numbers.
     IDRole, "IDRole",
-    /// `Icon`: Icon properties produce images that are typically small and almost square-shaped, and that may be displayed in the upper left corner of a focus node's display. Values should be xsd:string or xsd:anyURI literals or IRI nodes pointing at URLs. Those URLs should ideally be vector graphics such as .svg files.  Instances of the same class often have the same icon, and this icon may be computed using a sh:values rule or as sh:defaultValue.  If the value is a relative URL then those should be resolved against the server that delivered the surrounding page.
+    /// `Icon`: Icon properties produce images that are typically small and almost square-shaped, and that may be displayed in the upper left corner of a focus node's display. Values should be xsd:string or xsd:anyURI literals or IRI nodes pointing at URLs. Those URLs should ideally be vector graphics such as .svg files.  Instances of the same class often have the same icon, and this icon may be computed using a sh:values rule or as sh:defaultValue.  If the value is a relative URL then those should be resolved against the server that delivered the surrounding page.
     IconRole, "IconRole",
     /// `Image viewer`: A Viewer for URI values that are recognized as images by a browser, rendering as an image.
     ImageViewer, "ImageViewer",

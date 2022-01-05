@@ -30,9 +30,9 @@ namespace!(
     Affiliation, "Affiliation",
     /// `Agent`: A person / contact or organisation.
     Agent, "Agent",
-    /// `Ancillary data`: Any ancillary data provided with the content             other than captioning and subtitling.
+    /// `Ancillary data`: Any ancillary data provided with the content             other than captioning and subtitling.
     AncillaryData, "AncillaryData",
-    /// `Ancillary data format`: To define the format of AncillaryData such as             legacy data used to be carried in vertical blanking intervals. This is provided as free             text in an annotation label or as an identifier pointing to a term in a classification             scheme.
+    /// `Ancillary data format`: To define the format of AncillaryData such as             legacy data used to be carried in vertical blanking intervals. This is provided as free             text in an annotation label or as an identifier pointing to a term in a classification             scheme.
     AncillaryDataFormat, "AncillaryDataFormat",
     /// `Animal`: To identify an animal.
     Animal, "Animal",
@@ -48,15 +48,15 @@ namespace!(
     Artefact, "Artefact",
     /// `Artefact type`: To define a type of artefact.
     Artefact_Type, "Artefact_Type",
-    /// `Asset`: The Class "Asset" is an             object to which an identifier will be associated at commissioning. It will serve as a             central reference point to manage rights associated to EditorialObjects, Resources,             MediaResources or Essences, and PublicationEvents (distribution and exploitation             conditions).
+    /// `Asset`: The Class "Asset" is an             object to which an identifier will be associated at commissioning. It will serve as a             central reference point to manage rights associated to EditorialObjects, Resources,             MediaResources or Essences, and PublicationEvents (distribution and exploitation             conditions).
     Asset, "Asset",
     /// `Asset type`: To define a type of asset.
     Asset_Type, "Asset_Type",
     /// `Atmosphere`: To describe a feeling summarising the atmosphere.
     Atmosphere, "Atmosphere",
-    /// `Target audience`: The target audience (target region, target             audience category but also parental guidance recommendation) for which the media             resource is intended.
+    /// `Target audience`: The target audience (target region, target             audience category but also parental guidance recommendation) for which the media             resource is intended.
     AudienceLevel, "AudienceLevel",
-    /// `Audience rating`: The audience by which the Resource can be             seen according to ratings like MPAA  (http://en.wikipedia.org/wiki/Motion_picture_rating_system) or other organisational / national / local standards.
+    /// `Audience rating`: The audience by which the Resource can be             seen according to ratings like MPAA  (http://en.wikipedia.org/wiki/Motion_picture_rating_system) or other organisational / national / local standards.
     AudienceRating, "AudienceRating",
     /// `Audience score recording technique`: To define the technique use to measure an audience score.
     AudienceScoreRecordingTechnique, "AudienceScoreRecordingTechnique",
@@ -66,7 +66,7 @@ namespace!(
     AudioChannelPurpose, "AudioChannelPurpose",
     /// `Audio codec`: To provide information about an audio codec.
     AudioCodec, "AudioCodec",
-    /// `Audio content`: An audioContent defines one component of a programme (e.g. background 				music), its association with an audioGroup (e.g. a 2.0 audioPackFormat of 				audioChannelFormats for stereo reproduction), its association with an 				audioStreamFormat, and its set of loudness parameters.
+    /// `Audio content`: An audioContent defines one component of a programme (e.g. background 				music), its association with an audioGroup (e.g. a 2.0 audioPackFormat of 				audioChannelFormats for stereo reproduction), its association with an 				audioStreamFormat, and its set of loudness parameters.
     AudioContent, "AudioContent",
     /// `Audio content type`: to define a type of AudioContent.
     AudioContent_Type, "AudioContent_Type",
@@ -78,13 +78,13 @@ namespace!(
     AudioFormat, "AudioFormat",
     /// `Audio object`: To define an audio object in reference to the Audio Definition Model (ADM)
     AudioObject, "AudioObject",
-    /// `Audio programme`: A set of one or more audioContent that derive from the same material, 				i.e. an audioMultiplex, and the definition of its multiplexed audioContents (e.g. 				foreground and commentary, background music).
+    /// `Audio programme`: A set of one or more audioContent that derive from the same material, 				i.e. an audioMultiplex, and the definition of its multiplexed audioContents (e.g. 				foreground and commentary, background music).
     AudioProgramme, "AudioProgramme",
     /// `Audio programme type`: to define a type of AudioProgramme.
     AudioProgramme_Type, "AudioProgramme_Type",
     /// `Audio stream`: An audioStreamFormat describes a decodable signal - PCM signal or a Dolby E stream for example. It is composed of one or more AudioTracks.
     AudioStream, "AudioStream",
-    /// `Audio track`: An audioTrack is the basic audio data container of a medium. Attribute is 				an unambiguous reference to this container in a given medium.
+    /// `Audio track`: An audioTrack is the basic audio data container of a medium. Attribute is 				an unambiguous reference to this container in a given medium.
     AudioTrack, "AudioTrack",
     /// `Audio track purpose`: To describe the purpose of an AudioTrack e.g. dubbing.
     AudioTrackPurpose, "AudioTrackPurpose",
@@ -102,19 +102,19 @@ namespace!(
     BibliographicalObject, "BibliographicalObject",
     /// `Biography`: To record a biography.
     Biography, "Biography",
-    /// `Brand`: A group of EditorialObjects having a Brand as a             common denominator.
+    /// `Brand`: A group of EditorialObjects having a Brand as a             common denominator.
     Brand, "Brand",
     /// `Breaking news item`: To describe a breaking news.
     BreakingNewsItem, "BreakingNewsItem",
-    /// `Business Object`: An image, a document, an annotation             (descriptive textual metadata or audio/video tag), a tag (time related in audiovisual             media resources), or an audiovisual media resource (optionally composed of one or more             fragment / part and / or audio, video data tracks). Other types of BusinessObjects may             be defined as subclasses.
+    /// `Business Object`: An image, a document, an annotation             (descriptive textual metadata or audio/video tag), a tag (time related in audiovisual             media resources), or an audiovisual media resource (optionally composed of one or more             fragment / part and / or audio, video data tracks). Other types of BusinessObjects may             be defined as subclasses.
     BusinessObject, "BusinessObject",
     /// `Business object type`: To define a type of business object.
     BusinessObject_Type, "BusinessObject_Type",
-    /// `Captioning`: To signal the presence of hard of hearing             captioning.
+    /// `Captioning`: To signal the presence of hard of hearing             captioning.
     Captioning, "Captioning",
-    /// `Captioning format`: To define the format of captioning.             Captioning's main use isfor hard of hearing transcription. This is provided as             free text in an annotation label or as an identifier pointing to a term in a             classification scheme.
+    /// `Captioning format`: To define the format of captioning.             Captioning's main use isfor hard of hearing transcription. This is provided as             free text in an annotation label or as an identifier pointing to a term in a             classification scheme.
     CaptioningFormat, "CaptioningFormat",
-    /// `Cast member`: A member of the cast list (a list of performers/actors and associated fictitious             characters).
+    /// `Cast member`: A member of the cast list (a list of performers/actors and associated fictitious             characters).
     Cast, "Cast",
     /// `Character`: E.g. a fictitious contact / person.
     Character, "Character",
@@ -122,15 +122,15 @@ namespace!(
     CityCode, "CityCode",
     /// `Clip`: For use in models where Clip is common.
     Clip, "Clip",
-    /// `Closed caption`: Closed captioning is provided as separate             content.
+    /// `Closed caption`: Closed captioning is provided as separate             content.
     ClosedCaptions, "ClosedCaptions",
-    /// `Closed subtitling`: Closed subtitles are provided as separate             content.
+    /// `Closed subtitling`: Closed subtitles are provided as separate             content.
     ClosedSubtitling, "ClosedSubtitling",
     /// `Codec`: To provide information on a codec.
     Codec, "Codec",
-    /// `Collection`: A group of EditorialObjects. There can be many             types of collections for which specific sub-classes should be defined. In the worl of             archives, A collection corresponds to all items belonging to an individual /             collector.
+    /// `Collection`: A group of EditorialObjects. There can be many             types of collections for which specific sub-classes should be defined. In the worl of             archives, A collection corresponds to all items belonging to an individual /             collector.
     Collection, "Collection",
-    /// `Colour space`: The CoulourSpace of a VideoResource. A             ColourSpace is defined as free text in an annotation label or as an identifier pointing             to a term in a classification scheme such as             http://www.ebu.ch/metadata/ontologies/skos/ebu_ColourCodeCS.rdf.
+    /// `Colour space`: The CoulourSpace of a VideoResource. A             ColourSpace is defined as free text in an annotation label or as an identifier pointing             to a term in a classification scheme such as             http://www.ebu.ch/metadata/ontologies/skos/ebu_ColourCodeCS.rdf.
     ColourSpace, "ColourSpace",
     /// `Commercial code`: To identify a type of commercial content.
     CommercialCode, "CommercialCode",
@@ -142,7 +142,7 @@ namespace!(
     ContainerCodec, "ContainerCodec",
     /// `Container encoding format`: To define the conatiner encoding format.
     ContainerEncodingFormat, "ContainerEncodingFormat",
-    /// `Container Mime type`: The definition of the container if available as             a MIME type. This is provided as free text in an annotation label or as an identifier             pointing to a term in a classification scheme. For more information:             http://www.iana.org/assignments/media-types/application/index.html.
+    /// `Container Mime type`: The definition of the container if available as             a MIME type. This is provided as free text in an annotation label or as an identifier             pointing to a term in a classification scheme. For more information:             http://www.iana.org/assignments/media-types/application/index.html.
     ContainerMimeType, "ContainerMimeType",
     /// `Content alert`: To provide information about a particular type of content potentially sensitive.
     ContentAlert, "ContentAlert",
@@ -152,7 +152,7 @@ namespace!(
     ContentEditorialFormat, "ContentEditorialFormat",
     /// `Contract type`: To define a type of contract.
     ContractType, "ContractType",
-    /// `Copyright`: To provide a copyright             statement.
+    /// `Copyright`: To provide a copyright             statement.
     Copyright, "Copyright",
     /// `Costume`: To identify and describe Costumes used in productions.
     Costume, "Costume",
@@ -160,7 +160,7 @@ namespace!(
     CostumeType, "CostumeType",
     /// `Country code`: To identify a country by its ISO code.
     CountryCode, "CountryCode",
-    /// `Coverage restrictions`: To provide information on possible restrictions             regarding the temporal and spatial coverage for publication.
+    /// `Coverage restrictions`: To provide information on possible restrictions             regarding the temporal and spatial coverage for publication.
     CoverageRestrictions, "CoverageRestrictions",
     /// `Creative commons`: A set of creative commons rights.
     CreativeCommons, "CreativeCommons",
@@ -170,25 +170,25 @@ namespace!(
     CuisineStyle, "CuisineStyle",
     /// `Currency code`: To identify a currency by its ISO code.
     CurrencyCode, "CurrencyCode",
-    /// `DID`: The Data Identifier word (along with the SDID,             if used), indicates the type of ancillary data that the packet corresponds             to.
+    /// `DID`: The Data Identifier word (along with the SDID,             if used), indicates the type of ancillary data that the packet corresponds             to.
     DID, "DID",
-    /// `Data format`: To provide addtional technical information on             the characteristics of data streams in a MediaResource including but not limited to             AncillaryData, Subtilting and Captioning. Additional specific data format may be defined             as subclasses of DataFormat.
+    /// `Data format`: To provide addtional technical information on             the characteristics of data streams in a MediaResource including but not limited to             AncillaryData, Subtilting and Captioning. Additional specific data format may be defined             as subclasses of DataFormat.
     DataFormat, "DataFormat",
-    /// `Data track`: Ancillary data track e.g. Â¨captioning"             or "subtitling" in addition to video and audio tracks.
+    /// `Data track`: Ancillary data track e.g. Â¨captioning"             or "subtitling" in addition to video and audio tracks.
     DataTrack, "DataTrack",
-    /// `Department`: A department within and             organisation.
+    /// `Department`: A department within and             organisation.
     Department, "Department",
-    /// `Depicted Event`: A DepictedEVent is fictitious or historical or             other sort of Event that the content of the BusinessObject or resource relates             to.
+    /// `Depicted Event`: A DepictedEVent is fictitious or historical or             other sort of Event that the content of the BusinessObject or resource relates             to.
     DepictedEvent, "DepictedEvent",
-    /// `Disclaimer`: To provide a disclaimer of any             form.
+    /// `Disclaimer`: To provide a disclaimer of any             form.
     Disclaimer, "Disclaimer",
-    /// `Document`: To describe a publication in the form of a             document e.g. a html webpage (news item) or a pdf document e.g. a script.
+    /// `Document`: To describe a publication in the form of a             document e.g. a html webpage (news item) or a pdf document e.g. a script.
     Document, "Document",
-    /// `Document format`: To provide technical information about the             format of a document such as the orientation. This is provided as free text in an             annotation label or as an identifier pointing to a term in a classification             scheme.
+    /// `Document format`: To provide technical information about the             format of a document such as the orientation. This is provided as free text in an             annotation label or as an identifier pointing to a term in a classification             scheme.
     DocumentFormat, "DocumentFormat",
     /// `Dopesheet`: Provides additional information about a NewsItem, e.g. date and place, subject.
     Dopesheet, "Dopesheet",
-    /// `Editorial Object`: In the audiovisual domain, the Class             EditorialObject transforms a commissioned concept into an editorial definition of a             MediaResource before fabrication (in the Production Domain) and Distribution (in the             Distribution Domain). An EditorialObject is a set of descriptive metadata summarising             e.g. editing decisions. An EditorialObject can also be a part of an EditorialObject,             which is defined by its start time and duration. An EditorialObject can also be a group             of EditorialObjects. For example a series composed of episodes is defined as an             EditorialObject.
+    /// `Editorial Object`: In the audiovisual domain, the Class             EditorialObject transforms a commissioned concept into an editorial definition of a             MediaResource before fabrication (in the Production Domain) and Distribution (in the             Distribution Domain). An EditorialObject is a set of descriptive metadata summarising             e.g. editing decisions. An EditorialObject can also be a part of an EditorialObject,             which is defined by its start time and duration. An EditorialObject can also be a group             of EditorialObjects. For example a series composed of episodes is defined as an             EditorialObject.
     EditorialObject, "EditorialObject",
     /// `Editorial object type`: To define a type of editorial object.
     EditorialObject_Type, "EditorialObject_Type",
@@ -196,19 +196,19 @@ namespace!(
     Emotion, "Emotion",
     /// `Emotion type`: To define a type of emotion.
     Emotion_Type, "Emotion_Type",
-    /// `Encoding`: To provide a definition of the encoding format             for audio and video. This is provided as free text in an annotation label or as an             identifier pointing to a term in a classification scheme e.g.             http://www.ebu.ch/metadata/ontologies/skos/ebu_AudioCompressionCodeCS.rdf or             http://www.ebu.ch/metadata/ontologies/skos/ebu_VideoCompressionCodeCS.rdf.
+    /// `Encoding`: To provide a definition of the encoding format             for audio and video. This is provided as free text in an annotation label or as an             identifier pointing to a term in a classification scheme e.g.             http://www.ebu.ch/metadata/ontologies/skos/ebu_AudioCompressionCodeCS.rdf or             http://www.ebu.ch/metadata/ontologies/skos/ebu_VideoCompressionCodeCS.rdf.
     EncodingFormat, "EncodingFormat",
     /// `Episode`: To describe an episode in a series.
     Episode, "Episode",
     /// `Essence`: Essence is content ready for distribution. Essence can become a MediaResource in further production processes.
     Essence, "Essence",
-    /// `Event`: Additional types of event shall be defined as             new sub-classes of event.
+    /// `Event`: Additional types of event shall be defined as             new sub-classes of event.
     Event, "Event",
     /// `Event type`: To define a type of event.
     EventType, "EventType",
     /// `Exclusivity type`: To define a type of exclusity rights.
     ExclusivityType, "ExclusivityType",
-    /// `Exploitation issues`: To highlight potential exploitation             issues.
+    /// `Exploitation issues`: To highlight potential exploitation             issues.
     ExploitationIssues, "ExploitationIssues",
     /// `Feature`: The editorial object for a feature film.
     Feature, "Feature",
@@ -220,31 +220,31 @@ namespace!(
     FictionalOrganisation, "FictionalOrganisation",
     /// `Fictional person`: To describe a fictional Person, e.g. a character in a drama.
     FictionalPerson, "FictionalPerson",
-    /// `File format`: A file format for Resources other than             audiovisual resources. The format is defined as free text or pointing at a term in a             classification scheme e.g.             http://www.ebu.ch/metadata/ontologies/skos/ebu_FileFormatCS.rdf.
+    /// `File format`: A file format for Resources other than             audiovisual resources. The format is defined as free text or pointing at a term in a             classification scheme e.g.             http://www.ebu.ch/metadata/ontologies/skos/ebu_FileFormatCS.rdf.
     FileFormat, "FileFormat",
     /// `Food`: To describe Food shown or consumed in productions.
     Food, "Food",
     /// `Food style`: To define a style of food.
     FoodStyle, "FoodStyle",
-    /// `Format`: The format provides technical information on             the format of a Resource. A BusinessObject can be instantiated in a variety of Resources             each in a particular Format. Other specific data formats may be defined as subclasses of             format.
+    /// `Format`: The format provides technical information on             the format of a Resource. A BusinessObject can be instantiated in a variety of Resources             each in a particular Format. Other specific data formats may be defined as subclasses of             format.
     Format, "Format",
     /// `Generation`: Identifies the generation of a version of a resource, i.e. master, edit master, distribution copy, etc.
     Generation, "Generation",
-    /// `Genre`: This class shall be used to provide information             on the genre of the BusinessObject or Resource. This is provided as free text in an             annotation label or as an identifier pointing to a term in a classification scheme e.g.             http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS.rdf or             http://www.ebu.ch/metadata/ontologies/skos/ebu_EditorialFormatCodeCS.rdf.
+    /// `Genre`: This class shall be used to provide information             on the genre of the BusinessObject or Resource. This is provided as free text in an             annotation label or as an identifier pointing to a term in a classification scheme e.g.             http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS.rdf or             http://www.ebu.ch/metadata/ontologies/skos/ebu_EditorialFormatCodeCS.rdf.
     Genre, "Genre",
-    /// `Group`: To define a collection / group of media             resources, for example a series made of episodes.
+    /// `Group`: To define a collection / group of media             resources, for example a series made of episodes.
     Group, "Group",
-    /// `IPR restrictions`: To provide information on intellectual             property.
+    /// `IPR restrictions`: To provide information on intellectual             property.
     IPRRestrictions, "IPRRestrictions",
     /// `Identifier`: To support the use of structured identifiers.
     Identifier, "Identifier",
     /// `Identifier type`: To define a type of identifier.
     IdentifierType, "IdentifierType",
-    /// `Image`: A still image / thumbnail / key frame / logo             related to the media resource or being the media resource itself.
+    /// `Image`: A still image / thumbnail / key frame / logo             related to the media resource or being the media resource itself.
     Image, "Image",
     /// `Image codec`: to identify a codec for images
     ImageCodec, "ImageCodec",
-    /// `Image format`: To provide technical information about the             format of an image such as the orientation. This is provided as free text in an             annotation label or as an identifier pointing to a term in a classification             scheme.
+    /// `Image format`: To provide technical information about the             format of an image such as the orientation. This is provided as free text in an             annotation label or as an identifier pointing to a term in a classification             scheme.
     ImageFormat, "ImageFormat",
     /// `Intention code`: To indicate the purpose for which content was created.
     IntentionCode, "IntentionCode",
@@ -256,17 +256,17 @@ namespace!(
     KeyEvent, "KeyEvent",
     /// `Key personal event`: A key personal Event of a Contact.
     KeyPersonalEvent, "KeyPersonalEvent",
-    /// `key frame`: A key frame is a frame extarcted from video,             e.g. representative of a part of a MediaResource.
+    /// `key frame`: A key frame is a frame extarcted from video,             e.g. representative of a part of a MediaResource.
     Keyframe, "Keyframe",
-    /// `Keyword`: To proivde keywords and define key concepts             illustrating the content of the Resource or EditorialObject. This is provided as free             text in an annotation label or as an identifier pointing to a term in a classification             scheme.
+    /// `Keyword`: To proivde keywords and define key concepts             illustrating the content of the Resource or EditorialObject. This is provided as free             text in an annotation label or as an identifier pointing to a term in a classification             scheme.
     Keyword, "Keyword",
-    /// `Language`: To provide information on languages present in             the BusinessObject and its purpose. This is provided as free text in an annotation label             or as an identifier pointing to a term in a classification scheme.Other language             specific types may be added as subclasses of language.
+    /// `Language`: To provide information on languages present in             the BusinessObject and its purpose. This is provided as free text in an annotation label             or as an identifier pointing to a term in a classification scheme.Other language             specific types may be added as subclasses of language.
     Language, "Language",
     /// `Licensing`: To define the licensing terms associated with an Asset.
     Licensing, "Licensing",
     /// `Link`: To define a custom link.
     Link, "Link",
-    /// `Location`: A location related to the media resource, e.g.             depicted in the resource (possibly fictional) or where the resource was created             (shooting location), etc.
+    /// `Location`: A location related to the media resource, e.g.             depicted in the resource (possibly fictional) or where the resource was created             (shooting location), etc.
     Location, "Location",
     /// `Location code.`: A code given to a Location.
     LocationCode, "LocationCode",
@@ -276,35 +276,35 @@ namespace!(
     LocationType, "LocationType",
     /// `Locator`: Custom attributes are to be associated by implementers.
     Locator, "Locator",
-    /// `Logo`: A Logo allows to visually identify an             organisation, publicationService, publicationChannel, or ratings /             parentalGuidance
+    /// `Logo`: A Logo allows to visually identify an             organisation, publicationService, publicationChannel, or ratings /             parentalGuidance
     Logo, "Logo",
     /// `Media Fragment`: A MediaFragment is a temporal or spatial segment of a resource identified by a MediaGragment URI (http://www.w3.org/2008/WebVideo/Fragments/WD-media-fragments-spec/).
     MediaFragment, "MediaFragment",
-    /// `Media Resource`: The use of MediaResource is reserved to             audiovisual content. In a production process, several MediaResources can be edited and assembled to realsie an Essence ready for distribution (see IMF package and OPL)
+    /// `Media Resource`: The use of MediaResource is reserved to             audiovisual content. In a production process, several MediaResources can be edited and assembled to realsie an Essence ready for distribution (see IMF package and OPL)
     MediaResource, "MediaResource",
     /// `Media resource type`: To define a type of MediaResource.
     MediaResource_Type, "MediaResource_Type",
     /// `Media type`: To provide additional information on the type of media.
     MediaType, "MediaType",
-    /// `Medium`: To provide information on the medium formats in             which the resource is available. This is provided as free text in an annotation label or             as an identifier pointing to a term in a classification scheme.
+    /// `Medium`: To provide information on the medium formats in             which the resource is available. This is provided as free text in an annotation label or             as an identifier pointing to a term in a classification scheme.
     Medium, "Medium",
     /// `Metadata track`: A Track on which metadata is embedded (e.g. MXF).
     MetadataTrack, "MetadataTrack",
-    /// `Mime type`: The definition of the container if available as             a MIME type. This is provided as free text in an annotation label or as an identifier             pointing to a term in a classification scheme. For more information:             http://www.iana.org/assignments/media-types/index.html.
+    /// `Mime type`: The definition of the container if available as             a MIME type. This is provided as free text in an annotation label or as an identifier             pointing to a term in a classification scheme. For more information:             http://www.iana.org/assignments/media-types/index.html.
     MimeType, "MimeType",
     /// `News Item`: A NewsItem aggregates all information about a particular news event.
     NewsItem, "NewsItem",
-    /// `Object type`: To specify the type of BusinessObject e.g. and             EditorialObject of type "programme" or clip". This is             provided as free text in an annotation label or as an identifier pointing to a term in a             classification scheme e.g.             http://www.ebu.ch/metadata/ontologies/skos/ebu_ObjectTypeCodeCS.rdf.
+    /// `Object type`: To specify the type of BusinessObject e.g. and             EditorialObject of type "programme" or clip". This is             provided as free text in an annotation label or as an identifier pointing to a term in a             classification scheme e.g.             http://www.ebu.ch/metadata/ontologies/skos/ebu_ObjectTypeCodeCS.rdf.
     ObjectType, "ObjectType",
-    /// `Open captions`: Open Captions are burned in the             image.
+    /// `Open captions`: Open Captions are burned in the             image.
     OpenCaptions, "OpenCaptions",
-    /// `Open subtitling`: Open subtitles are burned in the             image.
+    /// `Open subtitling`: Open subtitles are burned in the             image.
     OpenSubtitling, "OpenSubtitling",
     /// `Organisation`: An organisation (business, corporation, federation, etc.) or moral agent (government body).
     Organisation, "Organisation",
-    /// `Language`: The original language in which the             BusinessObject or Resource has been created and released. This is provided as free text             in an annotation label or as an identifier pointing to a term in a classification             scheme.
+    /// `Language`: The original language in which the             BusinessObject or Resource has been created and released. This is provided as free text             in an annotation label or as an identifier pointing to a term in a classification             scheme.
     OriginalLanguage, "OriginalLanguage",
-    /// `Part, Fragment, Segment`: A Fragment is a particular section of a             MediaResource identified by a start and end time or duration. Fragment can also be             called segment or part.
+    /// `Part, Fragment, Segment`: A Fragment is a particular section of a             MediaResource identified by a start and end time or duration. Fragment can also be             called segment or part.
     Part, "Part",
     /// `Part type`: To define a type or part.
     Part_Type, "Part_Type",
@@ -322,21 +322,21 @@ namespace!(
     PictureDisplayFormat, "PictureDisplayFormat",
     /// `Platform`: A platform like a network or operator platform.
     Platform, "Platform",
-    /// `Programme`: An EditorialObject corresponding to a             MediaResource ready for publication.
+    /// `Programme`: An EditorialObject corresponding to a             MediaResource ready for publication.
     Programme, "Programme",
     /// `Props`: To identify and describe Props used in productions (e.g. vehicles, objects of various shapes and brand and purpose, etc.).
     Props, "Props",
     /// `Provenance`: 
     Provenance, "Provenance",
-    /// `Publication Channel`: The name of the channel through which a             Resource has been published as a PublicationEvent. A PublicationChannel can use a             variety of medias e.g. broadcast or online.
+    /// `Publication Channel`: The name of the channel through which a             Resource has been published as a PublicationEvent. A PublicationChannel can use a             variety of medias e.g. broadcast or online.
     PublicationChannel, "PublicationChannel",
     /// `Publication channel type`: To define a type of publication channel.
     PublicationChannel_Type, "PublicationChannel_Type",
-    /// `Publication Event`: To describe any manifestation of a media             resource on any media (live, on demand, catch-up TV, etc.) and the appropriate             PublciationChannel.
+    /// `Publication Event`: To describe any manifestation of a media             resource on any media (live, on demand, catch-up TV, etc.) and the appropriate             PublciationChannel.
     PublicationEvent, "PublicationEvent",
     /// `Publication event type`: To define a type of publication event.
     PublicationEvent_Type, "PublicationEvent_Type",
-    /// `Publication History`: A collection of PublicationEvents through which             a resource has been published.
+    /// `Publication History`: A collection of PublicationEvents through which             a resource has been published.
     PublicationHistory, "PublicationHistory",
     /// `Publication medium`: 
     PublicationMedium, "PublicationMedium",
@@ -344,9 +344,9 @@ namespace!(
     PublicationPlan, "PublicationPlan",
     /// `Publication plan type`: To define a type of publication plan.
     PublicationPlan_Type, "PublicationPlan_Type",
-    /// `Radio Programme`: A programme for distribution on radio             channels.
+    /// `Radio Programme`: A programme for distribution on radio             channels.
     RadioProgramme, "RadioProgramme",
-    /// `Rating`: All the information about the rating/evaluation             given to a media resource by an Agent i.e. a person/Contact or             Organisation.
+    /// `Rating`: All the information about the rating/evaluation             given to a media resource by an Agent i.e. a person/Contact or             Organisation.
     Rating, "Rating",
     /// `Record`: The record the description of an Asset.
     Record, "Record",
@@ -362,23 +362,23 @@ namespace!(
     Resource_Type, "Resource_Type",
     /// `Review`: To provide a Review.
     Review, "Review",
-    /// `Rights`: To provide information on the rights, including             intellectual property, related to a BusinessObject or Resource.
+    /// `Rights`: To provide information on the rights, including             intellectual property, related to a BusinessObject or Resource.
     Rights, "Rights",
-    /// `Rights Clearance`: To signal that rights have been cleared (or             not)
+    /// `Rights Clearance`: To signal that rights have been cleared (or             not)
     RightsClearance, "RightsClearance",
     /// `Rights type`: To define a type of Rights.
     RightsType, "RightsType",
-    /// `Role`: To define the role / action of an agent. This             is provided as free text in an annotation label or as an identifier pointing to a term             in a classification scheme.
+    /// `Role`: To define the role / action of an agent. This             is provided as free text in an annotation label or as an identifier pointing to a term             in a classification scheme.
     Role, "Role",
-    /// `SDID`: Secondary data identification word for             ancillary data. Send mode identifier. An identifier which indicates the transmission             timing for closed caption data.
+    /// `SDID`: Secondary data identification word for             ancillary data. Send mode identifier. An identifier which indicates the transmission             timing for closed caption data.
     SDID, "SDID",
     /// `Scene`: A specifc type of Part.
     Scene, "Scene",
-    /// `Season`: A series can be composed of one or more seasons             clustering a certain number of episodes. Fro this reason, seasons are related to series             using the isRelatedTo property.
+    /// `Season`: A series can be composed of one or more seasons             clustering a certain number of episodes. Fro this reason, seasons are related to series             using the isRelatedTo property.
     Season, "Season",
-    /// `Series`: Series is a particular type of collection. TV             or Radio Series are composed of Episodes.
+    /// `Series`: Series is a particular type of collection. TV             or Radio Series are composed of Episodes.
     Series, "Series",
-    /// `Service`: A service is the umbrella under which one or             more PublicationChannel is operated.
+    /// `Service`: A service is the umbrella under which one or             more PublicationChannel is operated.
     Service, "Service",
     /// `Service type`: To define a type of service.
     Service_Type, "Service_Type",
@@ -386,9 +386,9 @@ namespace!(
     Shot, "Shot",
     /// `Sign language code`: To identify a sign language by its code.
     SignLanguageCode, "SignLanguageCode",
-    /// `Signing`: To signal the presence of Signing for hard of             hearing users. The type of Signing (e.g. incursted in or else) or language of Signing             can be specified using the appropriate properties.
+    /// `Signing`: To signal the presence of Signing for hard of             hearing users. The type of Signing (e.g. incursted in or else) or language of Signing             can be specified using the appropriate properties.
     Signing, "Signing",
-    /// `Signing format`: To provide additional information on the             signing format. This is provided as free text in an annotation label or as an identifier             pointing to a term in a classification scheme.
+    /// `Signing format`: To provide additional information on the             signing format. This is provided as free text in an annotation label or as an identifier             pointing to a term in a classification scheme.
     SigningFormat, "SigningFormat",
     /// `Sport item`: A SportItem aggregates all information about a sport event.
     SportItem, "SportItem",
@@ -398,17 +398,17 @@ namespace!(
     Standard, "Standard",
     /// `Sticker`: A sticker associated with a Costume.
     Sticker, "Sticker",
-    /// `Storage type`: The type of storage used for the repository.             This is provided as free text in an annotation label or as an identifier pointing to a             term in a classification scheme.
+    /// `Storage type`: The type of storage used for the repository.             This is provided as free text in an annotation label or as an identifier pointing to a             term in a classification scheme.
     Storage_Type, "Storage_Type",
     /// `Stream`: A continuous stream of bits.
     Stream, "Stream",
-    /// `Subject`: A term describing the topic covered by the             BusinessObject or resource. This is provided as free text in an annotation label or as             an identifier pointing to a term in a classification scheme.
+    /// `Subject`: A term describing the topic covered by the             BusinessObject or resource. This is provided as free text in an annotation label or as             an identifier pointing to a term in a classification scheme.
     Subject, "Subject",
-    /// `Subtitling`: To signal the presence of subtitles for             translation in alternative languages.
+    /// `Subtitling`: To signal the presence of subtitles for             translation in alternative languages.
     Subtitling, "Subtitling",
-    /// `Subtitling format`: To define the format of subtitling.             subtitling's main use isfor translation. This is provided as free text in an             annotation label  or as an identifier pointing to a term in a classification             scheme.
+    /// `Subtitling format`: To define the format of subtitling.             subtitling's main use isfor translation. This is provided as free text in an             annotation label  or as an identifier pointing to a term in a classification             scheme.
     SubtitlingFormat, "SubtitlingFormat",
-    /// `TV Programme`: A programme for distribution on television             channels.
+    /// `TV Programme`: A programme for distribution on television             channels.
     TVProgramme, "TVProgramme",
     /// `Target audience`: To identify the audience for which the content was created.
     TargetAudience, "TargetAudience",
@@ -430,7 +430,7 @@ namespace!(
     TextUsageType, "TextUsageType",
     /// `Theme`: To define a Theme associated with an Asset.
     Theme, "Theme",
-    /// `Thumbnail`: A thumbnail is a low resolution picture that             can be associated with EditorialObjects or e.g. MediaResources or             Contacts.
+    /// `Thumbnail`: A thumbnail is a low resolution picture that             can be associated with EditorialObjects or e.g. MediaResources or             Contacts.
     Thumbnail, "Thumbnail",
     /// `Timecode track`: A track with timecode information e.g. in MXF.
     TimecodeTrack, "TimecodeTrack",
@@ -444,9 +444,9 @@ namespace!(
     TimelineTrack, "TimelineTrack",
     /// `Timeline track type`: To specify a type or TimelineTrack.
     TimelineTrack_Type, "TimelineTrack_Type",
-    /// `Topic`: A type subject for use in some contexts. This             is provided as free text in an annotation label or as an identifier pointing to a term             in a classification scheme.
+    /// `Topic`: A type subject for use in some contexts. This             is provided as free text in an annotation label or as an identifier pointing to a term             in a classification scheme.
     Topic, "Topic",
-    /// `Track`: Audiovisual content can be composed of audio,             video and data Tracks (including captioning and subtitling).
+    /// `Track`: Audiovisual content can be composed of audio,             video and data Tracks (including captioning and subtitling).
     Track, "Track",
     /// `Track purpose`: To define the prupose of a track.
     TrackPurpose, "TrackPurpose",
@@ -468,7 +468,7 @@ namespace!(
     VideoFormat, "VideoFormat",
     /// `Video stream`: A decodable video stream of bits.
     VideoStream, "VideoStream",
-    /// `Video track`: A specialisation of Track for Video to provide             a link to specific data properties such as frameRate, etc. Signing is another possible             example of video track. Specific VideoTracks such as Signing can be defined as sub             VideoTracks.. In advanced systems, different VideoTracks can be used to provide e.g.             different viewing angles.
+    /// `Video track`: A specialisation of Track for Video to provide             a link to specific data properties such as frameRate, etc. Signing is another possible             example of video track. Specific VideoTracks such as Signing can be defined as sub             VideoTracks.. In advanced systems, different VideoTracks can be used to provide e.g.             different viewing angles.
     VideoTrack, "VideoTrack",
     /// `Wrapping type`: To define a type of wrapping.
     WrappingType, "WrappingType",
@@ -528,7 +528,7 @@ namespace!(
     agentLinkedData, "agentLinkedData",
     /// `LinkedIn`: 
     agentLinkedIn, "agentLinkedIn",
-    /// `Mobile`: To provide the mobile telephone number of an             Agent (Contact/Person or organisation)
+    /// `Mobile`: To provide the mobile telephone number of an             Agent (Contact/Person or organisation)
     agentMobileTelephoneNumber, "agentMobileTelephoneNumber",
     /// `Name`: To provide a name of an Agent.
     agentName, "agentName",
@@ -536,21 +536,21 @@ namespace!(
     agentNickname, "agentNickname",
     /// `Previous name`: To provide the previous name of a Contact/Person.
     agentPreviousName, "agentPreviousName",
-    /// `Related information link`: To provide a link to a web resource containing             information related to an Agent (Contact/Person or Organisation).
+    /// `Related information link`: To provide a link to a web resource containing             information related to an Agent (Contact/Person or Organisation).
     agentRelatedInformationLink, "agentRelatedInformationLink",
     /// `Related link`: To provide a link to e.g. a web resource related to an Agent.
     agentRelatedLink, "agentRelatedLink",
-    /// `Related press link`: To provide a link to a web resource containing             information related to an Agent (Contact/Person or Organisation).
+    /// `Related press link`: To provide a link to a web resource containing             information related to an Agent (Contact/Person or Organisation).
     agentRelatedPressLink, "agentRelatedPressLink",
     /// `Socail media`: Links to an Agent's social media.
     agentSocialMedia, "agentSocialMedia",
-    /// `Telephone`: To provide the telephone number of an Agent             (Contact/Person or Organisation).
+    /// `Telephone`: To provide the telephone number of an Agent             (Contact/Person or Organisation).
     agentTelephoneNumber, "agentTelephoneNumber",
     /// `Twitter`: 
     agentTwitter, "agentTwitter",
     /// `Agent type`: Range: string or anyURI or Concept.
     agentType, "agentType",
-    /// `Homepage`: To provide the address of the webpage of an             Agent (Contact/Person or Organisation).
+    /// `Homepage`: To provide the address of the webpage of an             Agent (Contact/Person or Organisation).
     agentWebHomepage, "agentWebHomepage",
     /// `Wikidata`: A link to a wikidata page.
     agentWikidata, "agentWikidata",
@@ -654,15 +654,15 @@ namespace!(
     audioBitRateMax, "audioBitRateMax",
     /// `Audio bitrate mode`: The audio bitrate mode.
     audioBitRateMode, "audioBitRateMode",
-    /// `Audio channel number`: The total number of audio channels contained in             the MediaResource.
+    /// `Audio channel number`: The total number of audio channels contained in             the MediaResource.
     audioChannelNumber, "audioChannelNumber",
     /// `Audio encoding level`: The encoding level as defined in specifications.
     audioEncodingLevel, "audioEncodingLevel",
     /// `Audio encoding profile`: The encoding profile as defined in specifications.
     audioEncodingProfile, "audioEncodingProfile",
-    /// `Audio track configuration`: The configuration of audio tracks contained in             the MediaResource.
+    /// `Audio track configuration`: The configuration of audio tracks contained in             the MediaResource.
     audioTrackConfiguration, "audioTrackConfiguration",
-    /// `Audio track number`: The total number of audio tracks contained in             the MediaResource.
+    /// `Audio track number`: The total number of audio tracks contained in             the MediaResource.
     audioTrackNumber, "audioTrackNumber",
     /// `Award ceremony`: To provide an Award ceremony name.
     awardCeremony, "awardCeremony",
@@ -676,15 +676,15 @@ namespace!(
     awardName, "awardName",
     /// `Award type`: Range: string or Award_Type
     awardType, "awardType",
-    /// `Bit depth`: To provide the bitdepth at which the             MediaResource has been encoded.
+    /// `Bit depth`: To provide the bitdepth at which the             MediaResource has been encoded.
     bitDepth, "bitDepth",
-    /// `Bitrate`: To provide the bitrate at which the             MediaResource can be played in bits/second. Current bitrate if constant, and average bitrate if variable.
+    /// `Bitrate`: To provide the bitrate at which the             MediaResource can be played in bits/second. Current bitrate if constant, and average bitrate if variable.
     bitRate, "bitRate",
     /// `Maximum bitrate`: The maximum bitrate when variable, in bits per second.
     bitRateMax, "bitRateMax",
-    /// `Bitrate mode`: A flag to indicate if the bit rate is fixed or             variable.
+    /// `Bitrate mode`: A flag to indicate if the bit rate is fixed or             variable.
     bitRateMode, "bitRateMode",
-    /// `Overall bitrate`: To provide the overall bitrate at which the             MediaResource can be played in bits/second. Current bitrate if constant, and average bitrate if variable.
+    /// `Overall bitrate`: To provide the overall bitrate at which the             MediaResource can be played in bits/second. Current bitrate if constant, and average bitrate if variable.
     bitRateOverall, "bitRateOverall",
     /// `Bookmark`: To provide a bookmark.
     bookmark, "bookmark",
@@ -768,7 +768,7 @@ namespace!(
     datelicensed, "datelicensed",
     /// `Derivation target`: To identify a new version derived from the original.
     derivedTo, "derivedTo",
-    /// `Description`: This can be specialised by using sub-properties             like defined in http://www.ebu.ch/metadata/cs/web/ebu_DescriptionTypeCodeCS_p.xml.htm             implemented as examples as e.g. 'summary' or             'script'.
+    /// `Description`: This can be specialised by using sub-properties             like defined in http://www.ebu.ch/metadata/cs/web/ebu_DescriptionTypeCodeCS_p.xml.htm             implemented as examples as e.g. 'summary' or             'script'.
     description, "description",
     /// `Dimensions`: Describes the physical dimensions of a MediaResource, with units of measure concatenated to become part of the value.
     dimensions, "dimensions",
@@ -786,17 +786,17 @@ namespace!(
     duration, "duration",
     /// `Duration (edit units)`: To provide a duration in edit units.
     durationEditUnits, "durationEditUnits",
-    /// `Duration (time)`: To provide a duration as normal             time.
+    /// `Duration (time)`: To provide a duration as normal             time.
     durationNormalPlayTime, "durationNormalPlayTime",
     /// `Published Duration`: To provide information on the published / announced duration of an EditorialObject.
     durationPublished, "durationPublished",
     /// `Published duration (play time)`: To provide a published duration as normal play time.
     durationPublishedNormalPlayTime, "durationPublishedNormalPlayTime",
-    /// `Duration (timecode)`: The duration expressed as a             timecode.
+    /// `Duration (timecode)`: The duration expressed as a             timecode.
     durationTimecode, "durationTimecode",
-    /// `Duration (timecode, drop frame)`: The duration expressed as a             timecode with drop frames.
+    /// `Duration (timecode, drop frame)`: The duration expressed as a             timecode with drop frames.
     durationTimecodeDropFrame, "durationTimecodeDropFrame",
-    /// `Edit unit`: The edit unit is e.g. the inverse of the audio             sample rate or video frame rate.
+    /// `Edit unit`: The edit unit is e.g. the inverse of the audio             sample rate or video frame rate.
     editUnit, "editUnit",
     /// `Description`: To provide a description of an EditorialObject.
     editorialObjectDescription, "editorialObjectDescription",
@@ -834,7 +834,7 @@ namespace!(
     end, "end",
     /// `End time (edit units)`: The end time in edit units.
     endEditUnits, "endEditUnits",
-    /// `End time (time)`: The end time expressed using a time             expression.
+    /// `End time (time)`: The end time expressed using a time             expression.
     endNormalPlayTime, "endNormalPlayTime",
     /// `Offset end time (edit units)`: The offset end time in edit units.
     endOffsetEditUnits, "endOffsetEditUnits",
@@ -844,9 +844,9 @@ namespace!(
     endOffsetTimecode, "endOffsetTimecode",
     /// `Offset end timecode (dropframe)`: The offset end timecode dropframe.
     endOffsetTimecodedropframe, "endOffsetTimecodedropframe",
-    /// `End time (timecode)`: An end time expressed as             timecode.
+    /// `End time (timecode)`: An end time expressed as             timecode.
     endTimecode, "endTimecode",
-    /// `End time (timecode dropframe)`: An end time expressed as             timecode with drop frames.
+    /// `End time (timecode dropframe)`: An end time expressed as             timecode with drop frames.
     endTimecodeDropFrame, "endTimecodeDropFrame",
     /// `Episode number`: The Episode Number
     episodeNumber, "episodeNumber",
@@ -906,7 +906,7 @@ namespace!(
     frameHeightUnit, "frameHeightUnit",
     /// `Frame rate`: The unit used to express the frame rate of a MediaResource in frames/second.
     frameRate, "frameRate",
-    /// `Frame size unit`: The unit used to express the frame width or             height. The unit by default is 'pixel'.
+    /// `Frame size unit`: The unit used to express the frame width or             height. The unit by default is 'pixel'.
     frameSizeUnit, "frameSizeUnit",
     /// `Frame width`: The width of a video frame.
     frameWidth, "frameWidth",
@@ -920,7 +920,7 @@ namespace!(
     geoBlocking, "geoBlocking",
     /// `Given name`: The given name of a Person.
     givenName, "givenName",
-    /// `Group description`: A textual description of a             Group.
+    /// `Group description`: A textual description of a             Group.
     groupDescription, "groupDescription",
     /// `Group identifier`: An identifier attributed to a Group.
     groupId, "groupId",
@@ -934,7 +934,7 @@ namespace!(
     hasActionRelatedAgent, "hasActionRelatedAgent",
     /// `Action related scene`: Range: string or Scene.
     hasActionRelatedScene, "hasActionRelatedScene",
-    /// `Affiliation`: A property to establish the relation between a             Contact/Person and an Organisation.
+    /// `Affiliation`: A property to establish the relation between a             Contact/Person and an Organisation.
     hasAffiliation, "hasAffiliation",
     /// `Biography`: Range: a string or an anyURI (e,g, a URL to a webpage) or a Biography.
     hasAgentBiography, "hasAgentBiography",
@@ -1018,7 +1018,7 @@ namespace!(
     hasAudioCodec, "hasAudioCodec",
     /// `Audio content type`: Range:string or AudioContent_Type.
     hasAudioContentType, "hasAudioContentType",
-    /// `Audio description`: To signal the presence of             AudioDescription.
+    /// `Audio description`: To signal the presence of             AudioDescription.
     hasAudioDescription, "hasAudioDescription",
     /// `Audio encoding format`: Range: string or AudioEncodingFormat
     hasAudioEncodingFormat, "hasAudioEncodingFormat",
@@ -1034,7 +1034,7 @@ namespace!(
     hasAwardRelatedEvent, "hasAwardRelatedEvent",
     /// `Agent`: Range: a string or an Award.
     hasBeenAwarded, "hasBeenAwarded",
-    /// `Captioning`: To signal the presence of             Captioning.
+    /// `Captioning`: To signal the presence of             Captioning.
     hasCaptioning, "hasCaptioning",
     /// `Captioning format`: Range: string or CaptioningFormat
     hasCaptioningFormat, "hasCaptioningFormat",
@@ -1046,7 +1046,7 @@ namespace!(
     hasCastRole, "hasCastRole",
     /// `Channel logo`: The logo of a Publication Channel
     hasChannelLogo, "hasChannelLogo",
-    /// `Publication event`: To associate PublicationEvents with             PublicationChannels.
+    /// `Publication event`: To associate PublicationEvents with             PublicationChannels.
     hasChannelPublicationEvent, "hasChannelPublicationEvent",
     /// `Character`: Range: a string or a "fictitious" person - Character.
     hasCharacter, "hasCharacter",
@@ -1142,9 +1142,9 @@ namespace!(
     hasFormat, "hasFormat",
     /// `Format identifier`: An identifier attributed to a Format.
     hasFormatId, "hasFormatId",
-    /// `Generation`: Identifies the generation of a version of a resource, i.e. master,       edit master, distribution copy, etc.
+    /// `Generation`: Identifies the generation of a version of a resource, i.e. master,       edit master, distribution copy, etc.
     hasGeneration, "hasGeneration",
-    /// `Genre`: To define a Genre/category associated to the             BusinesssObject.
+    /// `Genre`: To define a Genre/category associated to the             BusinesssObject.
     hasGenre, "hasGenre",
     /// `IMedia Id`: Range: string or Identifier.
     hasIMediaIdentifier, "hasIMediaIdentifier",
@@ -1186,13 +1186,13 @@ namespace!(
     hasLocationType, "hasLocationType",
     /// `Locator`: A locator from where the MediaResource can be accessed.
     hasLocator, "hasLocator",
-    /// `Logo`: Logos can be used in a variety of contexts.             Logo can be associated with an Organisation or a Service or a PublicationChannel.
+    /// `Logo`: Logos can be used in a variety of contexts.             Logo can be associated with an Organisation or a Service or a PublicationChannel.
     hasLogo, "hasLogo",
     /// `Manifestation`: A manifestation is the physical embodiment of work e.g. a tape, a file...
     hasManifestation, "hasManifestation",
     /// `Master`: To identify the master of a Resource
     hasMaster, "hasMaster",
-    /// `Fragment`: To define relation to MediaFragments             withiin a MediaResource.
+    /// `Fragment`: To define relation to MediaFragments             withiin a MediaResource.
     hasMediaFragment, "hasMediaFragment",
     /// `Medium`: Range: string or Medium
     hasMedium, "hasMedium",
@@ -1216,7 +1216,7 @@ namespace!(
     hasParentEditorialObject, "hasParentEditorialObject",
     /// `Parent resource`: To link a MediaResource to a parent.
     hasParentMediaResource, "hasParentMediaResource",
-    /// `Part`: To define Parts (segments, fragments, shots, etc.)             within an EditorialObject.
+    /// `Part`: To define Parts (segments, fragments, shots, etc.)             within an EditorialObject.
     hasPart, "hasPart",
     /// `Part type`: A type of Part.
     hasPartType, "hasPartType",
@@ -1236,7 +1236,7 @@ namespace!(
     hasProvenance, "hasProvenance",
     /// `Provenance target`: The instance of an object sourced by the Provenance.
     hasProvenanceTarget, "hasProvenanceTarget",
-    /// `Publication event`: To associate PublicationEvents with             PublicationChannels or as elements of a PublicationHistory or PublicationPlanning.
+    /// `Publication event`: To associate PublicationEvents with             PublicationChannels or as elements of a PublicationHistory or PublicationPlanning.
     hasPublicationEvent, "hasPublicationEvent",
     /// `Publication history`: To provide the history of publication of an EditorailObject or MediaResource.
     hasPublicationHistory, "hasPublicationHistory",
@@ -1276,11 +1276,11 @@ namespace!(
     hasRelatedEditorialObject, "hasRelatedEditorialObject",
     /// `Related essence`: To establish a relation between a MediaResource and an Essence.
     hasRelatedEssence, "hasRelatedEssence",
-    /// `Event`: A property to identify the              Events, all real or fictional, covered by the              EditorialObject.
+    /// `Event`: A property to identify the              Events, all real or fictional, covered by the              EditorialObject.
     hasRelatedEvent, "hasRelatedEvent",
     /// `Image`: To associate an Image with a BusinessObject.
     hasRelatedImage, "hasRelatedImage",
-    /// `Location`: A property to identify the              Locations, all real or fictional, covered by the              EditorialObject.
+    /// `Location`: A property to identify the              Locations, all real or fictional, covered by the              EditorialObject.
     hasRelatedLocation, "hasRelatedLocation",
     /// `Media fragment`: To associate a Part of an Asset with a MediaFragment within the association MediaResource instantiating the Asset.
     hasRelatedMediaFragment, "hasRelatedMediaFragment",
@@ -1402,9 +1402,9 @@ namespace!(
     hasVideoTrack, "hasVideoTrack",
     /// `Wrapping type`: Range: string or WrappingType.
     hasWrappingType, "hasWrappingType",
-    /// `Hash code`: The hash value associated to a Resource. There             are different methods / algorithms to calculate hash values, which can be defined as             subproperties.
+    /// `Hash code`: The hash value associated to a Resource. There             are different methods / algorithms to calculate hash values, which can be defined as             subproperties.
     hashValue, "hashValue",
-    /// `Height`: The height of e.g. a video frame typically             expressed as a number of lines or the height of a picture/image expressed in millimeters             or else.
+    /// `Height`: The height of e.g. a video frame typically             expressed as a number of lines or the height of a picture/image expressed in millimeters             or else.
     height, "height",
     /// `Height unit`: To specify a unit to express height.
     heightUnit, "heightUnit",
@@ -1420,7 +1420,7 @@ namespace!(
     identifierValue, "identifierValue",
     /// `Inches per second`: Identifies the inches per second at which an analog audio tape should be played back for human consumption.
     inchesPerSecond, "inchesPerSecond",
-    /// `Business object`: To link a particular manifestation of a             BusinessObject to the corresponding Resource.
+    /// `Business object`: To link a particular manifestation of a             BusinessObject to the corresponding Resource.
     instantiates, "instantiates",
     /// `isAgent`: Range: string or Agent.
     isAgent, "isAgent",
@@ -1510,7 +1510,7 @@ namespace!(
     isTrackPartOf, "isTrackPartOf",
     /// `Version of`: To identify related versions.
     isVersionOf, "isVersionOf",
-    /// `Line number`: To provide the number of the line on which             ancillary data is being carried and the equivalent in the digital domain.
+    /// `Line number`: To provide the number of the line on which             ancillary data is being carried and the equivalent in the digital domain.
     lineNumber, "lineNumber",
     /// `Link to logo`: Range: string or Logo
     linkToLogo, "linkToLogo",
@@ -1522,21 +1522,21 @@ namespace!(
     localFamiliyName, "localFamiliyName",
     /// `Local given name`: To provide a given name in its local expression.
     localGivenName, "localGivenName",
-    /// `Address`: To provide the address of a            Location.
+    /// `Address`: To provide the address of a            Location.
     locationAddress, "locationAddress",
-    /// `Area`: To provide the Area part of an             Adrress.
+    /// `Area`: To provide the Area part of an             Adrress.
     locationAddressArea, "locationAddressArea",
-    /// `Country`: To provide the country name and or country             code.
+    /// `Country`: To provide the country name and or country             code.
     locationAddressCountry, "locationAddressCountry",
     /// `Adress line`: To provide an address line.
     locationAddressLine, "locationAddressLine",
-    /// `Locality`: To provide the name of a city, village,             etc.
+    /// `Locality`: To provide the name of a city, village,             etc.
     locationAddressLocality, "locationAddressLocality",
-    /// `Postal code`: To provide an address postal             code.
+    /// `Postal code`: To provide an address postal             code.
     locationAddressPostalCode, "locationAddressPostalCode",
-    /// `Altitude`: To define the altitude of a Location in             meters.
+    /// `Altitude`: To define the altitude of a Location in             meters.
     locationAltitude, "locationAltitude",
-    /// `Coordinate system`: To specify the name of the gps coordinate             system used for the Location.
+    /// `Coordinate system`: To specify the name of the gps coordinate             system used for the Location.
     locationCoordinateSystemName, "locationCoordinateSystemName",
     /// `Location description`: To provide a description of a particular Location.
     locationDescription, "locationDescription",
@@ -1544,7 +1544,7 @@ namespace!(
     locationId, "locationId",
     /// `Latitude`: The latitude of the Location.
     locationLatitude, "locationLatitude",
-    /// `Longitude`: To define the longitude of the             Location.
+    /// `Longitude`: To define the longitude of the             Location.
     locationLongitude, "locationLongitude",
     /// `Location name`: To provide a namefor a particular Location.
     locationName, "locationName",
@@ -1572,7 +1572,7 @@ namespace!(
     loudnessParameters, "loudnessParameters",
     /// `Loudness range`: The loudness range measured at AudioProgramme or AudioContent level.
     loudnessRange, "loudnessRange",
-    /// `Main title`: Specifies the main title or name given to the             EditorialObject.
+    /// `Main title`: Specifies the main title or name given to the             EditorialObject.
     mainTitle, "mainTitle",
     /// `Marital Status`: To identify the marital status of a Person.
     maritalStatus, "maritalStatus",
@@ -1588,7 +1588,7 @@ namespace!(
     middleName, "middleName",
     /// `Nickname`: The nickname of a Person.
     nickName, "nickName",
-    /// `Noise filter`: A flag to signal that a noise filter has been             used.
+    /// `Noise filter`: A flag to signal that a noise filter has been             used.
     noiseFilter, "noiseFilter",
     /// `Not rated`: A flag to indicate that the EditorialObejct has not been rated.
     notRated, "notRated",
@@ -1602,11 +1602,11 @@ namespace!(
     occupation, "occupation",
     /// `PublicationEvent`: To identify the PublicationEvents provided through a Service.
     offers, "offers",
-    /// `Office email`: To provide the professional/office email             address of an Agent (Contact/Person or Organisation).
+    /// `Office email`: To provide the professional/office email             address of an Agent (Contact/Person or Organisation).
     officeEmailAddress, "officeEmailAddress",
-    /// `Telephone (private)`: To provide the office mobile telephone number of an             Agent (Contact/Person).
+    /// `Telephone (private)`: To provide the office mobile telephone number of an             Agent (Contact/Person).
     officeMobileTelephoneNumber, "officeMobileTelephoneNumber",
-    /// `Telephone (private)`: To provide the office telephone number of an             Agent (Contact/Person).
+    /// `Telephone (private)`: To provide the office telephone number of an             Agent (Contact/Person).
     officeTelephoneNumber, "officeTelephoneNumber",
     /// `Ordered flag`: A flag to indicate that a EditorialObject is member of an ordered group or is an ordered group (e.g. Series)
     orderedFlag, "orderedFlag",
@@ -1618,13 +1618,13 @@ namespace!(
     organisationName, "organisationName",
     /// `Asset type`: Range: string or anyURI or Concept.
     organisationType, "organisationType",
-    /// `Orientation`: The orientation of a Document or an Image i.e. landscape or             portrait.
+    /// `Orientation`: The orientation of a Document or an Image i.e. landscape or             portrait.
     orientation, "orientation",
     /// `Original title.`: The original title used to identify the work.
     originalTitle, "originalTitle",
-    /// `Package size (in bytes)`: The size of a media package in             Bytes.
+    /// `Package size (in bytes)`: The size of a media package in             Bytes.
     packageByteSize, "packageByteSize",
-    /// `Package name`: The name of a media package in             Bytes.
+    /// `Package name`: The name of a media package in             Bytes.
     packageName, "packageName",
     /// `Part definition`: A definition associated with the Part.
     partDefinition, "partDefinition",
@@ -1634,7 +1634,7 @@ namespace!(
     partId, "partId",
     /// `Part name`: A name associated with the Part.
     partName, "partName",
-    /// `Part number`: The number associated to a Part as one among             many.
+    /// `Part number`: The number associated to a Part as one among             many.
     partNumber, "partNumber",
     /// `Part total number`: The total number of Parts associated with an EditorialObject.
     partTotalNumber, "partTotalNumber",
@@ -1656,15 +1656,15 @@ namespace!(
     playlist, "playlist",
     /// `Essence`: To identify the Essence used in a PublicationEvent
     playsOut, "playsOut",
-    /// `Position`: To indicate the position of an EditorialObject in an ordered       group.
+    /// `Position`: To indicate the position of an EditorialObject in an ordered       group.
     position, "position",
-    /// `Private email`: To provide the private email address of an             Agent (Contact/Person)
+    /// `Private email`: To provide the private email address of an             Agent (Contact/Person)
     privateEmailAddress, "privateEmailAddress",
-    /// `Homepage (private)`: To provide an private web homepage of an Agent             (Contact/Person).
+    /// `Homepage (private)`: To provide an private web homepage of an Agent             (Contact/Person).
     privateHomepage, "privateHomepage",
-    /// `Telephone (private)`: To provide the private mobile telephone number of an             Agent (Contact/Person).
+    /// `Telephone (private)`: To provide the private mobile telephone number of an             Agent (Contact/Person).
     privateMobileTelephoneNumber, "privateMobileTelephoneNumber",
-    /// `Telephone (private)`: To provide the private telephone number of an             Agent (Contact/Person).
+    /// `Telephone (private)`: To provide the private telephone number of an             Agent (Contact/Person).
     privateTelephoneNumber, "privateTelephoneNumber",
     /// `Production synopsis`: A synopsis or summary provided by the producer at the time of production.
     productionSynopsis, "productionSynopsis",
@@ -1724,9 +1724,9 @@ namespace!(
     publicationScheduleDate, "publicationScheduleDate",
     /// `Publication start date & time`: The actual start date and time of a PublicationEvent.
     publicationStartDateTime, "publicationStartDateTime",
-    /// `Publication end date & time`: The end date and time of a PublicationEvent as             scheduled.
+    /// `Publication end date & time`: The end date and time of a PublicationEvent as             scheduled.
     publishedEndDateTime, "publishedEndDateTime",
-    /// `Publication start date & time`: The start date and time of a PublicationEvent             as scheduled.
+    /// `Publication start date & time`: The start date and time of a PublicationEvent             as scheduled.
     publishedStartDateTime, "publishedStartDateTime",
     /// `Published title.`: The title used to identify the work at publication time.
     publishedTitle, "publishedTitle",
@@ -1738,9 +1738,9 @@ namespace!(
     ratingId, "ratingId",
     /// `Rating name`: To associate a name with a Rating.
     ratingName, "ratingName",
-    /// `Rating scale (top value)`: The maximum value of the scale used for the Rating             of a MediaResource.
+    /// `Rating scale (top value)`: The maximum value of the scale used for the Rating             of a MediaResource.
     ratingScaleMax, "ratingScaleMax",
-    /// `Rating scale (min. value)`: The minimum value of the scale used for rating             a MediaResource.
+    /// `Rating scale (min. value)`: The minimum value of the scale used for rating             a MediaResource.
     ratingScaleMin, "ratingScaleMin",
     /// `Rating environment`: To identify the environment in which rating applies.
     ratingSystemEnvironment, "ratingSystemEnvironment",
@@ -1748,7 +1748,7 @@ namespace!(
     ratingSystemName, "ratingSystemName",
     /// `Rating type`: Range: string or anyURI or Concept.
     ratingType, "ratingType",
-    /// `Rating`: To express a free text Rating value defined in             a rating classification scheme.
+    /// `Rating`: To express a free text Rating value defined in             a rating classification scheme.
     ratingValue, "ratingValue",
     /// `Ready for publication`: A flag to indicate that the Essence is ready for publication.
     readyForPublication, "readyForPublication",
@@ -1756,9 +1756,9 @@ namespace!(
     reason, "reason",
     /// `References`: To express a reference between Assets, BusinessObjects or Resources.
     references, "references",
-    /// `Region delimiter (x-axis)`: To define the top left corner of a zone on             the x-axis. If present with regionDelimy, the zone definition is complemented by the             associated values of the height and width.
+    /// `Region delimiter (x-axis)`: To define the top left corner of a zone on             the x-axis. If present with regionDelimy, the zone definition is complemented by the             associated values of the height and width.
     regionDelimX, "regionDelimX",
-    /// `Region delimiter (y-axis)`: To define the bottom right corner of a zone on             the y-axis. If present with regionDelimX, the zone definition is complemented by the             associated values of the height and width.
+    /// `Region delimiter (y-axis)`: To define the bottom right corner of a zone on             the y-axis. If present with regionDelimX, the zone definition is complemented by the             associated values of the height and width.
     regionDelimY, "regionDelimY",
     /// `Relation Type`: Range: string or Identifier.
     relationIdentifier, "relationIdentifier",
@@ -1786,7 +1786,7 @@ namespace!(
     resourceDescription, "resourceDescription",
     /// `File size`: Provides the size of a Resource in bytes.
     resourceFileSize, "resourceFileSize",
-    /// `File name`: The name of the file containing the             Resource.
+    /// `File name`: The name of the file containing the             Resource.
     resourceFilename, "resourceFilename",
     /// `Resource id`: An identifier associated to a Resource.
     resourceId, "resourceId",
@@ -1816,7 +1816,7 @@ namespace!(
     rightsExpression, "rightsExpression",
     /// `Rights identifier`: An identifier attributed to a set of Rights.
     rightsId, "rightsId",
-    /// `Rights web resource`: A link to e.g. a webpage where an expression of             the rights can be found and consulted.
+    /// `Rights web resource`: A link to e.g. a webpage where an expression of             the rights can be found and consulted.
     rightsLink, "rightsLink",
     /// `Rights start date time`: To define the start time since when Rights are applicable.
     rightsStartDateTime, "rightsStartDateTime",
@@ -1834,11 +1834,11 @@ namespace!(
     salutationTitle, "salutationTitle",
     /// `Sample Rate`: The frequency at which audio is sampled per second. Also called sampling rate.
     sampleRate, "sampleRate",
-    /// `Sample size`: The size of an audio sample in             bits. Also called bit depth.
+    /// `Sample size`: The size of an audio sample in             bits. Also called bit depth.
     sampleSize, "sampleSize",
     /// `Sample type`: The type of audio sample.
     sampleType, "sampleType",
-    /// `Scanning format`: To define the scanning format for a             MediaResource. For video, the two main values are "interlaced" or             "progressive".
+    /// `Scanning format`: To define the scanning format for a             MediaResource. For video, the two main values are "interlaced" or             "progressive".
     scanningFormat, "scanningFormat",
     /// `Script`: To provide a script.
     script, "script",
@@ -1856,21 +1856,21 @@ namespace!(
     shotLog, "shotLog",
     /// `Start time`: Start timestamp e.g. the start time for a MediaResource.
     start, "start",
-    /// `Start time (edit units)`: A start time expressed as a number of edit             units.
+    /// `Start time (edit units)`: A start time expressed as a number of edit             units.
     startEditUnits, "startEditUnits",
     /// `Start time (normal play time)`: A start time expressed as a normal play time.
     startNormalPlayTime, "startNormalPlayTime",
-    /// `Startoffset  time (edit units)`: A start offset time expressed as a number of edit             units.
+    /// `Startoffset  time (edit units)`: A start offset time expressed as a number of edit             units.
     startOffsetEditUnit, "startOffsetEditUnit",
     /// `Startoffset  time (edit units)`: A start offset time expressed as normal play time.
     startOffsetNormalPlayTime, "startOffsetNormalPlayTime",
-    /// `Start offset time (timecode)`: A start offset time expressed as             timecode.
+    /// `Start offset time (timecode)`: A start offset time expressed as             timecode.
     startOffsetTimecode, "startOffsetTimecode",
-    /// `Start offset time (timecode, drop frames)`: A start offset time expressed as             timecode with drop frames.
+    /// `Start offset time (timecode, drop frames)`: A start offset time expressed as             timecode with drop frames.
     startOffsetTimecodeDropFrame, "startOffsetTimecodeDropFrame",
-    /// `Start time (timecode)`: A start time expressed as             timecode.
+    /// `Start time (timecode)`: A start time expressed as             timecode.
     startTimecode, "startTimecode",
-    /// `Start time (timecode, drop frames)`: A start time expressed as             timecode with drop frames.
+    /// `Start time (timecode, drop frames)`: A start time expressed as             timecode with drop frames.
     startTimecodeDropFrame, "startTimecodeDropFrame",
     /// `Subtitle`: A complementary subtitle.
     subtitle, "subtitle",
@@ -1924,35 +1924,35 @@ namespace!(
     timelineTrackDuration, "timelineTrackDuration",
     /// `Duration (edit unit)`: To provide a duration as a number of edit units.
     timelineTrackDurationEditUnits, "timelineTrackDurationEditUnits",
-    /// `Duration (time)`: To provide a duration as normal             time.
+    /// `Duration (time)`: To provide a duration as normal             time.
     timelineTrackDurationNormalPlayTime, "timelineTrackDurationNormalPlayTime",
-    /// `Duration (timecode)`: The duration expressed as a             timecode.
+    /// `Duration (timecode)`: The duration expressed as a             timecode.
     timelineTrackDurationTimecode, "timelineTrackDurationTimecode",
-    /// `Duration (timecode, drop frame)`: The duration expressed as a             timecode with drop frames.
+    /// `Duration (timecode, drop frame)`: The duration expressed as a             timecode with drop frames.
     timelineTrackDurationTimecodeDropFrame, "timelineTrackDurationTimecodeDropFrame",
-    /// `Title`: All value of the EBU title status             classification scheme             (http://www.ebu.ch/metadata/cs/web/ebu_TitleStatusCodeCS_p.xml.htm) are candidates             subproperties of the title property as implemented for an example with             alternativeTitle.
+    /// `Title`: All value of the EBU title status             classification scheme             (http://www.ebu.ch/metadata/cs/web/ebu_TitleStatusCodeCS_p.xml.htm) are candidates             subproperties of the title property as implemented for an example with             alternativeTitle.
     title, "title",
     /// `Total number of episodes`: To provide the total number of episodes in a Series or a Season.
     totalNumberOfEpisodes, "totalNumberOfEpisodes",
     /// `Total number of Group members`: To provide the total number of members in a Group.
     totalNumberOfGroupMembers, "totalNumberOfGroupMembers",
-    /// `Definition`: To provide a definition associated to a             Track.
+    /// `Definition`: To provide a definition associated to a             Track.
     trackDefinition, "trackDefinition",
     /// `Track identifier`: An Identifier attributed to a Track.
     trackId, "trackId",
-    /// `Track name`: To provide  name of a             Track.
+    /// `Track name`: To provide  name of a             Track.
     trackName, "trackName",
     /// `Track name`: Range: string or Track_Type
     trackType, "trackType",
     /// `Translation title`: A translated version of the title.
     translationTitle, "translationTitle",
-    /// `Username`: The username by which a Person is             known e.g. when attributing a rating value.
+    /// `Username`: The username by which a Person is             known e.g. when attributing a rating value.
     username, "username",
     /// `Version`: To provide information on the current version of an EditorialObject.
     version, "version",
     /// `Version title`: An alternative title specific to a verison of content.
     versionTitle, "versionTitle",
-    /// `Video bitrate`: The video bitrate. To provide the bitrate at which the MediaResource can be played           in bits/second. Current bitrate if constant, and average bitrate if           variable.
+    /// `Video bitrate`: The video bitrate. To provide the bitrate at which the MediaResource can be played           in bits/second. Current bitrate if constant, and average bitrate if           variable.
     videoBitRate, "videoBitRate",
     /// `Video bitrate max`: The maximum video bitrate.
     videoBitRateMax, "videoBitRateMax",
@@ -1962,11 +1962,11 @@ namespace!(
     videoEncodingLevel, "videoEncodingLevel",
     /// `Video encoding profile`: The encoding level as defined in specifications.
     videoEncodingProfile, "videoEncodingProfile",
-    /// `Width`: The width of e.g. a video frame typically             expressed as a number of pixels, or picture/image in millimeters.
+    /// `Width`: The width of e.g. a video frame typically             expressed as a number of pixels, or picture/image in millimeters.
     width, "width",
-    /// `Width unit`: The unit used to measure a width e.g. in pixels             or number of lines or millimeters or else.
+    /// `Width unit`: The unit used to measure a width e.g. in pixels             or number of lines or millimeters or else.
     widthUnit, "widthUnit",
-    /// `Word count`: The number of words contained in a             document.
+    /// `Word count`: The number of words contained in a             document.
     wordCount, "wordCount",
     /// `Working title`: A title used while content is not complete.
     workingTitle, "workingTitle"

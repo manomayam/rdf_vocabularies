@@ -19,7 +19,7 @@ namespace!(
     /// ``:                This ontology is generated from the manually created specifications in the DBpedia Mappings               Wiki. Each release of this ontology corresponds to a new release of the DBpedia data set which               contains instance data extracted from the different language versions of Wikipedia. For               information regarding changes in this ontology, please refer to the DBpedia Mappings Wiki.             
     NAMESPACE_BASE, "",
     /// `%3Chttp://vocab.org/transit/terms/stop%3E`: 
-    %3Chttp://vocab_org/transit/terms/stop%3E, "%3Chttp://vocab.org/transit/terms/stop%3E",
+    _3Chttp___vocab_org_transit_terms_stop_3E, "%3Chttp://vocab.org/transit/terms/stop%3E",
     /// `abbey`: An abbey is a Catholic monastery or convent, under the authority of an Abbot or an Abbess, who serves as the spiritual father or mother of the community.
     Abbey, "Abbey",
     /// `academic conference`: 
@@ -91,7 +91,7 @@ namespace!(
     /// `architectural structure`: An architectural structure is a human-made, free-standing, immobile outdoor construction (http://en.wikipedia.org/wiki/Architectural_structure).
     ArchitecturalStructure, "ArchitecturalStructure",
     /// `ArchitecturalStructure,_Monument`: 
-    ArchitecturalStructure,_Monument, "ArchitecturalStructure,_Monument",
+    ArchitecturalStructure__Monument, "ArchitecturalStructure,_Monument",
     /// `Archive`: Collection of documents pertaining to a person or organisation.
     Archive, "Archive",
     /// `area`: Area of something. Use "value" for the value, "min" & "max" for a range (if uncertain) and "rank" (integer) for the rank of that thing amongst its siblings (eg regions ordered by area)
@@ -121,11 +121,11 @@ namespace!(
     /// `astronaut`: 
     Astronaut, "Astronaut",
     /// `total time person has spent in space (m)`: 
-    Astronaut/timeInSpace, "Astronaut/timeInSpace",
+    Astronaut_timeInSpace, "Astronaut/timeInSpace",
     /// `athlete`: 
     Athlete, "Athlete",
     /// `Athlete,_CareerStation`: 
-    Athlete,_CareerStation, "Athlete,_CareerStation",
+    Athlete__CareerStation, "Athlete,_CareerStation",
     /// `athletics`: 
     Athletics, "Athletics",
     /// `athletics player`: 
@@ -145,9 +145,9 @@ namespace!(
     /// `automobile`: 
     Automobile, "Automobile",
     /// `fuel capacity (l)`: 
-    Automobile/fuelCapacity, "Automobile/fuelCapacity",
+    Automobile_fuelCapacity, "Automobile/fuelCapacity",
     /// `wheelbase (mm)`: 
-    Automobile/wheelbase, "Automobile/wheelbase",
+    Automobile_wheelbase, "Automobile/wheelbase",
     /// `automobile engine`: 
     AutomobileEngine, "AutomobileEngine",
     /// `award`: 
@@ -251,7 +251,7 @@ namespace!(
     /// `building`: Building is defined as a Civil Engineering structure such as a house, worship center, factory etc. that has a foundation, wall, roof etc. that protect human being and their properties from direct harsh effect of weather like rain, wind, sun etc. (http://en.wikipedia.org/wiki/Building).
     Building, "Building",
     /// `floor area (m2)`: 
-    Building/floorArea, "Building/floorArea",
+    Building_floorArea, "Building/floorArea",
     /// `bullfighter`: 
     BullFighter, "BullFighter",
     /// `bus company`: 
@@ -269,13 +269,13 @@ namespace!(
     /// `canal`: a man-made channel for water
     Canal, "Canal",
     /// `maximum boat beam (μ)`: 
-    Canal/maximumBoatBeam, "Canal/maximumBoatBeam",
+    Canal_maximumBoatBeam, "Canal/maximumBoatBeam",
     /// `maximum boat length (μ)`: 
-    Canal/maximumBoatLength, "Canal/maximumBoatLength",
+    Canal_maximumBoatLength, "Canal/maximumBoatLength",
     /// `original maximum boat beam (μ)`: 
-    Canal/originalMaximumBoatBeam, "Canal/originalMaximumBoatBeam",
+    Canal_originalMaximumBoatBeam, "Canal/originalMaximumBoatBeam",
     /// `original maximum boat length (μ)`: 
-    Canal/originalMaximumBoatLength, "Canal/originalMaximumBoatLength",
+    Canal_originalMaximumBoatLength, "Canal/originalMaximumBoatLength",
     /// `canoeist`: 
     Canoeist, "Canoeist",
     /// `canton`: An administrative (France) or lawcourts (Netherlands) body governing a territorial unity on the municipal level or somewhat above
@@ -329,11 +329,11 @@ namespace!(
     /// `chemical substance`: 
     ChemicalSubstance, "ChemicalSubstance",
     /// `boiling point (K)`: 
-    ChemicalSubstance/boilingPoint, "ChemicalSubstance/boilingPoint",
+    ChemicalSubstance_boilingPoint, "ChemicalSubstance/boilingPoint",
     /// `density (μ3)`: 
-    ChemicalSubstance/density, "ChemicalSubstance/density",
+    ChemicalSubstance_density, "ChemicalSubstance/density",
     /// `melting point (K)`: 
-    ChemicalSubstance/meltingPoint, "ChemicalSubstance/meltingPoint",
+    ChemicalSubstance_meltingPoint, "ChemicalSubstance/meltingPoint",
     /// `chess player`: 
     ChessPlayer, "ChessPlayer",
     /// `Christian Bishop`: 
@@ -413,17 +413,17 @@ namespace!(
     /// `conveyor system`: 
     ConveyorSystem, "ConveyorSystem",
     /// `diameter (μ)`: 
-    ConveyorSystem/diameter, "ConveyorSystem/diameter",
+    ConveyorSystem_diameter, "ConveyorSystem/diameter",
     /// `height (mm)`: 
-    ConveyorSystem/height, "ConveyorSystem/height",
+    ConveyorSystem_height, "ConveyorSystem/height",
     /// `length (mm)`: 
-    ConveyorSystem/length, "ConveyorSystem/length",
+    ConveyorSystem_length, "ConveyorSystem/length",
     /// `mass (kg)`: 
-    ConveyorSystem/mass, "ConveyorSystem/mass",
+    ConveyorSystem_mass, "ConveyorSystem/mass",
     /// `weight (kg)`: 
-    ConveyorSystem/weight, "ConveyorSystem/weight",
+    ConveyorSystem_weight, "ConveyorSystem/weight",
     /// `width (mm)`: 
-    ConveyorSystem/width, "ConveyorSystem/width",
+    ConveyorSystem_width, "ConveyorSystem/width",
     /// `country`: 
     Country, "Country",
     /// `country estate`: A country seat is a rural patch of land owned by a land owner.
@@ -503,7 +503,7 @@ namespace!(
     /// `diocese`: District or see under the supervision of a bishop.
     Diocese, "Diocese",
     /// `Diocese,_Parish`: 
-    Diocese,_Parish, "Diocese,_Parish",
+    Diocese__Parish, "Diocese,_Parish",
     /// `diploma`: 
     Diploma, "Diploma",
     /// `disease`: 
@@ -529,9 +529,9 @@ namespace!(
     /// `drug`: 
     Drug, "Drug",
     /// `boiling point (K)`: 
-    Drug/boilingPoint, "Drug/boilingPoint",
+    Drug_boilingPoint, "Drug/boilingPoint",
     /// `melting point (K)`: 
-    Drug/meltingPoint, "Drug/meltingPoint",
+    Drug_meltingPoint, "Drug/meltingPoint",
     /// `earthquake`: the result of a sudden release of energy in the Earth's crust that creates seismic waves
     Earthquake, "Earthquake",
     /// `economist`: An economist is a professional in the social science discipline of economics.
@@ -555,31 +555,31 @@ namespace!(
     /// `engine`: 
     Engine, "Engine",
     /// `acceleration (s)`: 
-    Engine/acceleration, "Engine/acceleration",
+    Engine_acceleration, "Engine/acceleration",
     /// `CO2 emission (g/km)`: 
-    Engine/co2Emission, "Engine/co2Emission",
+    Engine_co2Emission, "Engine/co2Emission",
     /// `cylinder bore (mm)`: 
-    Engine/cylinderBore, "Engine/cylinderBore",
+    Engine_cylinderBore, "Engine/cylinderBore",
     /// `diameter (mm)`: 
-    Engine/diameter, "Engine/diameter",
+    Engine_diameter, "Engine/diameter",
     /// `displacement (cc)`: 
-    Engine/displacement, "Engine/displacement",
+    Engine_displacement, "Engine/displacement",
     /// `height (mm)`: 
-    Engine/height, "Engine/height",
+    Engine_height, "Engine/height",
     /// `length (mm)`: 
-    Engine/length, "Engine/length",
+    Engine_length, "Engine/length",
     /// `piston stroke (mm)`: 
-    Engine/pistonStroke, "Engine/pistonStroke",
+    Engine_pistonStroke, "Engine/pistonStroke",
     /// `power output (kW)`: 
-    Engine/powerOutput, "Engine/powerOutput",
+    Engine_powerOutput, "Engine/powerOutput",
     /// `top speed (kmh)`: 
-    Engine/topSpeed, "Engine/topSpeed",
+    Engine_topSpeed, "Engine/topSpeed",
     /// `torque output (Nm)`: 
-    Engine/torqueOutput, "Engine/torqueOutput",
+    Engine_torqueOutput, "Engine/torqueOutput",
     /// `weight (kg)`: 
-    Engine/weight, "Engine/weight",
+    Engine_weight, "Engine/weight",
     /// `width (mm)`: 
-    Engine/width, "Engine/width",
+    Engine_width, "Engine/width",
     /// `engineer`: 
     Engineer, "Engineer",
     /// `entomologist`: 
@@ -589,17 +589,17 @@ namespace!(
     /// `escalator`: 
     Escalator, "Escalator",
     /// `diameter (μ)`: 
-    Escalator/diameter, "Escalator/diameter",
+    Escalator_diameter, "Escalator/diameter",
     /// `height (mm)`: 
-    Escalator/height, "Escalator/height",
+    Escalator_height, "Escalator/height",
     /// `length (mm)`: 
-    Escalator/length, "Escalator/length",
+    Escalator_length, "Escalator/length",
     /// `mass (kg)`: 
-    Escalator/mass, "Escalator/mass",
+    Escalator_mass, "Escalator/mass",
     /// `weight (kg)`: 
-    Escalator/weight, "Escalator/weight",
+    Escalator_weight, "Escalator/weight",
     /// `width (mm)`: 
-    Escalator/width, "Escalator/width",
+    Escalator_width, "Escalator/width",
     /// `ethnic group`: 
     EthnicGroup, "EthnicGroup",
     /// `eukaryote`: 
@@ -669,31 +669,31 @@ namespace!(
     /// `galaxy`: 
     Galaxy, "Galaxy",
     /// `apoapsis (km)`: 
-    Galaxy/apoapsis, "Galaxy/apoapsis",
+    Galaxy_apoapsis, "Galaxy/apoapsis",
     /// `average speed (km/s)`: The average speed of a thing.
-    Galaxy/averageSpeed, "Galaxy/averageSpeed",
+    Galaxy_averageSpeed, "Galaxy/averageSpeed",
     /// `density (μ3)`: 
-    Galaxy/density, "Galaxy/density",
+    Galaxy_density, "Galaxy/density",
     /// `mass (kg)`: 
-    Galaxy/mass, "Galaxy/mass",
+    Galaxy_mass, "Galaxy/mass",
     /// `maximum temperature (K)`: 
-    Galaxy/maximumTemperature, "Galaxy/maximumTemperature",
+    Galaxy_maximumTemperature, "Galaxy/maximumTemperature",
     /// `mean radius (km)`: 
-    Galaxy/meanRadius, "Galaxy/meanRadius",
+    Galaxy_meanRadius, "Galaxy/meanRadius",
     /// `mean temperature (K)`: 
-    Galaxy/meanTemperature, "Galaxy/meanTemperature",
+    Galaxy_meanTemperature, "Galaxy/meanTemperature",
     /// `minimum temperature (K)`: 
-    Galaxy/minimumTemperature, "Galaxy/minimumTemperature",
+    Galaxy_minimumTemperature, "Galaxy/minimumTemperature",
     /// `orbital period (μ)`: 
-    Galaxy/orbitalPeriod, "Galaxy/orbitalPeriod",
+    Galaxy_orbitalPeriod, "Galaxy/orbitalPeriod",
     /// `periapsis (km)`: 
-    Galaxy/periapsis, "Galaxy/periapsis",
+    Galaxy_periapsis, "Galaxy/periapsis",
     /// `surface area (km2)`: 
-    Galaxy/surfaceArea, "Galaxy/surfaceArea",
+    Galaxy_surfaceArea, "Galaxy/surfaceArea",
     /// `temperature (K)`: 
-    Galaxy/temperature, "Galaxy/temperature",
+    Galaxy_temperature, "Galaxy/temperature",
     /// `volume (km3)`: 
-    Galaxy/volume, "Galaxy/volume",
+    Galaxy_volume, "Galaxy/volume",
     /// `game`: a structured activity, usually undertaken for enjoyment and sometimes used as an educational tool
     Game, "Game",
     /// `garden`: A garden is a planned space, usually outdoors, set aside for the display, cultivation, and enjoyment of plants and other forms of nature. (http://en.wikipedia.org/wiki/Garden)
@@ -713,9 +713,9 @@ namespace!(
     /// `geopolitical organisation`: 
     GeopoliticalOrganisation, "GeopoliticalOrganisation",
     /// `area metro (km2)`: 
-    GeopoliticalOrganisation/areaMetro, "GeopoliticalOrganisation/areaMetro",
+    GeopoliticalOrganisation_areaMetro, "GeopoliticalOrganisation/areaMetro",
     /// `population density (/sqkm)`: 
-    GeopoliticalOrganisation/populationDensity, "GeopoliticalOrganisation/populationDensity",
+    GeopoliticalOrganisation_populationDensity, "GeopoliticalOrganisation/populationDensity",
     /// `GermanSettlement`: 
     GermanSettlement, "GermanSettlement",
     /// `ginkgo`: 
@@ -749,9 +749,9 @@ namespace!(
     /// `Grand Prix`: 
     GrandPrix, "GrandPrix",
     /// `course (km)`: 
-    GrandPrix/course, "GrandPrix/course",
+    GrandPrix_course, "GrandPrix/course",
     /// `distance (km)`: 
-    GrandPrix/distance, "GrandPrix/distance",
+    GrandPrix_distance, "GrandPrix/distance",
     /// `grape`: 
     Grape, "Grape",
     /// `grave stone or grave monument`: A monument erected on a tomb, or a memorial stone.
@@ -851,7 +851,7 @@ namespace!(
     /// `infrastructure`: 
     Infrastructure, "Infrastructure",
     /// `length (km)`: 
-    Infrastructure/length, "Infrastructure/length",
+    Infrastructure_length, "Infrastructure/length",
     /// `inline hockey league`: group of sports teams that compete against each other in Inline Hockey.
     InlineHockeyLeague, "InlineHockeyLeague",
     /// `insect`: 
@@ -881,11 +881,11 @@ namespace!(
     /// `lake`: 
     Lake, "Lake",
     /// `area of catchment (km2)`: 
-    Lake/areaOfCatchment, "Lake/areaOfCatchment",
+    Lake_areaOfCatchment, "Lake/areaOfCatchment",
     /// `shore length (km)`: 
-    Lake/shoreLength, "Lake/shoreLength",
+    Lake_shoreLength, "Lake/shoreLength",
     /// `volume (μ³)`: 
-    Lake/volume, "Lake/volume",
+    Lake_volume, "Lake/volume",
     /// `language`: 
     Language, "Language",
     /// `LanguageCode`: 
@@ -941,7 +941,7 @@ namespace!(
     /// `lunar crater`: 
     LunarCrater, "LunarCrater",
     /// `diameter (km)`: 
-    LunarCrater/diameter, "LunarCrater/diameter",
+    LunarCrater_diameter, "LunarCrater/diameter",
     /// `lymph`: 
     Lymph, "Lymph",
     /// `magazine`: Magazines, periodicals, glossies or serials are publications, generally published on a regular schedule, containing a variety of articles. They are generally financed by advertising, by a purchase price, by pre-paid magazine subscriptions, or all three.
@@ -965,19 +965,19 @@ namespace!(
     /// `mean of transportation`: 
     MeanOfTransportation, "MeanOfTransportation",
     /// `diameter (μ)`: 
-    MeanOfTransportation/diameter, "MeanOfTransportation/diameter",
+    MeanOfTransportation_diameter, "MeanOfTransportation/diameter",
     /// `height (mm)`: 
-    MeanOfTransportation/height, "MeanOfTransportation/height",
+    MeanOfTransportation_height, "MeanOfTransportation/height",
     /// `length (mm)`: 
-    MeanOfTransportation/length, "MeanOfTransportation/length",
+    MeanOfTransportation_length, "MeanOfTransportation/length",
     /// `mass (kg)`: 
-    MeanOfTransportation/mass, "MeanOfTransportation/mass",
+    MeanOfTransportation_mass, "MeanOfTransportation/mass",
     /// `weight (kg)`: 
-    MeanOfTransportation/weight, "MeanOfTransportation/weight",
+    MeanOfTransportation_weight, "MeanOfTransportation/weight",
     /// `width (mm)`: 
-    MeanOfTransportation/width, "MeanOfTransportation/width",
+    MeanOfTransportation_width, "MeanOfTransportation/width",
     /// `MeanOfTransportation_,_Instrument`: 
-    MeanOfTransportation_,_Instrument, "MeanOfTransportation_,_Instrument",
+    MeanOfTransportation___Instrument, "MeanOfTransportation_,_Instrument",
     /// `Medalist`: 
     Medalist, "Medalist",
     /// `media`: storage and transmission channels or tools used to store and deliver information or data
@@ -1003,9 +1003,9 @@ namespace!(
     /// `military conflict`: 
     MilitaryConflict, "MilitaryConflict",
     /// `MilitaryConflict,_AdministrativeRegion`: 
-    MilitaryConflict,_AdministrativeRegion, "MilitaryConflict,_AdministrativeRegion",
+    MilitaryConflict__AdministrativeRegion, "MilitaryConflict,_AdministrativeRegion",
     /// `MilitaryConflict_,_NaturalEvent`: 
-    MilitaryConflict_,_NaturalEvent, "MilitaryConflict_,_NaturalEvent",
+    MilitaryConflict___NaturalEvent, "MilitaryConflict_,_NaturalEvent",
     /// `military person`: 
     MilitaryPerson, "MilitaryPerson",
     /// `military structure`: A military structure such as a Castle, Fortress, Wall, etc.
@@ -1059,7 +1059,7 @@ namespace!(
     /// `mountain`: 
     Mountain, "Mountain",
     /// `Mountain,Volcano`: 
-    Mountain,Volcano, "Mountain,Volcano",
+    Mountain_Volcano, "Mountain,Volcano",
     /// `mountain pass`: a path that allows the crossing of a mountain chain. It is usually a saddle point in between two areas of higher elevation
     MountainPass, "MountainPass",
     /// `mountain range`: a chain of mountains bordered by highlands or separated from other mountains by passes or valleys.
@@ -1077,17 +1077,17 @@ namespace!(
     /// `travellator`: 
     MovingWalkway, "MovingWalkway",
     /// `diameter (μ)`: 
-    MovingWalkway/diameter, "MovingWalkway/diameter",
+    MovingWalkway_diameter, "MovingWalkway/diameter",
     /// `height (mm)`: 
-    MovingWalkway/height, "MovingWalkway/height",
+    MovingWalkway_height, "MovingWalkway/height",
     /// `length (mm)`: 
-    MovingWalkway/length, "MovingWalkway/length",
+    MovingWalkway_length, "MovingWalkway/length",
     /// `mass (kg)`: 
-    MovingWalkway/mass, "MovingWalkway/mass",
+    MovingWalkway_mass, "MovingWalkway/mass",
     /// `weight (kg)`: 
-    MovingWalkway/weight, "MovingWalkway/weight",
+    MovingWalkway_weight, "MovingWalkway/weight",
     /// `width (mm)`: 
-    MovingWalkway/width, "MovingWalkway/width",
+    MovingWalkway_width, "MovingWalkway/width",
     /// `multi volume publication`: 
     MultiVolumePublication, "MultiVolumePublication",
     /// `municipality`: An administrative body governing a territorial unity on the lower level, administering one or a few more settlements
@@ -1175,17 +1175,17 @@ namespace!(
     /// `on-site mean of transportation`: 
     On_SiteTransportation, "On-SiteTransportation",
     /// `diameter (μ)`: 
-    On_SiteTransportation/diameter, "On-SiteTransportation/diameter",
+    On_SiteTransportation_diameter, "On-SiteTransportation/diameter",
     /// `height (mm)`: 
-    On_SiteTransportation/height, "On-SiteTransportation/height",
+    On_SiteTransportation_height, "On-SiteTransportation/height",
     /// `length (mm)`: 
-    On_SiteTransportation/length, "On-SiteTransportation/length",
+    On_SiteTransportation_length, "On-SiteTransportation/length",
     /// `mass (kg)`: 
-    On_SiteTransportation/mass, "On-SiteTransportation/mass",
+    On_SiteTransportation_mass, "On-SiteTransportation/mass",
     /// `weight (kg)`: 
-    On_SiteTransportation/weight, "On-SiteTransportation/weight",
+    On_SiteTransportation_weight, "On-SiteTransportation/weight",
     /// `width (mm)`: 
-    On_SiteTransportation/width, "On-SiteTransportation/width",
+    On_SiteTransportation_width, "On-SiteTransportation/width",
     /// `Open Swarm`: 
     Openswarm, "Openswarm",
     /// `opera`: 
@@ -1195,9 +1195,9 @@ namespace!(
     /// `organisation`: 
     Organisation, "Organisation",
     /// `Organisation,_Parish`: 
-    Organisation,_Parish, "Organisation,_Parish",
+    Organisation__Parish, "Organisation,_Parish",
     /// `Organisation,_PopulatedPlace`: 
-    Organisation,_PopulatedPlace, "Organisation,_PopulatedPlace",
+    Organisation__PopulatedPlace, "Organisation,_PopulatedPlace",
     /// `Organisation member`: A member of an organisation.
     OrganisationMember, "OrganisationMember",
     /// `orphan`: 
@@ -1213,7 +1213,7 @@ namespace!(
     /// `parish`: The smallest unit of a clerical administrative body
     Parish, "Parish",
     /// `Parish,_Deanery`: 
-    Parish,_Deanery, "Parish,_Deanery",
+    Parish__Deanery, "Parish,_Deanery",
     /// `park`: A park is an area of open space provided for recreational use. http://en.wikipedia.org/wiki/Park
     Park, "Park",
     /// `parliament`: 
@@ -1227,9 +1227,9 @@ namespace!(
     /// `person`: 
     Person, "Person",
     /// `height (cm)`: 
-    Person/height, "Person/height",
+    Person_height, "Person/height",
     /// `weight (kg)`: 
-    Person/weight, "Person/weight",
+    Person_weight, "Person/weight",
     /// `person function`: 
     PersonFunction, "PersonFunction",
     /// `personal event`: an event that occurs in someone's personal life
@@ -1245,31 +1245,31 @@ namespace!(
     /// `planet`: 
     Planet, "Planet",
     /// `apoapsis (km)`: 
-    Planet/apoapsis, "Planet/apoapsis",
+    Planet_apoapsis, "Planet/apoapsis",
     /// `average speed (km/s)`: The average speed of a thing.
-    Planet/averageSpeed, "Planet/averageSpeed",
+    Planet_averageSpeed, "Planet/averageSpeed",
     /// `density (μ3)`: 
-    Planet/density, "Planet/density",
+    Planet_density, "Planet/density",
     /// `mass (kg)`: 
-    Planet/mass, "Planet/mass",
+    Planet_mass, "Planet/mass",
     /// `maximum temperature (K)`: 
-    Planet/maximumTemperature, "Planet/maximumTemperature",
+    Planet_maximumTemperature, "Planet/maximumTemperature",
     /// `mean radius (km)`: 
-    Planet/meanRadius, "Planet/meanRadius",
+    Planet_meanRadius, "Planet/meanRadius",
     /// `mean temperature (K)`: 
-    Planet/meanTemperature, "Planet/meanTemperature",
+    Planet_meanTemperature, "Planet/meanTemperature",
     /// `minimum temperature (K)`: 
-    Planet/minimumTemperature, "Planet/minimumTemperature",
+    Planet_minimumTemperature, "Planet/minimumTemperature",
     /// `orbital period (μ)`: 
-    Planet/orbitalPeriod, "Planet/orbitalPeriod",
+    Planet_orbitalPeriod, "Planet/orbitalPeriod",
     /// `periapsis (km)`: 
-    Planet/periapsis, "Planet/periapsis",
+    Planet_periapsis, "Planet/periapsis",
     /// `surface area (km2)`: 
-    Planet/surfaceArea, "Planet/surfaceArea",
+    Planet_surfaceArea, "Planet/surfaceArea",
     /// `temperature (K)`: 
-    Planet/temperature, "Planet/temperature",
+    Planet_temperature, "Planet/temperature",
     /// `volume (km3)`: 
-    Planet/volume, "Planet/volume",
+    Planet_volume, "Planet/volume",
     /// `plant`: 
     Plant, "Plant",
     /// `play`: A play is a form of literature written by a playwright, usually consisting of scripted dialogue between characters, intended for theatrical performance rather than just reading.
@@ -1305,19 +1305,19 @@ namespace!(
     /// `populated place`: As defined by the United States Geological Survey, a populated place is a place or area with clustered or scattered buildings and a permanent human population (city, settlement, town, or village) referenced with geographic coordinates (http://en.wikipedia.org/wiki/Populated_place).
     PopulatedPlace, "PopulatedPlace",
     /// `area (km2)`: The area of the thing in square meters.
-    PopulatedPlace/area, "PopulatedPlace/area",
+    PopulatedPlace_area, "PopulatedPlace/area",
     /// `area metro (km2)`: 
-    PopulatedPlace/areaMetro, "PopulatedPlace/areaMetro",
+    PopulatedPlace_areaMetro, "PopulatedPlace/areaMetro",
     /// `area total (km2)`: 
-    PopulatedPlace/areaTotal, "PopulatedPlace/areaTotal",
+    PopulatedPlace_areaTotal, "PopulatedPlace/areaTotal",
     /// `area urban (km2)`: 
-    PopulatedPlace/areaUrban, "PopulatedPlace/areaUrban",
+    PopulatedPlace_areaUrban, "PopulatedPlace/areaUrban",
     /// `population density (/sqkm)`: 
-    PopulatedPlace/populationDensity, "PopulatedPlace/populationDensity",
+    PopulatedPlace_populationDensity, "PopulatedPlace/populationDensity",
     /// `population metro density (/sqkm)`: 
-    PopulatedPlace/populationMetroDensity, "PopulatedPlace/populationMetroDensity",
+    PopulatedPlace_populationMetroDensity, "PopulatedPlace/populationMetroDensity",
     /// `population urban density (/sqkm)`: 
-    PopulatedPlace/populationUrbanDensity, "PopulatedPlace/populationUrbanDensity",
+    PopulatedPlace_populationUrbanDensity, "PopulatedPlace/populationUrbanDensity",
     /// `population`: 
     Population, "Population",
     /// `Port`: a location on a coast or shore containing one or more harbors where ships can dock and transfer people or cargo to or from land.
@@ -1439,9 +1439,9 @@ namespace!(
     /// `rocket`: 
     Rocket, "Rocket",
     /// `lower earth orbit payload (kg)`: Payload mass in a typical Low Earth orbit
-    Rocket/lowerEarthOrbitPayload, "Rocket/lowerEarthOrbitPayload",
+    Rocket_lowerEarthOrbitPayload, "Rocket/lowerEarthOrbitPayload",
     /// `mass (kg)`: 
-    Rocket/mass, "Rocket/mass",
+    Rocket_mass, "Rocket/mass",
     /// `rocket engine`: 
     RocketEngine, "RocketEngine",
     /// `roller coaster`: 
@@ -1475,7 +1475,7 @@ namespace!(
     /// `school`: 
     School, "School",
     /// `campus size (km2)`: 
-    School/campusSize, "School/campusSize",
+    School_campusSize, "School/campusSize",
     /// `Scientific concept`: Scientific concepts, e.g. Theory of relativity, Quantum gravity
     ScientificConcept, "ScientificConcept",
     /// `scientist`: 
@@ -1549,7 +1549,7 @@ namespace!(
     /// `software`: 
     Software, "Software",
     /// `size (MB)`: size of a file or software
-    Software/fileSize, "Software/fileSize",
+    Software_fileSize, "Software/fileSize",
     /// `solar eclipse`: Έκλειψη ηλίου ονομάζεται το φαινόμενο κατά το οποίο η Σελήνη παρεμβάλλεται ανάμεσα στον Ήλιο και τη Γη, με αποτέλεσμα ορισμένες περιοχές της Γης να δέχονται λιγότερο φως από ό,τι συνήθως.
     SolarEclipse, "SolarEclipse",
     /// `song`: 
@@ -1561,57 +1561,57 @@ namespace!(
     /// `space mission`: 
     SpaceMission, "SpaceMission",
     /// `CMP EVA duration (ω)`: 
-    SpaceMission/cmpEvaDuration, "SpaceMission/cmpEvaDuration",
+    SpaceMission_cmpEvaDuration, "SpaceMission/cmpEvaDuration",
     /// `distance traveled (km)`: 
-    SpaceMission/distanceTraveled, "SpaceMission/distanceTraveled",
+    SpaceMission_distanceTraveled, "SpaceMission/distanceTraveled",
     /// `lunar EVA time (ω)`: 
-    SpaceMission/lunarEvaTime, "SpaceMission/lunarEvaTime",
+    SpaceMission_lunarEvaTime, "SpaceMission/lunarEvaTime",
     /// `lunar orbit time (ω)`: 
-    SpaceMission/lunarOrbitTime, "SpaceMission/lunarOrbitTime",
+    SpaceMission_lunarOrbitTime, "SpaceMission/lunarOrbitTime",
     /// `lunar sample mass (kg)`: 
-    SpaceMission/lunarSampleMass, "SpaceMission/lunarSampleMass",
+    SpaceMission_lunarSampleMass, "SpaceMission/lunarSampleMass",
     /// `lunar surface time (ω)`: 
-    SpaceMission/lunarSurfaceTime, "SpaceMission/lunarSurfaceTime",
+    SpaceMission_lunarSurfaceTime, "SpaceMission/lunarSurfaceTime",
     /// `mass (kg)`: 
-    SpaceMission/mass, "SpaceMission/mass",
+    SpaceMission_mass, "SpaceMission/mass",
     /// `mission duration (μ)`: 
-    SpaceMission/missionDuration, "SpaceMission/missionDuration",
+    SpaceMission_missionDuration, "SpaceMission/missionDuration",
     /// `station EVA duration (ω)`: 
-    SpaceMission/stationEvaDuration, "SpaceMission/stationEvaDuration",
+    SpaceMission_stationEvaDuration, "SpaceMission/stationEvaDuration",
     /// `station visit duration (ω)`: 
-    SpaceMission/stationVisitDuration, "SpaceMission/stationVisitDuration",
+    SpaceMission_stationVisitDuration, "SpaceMission/stationVisitDuration",
     /// `space shuttle`: 
     SpaceShuttle, "SpaceShuttle",
     /// `distance (km)`: 
-    SpaceShuttle/distance, "SpaceShuttle/distance",
+    SpaceShuttle_distance, "SpaceShuttle/distance",
     /// `total time person has spent in space (μ)`: 
-    SpaceShuttle/timeInSpace, "SpaceShuttle/timeInSpace",
+    SpaceShuttle_timeInSpace, "SpaceShuttle/timeInSpace",
     /// `space station`: 
     SpaceStation, "SpaceStation",
     /// `volume (μ³)`: 
-    SpaceStation/volume, "SpaceStation/volume",
+    SpaceStation_volume, "SpaceStation/volume",
     /// `spacecraft`: 
     Spacecraft, "Spacecraft",
     /// `apoapsis (km)`: 
-    Spacecraft/apoapsis, "Spacecraft/apoapsis",
+    Spacecraft_apoapsis, "Spacecraft/apoapsis",
     /// `cargo fuel (kg)`: 
-    Spacecraft/cargoFuel, "Spacecraft/cargoFuel",
+    Spacecraft_cargoFuel, "Spacecraft/cargoFuel",
     /// `cargo gas (kg)`: 
-    Spacecraft/cargoGas, "Spacecraft/cargoGas",
+    Spacecraft_cargoGas, "Spacecraft/cargoGas",
     /// `cargo water (kg)`: 
-    Spacecraft/cargoWater, "Spacecraft/cargoWater",
+    Spacecraft_cargoWater, "Spacecraft/cargoWater",
     /// `docked time (μ)`: 
-    Spacecraft/dockedTime, "Spacecraft/dockedTime",
+    Spacecraft_dockedTime, "Spacecraft/dockedTime",
     /// `dry cargo (kg)`: 
-    Spacecraft/dryCargo, "Spacecraft/dryCargo",
+    Spacecraft_dryCargo, "Spacecraft/dryCargo",
     /// `free flight time (μ)`: 
-    Spacecraft/freeFlightTime, "Spacecraft/freeFlightTime",
+    Spacecraft_freeFlightTime, "Spacecraft/freeFlightTime",
     /// `periapsis (km)`: 
-    Spacecraft/periapsis, "Spacecraft/periapsis",
+    Spacecraft_periapsis, "Spacecraft/periapsis",
     /// `total cargo (kg)`: 
-    Spacecraft/totalCargo, "Spacecraft/totalCargo",
+    Spacecraft_totalCargo, "Spacecraft/totalCargo",
     /// `total mass (kg)`: 
-    Spacecraft/totalMass, "Spacecraft/totalMass",
+    Spacecraft_totalMass, "Spacecraft/totalMass",
     /// `species`: 
     Species, "Species",
     /// `speed skater`: 
@@ -1671,15 +1671,15 @@ namespace!(
     /// `stream`: a flowing body of water with a current, confined within a bed and stream banks
     Stream, "Stream",
     /// `discharge (m³/s)`: 
-    Stream/discharge, "Stream/discharge",
+    Stream_discharge, "Stream/discharge",
     /// `discharge average (m³/s)`: 
-    Stream/dischargeAverage, "Stream/dischargeAverage",
+    Stream_dischargeAverage, "Stream/dischargeAverage",
     /// `maximum discharge (m³/s)`: 
-    Stream/maximumDischarge, "Stream/maximumDischarge",
+    Stream_maximumDischarge, "Stream/maximumDischarge",
     /// `minimum discharge (m³/s)`: 
-    Stream/minimumDischarge, "Stream/minimumDischarge",
+    Stream_minimumDischarge, "Stream/minimumDischarge",
     /// `watershed (km2)`: 
-    Stream/watershed, "Stream/watershed",
+    Stream_watershed, "Stream/watershed",
     /// `street`: A Street is different from a Road in as far as the infrastructure aspect is much less important here. A Street is a social and architectural ensemble much more than the connection between two geographic points.
     Street, "Street",
     /// `borough`: An administrative body governing a territorial unity on the lowest level, administering part of a municipality
@@ -1829,19 +1829,19 @@ namespace!(
     /// `weapon`: 
     Weapon, "Weapon",
     /// `diameter (mm)`: 
-    Weapon/diameter, "Weapon/diameter",
+    Weapon_diameter, "Weapon/diameter",
     /// `height (mm)`: 
-    Weapon/height, "Weapon/height",
+    Weapon_height, "Weapon/height",
     /// `length (mm)`: 
-    Weapon/length, "Weapon/length",
+    Weapon_length, "Weapon/length",
     /// `weight (kg)`: 
-    Weapon/weight, "Weapon/weight",
+    Weapon_weight, "Weapon/weight",
     /// `width (mm)`: 
-    Weapon/width, "Weapon/width",
+    Weapon_width, "Weapon/width",
     /// `website`: 
     Website, "Website",
     /// `Wikidata:Q11424`: 
-    Wikidata:Q11424, "Wikidata:Q11424",
+    Wikidata_Q11424, "Wikidata:Q11424",
     /// `Wind motor`: A wind-driven turbine that adapts itself to wind direction and to wind-force. Is considered to be a class in its own, despite the wind as common factor with Windmill.
     WindMotor, "WindMotor",
     /// `Windmill`: A windmill is a machine that converts the energy of wind into rotational energy by means of vanes called sails
@@ -1861,7 +1861,7 @@ namespace!(
     /// `work`: 
     Work, "Work",
     /// `runtime (m)`: 
-    Work/runtime, "Work/runtime",
+    Work_runtime, "Work/runtime",
     /// `World Heritage Site`: A UNESCO World Heritage Site is a site (such as a forest, mountain, lake, desert, monument, building, complex, or city) that is on the list that is maintained by the international World Heritage Programme administered by the UNESCO World Heritage Committee, composed of 21 state parties which are elected by their General Assembly for a four-year term. A World Heritage Site is a place of either cultural or physical significance.
     WorldHeritageSite, "WorldHeritageSite",
     /// `wrestler`: 
@@ -7161,7 +7161,7 @@ namespace!(
     /// `west place`: indicates another place situated west.
     westPlace, "westPlace",
     /// `wgs84_pos:SpatialThing`: 
-    wgs84_pos:SpatialThing, "wgs84_pos:SpatialThing",
+    wgs84_pos_SpatialThing, "wgs84_pos:SpatialThing",
     /// `wha draft`: 
     whaDraft, "whaDraft",
     /// `wha draft team`: 

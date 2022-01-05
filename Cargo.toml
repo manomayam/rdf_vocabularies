@@ -120,10 +120,6 @@ dataset-wgs = ['dataset']
 dataset-xhv = ['dataset']
 dataset-xkos = ['dataset']
 dataset-xsd = ['dataset']
-default = [
-    'dataset',
-    'ns-rdf',
-]
 ns-acl = []
 ns-as_ = []
 ns-bibo = []
@@ -207,11 +203,11 @@ ns-xkos = []
 ns-xsd = []
 
 [package]
+description = '''This package contains a distribution of the most commonly used RDF vocabularies. It also provides sophia terms for each vocabulary's terminology.'''
 edition = '2021'
+license = 'MIT OR Apache-2.0'
 name = 'rdf_vocabularies'
 version = '0.1.0'
-description = "This package contains a distribution of the most commonly used RDF vocabularies. It also provides sophia terms for each vocabulary's terminology."
-license = "MIT OR Apache-2.0"
 
 [workspace]
 members = ['codegen']

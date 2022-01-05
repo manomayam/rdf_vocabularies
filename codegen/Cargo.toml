@@ -24,6 +24,8 @@ env_logger = "0.9.0"
 log = "0.4.14"
 rdf_utils = "0.1.0"
 toml = "0.5.8"
+regex = "1.5.4"
+syn = "1.0.84"
 
 [dev-dependencies]
 claim = "0.5.0"

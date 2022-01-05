@@ -1,67 +1,17 @@
-pub static RUST_KEY_WORDS: [&str; 58] = [
-    "as",
-    "use",
-    "extern crate",
-    "break",
-    "const",
-    "continue",
-    "crate",
-    "else",
-    "if",
-    "if let",
-    "enum",
-    "extern",
-    "false",
-    "fn",
-    "for",
-    "if",
-    "impl",
-    "in",
-    "for",
-    "let",
-    "loop",
-    "match",
-    "mod",
-    "move",
-    "mut",
-    "pub",
-    "impl",
-    "ref",
-    "return",
-    "Self",
-    "self",
-    "static",
-    "struct",
-    "super",
-    "trait",
-    "true",
-    "type",
-    "unsafe",
-    "use",
-    "where",
-    "while",
-    "abstract",
-    "alignof",
-    "become",
-    "box",
-    "do",
-    "final",
-    "macro",
-    "offsetof",
-    "override",
-    "priv",
-    "proc",
-    "pure",
-    "sizeof",
-    "typeof",
-    "unsized",
-    "virtual",
-    "yield",
-];
+use once_cell::sync::Lazy;
+
+const INVALID_CHARS_RE: Lazy<regex::Regex> = Lazy::new(|| {
+    regex::Regex::new(
+        &format!("[{}]", regex::escape(r##"!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~"##))).unwrap()
+});
 
 pub fn sanitize_ident(ident: &str) -> String {
-    let ident = ident.replace("-", "_").replace(".", "_");
-    if RUST_KEY_WORDS.contains(&ident.as_str()) {
+    if ident.len() == 0 { return ident.to_string(); }
+    let mut ident = INVALID_CHARS_RE.replace_all(ident, "_").to_string();
+    if ident.chars().next().unwrap().is_numeric() {
+        ident = format!("N_{}", ident);
+    }
+    if syn::parse_str::<syn::Ident>(&ident).is_err() {
         ident + "_"
     } else {
         ident

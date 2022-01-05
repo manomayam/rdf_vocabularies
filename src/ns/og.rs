@@ -21,15 +21,15 @@ namespace!(
     /// `audio`: A relevant audio URL for your object.
     audio, "audio",
     /// `audio album`: [DEPRECATED] An album to which some audio belongs.
-    audio:album, "audio:album",
+    audio_album, "audio:album",
     /// `audio artist`: [DEPRECATED] An artist of some audio.
-    audio:artist, "audio:artist",
+    audio_artist, "audio:artist",
     /// `audio secure URL`: A relevant, secure audio URL for your object.
-    audio:secure_url, "audio:secure_url",
+    audio_secure_url, "audio:secure_url",
     /// `audio title`: [DEPRECATED] A title for some audio.
-    audio:title, "audio:title",
+    audio_title, "audio:title",
     /// `audio type`: The mime type of an audio file e.g., "application/mp3"
-    audio:type, "audio:type",
+    audio_type, "audio:type",
     /// `country name`: [DEPRECATED] The country name of the resource e.g., "USA"
     country_name, "country-name",
     /// `description`: A one to two sentence description of your object.
@@ -43,13 +43,13 @@ namespace!(
     /// `image`: An image URL which should represent your object within the graph.
     image, "image",
     /// `image height`: The height of an image.
-    image:height, "image:height",
+    image_height, "image:height",
     /// `image secure url`: A secure image URL which should represent your object within the graph.
-    image:secure_url, "image:secure_url",
+    image_secure_url, "image:secure_url",
     /// `image type`: The mime type of an image.
-    image:type, "image:type",
+    image_type, "image:type",
     /// `image width`: The width of an image.
-    image:width, "image:width",
+    image_width, "image:width",
     /// `International Standard Book Number`: [DEPRECATED] International Standard Book Number for you object.
     isbn, "isbn",
     /// `latitude`: [DEPRECATED] The latitude of the resource e.g., the latitude of a company.
@@ -81,11 +81,11 @@ namespace!(
     /// `video`: A relevant video URL for your object.
     video, "video",
     /// `video height`: The height of a video.
-    video:height, "video:height",
+    video_height, "video:height",
     /// `video secure URL`: A relevant, secure video URL for your object.
-    video:secure_url, "video:secure_url",
+    video_secure_url, "video:secure_url",
     /// `video type`: The mime type of a video e.g., "application/x-shockwave-flash"
-    video:type, "video:type",
+    video_type, "video:type",
     /// `video width`: The width of a video.
-    video:width, "video:width"
+    video_width, "video:width"
 );

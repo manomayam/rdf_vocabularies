@@ -1,10 +1,10 @@
 use rdf_utils::models::arc::{ArcIri, ArcLiteral};
 
 pub fn literal_without_new_line(literal: ArcLiteral) -> ArcLiteral {
-    if !literal.txt().contains("\n") {
+    if !literal.txt().contains("\n") && !literal.txt().contains("\r") {
         literal
     } else {
-        ArcLiteral::new_dt(literal.txt().replace("\n", " "), literal.dt())
+        ArcLiteral::new_dt(literal.txt().replace("\n", " ").replace("\r", ""), literal.dt())
     }
 }
 

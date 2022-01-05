@@ -167,11 +167,11 @@ namespace!(
     /// `degree`: The thesis degree.
     degree, "degree",
     /// `M.A.`: masters degree in arts
-    degrees/ma, "degrees/ma",
+    degrees_ma, "degrees/ma",
     /// `M.S.`: masters degree in science
-    degrees/ms, "degrees/ms",
+    degrees_ms, "degrees/ms",
     /// `PhD degree`: PhD degree
-    degrees/phd, "degrees/phd",
+    degrees_phd, "degrees/phd",
     /// `director`: A Film director.
     director, "director",
     /// `distributor`: Distributor of a document or a collection of documents.
@@ -265,23 +265,23 @@ namespace!(
     /// `status`: The publication status of (typically academic) content.
     status, "status",
     /// `accepted`: Accepted for publication after peer reviewing.
-    status/accepted, "status/accepted",
+    status_accepted, "status/accepted",
     /// `draft`: Document drafted
-    status/draft, "status/draft",
+    status_draft, "status/draft",
     /// `forthcoming`: Document to be published
-    status/forthcoming, "status/forthcoming",
+    status_forthcoming, "status/forthcoming",
     /// `legal`: Legal document
-    status/legal, "status/legal",
+    status_legal, "status/legal",
     /// `non peer reviewed`: A document that is not peer reviewed
-    status/nonPeerReviewed, "status/nonPeerReviewed",
+    status_nonPeerReviewed, "status/nonPeerReviewed",
     /// `peer reviewed`: The process by which articles are chosen to be included in a refereed journal. An editorial board consisting of experts in the same field as the author review the article and decide if it is authoritative enough for publication.
-    status/peerReviewed, "status/peerReviewed",
+    status_peerReviewed, "status/peerReviewed",
     /// `published`: Published document
-    status/published, "status/published",
+    status_published, "status/published",
     /// `rejected`: Rejected for publication after peer reviewing.
-    status/rejected, "status/rejected",
+    status_rejected, "status/rejected",
     /// `unpublished`: Unpublished document
-    status/unpublished, "status/unpublished",
+    status_unpublished, "status/unpublished",
     /// `subsequentLegalDecision`: A legal decision on appeal that takes action on a case (affirming it, reversing it, etc.).
     subsequentLegalDecision, "subsequentLegalDecision",
     /// `suffix name`: The suffix of a name

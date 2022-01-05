@@ -2099,7 +2099,7 @@ namespace!(
     /// `Default link`: The default link for a given identified item to which a resolver will redirect unless there is information in the request that is a better match.
     defaultLink, "defaultLink",
     /// `Default link*`: Originally proposed as the term for defaultLinkMulti. Do not use.
-    defaultLink%2A, "defaultLink%2A",
+    defaultLink_2A, "defaultLink%2A",
     /// `Default linkMulti`: A set of 'default links' that may be differentiated by information in the HTTP request headers sent to a resolver to enable a better match than the single default link.
     defaultLinkMulti, "defaultLinkMulti",
     /// `Department`: The name of a division of an organization dealing with a specific activity
