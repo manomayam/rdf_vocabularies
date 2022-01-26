@@ -19,12 +19,11 @@ rdf_vocabularies = { version = "0.1.0", features=["ns-rdf", "ns-foaf", "ns-solid
 And then use them.
 
 ```rust
-use rdf_vocabularies::{ns::{rdf, foaf, solid}, dataset::foaf};
-use sophia_api::term::term_eq;
-use sophia_term::StaticTerm;
+use rdf_vocabularies::{ns::{rdf, foaf, solid}};
+use sophia_api::term::{term_eq, SimpleIri};
 
-assert!(term_eq(&foaf::Agent, &StaticTerm::new_iri("http://xmlns.com/foaf/0.1/Agent")?));
-assert!(term_eq(&rdf::subject, &StaticTerm::new_iri("http://www.w3.org/1999/02/22-rdf-syntax-ns#subject")?));
+assert!(term_eq(&foaf::Agent, &SimpleIri::new_unchecked("http://xmlns.com/foaf/0.1/", Some("Agent"))));
+assert!(term_eq(&rdf::subject, &SimpleIri::new_unchecked("http://www.w3.org/1999/02/22-rdf-syntax-ns#", Some("subject"))));
 ```
 
 
