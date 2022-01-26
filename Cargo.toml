@@ -231,7 +231,7 @@ description = '''This crate is a distribution of few most commonly used RDF voca
 edition = '2021'
 license = 'MIT OR Apache-2.0'
 name = 'rdf_vocabularies'
-version = '0.1.0'
+version = '0.1.1'
 repository = "https://github.com/manomayam/rdf_vocabularies"
 keywords = ["rdf", "vocabularies", "namespace"]
 
