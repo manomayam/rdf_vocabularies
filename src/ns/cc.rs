@@ -1,7 +1,7 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
-#![cfg_attr(docsrs, feature(doc_cfg))]
-#![cfg_attr(docsrs, doc(cfg(feature = "ns-cc")))]
 //! This module provides terms for `cc` vocabulary
+//!
+//! This module requires `ns-cc` feature to be enabled.
 //!
 //! ## Vocabulary:
 //!

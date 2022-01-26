@@ -1,7 +1,7 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
-#![cfg_attr(docsrs, feature(doc_cfg))]
-#![cfg_attr(docsrs, doc(cfg(feature = "ns-earl")))]
 //! This module provides terms for `Evaluation and Report Language (EARL) 1.0 Schema` vocabulary
+//!
+//! This module requires `ns-earl` feature to be enabled.
 //!
 //! ## Vocabulary:
 //!

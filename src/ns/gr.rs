@@ -1,7 +1,7 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
-#![cfg_attr(docsrs, feature(doc_cfg))]
-#![cfg_attr(docsrs, doc(cfg(feature = "ns-gr")))]
 //! This module provides terms for `The GoodRelations Vocabulary for Semantic Web-based E-Commerce` vocabulary
+//!
+//! This module requires `ns-gr` feature to be enabled.
 //!
 //! ## Vocabulary:
 //!

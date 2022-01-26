@@ -1,6 +1,5 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
-#![cfg_attr(docsrs, feature(doc_cfg))]
-#![cfg_attr(docsrs, doc(cfg(feature = "dataset-csvw")))]
+//! This module requires `dataset-csvw` feature to be enabled.
 
 use crate::dataset_from_path;
 

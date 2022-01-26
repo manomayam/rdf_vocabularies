@@ -1,7 +1,7 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
-#![cfg_attr(docsrs, feature(doc_cfg))]
-#![cfg_attr(docsrs, doc(cfg(feature = "ns-gold")))]
 //! This module provides terms for `General Ontology for Linguistic Description` vocabulary
+//!
+//! This module requires `ns-gold` feature to be enabled.
 //!
 //! ## Vocabulary:
 //!

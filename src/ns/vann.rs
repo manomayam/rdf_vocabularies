@@ -1,7 +1,7 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
-#![cfg_attr(docsrs, feature(doc_cfg))]
-#![cfg_attr(docsrs, doc(cfg(feature = "ns-vann")))]
 //! This module provides terms for `VANN: A vocabulary for annotating vocabulary descriptions` vocabulary
+//!
+//! This module requires `ns-vann` feature to be enabled.
 //!
 //! ## Vocabulary:
 //!

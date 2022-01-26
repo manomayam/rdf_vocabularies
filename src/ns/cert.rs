@@ -1,7 +1,7 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
-#![cfg_attr(docsrs, feature(doc_cfg))]
-#![cfg_attr(docsrs, doc(cfg(feature = "ns-cert")))]
 //! This module provides terms for `The Cert Ontology 1.0` vocabulary
+//!
+//! This module requires `ns-cert` feature to be enabled.
 //!
 //! ## Vocabulary:
 //!

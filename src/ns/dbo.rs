@@ -1,7 +1,7 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
-#![cfg_attr(docsrs, feature(doc_cfg))]
-#![cfg_attr(docsrs, doc(cfg(feature = "ns-dbo")))]
 //! This module provides terms for `The DBpedia Ontology` vocabulary
+//!
+//! This module requires `ns-dbo` feature to be enabled.
 //!
 //! ## Vocabulary:
 //!

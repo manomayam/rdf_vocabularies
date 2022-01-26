@@ -1,7 +1,7 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
-#![cfg_attr(docsrs, feature(doc_cfg))]
-#![cfg_attr(docsrs, doc(cfg(feature = "ns-discipline")))]
 //! This module provides terms for `QUDT Disciplines Ontology` vocabulary
+//!
+//! This module requires `ns-discipline` feature to be enabled.
 //!
 //! ## Vocabulary:
 //!

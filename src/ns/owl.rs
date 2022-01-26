@@ -1,7 +1,7 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
-#![cfg_attr(docsrs, feature(doc_cfg))]
-#![cfg_attr(docsrs, doc(cfg(feature = "ns-owl")))]
 //! This module provides terms for `The OWL 2 Schema vocabulary (OWL 2)` vocabulary
+//!
+//! This module requires `ns-owl` feature to be enabled.
 //!
 //! ## Vocabulary:
 //!

@@ -1,7 +1,7 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
-#![cfg_attr(docsrs, feature(doc_cfg))]
-#![cfg_attr(docsrs, doc(cfg(feature = "ns-rico")))]
 //! This module provides terms for `International Council on Archives Records in Contexts Ontology             (ICA RiC-O) version 0.2` vocabulary
+//!
+//! This module requires `ns-rico` feature to be enabled.
 //!
 //! ## Vocabulary:
 //!

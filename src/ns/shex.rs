@@ -1,7 +1,7 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
-#![cfg_attr(docsrs, feature(doc_cfg))]
-#![cfg_attr(docsrs, doc(cfg(feature = "ns-shex")))]
 //! This module provides terms for `shex` vocabulary
+//!
+//! This module requires `ns-shex` feature to be enabled.
 //!
 //! ## Vocabulary:
 //!

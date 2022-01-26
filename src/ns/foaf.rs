@@ -1,7 +1,7 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
-#![cfg_attr(docsrs, feature(doc_cfg))]
-#![cfg_attr(docsrs, doc(cfg(feature = "ns-foaf")))]
 //! This module provides terms for `Friend of a Friend (FOAF) vocabulary` vocabulary
+//!
+//! This module requires `ns-foaf` feature to be enabled.
 //!
 //! ## Vocabulary:
 //!

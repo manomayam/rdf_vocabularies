@@ -1,6 +1,5 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
-#![cfg_attr(docsrs, feature(doc_cfg))]
-#![cfg_attr(docsrs, doc(cfg(feature = "dataset-sh")))]
+//! This module requires `dataset-sh` feature to be enabled.
 
 use crate::dataset_from_path;
 

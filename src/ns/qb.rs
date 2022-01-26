@@ -1,7 +1,7 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
-#![cfg_attr(docsrs, feature(doc_cfg))]
-#![cfg_attr(docsrs, doc(cfg(feature = "ns-qb")))]
 //! This module provides terms for `Vocabulary for multi-dimensional (e.g. statistical) data publishing` vocabulary
+//!
+//! This module requires `ns-qb` feature to be enabled.
 //!
 //! ## Vocabulary:
 //!

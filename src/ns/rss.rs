@@ -1,7 +1,7 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
-#![cfg_attr(docsrs, feature(doc_cfg))]
-#![cfg_attr(docsrs, doc(cfg(feature = "ns-rss")))]
 //! This module provides terms for `rss` vocabulary
+//!
+//! This module requires `ns-rss` feature to be enabled.
 //!
 //! ## Vocabulary:
 //!

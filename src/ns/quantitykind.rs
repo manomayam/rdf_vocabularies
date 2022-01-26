@@ -1,7 +1,7 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
-#![cfg_attr(docsrs, feature(doc_cfg))]
-#![cfg_attr(docsrs, doc(cfg(feature = "ns-quantitykind")))]
 //! This module provides terms for `QUDT VOCAB Quantity Kinds  Release 2.1.12` vocabulary
+//!
+//! This module requires `ns-quantitykind` feature to be enabled.
 //!
 //! ## Vocabulary:
 //!

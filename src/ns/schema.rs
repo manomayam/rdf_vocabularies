@@ -1,7 +1,7 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
-#![cfg_attr(docsrs, feature(doc_cfg))]
-#![cfg_attr(docsrs, doc(cfg(feature = "ns-schema")))]
 //! This module provides terms for `schema` vocabulary
+//!
+//! This module requires `ns-schema` feature to be enabled.
 //!
 //! ## Vocabulary:
 //!

@@ -1,7 +1,7 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
-#![cfg_attr(docsrs, feature(doc_cfg))]
-#![cfg_attr(docsrs, doc(cfg(feature = "ns-qudt")))]
 //! This module provides terms for `qudt` vocabulary
+//!
+//! This module requires `ns-qudt` feature to be enabled.
 //!
 //! ## Vocabulary:
 //!

@@ -1,7 +1,7 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
-#![cfg_attr(docsrs, feature(doc_cfg))]
-#![cfg_attr(docsrs, doc(cfg(feature = "ns-sosa")))]
 //! This module provides terms for `Sensor, Observation, Sample, and Actuator (SOSA) Ontology` vocabulary
+//!
+//! This module requires `ns-sosa` feature to be enabled.
 //!
 //! ## Vocabulary:
 //!

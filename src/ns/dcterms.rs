@@ -1,7 +1,7 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
-#![cfg_attr(docsrs, feature(doc_cfg))]
-#![cfg_attr(docsrs, doc(cfg(feature = "ns-dcterms")))]
 //! This module provides terms for `DCMI Metadata Terms - other` vocabulary
+//!
+//! This module requires `ns-dcterms` feature to be enabled.
 //!
 //! ## Vocabulary:
 //!

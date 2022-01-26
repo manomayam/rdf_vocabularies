@@ -1,7 +1,7 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
-#![cfg_attr(docsrs, feature(doc_cfg))]
-#![cfg_attr(docsrs, doc(cfg(feature = "ns-ldp")))]
 //! This module provides terms for `The W3C Linked Data Platform (LDP) Vocabulary` vocabulary
+//!
+//! This module requires `ns-ldp` feature to be enabled.
 //!
 //! ## Vocabulary:
 //!

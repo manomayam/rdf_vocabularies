@@ -1,6 +1,5 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
-#![cfg_attr(docsrs, feature(doc_cfg))]
-#![cfg_attr(docsrs, doc(cfg(feature = "dataset-vcard")))]
+//! This module requires `dataset-vcard` feature to be enabled.
 
 use crate::dataset_from_path;
 

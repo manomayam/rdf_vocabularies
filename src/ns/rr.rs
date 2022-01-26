@@ -1,7 +1,7 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
-#![cfg_attr(docsrs, feature(doc_cfg))]
-#![cfg_attr(docsrs, doc(cfg(feature = "ns-rr")))]
 //! This module provides terms for `R2RML vocabulary` vocabulary
+//!
+//! This module requires `ns-rr` feature to be enabled.
 //!
 //! ## Vocabulary:
 //!

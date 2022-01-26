@@ -1,7 +1,7 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
-#![cfg_attr(docsrs, feature(doc_cfg))]
-#![cfg_attr(docsrs, doc(cfg(feature = "ns-as_")))]
 //! This module provides terms for `Activity Streams 2.0` vocabulary
+//!
+//! This module requires `ns-as_` feature to be enabled.
 //!
 //! ## Vocabulary:
 //!

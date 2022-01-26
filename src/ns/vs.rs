@@ -1,7 +1,7 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
-#![cfg_attr(docsrs, feature(doc_cfg))]
-#![cfg_attr(docsrs, doc(cfg(feature = "ns-vs")))]
 //! This module provides terms for `SemWeb Vocab Status ontology` vocabulary
+//!
+//! This module requires `ns-vs` feature to be enabled.
 //!
 //! ## Vocabulary:
 //!

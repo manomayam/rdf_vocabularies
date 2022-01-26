@@ -1,7 +1,7 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
-#![cfg_attr(docsrs, feature(doc_cfg))]
-#![cfg_attr(docsrs, doc(cfg(feature = "ns-unit")))]
 //! This module provides terms for `QUDT Units of Measure for All Units Release 2.1.12` vocabulary
+//!
+//! This module requires `ns-unit` feature to be enabled.
 //!
 //! ## Vocabulary:
 //!

@@ -1,7 +1,7 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
-#![cfg_attr(docsrs, feature(doc_cfg))]
-#![cfg_attr(docsrs, doc(cfg(feature = "ns-ontolex")))]
 //! This module provides terms for `Lexicon Model for Ontologies - Core` vocabulary
+//!
+//! This module requires `ns-ontolex` feature to be enabled.
 //!
 //! ## Vocabulary:
 //!
