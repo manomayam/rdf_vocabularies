@@ -1,7 +1,7 @@
 //! This module provides helpers to handle io
 
 use std::{
-    fs::{File, self},
+    fs::{self, File},
     io::{BufWriter, Write},
     path::Path,
 };
@@ -22,5 +22,5 @@ pub fn write_to_file(content: &str, file_path: &Path) -> anyhow::Result<()> {
 /// reads content as string from file at given path
 pub fn read_from_file(file_path: &Path) -> anyhow::Result<String> {
     Ok(fs::read_to_string(file_path)
-            .with_context(|| format!("error in reading file {}", file_path.to_string_lossy()))?)
+        .with_context(|| format!("error in reading file {}", file_path.to_string_lossy()))?)
 }

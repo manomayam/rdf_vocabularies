@@ -7,7 +7,7 @@ use std::path::Path;
 use crate::{
     gen::CodegenContext,
     helpers::io::write_to_file,
-    templates::{DATASET_MOD_TEMPLATE_ID, TEMPLATE_REGISTRY, DATASET_INDEX_MOD_TEMPLATE_ID},
+    templates::{DATASET_INDEX_MOD_TEMPLATE_ID, DATASET_MOD_TEMPLATE_ID, TEMPLATE_REGISTRY},
     vocab_index::{Vocab, VocabIndex},
 };
 
@@ -38,10 +38,7 @@ pub fn gen_mod(vocab: &Vocab, mod_file_path: &Path) -> anyhow::Result<()> {
 /// This function computes and returns content of dataset mod for given vocab
 pub fn compute_mod_content(vocab: &Vocab) -> anyhow::Result<String> {
     (&TEMPLATE_REGISTRY)
-        .render(
-            DATASET_MOD_TEMPLATE_ID,
-            &json!(vocab),
-        )
+        .render(DATASET_MOD_TEMPLATE_ID, &json!(vocab))
         .with_context(|| {
             format!(
                 "error in rendering dataset mod template for vocab {}",
@@ -66,9 +63,5 @@ pub fn compute_index_mod_content(vocab_index: &VocabIndex) -> anyhow::Result<Str
                 "vocabs": vocab_index.index.values().collect::<Vec<&Vocab>>(),
             }),
         )
-        .with_context(|| {
-            format!(
-                "error in rendering dataset index mod template"
-            )
-        })
+        .with_context(|| format!("error in rendering dataset index mod template"))
 }

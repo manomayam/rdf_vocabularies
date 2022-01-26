@@ -1,6 +1,6 @@
 # rdf_vocabularies
 
-This crate is a distribution of the most commonly used RDF vocabularies. It also provides sophia terms for each vocabulary's terminology.
+This crate is a distribution of few most commonly used RDF vocabularies. It also provides sophia terms for each vocabulary's terminology.
 
 For each vocabulary with prefix `vocabulary_prefix`, it provides a module `rdf_vocabularies::ns::{vocab_prefix}`, that provides sophia terms for entities defined in that vocab's namespace, and a module `rdf_vocabularies::dataset::{vocab_prefix}` that provides ontology data of that vocab as a sophia quad-source or sophia dataset. These modules are behind cargo features `ns-{vocab_prefix}`, `dataset-{vocab_prefix}` respectively for each vocab. This way you can include only required vocabularies.
 

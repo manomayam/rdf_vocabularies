@@ -4,7 +4,7 @@ use std::io::BufReader;
 use std::path::PathBuf;
 
 use anyhow::Context;
-use rdf_utils::models::arc::{IndexedArcDataset, ArcIri, ArcLiteral};
+use rdf_utils::models::arc::{ArcIri, ArcLiteral, IndexedArcDataset};
 use sophia_api::dataset::DQuadSource;
 use sophia_api::{
     dataset::{Dataset, MutableDataset},
@@ -14,7 +14,6 @@ use sophia_api::{
 use sophia_term::ArcTerm;
 use sophia_term::Term;
 use sophia_turtle::parser::nq;
-
 
 /// It take potentially one or more file paths and parses all those files into a single dataset.
 pub fn get_arc_dataset(dataset_file_paths: &[PathBuf]) -> anyhow::Result<IndexedArcDataset> {
@@ -39,7 +38,9 @@ pub fn get_arc_dataset(dataset_file_paths: &[PathBuf]) -> anyhow::Result<Indexed
 }
 
 /// A function that can be passed to `map` of iterators to get object terms of statements
-fn statement_to_object_map_fn(r: <DQuadSource<IndexedArcDataset> as Iterator>::Item) -> Option<ArcTerm> {
+fn statement_to_object_map_fn(
+    r: <DQuadSource<IndexedArcDataset> as Iterator>::Item,
+) -> Option<ArcTerm> {
     let r = r.unwrap();
     Some(r.o().clone())
 }

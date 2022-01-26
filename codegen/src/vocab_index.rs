@@ -7,18 +7,21 @@ use serde::Serialize;
 use sophia_api::term::SimpleIri;
 use sophia_term::ArcTerm;
 
-use crate::{helpers::{
-    ident::sanitize_ident,
-    rdf_arc_dataset::{
-        get_arc_dataset, get_lang_literal_object_of_statement_with,
-        get_object_of_functional_statement_with, get_subjects_of_statements_with, EN_LANG_TAG,
+use crate::{
+    gen_features::{feature_dataset_for, feature_ns_for},
+    helpers::{
+        ident::sanitize_ident,
+        rdf_arc_dataset::{
+            get_arc_dataset, get_lang_literal_object_of_statement_with,
+            get_object_of_functional_statement_with, get_subjects_of_statements_with, EN_LANG_TAG,
+        },
+        rdf_term::some_if_iri,
+        rdf_types::{
+            literal_without_new_line,
+            ser::{SerdeIri, SerdeLiteral, SerdeOptLiteral},
+        },
     },
-    rdf_term::some_if_iri,
-    rdf_types::{
-        literal_without_new_line,
-        ser::{SerdeIri, SerdeLiteral, SerdeOptLiteral}
-    },
-}, gen_features::{feature_ns_for, feature_dataset_for}};
+};
 
 pub static TERM_PRED_TYPE: SimpleIri =
     SimpleIri::new_unchecked("http://www.w3.org/1999/02/22-rdf-syntax-ns#", Some("type"));
@@ -86,24 +89,17 @@ impl VocabIndex {
         );
         vocab_ids.sort();
 
-        let mut index: IndexMap<ArcIri, Vocab> =
-            IndexMap::with_capacity(vocab_ids.len() + 1);
+        let mut index: IndexMap<ArcIri, Vocab> = IndexMap::with_capacity(vocab_ids.len() + 1);
 
         for id in vocab_ids {
-            if let Some(vocab) =
-                Self::get_vocab(&id, &index_dataset, base_dir_path)
-            {
+            if let Some(vocab) = Self::get_vocab(&id, &index_dataset, base_dir_path) {
                 index.insert(id, vocab);
             }
         }
         Self { index }
     }
 
-    fn get_vocab(
-        id: &ArcIri,
-        dataset: &IndexedArcDataset,
-        base_dir_path: &Path,
-    ) -> Option<Vocab> {
+    fn get_vocab(id: &ArcIri, dataset: &IndexedArcDataset, base_dir_path: &Path) -> Option<Vocab> {
         let prefix = get_lang_literal_object_of_statement_with(
             dataset,
             id,

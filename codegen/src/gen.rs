@@ -6,7 +6,7 @@ use std::{
 
 use anyhow::Context;
 
-use crate::{gen_ns, vocab_index::VocabIndex, gen_dataset, gen_features, ensure_nq};
+use crate::{ensure_nq, gen_dataset, gen_features, gen_ns, vocab_index::VocabIndex};
 
 /// A `CodegenContext` wraps context for code generation
 #[derive(Clone)]

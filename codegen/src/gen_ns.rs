@@ -8,7 +8,7 @@ use crate::{
     gen::CodegenContext,
     helpers::io::write_to_file,
     ns_entity_index::{NSEntity, NSEntityIndex},
-    templates::{NS_MOD_TEMPLATE_ID, TEMPLATE_REGISTRY, NS_INDEX_MOD_TEMPLATE_ID},
+    templates::{NS_INDEX_MOD_TEMPLATE_ID, NS_MOD_TEMPLATE_ID, TEMPLATE_REGISTRY},
     vocab_index::{Vocab, VocabIndex},
 };
 
@@ -78,9 +78,5 @@ pub fn compute_index_mod_content(vocab_index: &VocabIndex) -> anyhow::Result<Str
                 "vocabs": vocab_index.index.values().collect::<Vec<&Vocab>>(),
             }),
         )
-        .with_context(|| {
-            format!(
-                "error in rendering namespace index mod template"
-            )
-        })
+        .with_context(|| format!("error in rendering namespace index mod template"))
 }

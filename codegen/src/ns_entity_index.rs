@@ -12,7 +12,7 @@ use crate::helpers::{
     rdf_term::some_if_iri,
     rdf_types::{
         literal_without_new_line,
-        ser::{SerdeIri, SerdeOptLiteral}
+        ser::{SerdeIri, SerdeOptLiteral},
     },
 };
 
