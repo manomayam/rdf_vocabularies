@@ -12,7 +12,7 @@ Include the crate in your project dependencies, with features corresponding to r
 ```toml
 [dependencies]
 # includes namespaces for vocabularies `rdf`, `foaf`, `solid`, and ontology datasets for vocabularies `foaf`.
-rdf_vocabularies = { version = "0.1.3", features=["ns-rdf", "ns-foaf", "ns-solid", "dataset-foaf"] }
+rdf_vocabularies = { version = "0.1.4", features=["ns-rdf", "ns-foaf", "ns-solid", "dataset-foaf"] }
 
 ```
 
