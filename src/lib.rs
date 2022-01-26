@@ -17,7 +17,7 @@
 //! And then use them.
 //! 
 //! ```
-//! use rdf_vocabularies::{ns::{rdf, foaf, solid}, dataset::foaf};
+//! use rdf_vocabularies::{ns::{rdf, foaf, solid}};
 //! use sophia_api::term::{term_eq, SimpleIri};
 //! 
 //! # pub fn try_main() -> Result<(), Box<dyn std::error::Error>> {
