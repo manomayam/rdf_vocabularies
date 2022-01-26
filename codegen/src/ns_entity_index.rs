@@ -7,7 +7,7 @@ use serde::Serialize;
 use sophia_api::{dataset::Dataset, term::SimpleIri};
 
 use crate::helpers::{
-    key_words::sanitize_ident,
+    ident::sanitize_ident,
     rdf_arc_dataset::{get_arc_dataset, get_lang_literal_object_of_statement_with, EN_LANG_TAG},
     rdf_term::some_if_iri,
     rdf_types::{

@@ -1,4 +1,40 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+/// This module provides dataset for `The Cert Ontology 1.0` vocabulary
+#[cfg(feature = "dataset-cert")]
+pub mod cert;
+/// This module provides dataset for `General Ontology for Linguistic Description` vocabulary
+#[cfg(feature = "dataset-gold")]
+pub mod gold;
+/// This module provides dataset for `Lexvo.org Ontology` vocabulary
+#[cfg(feature = "dataset-lexvo")]
+pub mod lexvo;
+/// This module provides dataset for `Lexicon Model for Ontologies - LIngusitic MEtadata (LIME)` vocabulary
+#[cfg(feature = "dataset-lime")]
+pub mod lime;
+/// This module provides dataset for `Solid OIDC` vocabulary
+#[cfg(feature = "dataset-oidc")]
+pub mod oidc;
+/// This module provides dataset for `Lexicon Model for Ontologies - Core` vocabulary
+#[cfg(feature = "dataset-ontolex")]
+pub mod ontolex;
+/// This module provides dataset for `Workspace Ontology` vocabulary
+#[cfg(feature = "dataset-pim")]
+pub mod pim;
+/// This module provides dataset for `Solid Terms` vocabulary
+#[cfg(feature = "dataset-solid")]
+pub mod solid;
+/// This module provides dataset for `Solid Protocol` vocabulary
+#[cfg(feature = "dataset-solid_protocol_0_9")]
+pub mod solid_protocol_0_9;
+/// This module provides dataset for `Specification ontology` vocabulary
+#[cfg(feature = "dataset-spec")]
+pub mod spec;
+/// This module provides dataset for `POSIX stat` vocabulary
+#[cfg(feature = "dataset-stat")]
+pub mod stat;
+/// This module provides dataset for `Lexicon Model for Ontologies - Vartrans` vocabulary
+#[cfg(feature = "dataset-vartrans")]
+pub mod vartrans;
 /// This module provides dataset for `acl` vocabulary
 #[cfg(feature = "dataset-acl")]
 pub mod acl;

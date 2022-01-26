@@ -6,7 +6,7 @@ use std::{
 
 use anyhow::Context;
 
-use crate::{gen_ns, vocab_index::VocabIndex, gen_dataset, gen_features};
+use crate::{gen_ns, vocab_index::VocabIndex, gen_dataset, gen_features, ensure_nq};
 
 /// A `CodegenContext` wraps context for code generation
 #[derive(Clone)]
@@ -29,6 +29,7 @@ pub fn generate(base_dir_path: &Path, vocab_indices_rel_paths: &[&str]) -> anyho
         base_dir_path: base_dir_path.into(),
     };
 
+    ensure_nq::ensure_nq_for_context(&context)?;
     gen_ns::gen_mods(&context)?;
     gen_ns::gen_index_mod(&context)?;
     gen_dataset::gen_mods(&context)?;

@@ -8,7 +8,7 @@ use sophia_api::term::SimpleIri;
 use sophia_term::ArcTerm;
 
 use crate::{helpers::{
-    key_words::sanitize_ident,
+    ident::sanitize_ident,
     rdf_arc_dataset::{
         get_arc_dataset, get_lang_literal_object_of_statement_with,
         get_object_of_functional_statement_with, get_subjects_of_statements_with, EN_LANG_TAG,

@@ -1,0 +1,347 @@
+<http://www.w3.org/ns/lemon/vartrans> <http://purl.org/dc/elements/1.1/contributor> <http://art.uniroma2.it/stellato/> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#LexicalRelation> <http://www.w3.org/2000/01/rdf-schema#label> "lexikaal relatie"@nl <https://www.w3.org/ns/lemon/vartrans#>.
+_:g548520 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <https://www.w3.org/ns/lemon/vartrans#>.
+_:g548540 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:g548560 <https://www.w3.org/ns/lemon/vartrans#>.
+_:g548120 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/lemon/ontolex#LexicalConcept> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#target> <http://www.w3.org/2000/01/rdf-schema#label> "цель"@ru <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#source> <http://www.w3.org/2000/01/rdf-schema#comment> "The 'source' property indicates the lexical sense or lexical entry involved in a lexico-semantic relation as a 'source'."@en <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#conceptRel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#category> <http://www.w3.org/2000/01/rdf-schema#label> "contexte"@fr <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#trans> <http://www.w3.org/2000/01/rdf-schema#label> "traduction"@fr <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#target> <http://www.w3.org/2000/01/rdf-schema#label> "mål"@sv <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#category> <http://www.w3.org/2000/01/rdf-schema#label> "categoria"@it <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#TerminologicalRelation> <http://www.w3.org/2000/01/rdf-schema#label> "terminologiese variant"@af <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#LexicalRelation> <http://www.w3.org/2000/01/rdf-schema#label> "leksikale relasie"@af <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#LexicoSemanticRelation> <http://www.w3.org/2000/01/rdf-schema#label> "relation lexico-sémantique"@fr <https://www.w3.org/ns/lemon/vartrans#>.
+_:g548460 <http://www.w3.org/2002/07/owl#onClass> <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#lexicalRel> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#conceptRel> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/lemon/ontolex#LexicalConcept> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#trans> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#target> <http://www.w3.org/2000/01/rdf-schema#label> "destination"@fr <https://www.w3.org/ns/lemon/vartrans#>.
+_:g548320 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:g548340 <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#relates> <http://www.w3.org/2000/01/rdf-schema#label> "bezieht"@de <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#conceptRel> <http://www.w3.org/2000/01/rdf-schema#label> "relazione di concetti"@it <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#source> <http://www.w3.org/2000/01/rdf-schema#comment> "Свойство 'источник' обозначает лексический смысл или словарную единицу, вовлеченную в лексико-семантическое отношение как 'источник'."@ru <https://www.w3.org/ns/lemon/vartrans#>.
+_:g548140 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans> <http://purl.org/dc/elements/1.1/rights> "CC-Zero" <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#conceptRel> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/lemon/ontolex#LexicalConcept> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#source> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/lemon/vartrans#relates> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#SenseRelation> <http://www.w3.org/2000/01/rdf-schema#label> "Sinnbeziehung"@de <https://www.w3.org/ns/lemon/vartrans#>.
+_:g548620 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "2"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#lexicalRel> <http://www.w3.org/2000/01/rdf-schema#label> "lexikalische Beziehung"@de <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#relates> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/lemon/vartrans> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#senseRel> <http://www.w3.org/2000/01/rdf-schema#label> "Sinnbeziehung"@de <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#translation> <http://www.w3.org/2000/01/rdf-schema#label> "traduction"@fr <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#LexicoSemanticRelation> <http://www.w3.org/2000/01/rdf-schema#comment> "A 'lexico-semantic relation' represents the relation between two lexical entries or lexical senses that are related by some lexical or semantic relationship."@en <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#SenseRelation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:g548620 <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#senseRel> <http://www.w3.org/2000/01/rdf-schema#label> "отношение смыслов"@ru <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#TerminologicalRelation> <http://www.w3.org/2000/01/rdf-schema#comment> "A 'terminological relation' is a sense relation that relates two lexical senses of terms that are semantically related in the sense that they can be exchanged in most contexts, but their surface forms are not directly related. The variants vary along dimensions that are not captured by the given ontology and are intentionally (pragmatically) caused."@en <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#Translation> <http://www.w3.org/2000/01/rdf-schema#label> "tradução"@pt <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans> <http://purl.org/dc/elements/1.1/contributor> <https://sites.google.com/site/francescafrontini/> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#target> <http://www.w3.org/2000/01/rdf-schema#label> "destino"@es <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#trans> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#translation> <http://www.w3.org/2000/01/rdf-schema#label> "traduzione"@it <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#LexicoSemanticRelation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:g548500 <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#trans> <http://www.w3.org/2000/01/rdf-schema#label> "traduzione"@it <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#Translation> <http://www.w3.org/2000/01/rdf-schema#label> "traduction"@fr <https://www.w3.org/ns/lemon/vartrans#>.
+_:g548500 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/lemon/vartrans#relates> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans> <http://www.w3.org/ns/lemon/vartrans#imports> <http://www.w3.org/ns/lemon/ontolex> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#source> <http://www.w3.org/2000/01/rdf-schema#label> "origem"@pt <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#target> <http://www.w3.org/2000/01/rdf-schema#label> "ţintă"@ro <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#ConceptualRelation> <http://www.w3.org/2000/01/rdf-schema#label> "relazione di concetti"@it <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#LexicoSemanticRelation> <http://www.w3.org/2000/01/rdf-schema#label> "lexikosemantische relatie"@nl <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#Translation> <http://www.w3.org/2000/01/rdf-schema#comment> "A 'translation' is a 'sense relation' expressing that two lexical senses corresponding to two lexical entries in different languages can be translated to each other without any major meaning shifts."@en <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#ConceptualRelation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/lemon/vartrans#LexicoSemanticRelation> <https://www.w3.org/ns/lemon/vartrans#>.
+_:g548460 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "2"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#translatableAs> <http://www.w3.org/2002/07/owl#propertyChainAxiom> _:g548320 <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#category> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#category> <http://www.w3.org/2000/01/rdf-schema#label> "categorie"@ro <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#trans> <http://www.w3.org/2000/01/rdf-schema#label> "перевод"@ru <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans> <http://purl.org/dc/elements/1.1/contributor> <http://www.paulbuitelaar.net/> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#target> <http://www.w3.org/2000/01/rdf-schema#label> "doel"@af <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#target> <http://www.w3.org/2000/01/rdf-schema#label> "destinazione"@it <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#trans> <http://www.w3.org/2000/01/rdf-schema#label> "tradução"@pt <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#conceptRel> <http://www.w3.org/2000/01/rdf-schema#label> "relación entre conceptos"@es <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#lexicalRel> <http://www.w3.org/2000/01/rdf-schema#label> "лексическое отношение"@ru <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#category> <http://www.w3.org/2000/01/rdf-schema#comment> "The 'category' property indicates the specific type of relation by which two lexical entries or two lexical senses are related."@en <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#source> <http://www.w3.org/2000/01/rdf-schema#label> "bron"@af <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#ConceptualRelation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:g548420 <https://www.w3.org/ns/lemon/vartrans#>.
+_:g548500 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#Translation> <http://www.w3.org/2000/01/rdf-schema#label> "перевод"@ru <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans> <http://www.w3.org/2002/07/owl#imports> <http://www.w3.org/ns/lemon/ontolex> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#target> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#target> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/lemon/vartrans> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans> <http://creativecommons.org/ns#licence> <https://creativecommons.org/publicdomain/zero/1.0/> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#trans> <http://www.w3.org/2000/01/rdf-schema#label> "Übersetzung"@de <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#ConceptualRelation> <http://www.w3.org/2000/01/rdf-schema#label> "Konzeptbeziehung"@de <https://www.w3.org/ns/lemon/vartrans#>.
+_:g548420 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#SenseRelation> <http://www.w3.org/2000/01/rdf-schema#label> "sinnrelatie"@nl <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans> <http://creativecommons.org/ns#license> <https://creativecommons.org/publicdomain/zero/1.0/> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#SenseRelation> <http://www.w3.org/2000/01/rdf-schema#label> "relație de sens"@ro <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#SenseRelation> <http://www.w3.org/2000/01/rdf-schema#label> "betydelserelation"@sv <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#SenseRelation> <http://www.w3.org/2000/01/rdf-schema#comment> "A 'sense relation' is a lexico-semantic relation that represents the relation between two lexical senses the meanings of which are related."@en <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#TerminologicalRelation> <http://www.w3.org/2000/01/rdf-schema#label> "variante terminologique"@fr <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#relates> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/lemon/vartrans#LexicoSemanticRelation> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#source> <http://www.w3.org/2000/01/rdf-schema#label> "source"@en <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#Translation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#Translation> <http://www.w3.org/2000/01/rdf-schema#label> "Übersetzung"@de <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> <https://www.w3.org/ns/lemon/vartrans#>.
+_:g548120 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:g548140 <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#source> <http://www.w3.org/2000/01/rdf-schema#label> "sursă"@ro <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#lexicalRel> <http://www.w3.org/2000/01/rdf-schema#comment> "Свойство 'lexicalRel' связывает две словарных единицы, которые находятся в некотором лексическом отношении."@ru <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#TerminologicalRelation> <http://www.w3.org/2000/01/rdf-schema#label> "terminological relation"@en <https://www.w3.org/ns/lemon/vartrans#>.
+_:g548620 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#senseRel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#Translation> <http://www.w3.org/2000/01/rdf-schema#label> "traducere"@ro <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#Translation> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://www.w3.org/ns/lemon/vartrans#>.
+_:g548500 <http://www.w3.org/2002/07/owl#onClass> _:g548520 <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#conceptRel> <http://www.w3.org/2000/01/rdf-schema#comment> "Отношения между двумя понятиями"@ru <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#source> <http://www.w3.org/2000/01/rdf-schema#label> "källa"@sv <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#translatableAs> <http://www.w3.org/2000/01/rdf-schema#label> "traducibile como"@es <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#relates> <http://www.w3.org/2000/01/rdf-schema#label> "rapporta"@it <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#category> <http://www.w3.org/2000/01/rdf-schema#comment> "Свойство 'категория' указывает конкретный тип отношения, которым связаны две словарные единицы или два лексических смысла."@ru <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#category> <http://www.w3.org/2000/01/rdf-schema#label> "kategorie"@af <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#target> <http://www.w3.org/2000/01/rdf-schema#comment> "Свойство 'цель' обозначает лексический смысл или словарную единицу, вовлеченную в лексико-семантическое отношение как 'цель'."@ru <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#translation> <http://www.w3.org/2000/01/rdf-schema#label> "traducere"@ro <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans> <http://purl.org/vocab/vann/preferredNamespaceUri> "http://www.w3.org/ns/lemon/vartrans#" <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#SenseRelation> <http://www.w3.org/2000/01/rdf-schema#label> "отношение смыслов"@ru <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#trans> <http://www.w3.org/2000/01/rdf-schema#comment> "Свойство 'перевод' связывает НаборПереводов с одним из его переводов."@ru <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#source> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#SenseRelation> <http://www.w3.org/2000/01/rdf-schema#label> "relation sémantique"@fr <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#ConceptualRelation> <http://www.w3.org/2000/01/rdf-schema#comment> "A relationship between two concepts"@en <https://www.w3.org/ns/lemon/vartrans#>.
+_:g548460 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#senseRel> <http://www.w3.org/2000/01/rdf-schema#comment> "The 'senseRel' property relates two lexical senses that stand in some sense relation."@en <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#ConceptualRelation> <http://www.w3.org/2000/01/rdf-schema#label> "отношение понятий"@ru <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans> <http://purl.org/dc/elements/1.1/publisher> <http://www.w3.org/community/ontolex> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#lexicalRel> <http://www.w3.org/2000/01/rdf-schema#label> "relation lexicale"@fr <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#LexicoSemanticRelation> <http://www.w3.org/2000/01/rdf-schema#label> "lexikosemantische Beziehung"@de <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans> <http://purl.org/dc/elements/1.1/contributor> <http://jogracia.url.ph/web/> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#LexicoSemanticRelation> <http://www.w3.org/2000/01/rdf-schema#label> "relație lexico-semantică"@ro <https://www.w3.org/ns/lemon/vartrans#>.
+_:g548560 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#category> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#Translation> <http://www.w3.org/2000/01/rdf-schema#label> "translation"@en <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#LexicoSemanticRelation> <http://www.w3.org/2000/01/rdf-schema#label> "relação lexica semantica"@pt <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#TranslationSet> <http://www.w3.org/2000/01/rdf-schema#label> "conjunto de traducciones"@es <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#TranslationSet> <http://www.w3.org/2000/01/rdf-schema#label> "banque de traductions"@fr <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#LexicalRelation> <http://www.w3.org/2000/01/rdf-schema#label> "lexical relation"@en <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#SenseRelation> <http://www.w3.org/2000/01/rdf-schema#label> "sinsrelasie"@af <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#lexicalRel> <http://www.w3.org/2000/01/rdf-schema#label> "relación léxica"@es <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#translation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#Translation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:g548660 <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#translatableAs> <http://www.w3.org/2000/01/rdf-schema#comment> "The 'translatableAs' property relates a lexical entry in some language to a lexical entry in another language that it can be translated as depending on the particular context and specific senses of the involved lexical entries."@en <https://www.w3.org/ns/lemon/vartrans#>.
+_:g548500 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "2"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <https://www.w3.org/ns/lemon/vartrans#>.
+_:g548620 <http://www.w3.org/2002/07/owl#onClass> <http://www.w3.org/ns/lemon/ontolex#LexicalSense> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#TranslationSet> <http://www.w3.org/2000/01/rdf-schema#label> "translation set"@en <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#LexicalRelation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/lemon/vartrans#LexicoSemanticRelation> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#trans> <http://www.w3.org/2000/01/rdf-schema#label> "versättning"@sv <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#target> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/lemon/vartrans#relates> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#translatableAs> <http://www.w3.org/2000/01/rdf-schema#label> "übersetzbar als"@de <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#source> <http://www.w3.org/2000/01/rdf-schema#label> "источник"@ru <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#lexicalRel> <http://www.w3.org/2000/01/rdf-schema#label> "lexical relation"@en <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#TranslationSet> <http://www.w3.org/2000/01/rdf-schema#label> "Übersetzungsatz"@de <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#conceptRel> <http://www.w3.org/2000/01/rdf-schema#label> "Konzeptbeziehung"@de <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#relates> <http://www.w3.org/2000/01/rdf-schema#comment> "Свойство 'связывает' связывает лексико-семантическим отношением две словарные единицы или два лексических смысла, между которыми оно (данное свойство) устанавливает отношение."@ru <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#SenseRelation> <http://www.w3.org/2000/01/rdf-schema#label> "relação semantica"@pt <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#relates> <http://www.w3.org/2000/01/rdf-schema#label> "relateert"@nl <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#Translation> <http://www.w3.org/2000/01/rdf-schema#comment> "'Перевод' представляет собой 'отношение смыслов', показывающее, что два лексических смысла, соответствующие двум словарным единицам в разных языках, могут быть взаимно переведены без каких-либо существенных искажений смысла."@ru <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#LexicalRelation> <http://www.w3.org/2000/01/rdf-schema#label> "relație lexicală"@ro <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans> <http://www.w3.org/ns/lemon/vartrans#versionInfo> "1.1"^^<http://www.w3.org/2001/XMLSchema#decimal> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#target> <http://www.w3.org/2000/01/rdf-schema#label> "doel"@nl <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#LexicalRelation> <http://www.w3.org/2000/01/rdf-schema#label> "лексическое отношение"@ru <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#translatableAs> <http://www.w3.org/2000/01/rdf-schema#label> "vertaalbaar As"@af <https://www.w3.org/ns/lemon/vartrans#>.
+_:g548540 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/lemon/ontolex#LexicalConcept> <https://www.w3.org/ns/lemon/vartrans#>.
+_:g548160 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/lemon/ontolex#LexicalSense> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#source> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/lemon/vartrans> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans> <http://purl.org/dc/elements/1.1/contributor> <http://art.uniroma2.it/fiorelli/> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#trans> <http://www.w3.org/2000/01/rdf-schema#label> "traducción"@es <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#relates> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#trans> <http://www.w3.org/2000/01/rdf-schema#label> "vertaling"@nl <https://www.w3.org/ns/lemon/vartrans#>.
+_:g548320 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/lemon/ontolex#isSenseOf> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#lexicalRel> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> <https://www.w3.org/ns/lemon/vartrans#>.
+_:g548100 <http://www.w3.org/2002/07/owl#unionOf> _:g548120 <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#TranslationSet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#senseRel> <http://www.w3.org/2000/01/rdf-schema#comment> "Свойство 'отношение смыслов' (senseRel) связывает два лексических смысла, которые находятся в некоторой смысловой связи."@ru <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#SenseRelation> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#category> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#Translation> <http://www.w3.org/2000/01/rdf-schema#label> "traduzione"@it <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#lexicalRel> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#LexicalRelation> <http://www.w3.org/2000/01/rdf-schema#label> "relación léxica"@es <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans> <http://purl.org/dc/elements/1.1/contributor> <http://www.ilc.cnr.it/en/content/anas-fahad-khan> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#relates> <http://www.w3.org/2000/01/rdf-schema#label> "связывает"@ru <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#senseRel> <http://www.w3.org/2000/01/rdf-schema#label> "relazione di sensi"@it <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#conceptRel> <http://www.w3.org/2000/01/rdf-schema#label> "отношение понятий"@ru <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans> <http://purl.org/dc/elements/1.1/title> "Lexicon Model for Ontologies - Vartrans"@en <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans> <http://purl.org/dc/elements/1.1/creator> <http://john.mccr.ae/> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#category> <http://www.w3.org/2000/01/rdf-schema#label> "categoria"@pt <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#translation> <http://www.w3.org/2000/01/rdf-schema#label> "translation"@en <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#source> <http://www.w3.org/2000/01/rdf-schema#label> "source"@fr <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#LexicalRelation> <http://www.w3.org/2000/01/rdf-schema#label> "relazione lessicale"@it <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#senseRel> <http://www.w3.org/2000/01/rdf-schema#label> "relación entre acepciones"@es <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#senseRel> <http://www.w3.org/2000/01/rdf-schema#label> "sinnrelatie"@nl <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#SenseRelation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#SenseRelation> <http://www.w3.org/2000/01/rdf-schema#comment> "'Отношение смыслов' (SenseRelation) - это лексико-семантическое отношение, которое представляет собой связь между двумя лексическими смыслами, значения которых связаны между собой."@ru <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#source> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#LexicalRelation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#relates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#LexicoSemanticRelation> <http://www.w3.org/2000/01/rdf-schema#label> "leksikosemantiese relasie"@af <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#LexicoSemanticRelation> <http://www.w3.org/2000/01/rdf-schema#label> "relación léxico semántica"@es <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#TerminologicalRelation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <https://www.w3.org/ns/lemon/vartrans#>.
+_:g548660 <http://www.w3.org/2002/07/owl#onClass> <http://www.w3.org/ns/lemon/ontolex#LexicalSense> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans> <http://purl.org/dc/elements/1.1/contributor> <http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/teachers/52-emontiel> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#trans> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/lemon/vartrans> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#trans> <http://www.w3.org/2000/01/rdf-schema#label> "vertaling"@af <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#translatableAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#translation> <http://www.w3.org/2000/01/rdf-schema#label> "versättning"@sv <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#LexicalRelation> <http://www.w3.org/2000/01/rdf-schema#comment> "A 'lexical relation' is a lexico-semantic relation that represents the relation between two lexical entries the surface forms of which are related grammatically, stylistically or by some operation motivated by linguistic economy."@en <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#TerminologicalRelation> <http://www.w3.org/2000/01/rdf-schema#label> "terminologische Variante"@de <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#SenseRelation> <http://www.w3.org/2000/01/rdf-schema#label> "sense relation"@en <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#LexicalRelation> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#LexicalRelation> <http://www.w3.org/2000/01/rdf-schema#label> "lexikalisk relation"@sv <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#category> <http://www.w3.org/2000/01/rdf-schema#label> "kategori"@sv <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#lexicalRel> <http://www.w3.org/2000/01/rdf-schema#label> "relazione lessicale"@it <https://www.w3.org/ns/lemon/vartrans#>.
+_:g548460 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/lemon/vartrans#relates> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#translatableAs> <http://www.w3.org/2000/01/rdf-schema#label> "översättbar som"@sv <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans> <http://purl.org/vocab/vann/preferredNamespacePrefix> "vartrans" <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#translation> <http://www.w3.org/2000/01/rdf-schema#comment> "The 'translation' property relates two lexical senses of two lexical entries that stand in a translation relation to one another. "@en <https://www.w3.org/ns/lemon/vartrans#>.
+_:g548580 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#relates> <http://www.w3.org/2000/01/rdf-schema#label> "relates"@en <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#category> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/lemon/vartrans> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans> <http://purl.org/dc/elements/1.1/contributor> <http://www.istc.cnr.it/people/aldo-gangemi> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#category> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#lexicalRel> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/lemon/vartrans> <https://www.w3.org/ns/lemon/vartrans#>.
+_:g548100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <https://www.w3.org/ns/lemon/vartrans#>.
+_:g548420 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/lemon/vartrans#relates> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans> <http://purl.org/dc/elements/1.1/modified> "2016-01-10"^^<http://www.w3.org/2001/XMLSchema#date> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#senseRel> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#senseRel> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/lemon/ontolex#LexicalSense> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#translatableAs> <http://www.w3.org/2000/01/rdf-schema#label> "traduisible par"@fr <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#translatableAs> <http://www.w3.org/2000/01/rdf-schema#label> "vertaalbar als"@nl <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#translation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/lemon/vartrans> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#LexicalRelation> <http://www.w3.org/2000/01/rdf-schema#label> "lexikalische Beziehung"@de <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#category> <http://www.w3.org/2000/01/rdf-schema#label> "Kategorie"@de <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#trans> <http://www.w3.org/2000/01/rdf-schema#comment> "The property 'trans' relates a TranslationSet to one of its translations."@en <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#target> <http://www.w3.org/2000/01/rdf-schema#label> "target"@en <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#target> <http://www.w3.org/2000/01/rdf-schema#label> "Ziel"@de <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#translation> <http://www.w3.org/2000/01/rdf-schema#comment> "Свойство 'перевод' связывает два лексических смысла двух словарных единиц, которые находятся в отношении перевода друг к другу."@ru <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#translatableAs> <http://www.w3.org/2000/01/rdf-schema#label> "translatable as"@en <https://www.w3.org/ns/lemon/vartrans#>.
+_:g548340 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/lemon/vartrans#translation> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#TranslationSet> <http://www.w3.org/2000/01/rdf-schema#label> "bance traduzioni"@it <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#translatableAs> <http://www.w3.org/2000/01/rdf-schema#label> "traductibil ca"@ro <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#translation> <http://www.w3.org/2000/01/rdf-schema#label> "tradução"@pt <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#relates> <http://www.w3.org/2000/01/rdf-schema#label> "relate"@fr <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#relates> <http://www.w3.org/2000/01/rdf-schema#label> "relaciona"@es <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#senseRel> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/lemon/vartrans> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#target> <http://www.w3.org/2000/01/rdf-schema#comment> "The 'target' property indicates the lexical sense or lexical entry involved in a lexico-semantic relation as a 'target'."@en <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#translatableAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#SymmetricProperty> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#translation> <http://www.w3.org/2000/01/rdf-schema#label> "traducción"@es <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#ConceptualRelation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#ConceptualRelation> <http://www.w3.org/2000/01/rdf-schema#label> "relación entre conceptos"@es <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#TranslationSet> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans> <http://www.w3.org/2000/01/rdf-schema#comment> "-Version 1.0: depreciation with minor change in metadata for LOV publication\n-Version 1.1: creation"@en <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#source> <http://www.w3.org/2000/01/rdf-schema#label> "origen"@es <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#senseRel> <http://www.w3.org/2000/01/rdf-schema#label> "relation sémantique"@fr <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#LexicalRelation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:g548460 <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#LexicoSemanticRelation> <http://www.w3.org/2000/01/rdf-schema#label> "relazione lessico-semantica"@it <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#translation> <http://www.w3.org/2000/01/rdf-schema#label> "vertaling"@nl <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#category> <http://www.w3.org/2000/01/rdf-schema#label> "categoría"@es <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#translatableAs> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans> <http://purl.org/dc/elements/1.1/contributor> <http://www.dfki.de/~declerck/> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#LexicoSemanticRelation> <http://www.w3.org/2000/01/rdf-schema#label> "lexico-semantic relation"@en <https://www.w3.org/ns/lemon/vartrans#>.
+_:g548580 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/lemon/ontolex#LexicalSense> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#trans> <http://www.w3.org/2000/01/rdf-schema#label> "translation"@en <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#SenseRelation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/lemon/vartrans> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#translatableAs> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#source> <http://www.w3.org/2000/01/rdf-schema#label> "bron"@nl <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#source> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#TerminologicalRelation> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#category> <http://www.w3.org/2000/01/rdf-schema#label> "category"@en <https://www.w3.org/ns/lemon/vartrans#>.
+_:g548360 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/lemon/ontolex#sense> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#ConceptualRelation> <http://www.w3.org/2000/01/rdf-schema#label> "conceptual relation"@en <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#category> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/lemon/vartrans#LexicoSemanticRelation> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#LexicoSemanticRelation> <http://www.w3.org/2000/01/rdf-schema#label> "лексико-семантическое отношение"@ru <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#target> <http://www.w3.org/2000/01/rdf-schema#label> "destino"@pt <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#LexicoSemanticRelation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/lemon/vartrans> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#conceptRel> <http://www.w3.org/2000/01/rdf-schema#comment> "A relationship between two concepts"@en <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#translation> <http://www.w3.org/2000/01/rdf-schema#label> "vertaling"@af <https://www.w3.org/ns/lemon/vartrans#>.
+_:g548420 <http://www.w3.org/2002/07/owl#onClass> <http://www.w3.org/ns/lemon/ontolex#LexicalConcept> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#translation> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#TranslationSet> <http://www.w3.org/2000/01/rdf-schema#comment> "A 'translation set' is a set of translations that have some common source."@en <https://www.w3.org/ns/lemon/vartrans#>.
+_:g548620 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/lemon/vartrans#relates> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#category> <http://www.w3.org/2000/01/rdf-schema#label> "категория"@ru <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#LexicoSemanticRelation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#SenseRelation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/lemon/vartrans#LexicoSemanticRelation> <https://www.w3.org/ns/lemon/vartrans#>.
+_:g548660 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/lemon/vartrans#target> <https://www.w3.org/ns/lemon/vartrans#>.
+_:g548520 <http://www.w3.org/2002/07/owl#unionOf> _:g548540 <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#TerminologicalRelation> <http://www.w3.org/2000/01/rdf-schema#label> "variante terminologica"@pt <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#relates> <http://www.w3.org/2000/01/rdf-schema#comment> "The 'relates' property links a lexico-semantic relation to the two lexical entries or lexical senses between which it establishes the relation."@en <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#translation> <http://www.w3.org/2000/01/rdf-schema#label> "перевод"@ru <https://www.w3.org/ns/lemon/vartrans#>.
+_:g548160 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#translatableAs> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/lemon/vartrans#lexicalRel> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#ConceptualRelation> <http://www.w3.org/2000/01/rdf-schema#label> "conceptrelatie"@nl <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#ConceptualRelation> <http://www.w3.org/2000/01/rdf-schema#comment> "Отношение между двумя понятиями"@ru <https://www.w3.org/ns/lemon/vartrans#>.
+_:g548420 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "2"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#Translation> <http://www.w3.org/2000/01/rdf-schema#label> "vertaling"@nl <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#Translation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/lemon/vartrans> <https://www.w3.org/ns/lemon/vartrans#>.
+_:g548140 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:g548160 <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#LexicoSemanticRelation> <http://www.w3.org/2000/01/rdf-schema#comment> "'Лексико-семантическое отношение' представляет собой связь между двумя словарными единицами или лексическими смыслами, которые связаны некими лексическими или семантическими отношениями."@ru <https://www.w3.org/ns/lemon/vartrans#>.
+_:g548660 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#TerminologicalRelation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/lemon/vartrans> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#LexicalRelation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/lemon/vartrans> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#trans> <http://www.w3.org/2000/01/rdf-schema#label> "traducere"@ro <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#LexicalRelation> <http://www.w3.org/2000/01/rdf-schema#comment> "'Лексическое отношение' - это лексико-семантическое отношение, которое представляет собой отношение между двумя словарными единицами, поверхностные формы которых связаны грамматически, стилистически или неким процессом, обусловленным лингвистической экономией."@ru <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#TerminologicalRelation> <http://www.w3.org/2000/01/rdf-schema#comment> "'Терминологическое отношение' - это смысловое отношение, которое связывает два лексических смысла терминов, семантически связанных в том смысле, что они могут взаимозаменяться в большинстве контекстов, но их поверхностные (внешние) формы непосредственно не связаны. В форматах, не фиксируемых в данной онтологии и намеренно (прагматически) обусловленных, данные варианты разнятся (отличаются)."@ru <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#Translation> <http://www.w3.org/2000/01/rdf-schema#label> "versättning"@sv <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#LexicalRelation> <http://www.w3.org/2000/01/rdf-schema#label> "relação semantica"@pt <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#TranslationSet> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/lemon/vartrans> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#TranslationSet> <http://www.w3.org/2000/01/rdf-schema#comment> "'Набор переводов' - это совокупность переводов, которые имеют общий источник."@ru <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#senseRel> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/lemon/ontolex#LexicalSense> <https://www.w3.org/ns/lemon/vartrans#>.
+_:g548360 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#SenseRelation> <http://www.w3.org/2000/01/rdf-schema#label> "relación entre acepciones"@es <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#TerminologicalRelation> <http://www.w3.org/2000/01/rdf-schema#label> "variante terminologica"@it <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#TerminologicalRelation> <http://www.w3.org/2000/01/rdf-schema#label> "variantă terminologică"@ro <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans> <http://purl.org/dc/elements/1.1/issued> "2016-01-10"^^<http://www.w3.org/2001/XMLSchema#date> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#senseRel> <http://www.w3.org/2000/01/rdf-schema#label> "sense relation"@en <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#SenseRelation> <http://www.w3.org/2000/01/rdf-schema#label> "relazione di sensi"@it <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#TranslationSet> <http://www.w3.org/2000/01/rdf-schema#label> "набор переводов"@ru <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#relates> <http://www.w3.org/2000/01/rdf-schema#range> _:g548100 <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans> <http://purl.org/dc/elements/1.1/contributor> <http://www.oeg-upm.net/index.php/teachers/53-lupe> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#target> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#translatableAs> <http://www.w3.org/2000/01/rdf-schema#label> "переводится как"@ru <https://www.w3.org/ns/lemon/vartrans#>.
+_:g548340 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:g548360 <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#Translation> <http://www.w3.org/2000/01/rdf-schema#label> "vertaling"@af <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#TranslationSet> <http://www.w3.org/2000/01/rdf-schema#label> "verzameling van vertalingen"@nl <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#trans> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/lemon/vartrans#TranslationSet> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#TerminologicalRelation> <http://www.w3.org/2000/01/rdf-schema#label> "terminologivariant"@sv <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#conceptRel> <http://www.w3.org/2000/01/rdf-schema#label> "conceptrelatie"@nl <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#translatableAs> <http://www.w3.org/2000/01/rdf-schema#label> "traducibile come"@it <https://www.w3.org/ns/lemon/vartrans#>.
+_:g548560 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:g548580 <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#TerminologicalRelation> <http://www.w3.org/2000/01/rdf-schema#label> "terminologische variant"@nl <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#category> <http://www.w3.org/2000/01/rdf-schema#label> "categorie"@nl <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#lexicalRel> <http://www.w3.org/2000/01/rdf-schema#comment> "The 'lexicalRel' property relates two lexical entries that stand in some lexical relation."@en <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#translatableAs> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/lemon/vartrans> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#trans> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/lemon/vartrans#Translation> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#LexicoSemanticRelation> <http://www.w3.org/2000/01/rdf-schema#label> "lexikalisk-semantisk relation"@sv <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#Translation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/lemon/vartrans#SenseRelation> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#conceptRel> <http://www.w3.org/2000/01/rdf-schema#label> "concept relation"@en <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#translation> <http://www.w3.org/2000/01/rdf-schema#label> "Übersetzung"@de <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#lexicalRel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans> <http://purl.org/dc/elements/1.1/creator> <http://www.cimiano.de/> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#LexicoSemanticRelation> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocommons/voaf#Vocabulary> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/2002/07/owl#topObjectProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#lexicalRel> <http://www.w3.org/2000/01/rdf-schema#label> "lexikaal relatie"@nl <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#source> <http://www.w3.org/2000/01/rdf-schema#label> "Quelle"@de <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#LexicalRelation> <http://www.w3.org/2000/01/rdf-schema#label> "relation lexicale"@fr <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#source> <http://www.w3.org/2000/01/rdf-schema#label> "origine"@it <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#TerminologicalRelation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/lemon/vartrans#SenseRelation> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#translation> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/lemon/vartrans#senseRel> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#TerminologicalRelation> <http://www.w3.org/2000/01/rdf-schema#label> "variante terminológica"@es <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#target> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#translatableAs> <http://www.w3.org/2000/01/rdf-schema#label> "traduzivel como"@pt <https://www.w3.org/ns/lemon/vartrans#>.
+_:g548660 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#TerminologicalRelation> <http://www.w3.org/2000/01/rdf-schema#label> "терминологическое отношение"@ru <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#Translation> <http://www.w3.org/2000/01/rdf-schema#label> "traducción"@es <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#translatableAs> <http://www.w3.org/2000/01/rdf-schema#comment> "Свойство 'переводится как' связывает словарную единицу на каком-либо языке со словарной единицей на другом языке, на который она может быть переведена соответствующим образом в зависимости от конкретного контекста и специфических смыслов данных словарных единиц."@ru <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans> <http://purl.org/dc/elements/1.1/description> "A model for the representation of lexical information relative to ontologies. Variation and translation module."@en <https://www.w3.org/ns/lemon/vartrans#>.
+<http://www.w3.org/ns/lemon/vartrans#translatableAs> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> <https://www.w3.org/ns/lemon/vartrans#>.

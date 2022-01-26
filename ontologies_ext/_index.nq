@@ -1,0 +1,106 @@
+<https://prefix.manomayam.org/stat:> <http://dbpedia.org/ontology/filename> "ontologies_ext/stat.nq" .
+<https://prefix.manomayam.org/stat:> <http://purl.org/dc/terms/description> "Describes terms for POSIX-like files and directory listings" .
+<https://prefix.manomayam.org/stat:> <http://purl.org/dc/terms/title> "POSIX stat" .
+<https://prefix.manomayam.org/stat:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
+<https://prefix.manomayam.org/stat:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/posix/stat> .
+<https://prefix.manomayam.org/stat:> <http://www.w3.org/ns/rdfa#prefix> "stat" .
+<https://prefix.manomayam.org/stat:> <http://www.w3.org/ns/rdfa#uri> <http://www.w3.org/ns/posix/stat#> .
+
+<https://prefix.manomayam.org/solid:> <http://dbpedia.org/ontology/filename> "ontologies_ext/solid.nq" .
+<https://prefix.manomayam.org/solid:> <http://purl.org/dc/terms/description> "The Solid Terms vocabulary defines terms referenced in Solid specifications."@en .
+<https://prefix.manomayam.org/solid:> <http://purl.org/dc/terms/title> "Solid Terms"@en .
+<https://prefix.manomayam.org/solid:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
+<https://prefix.manomayam.org/solid:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/terms> .
+<https://prefix.manomayam.org/solid:> <http://www.w3.org/ns/rdfa#prefix> "solid" .
+<https://prefix.manomayam.org/solid:> <http://www.w3.org/ns/rdfa#uri> <http://www.w3.org/ns/solid/terms#> .
+
+<https://prefix.manomayam.org/oidc:> <http://dbpedia.org/ontology/filename> "ontologies_ext/oidc.nq" .
+<https://prefix.manomayam.org/oidc:> <http://purl.org/dc/terms/description> "The OpenID Connect vocabulary used by the Solid-OIDC authentication specification."@en  .
+<https://prefix.manomayam.org/oidc:> <http://purl.org/dc/terms/title> "Solid OIDC"@en .
+<https://prefix.manomayam.org/oidc:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
+<https://prefix.manomayam.org/oidc:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/oidc> .
+<https://prefix.manomayam.org/oidc:> <http://www.w3.org/ns/rdfa#prefix> "oidc" .
+<https://prefix.manomayam.org/oidc:> <http://www.w3.org/ns/rdfa#uri> <http://www.w3.org/ns/solid/oidc#> .
+
+<https://prefix.manomayam.org/pim:> <http://dbpedia.org/ontology/filename> "ontologies_ext/pim.nq" .
+<https://prefix.manomayam.org/pim:> <http://purl.org/dc/terms/description> "This ontology is for use in describing Workspaces.  Workspaces are places where data is stored and associated policies of privacy" .
+<https://prefix.manomayam.org/pim:> <http://purl.org/dc/terms/title> "Workspace Ontology" .
+<https://prefix.manomayam.org/pim:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
+<https://prefix.manomayam.org/pim:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/pim/space#> .
+<https://prefix.manomayam.org/pim:> <http://www.w3.org/ns/rdfa#prefix> "pim" .
+<https://prefix.manomayam.org/pim:> <http://www.w3.org/ns/rdfa#uri> <http://www.w3.org/ns/pim/space#> .
+
+
+<https://prefix.manomayam.org/cert:> <http://dbpedia.org/ontology/filename> "ontologies_ext/cert.nq" .
+<https://prefix.manomayam.org/cert:> <http://purl.org/dc/terms/description> "Ontology for Certificates and crypto stuff." .
+<https://prefix.manomayam.org/cert:> <http://purl.org/dc/terms/title> "The Cert Ontology 1.0" .
+<https://prefix.manomayam.org/cert:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
+<https://prefix.manomayam.org/cert:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/auth/cert.rdf> .
+<https://prefix.manomayam.org/cert:> <http://www.w3.org/ns/rdfa#prefix> "cert" .
+<https://prefix.manomayam.org/cert:> <http://www.w3.org/ns/rdfa#uri> <https://www.w3.org/ns/auth/cert#> .
+
+<https://prefix.manomayam.org/ontolex:> <http://dbpedia.org/ontology/filename> "ontologies_ext/ontolex.nq" .
+<https://prefix.manomayam.org/ontolex:> <http://purl.org/dc/terms/description> "A model for the representation of lexical information relative to ontologies. Core module." .
+<https://prefix.manomayam.org/ontolex:> <http://purl.org/dc/terms/title> "Lexicon Model for Ontologies - Core" .
+<https://prefix.manomayam.org/ontolex:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
+<https://prefix.manomayam.org/ontolex:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf.greggkellogg.net/distiller?command=serialize&output_format=ntriples&url=https:%2F%2Fwww.w3.org%2Fns%2Flemon%2Fontolex&raw> .
+<https://prefix.manomayam.org/ontolex:> <http://www.w3.org/ns/rdfa#prefix> "ontolex" .
+<https://prefix.manomayam.org/ontolex:> <http://www.w3.org/ns/rdfa#uri> <https://www.w3.org/ns/lemon/ontolex#> .
+
+<https://prefix.manomayam.org/lime:> <http://dbpedia.org/ontology/filename> "ontologies_ext/lime.nq" .
+<https://prefix.manomayam.org/lime:> <http://purl.org/dc/terms/description> "LIME (LInguistic MEtadata) is a vocabulary for expressing linguistic metadata about linguistic resources and linguistically grounded datasets." .
+<https://prefix.manomayam.org/lime:> <http://purl.org/dc/terms/title> "Lexicon Model for Ontologies - LIngusitic MEtadata (LIME)" .
+<https://prefix.manomayam.org/lime:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
+<https://prefix.manomayam.org/lime:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf.greggkellogg.net/distiller?command=serialize&output_format=ntriples&url=https:%2F%2Fwww.w3.org%2Fns%2Flemon%2Flime&raw> .
+<https://prefix.manomayam.org/lime:> <http://www.w3.org/ns/rdfa#prefix> "lime" .
+<https://prefix.manomayam.org/lime:> <http://www.w3.org/ns/rdfa#uri> <https://www.w3.org/ns/lemon/lime#> .
+
+<https://prefix.manomayam.org/vartrans:> <http://dbpedia.org/ontology/filename> "ontologies_ext/vartrans.nq" .
+<https://prefix.manomayam.org/vartrans:> <http://purl.org/dc/terms/description> "A model for the representation of lexical information relative to ontologies. Variation and translation module." .
+<https://prefix.manomayam.org/vartrans:> <http://purl.org/dc/terms/title> "Lexicon Model for Ontologies - Vartrans" .
+<https://prefix.manomayam.org/vartrans:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
+<https://prefix.manomayam.org/vartrans:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf.greggkellogg.net/distiller?command=serialize&output_format=ntriples&url=https:%2F%2Fwww.w3.org%2Fns%2Flemon%2Fvartrans&raw> .
+<https://prefix.manomayam.org/vartrans:> <http://www.w3.org/ns/rdfa#prefix> "vartrans" .
+<https://prefix.manomayam.org/vartrans:> <http://www.w3.org/ns/rdfa#uri> <https://www.w3.org/ns/lemon/vartrans#> .
+
+<https://prefix.manomayam.org/gold:> <http://dbpedia.org/ontology/filename> "ontologies_ext/gold.nq" .
+<https://prefix.manomayam.org/gold:> <http://purl.org/dc/terms/description> "This is the General Ontology for Linguistic Description (GOLD) described using the Web Ontology Language. This ontology was created primarily for applications involving descriptive linguistics." .
+<https://prefix.manomayam.org/gold:> <http://purl.org/dc/terms/title> "General Ontology for Linguistic Description" .
+<https://prefix.manomayam.org/gold:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
+<https://prefix.manomayam.org/gold:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf.greggkellogg.net/distiller?command=serialize&output_format=ntriples&url=http:%2F%2Flinguistics-ontology.org%2Fgold-2010.rdf&raw> .
+<https://prefix.manomayam.org/gold:> <http://www.w3.org/ns/rdfa#prefix> "gold" .
+<https://prefix.manomayam.org/gold:> <http://www.w3.org/ns/rdfa#uri> <http://purl.org/linguistics/gold/> .
+
+<https://prefix.manomayam.org/lexvo:> <http://dbpedia.org/ontology/filename> "ontologies_ext/lexvo.nq" .
+<https://prefix.manomayam.org/lexvo:> <http://purl.org/dc/terms/description> "Lexvo.org Ontology Version 0.24 (2019-01-16)" .
+<https://prefix.manomayam.org/lexvo:> <http://purl.org/dc/terms/title> "Lexvo.org Ontology" .
+<https://prefix.manomayam.org/lexvo:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
+<https://prefix.manomayam.org/lexvo:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf.greggkellogg.net/distiller?command=serialize&output_format=ntriples&url=http:%2F%2Flexvo.org%2Fontology&raw> .
+<https://prefix.manomayam.org/lexvo:> <http://www.w3.org/ns/rdfa#prefix> "lexvo" .
+<https://prefix.manomayam.org/lexvo:> <http://www.w3.org/ns/rdfa#uri> <http://lexvo.org/ontology#> .
+
+
+<https://prefix.manomayam.org/solid_protocol_0_9:> <http://dbpedia.org/ontology/filename> "ontologies_ext/solid_protocol_0_9.nq" .
+<https://prefix.manomayam.org/solid_protocol_0_9:> <http://purl.org/dc/terms/description> "This document connects a set of specifications that, together, provide applications with secure and permissioned access to externally stored data in an interoperable way." .
+<https://prefix.manomayam.org/solid_protocol_0_9:> <http://purl.org/dc/terms/title> "Solid Protocol" .
+<https://prefix.manomayam.org/solid_protocol_0_9:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
+<https://prefix.manomayam.org/solid_protocol_0_9:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf.greggkellogg.net/distiller?command=serialize&output_format=ntriples&url=https:%2F%2Fsolidproject.org%2FTR%2Fprotocol&raw> .
+<https://prefix.manomayam.org/solid_protocol_0_9:> <http://www.w3.org/ns/rdfa#prefix> "solid_protocol_0_9" .
+<https://prefix.manomayam.org/solid_protocol_0_9:> <http://www.w3.org/ns/rdfa#uri> <https://solidproject.org/TR/protocol#> .
+
+
+<https://prefix.manomayam.org/spec:> <http://dbpedia.org/ontology/filename> "ontologies_ext/spec.nq" .
+<https://prefix.manomayam.org/spec:> <http://purl.org/dc/terms/description> "Specification ontology." .
+<https://prefix.manomayam.org/spec:> <http://purl.org/dc/terms/title> "Specification ontology" .
+<https://prefix.manomayam.org/spec:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
+<https://prefix.manomayam.org/spec:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://www.w3.org/ns/spec> .
+<https://prefix.manomayam.org/spec:> <http://www.w3.org/ns/rdfa#prefix> "spec" .
+<https://prefix.manomayam.org/spec:> <http://www.w3.org/ns/rdfa#uri> <http://www.w3.org/ns/spec#> .
+
+
+
+
+
+
+
+

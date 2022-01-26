@@ -1,0 +1,31 @@
+<http://www.w3.org/ns/spec#requirement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/spec#> .
+
+<http://www.w3.org/ns/spec#statement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/spec#> .
+
+<http://www.w3.org/ns/spec#requirementLevel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/spec#> .
+<http://www.w3.org/ns/spec#requirementSubject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/spec#> .
+
+<http://www.w3.org/ns/spec#MUST> <http://www.w3.org/2000/01/rdf-schema#label> "MUST" <http://www.w3.org/ns/spec#> .
+
+<http://www.w3.org/ns/spec#MUST-NOT> <http://www.w3.org/2000/01/rdf-schema#label> "MUST-NOT" <http://www.w3.org/ns/spec#> .
+
+<http://www.w3.org/ns/spec#SHOULD> <http://www.w3.org/2000/01/rdf-schema#label> "SHOULD" <http://www.w3.org/ns/spec#> .
+
+<http://www.w3.org/ns/spec#SHOULD-NOT> <http://www.w3.org/2000/01/rdf-schema#label> "SHOULD-NOT" <http://www.w3.org/ns/spec#> .
+
+<http://www.w3.org/ns/spec#SHALL> <http://www.w3.org/2000/01/rdf-schema#label> "SHALL" <http://www.w3.org/ns/spec#> .
+
+<http://www.w3.org/ns/spec#SHALL-NOT> <http://www.w3.org/2000/01/rdf-schema#label> "SHALL-NOT" <http://www.w3.org/ns/spec#> .
+
+<http://www.w3.org/ns/spec#REQUIRED> <http://www.w3.org/2000/01/rdf-schema#label> "REQUIRED" <http://www.w3.org/ns/spec#> .
+
+<http://www.w3.org/ns/spec#RECOMMENDED> <http://www.w3.org/2000/01/rdf-schema#label> "RECOMMENDED" <http://www.w3.org/ns/spec#> .
+
+<http://www.w3.org/ns/spec#MAY> <http://www.w3.org/2000/01/rdf-schema#label> "MAY" <http://www.w3.org/ns/spec#> .
+
+<http://www.w3.org/ns/spec#OPTIONAL> <http://www.w3.org/2000/01/rdf-schema#label> "OPTIONAL" <http://www.w3.org/ns/spec#> .
+
+<http://www.w3.org/ns/spec#Server> <http://www.w3.org/2000/01/rdf-schema#label> "Server" <http://www.w3.org/ns/spec#> .
+
+<http://www.w3.org/ns/spec#Client> <http://www.w3.org/2000/01/rdf-schema#label> "Client" <http://www.w3.org/ns/spec#> .
+

@@ -1,0 +1,528 @@
+<http://www.w3.org/ns/lemon/lime#Lexicon> <http://www.w3.org/2000/01/rdf-schema#label> "lexikon"@sv <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime> <http://purl.org/dc/elements/1.1/modified> "2016-01-10"^^<http://www.w3.org/2001/XMLSchema#date> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#references> <http://www.w3.org/2000/01/rdf-schema#comment> "Свойство 'ссылки' указывает количество отдельных онтологий или элементов словаря, которые либо связаны с лексическими элементами через набор лексикализации, либо связаны с лексическими понятиями посредством набора лексической связи."@ru <https://www.w3.org/ns/lemon/lime#>.
+_:g546420 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/lemon/lime#ConceptualizationSet> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#avgAmbiguity> <http://www.w3.org/2000/01/rdf-schema#comment> "The 'average ambiguity' property indicates the average number of lexical concepts evoked by each lemma/canonical form in the lexicon."@en <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#resourceType> <http://www.w3.org/2000/01/rdf-schema#label> "resource type"@en <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexicalEntries> <http://www.w3.org/2000/01/rdf-schema#label> "lexikaal items"@nl <https://www.w3.org/ns/lemon/lime#>.
+_:g546480 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:g546500 <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#concepts> <http://www.w3.org/2000/01/rdf-schema#comment> "The 'concepts' property indicates the number of lexical concepts defined in a concept set or involved in either a LexicalLinkset or ConceptualizationSet."@en <https://www.w3.org/ns/lemon/lime#>.
+_:g546880 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/lemon/lime#Lexicon> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexicalizationModel> <http://www.w3.org/2000/01/rdf-schema#label> "lexicalization model"@en <https://www.w3.org/ns/lemon/lime#>.
+_:g546760 <http://www.w3.org/2002/07/owl#unionOf> _:g546780 <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#references> <http://www.w3.org/2000/01/rdf-schema#domain> _:g547080 <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#language> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#entry> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/lemon/lime#Lexicon> <https://www.w3.org/ns/lemon/lime#>.
+_:g546860 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/lemon/lime#LexicalizationSet> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#LexicalLinkset> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://rdfs.org/ns/void#Linkset> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#concepts> <http://www.w3.org/2000/01/rdf-schema#domain> _:g546760 <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#conceptualDataset> <http://www.w3.org/2000/01/rdf-schema#label> "dataset van begrippen"@nl <https://www.w3.org/ns/lemon/lime#>.
+_:g546820 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime> <http://purl.org/vocab/vann/preferredNamespaceUri> "http://www.w3.org/ns/lemon/lime#" <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#linguisticCatalog> <http://www.w3.org/2000/01/rdf-schema#label> "banque de catégories linguistiques"@fr <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#LexicalLinkset> <http://www.w3.org/2000/01/rdf-schema#comment> "Лексический набор связей представляет собой набор связей между набором ссылок и набором лексических понятий (например, synsets of wordnet)"@ru <https://www.w3.org/ns/lemon/lime#>.
+_:g546800 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:g546820 <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#resourceType> <http://www.w3.org/2000/01/rdf-schema#label> "Ressourcentyp"@de <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#partition> <http://www.w3.org/2000/01/rdf-schema#label> "verdeling"@nl <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexicalEntries> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/lemon/lime> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#avgAmbiguity> <http://www.w3.org/2000/01/rdf-schema#comment> "Свойство 'средней неоднозначности' указывает среднее число лексических понятий, вызываемых каждой леммой/канонической формой в лексиконе."@ru <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#references> <http://www.w3.org/2000/01/rdf-schema#label> "referenties"@nl <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#language> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#language> <https://www.w3.org/ns/lemon/lime#>.
+_:g547080 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#ConceptualizationSet> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://www.w3.org/ns/lemon/lime" <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#entry> <http://www.w3.org/2000/01/rdf-schema#label> "entrée"@fr <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#references> <http://www.w3.org/2000/01/rdf-schema#label> "références"@fr <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#conceptualizations> <http://www.w3.org/2000/01/rdf-schema#label> "Konzeptualisierungen"@de <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexiconDataset> <http://www.w3.org/2000/01/rdf-schema#domain> _:g546460 <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#avgAmbiguity> <http://www.w3.org/2000/01/rdf-schema#label> "средняя неоднозначность"@ru <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#conceptualizations> <http://www.w3.org/2000/01/rdf-schema#label> "концептуализации"@ru <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#avgNumOfLinks> <http://www.w3.org/2000/01/rdf-schema#label> "numero medio di link"@it <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#ConceptualizationSet> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:g547160 <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#referenceDataset> <http://www.w3.org/2000/01/rdf-schema#label> "verzameling van referenties"@nl <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexiconDataset> <http://www.w3.org/2000/01/rdf-schema#label> "set de date de lexicon"@ro <https://www.w3.org/ns/lemon/lime#>.
+_:g547180 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#references> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime> <http://purl.org/dc/elements/1.1/contributor> <http://www.ilc.cnr.it/en/content/anas-fahad-khan> <https://www.w3.org/ns/lemon/lime#>.
+_:g546620 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/lemon/lime#LexicalizationSet> <https://www.w3.org/ns/lemon/lime#>.
+_:g547260 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/lemon/lime#partition> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#ConceptualizationSet> <http://www.w3.org/2000/01/rdf-schema#label> "banca concettualizzazioni"@it <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#linguisticCatalog> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/vocommons/voaf#Vocabulary> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexicalEntries> <http://www.w3.org/2000/01/rdf-schema#label> "lexie"@fr <https://www.w3.org/ns/lemon/lime#>.
+_:g546640 <http://www.w3.org/2002/07/owl#unionOf> _:g546660 <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#references> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://www.w3.org/ns/lemon/lime#>.
+_:g546660 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/lemon/lime#LexicalLinkset> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#entry> <http://www.w3.org/2000/01/rdf-schema#label> "запись"@ru <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexicalizationModel> <http://www.w3.org/2000/01/rdf-schema#label> "modelo de lexicalización"@es <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexicalizationModel> <http://www.w3.org/2000/01/rdf-schema#comment> "Свойство 'модель лексикализации' указывает модель, используемую для представления лексической информации. Возможные значения включают (но не ограничиваются) http://www.w3.org/2000/01/rdf-schema# (for the use of rdfs:label), http://www.w3.org/2004/02/skos/core (for the use of skos:pref/alt/hiddenLabel), http://www.w3.org/2008/05/skos-xl (for the use of skosxl:pref/alt/hiddenLabel) and http://www.w3.org/ns/lemon/all for lemon."@ru <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#linguisticCatalog> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#Lexicon> <http://www.w3.org/2000/01/rdf-schema#label> "lexicon"@ro <https://www.w3.org/ns/lemon/lime#>.
+_:g547300 <http://www.w3.org/2002/07/owl#onClass> <http://www.w3.org/ns/lemon/lime#Lexicon> <https://www.w3.org/ns/lemon/lime#>.
+_:g547300 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/lemon/lime#lexiconDataset> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#referenceDataset> <http://www.w3.org/2000/01/rdf-schema#label> "banca riferimenti"@it <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#language> <http://www.w3.org/2000/01/rdf-schema#label> "språk"@sv <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#language> <http://www.w3.org/2000/01/rdf-schema#label> "idioma"@pt <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#references> <http://www.w3.org/2000/01/rdf-schema#label> "riferimenti"@it <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexicalEntries> <http://www.w3.org/2000/01/rdf-schema#label> "entrate lessicali"@it <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#partition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#avgNumOfLinks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#conceptualDataset> <http://www.w3.org/2000/01/rdf-schema#comment> "The 'conceptual dataset' property relates a lexical link set or a conceptualization set to a corresponding concept set."@en <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#avgSynonymy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/lemon/lime#ConceptualizationSet> <https://www.w3.org/ns/lemon/lime#>.
+_:g547280 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/lemon/lime#lexicalizationModel> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#referenceDataset> <http://www.w3.org/2000/01/rdf-schema#comment> "The 'reference dataset' property indicates the dataset that contains the domain objects or vocabulary elements that are either referenced by a given lexicon, providing the grounding vocabulary for the meaning of the lexical entries, or linked to lexical concepts in a concept set by means of a lexical link set."@en <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime> <http://purl.org/vocab/vann/preferredNamespacePrefix> "lime" <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#conceptualizations> <http://www.w3.org/2000/01/rdf-schema#label> "conceptualisaties"@nl <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#conceptualizations> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> <https://www.w3.org/ns/lemon/lime#>.
+_:g547140 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <https://www.w3.org/ns/lemon/lime#>.
+_:g547320 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/lemon/lime#entry> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#language> <http://www.w3.org/2000/01/rdf-schema#label> "lengua"@es <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#entry> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#partition> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://rdfs.org/ns/void#subset> <https://www.w3.org/ns/lemon/lime#>.
+_:g547100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/lemon/lime#LexicalLinkset> <https://www.w3.org/ns/lemon/lime#>.
+_:g546580 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#referenceDataset> <http://www.w3.org/2000/01/rdf-schema#label> "Referenzdatensatz"@de <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#referenceDataset> <http://www.w3.org/2000/01/rdf-schema#label> "referensdatamängd"@sv <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#concepts> <http://www.w3.org/2000/01/rdf-schema#label> "concepts"@fr <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#language> <http://www.w3.org/2000/01/rdf-schema#domain> _:g546840 <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#links> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/lemon/lime#LexicalLinkset> <https://www.w3.org/ns/lemon/lime#>.
+_:g547240 <http://www.w3.org/2002/07/owl#onClass> <http://rdfs.org/ns/void#Dataset> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#referenceDataset> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/lemon/lime> <https://www.w3.org/ns/lemon/lime#>.
+_:g547240 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#Lexicon> <http://www.w3.org/2000/01/rdf-schema#label> "lexicon"@en <https://www.w3.org/ns/lemon/lime#>.
+_:g546580 <http://www.w3.org/2002/07/owl#unionOf> _:g546600 <https://www.w3.org/ns/lemon/lime#>.
+_:g546620 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#partition> <http://www.w3.org/2000/01/rdf-schema#comment> "Свойство 'раздел' связывает набор лексикализации или лексический набор ссылок с логическим подмножеством, который содержит лексикализацию только для данного онтологического типа."@ru <https://www.w3.org/ns/lemon/lime#>.
+_:g547140 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#references> <http://www.w3.org/2000/01/rdf-schema#label> "Referenzen"@de <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#referenceDataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#language> <http://www.w3.org/2000/01/rdf-schema#label> "taal"@af <https://www.w3.org/ns/lemon/lime#>.
+_:g546920 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#language> <http://www.w3.org/2000/01/rdf-schema#label> "Sprache"@de <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime> <http://purl.org/dc/elements/1.1/contributor> <http://www.dfki.de/~declerck/> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#referenceDataset> <http://www.w3.org/2000/01/rdf-schema#label> "banque de réfèrences"@fr <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#avgSynonymy> <http://www.w3.org/2000/01/rdf-schema#label> "average synonymy"@en <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#conceptualDataset> <http://www.w3.org/2000/01/rdf-schema#label> "banque de concepts"@fr <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#avgNumOfLinks> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/lemon/lime#LexicalLinkset> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#referenceDataset> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#referenceDataset> <http://www.w3.org/2000/01/rdf-schema#domain> _:g546640 <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#language> <http://www.w3.org/2000/01/rdf-schema#label> "langue"@fr <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexicalEntries> <http://www.w3.org/2000/01/rdf-schema#label> "Lexikoneinträge"@de <https://www.w3.org/ns/lemon/lime#>.
+_:g547060 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexiconDataset> <http://www.w3.org/2000/01/rdf-schema#label> "Lexikondatensatz"@de <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#language> <http://www.w3.org/2000/01/rdf-schema#label> "taal"@nl <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexicalizations> <http://www.w3.org/2000/01/rdf-schema#label> "lexicalizaciones"@es <https://www.w3.org/ns/lemon/lime#>.
+_:g547280 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#avgSynonymy> <http://www.w3.org/2000/01/rdf-schema#label> "sinonimità media"@it <https://www.w3.org/ns/lemon/lime#>.
+_:g546440 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexicalEntries> <http://www.w3.org/2000/01/rdf-schema#label> "словарная единица"@ru <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexicalizations> <http://www.w3.org/2000/01/rdf-schema#label> "lexikaliseringar"@sv <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#LexicalLinkset> <http://www.w3.org/2000/01/rdf-schema#label> "banca di link lessicali"@it <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexicalizations> <http://www.w3.org/2000/01/rdf-schema#label> "lexicalizations"@en <https://www.w3.org/ns/lemon/lime#>.
+_:g547180 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#LexicalLinkset> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:g547220 <https://www.w3.org/ns/lemon/lime#>.
+_:g547320 <http://www.w3.org/2002/07/owl#onClass> <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#resourceType> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://www.w3.org/ns/lemon/lime" <https://www.w3.org/ns/lemon/lime#>.
+_:g547200 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#entry> <http://www.w3.org/2000/01/rdf-schema#comment> "The 'entry' property relates a lexicon to one of the lexical entries contained in it."@en <https://www.w3.org/ns/lemon/lime#>.
+_:g547260 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexicalizationModel> <http://www.w3.org/2000/01/rdf-schema#label> "modello di lessicalizzazione"@it <https://www.w3.org/ns/lemon/lime#>.
+_:g547060 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/lemon/lime#LexicalizationSet> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#LexicalLinkset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#avgAmbiguity> <http://www.w3.org/2000/01/rdf-schema#label> "gemiddelde ambiguïteit"@nl <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#avgNumOfLinks> <http://www.w3.org/2000/01/rdf-schema#comment> "The 'average number of links' property indicates the average number of links for each entity in the conceptual dataset."@en <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#LexicalizationSet> <http://www.w3.org/2000/01/rdf-schema#label> "набор лексикализаций"@ru <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#conceptualDataset> <http://www.w3.org/2000/01/rdf-schema#label> "banca concetti"@it <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#entry> <http://www.w3.org/2000/01/rdf-schema#label> "ingång"@sv <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#avgNumOfLexicalizations> <http://www.w3.org/2000/01/rdf-schema#label> "average number of lexicalizations"@en <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#ConceptualizationSet> <http://www.w3.org/2000/01/rdf-schema#label> "verzameling van conceptialisaties"@nl <https://www.w3.org/ns/lemon/lime#>.
+_:g546560 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/lemon/lime#LexicalizationSet> <https://www.w3.org/ns/lemon/lime#>.
+_:g547240 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/lemon/lime#referenceDataset> <https://www.w3.org/ns/lemon/lime#>.
+_:g546940 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#Lexicon> <http://www.w3.org/2000/01/rdf-schema#label> "лексикон"@ru <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#partition> <http://www.w3.org/2000/01/rdf-schema#range> _:g546580 <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#avgNumOfLinks> <http://www.w3.org/2000/01/rdf-schema#label> "gemiddeld aantal van links"@nl <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#avgAmbiguity> <http://www.w3.org/2000/01/rdf-schema#label> "average ambiguity"@en <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#entry> <http://www.w3.org/2000/01/rdf-schema#label> "Eintrag"@de <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexicalizationModel> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://www.w3.org/ns/lemon/lime#>.
+_:g546720 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:g546740 <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#links> <http://www.w3.org/2000/01/rdf-schema#label> "links"@nl <https://www.w3.org/ns/lemon/lime#>.
+_:g546400 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#Lexicon> <http://www.w3.org/2000/01/rdf-schema#label> "lexicón"@es <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#Lexicon> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:g547320 <https://www.w3.org/ns/lemon/lime#>.
+<http://rdfs.org/ns/void#vocabulary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#avgNumOfLexicalizations> <http://www.w3.org/2000/01/rdf-schema#comment> "Свойство 'среднее количество лексикализаций' указывает среднее число лексикализаций на элемент онтологии. Точная формула для вычисления среднего значения указана в спецификации: https://www.w3.org/community/ontolex/wiki/Final_Model_Specification#LexicalizationSet"@ru <https://www.w3.org/ns/lemon/lime#>.
+_:g546780 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:g546800 <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#avgNumOfLinks> <http://www.w3.org/2000/01/rdf-schema#label> "average number of links"@en <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#ConceptualizationSet> <http://www.w3.org/2000/01/rdf-schema#label> "набор концепций"@ru <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#ConceptualizationSet> <http://www.w3.org/2000/01/rdf-schema#comment> "Набор концепций представляет собой набор связей между словарными единицами в лексиконе и лексическими понятиями в наборе понятий, которые они вызывают."@ru <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#avgNumOfLinks> <http://www.w3.org/2000/01/rdf-schema#comment> "Свойство 'среднее количество ссылок' указывает среднее число ссылок для каждого объекта в концептуальном наборе данных."@ru <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#LexicalLinkset> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:g547180 <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#resourceType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Class> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#avgSynonymy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#partition> <http://www.w3.org/2000/01/rdf-schema#label> "partition"@en <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#links> <http://www.w3.org/2000/01/rdf-schema#label> "связи"@ru <https://www.w3.org/ns/lemon/lime#>.
+_:g547160 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#resourceType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#avgNumOfLinks> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#Lexicon> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://rdfs.org/ns/void#Dataset> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#concepts> <http://www.w3.org/2000/01/rdf-schema#label> "concepts"@en <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexicalEntries> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://www.w3.org/ns/lemon/lime#>.
+_:g547340 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <https://www.w3.org/ns/lemon/lime#>.
+_:g546940 <http://www.w3.org/2002/07/owl#unionOf> _:g546960 <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexicalEntries> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexicalizationModel> <http://www.w3.org/2000/01/rdf-schema#label> "modèle de lexicalisation"@fr <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexicalEntries> <http://www.w3.org/2000/01/rdf-schema#comment> "Свойство 'словарная единица' указывает количество различных словарных единиц, содержащихся в лексиконе или наборе лексикализаций."@ru <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#links> <http://www.w3.org/2000/01/rdf-schema#label> "links"@en <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#LexicalLinkset> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:g547200 <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexicalEntries> <http://www.w3.org/2000/01/rdf-schema#label> "lexikoningångar"@sv <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexiconDataset> <http://www.w3.org/2000/01/rdf-schema#label> "banque de données lexicales"@fr <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#resourceType> <http://www.w3.org/2000/01/rdf-schema#label> "type van ressource"@nl <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#entry> <http://www.w3.org/2000/01/rdf-schema#label> "Item"@nl <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#referenceDataset> <http://www.w3.org/2000/01/rdf-schema#comment> "Свойство 'справочный набор данных' указывает набор данных, который содержит объекты домена или элементы словаря, на которые либо ссылается данный лексикон, обеспечивая базовый словарь для значения словарных единиц или связывая лексическими понятия с понятийными наборами, заданными с помощью набора лексических ссылок."@ru <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexiconDataset> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/lemon/lime> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#references> <http://www.w3.org/2000/01/rdf-schema#label> "verwysings"@af <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime> <http://purl.org/dc/elements/1.1/contributor> <https://sites.google.com/site/francescafrontini/> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexicalEntries> <http://www.w3.org/2000/01/rdf-schema#label> "entradas lexicas"@pt <https://www.w3.org/ns/lemon/lime#>.
+_:g546960 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:g546980 <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#avgAmbiguity> <http://www.w3.org/2000/01/rdf-schema#label> "ambigüedad promedia"@es <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#partition> <http://www.w3.org/2000/01/rdf-schema#label> "partizione"@it <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#concepts> <http://www.w3.org/2000/01/rdf-schema#label> "concetti"@it <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime> <http://purl.org/dc/elements/1.1/contributor> <http://www.oeg-upm.net/index.php/teachers/53-lupe> <https://www.w3.org/ns/lemon/lime#>.
+_:g546980 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:g547000 <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#links> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#avgNumOfLexicalizations> <http://www.w3.org/2000/01/rdf-schema#label> "numero medio de lexicalizações"@pt <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#ConceptualizationSet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#LexicalizationSet> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:g547260 <https://www.w3.org/ns/lemon/lime#>.
+_:g547300 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#conceptualDataset> <http://www.w3.org/2000/01/rdf-schema#comment> "Свойство 'концептуальный набор данных' связывает набор лексической связи или концептуализацию с соответствующим набором понятий."@ru <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#percentage> <http://www.w3.org/2000/01/rdf-schema#label> "porcentaje"@es <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#links> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#avgAmbiguity> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://www.w3.org/ns/lemon/lime" <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#concepts> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#language> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://www.w3.org/ns/lemon/lime" <https://www.w3.org/ns/lemon/lime#>.
+_:g547160 <http://www.w3.org/2002/07/owl#onClass> <http://www.w3.org/ns/lemon/lime#Lexicon> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#avgNumOfLexicalizations> <http://www.w3.org/2000/01/rdf-schema#comment> "The 'average number of lexicalizations' property indicate the average number of lexicalizations per ontology element. The exact formula for calculating the average is indicated in the specification: https://www.w3.org/community/ontolex/wiki/Final_Model_Specification#LexicalizationSet"@en <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#ConceptualizationSet> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#conceptualDataset> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#percentage> <http://www.w3.org/2000/01/rdf-schema#label> "pourcentage"@fr <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#avgNumOfLinks> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://www.w3.org/ns/lemon/lime" <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime> <http://purl.org/dc/elements/1.1/issued> "2016-01-10"^^<http://www.w3.org/2001/XMLSchema#date> <https://www.w3.org/ns/lemon/lime#>.
+_:g546920 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexiconDataset> <http://www.w3.org/2000/01/rdf-schema#label> "lexicon dataset"@en <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#resourceType> <http://www.w3.org/2000/01/rdf-schema#label> "type de ressource"@fr <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#concepts> <http://www.w3.org/2000/01/rdf-schema#label> "Konzepte"@de <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#LexicalizationSet> <http://www.w3.org/2000/01/rdf-schema#label> "lexicalization set"@en <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexicalizations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#avgSynonymy> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#entry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#ConceptualizationSet> <http://www.w3.org/2000/01/rdf-schema#label> "conceptualization set"@en <https://www.w3.org/ns/lemon/lime#>.
+_:g546420 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:g546440 <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexiconDataset> <http://www.w3.org/2000/01/rdf-schema#label> "conjunto de datos del lexicón"@es <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#links> <http://www.w3.org/2000/01/rdf-schema#comment> "Свойство 'связи' указывает количество связей между понятиями в наборе понятий и объектами в ссылочном наборе данных."@ru <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#Lexicon> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://www.w3.org/ns/lemon/lime" <https://www.w3.org/ns/lemon/lime#>.
+<http://rdfs.org/ns/void#vocabulary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#linguisticCatalog> <http://www.w3.org/2000/01/rdf-schema#label> "conjunto de categoríes lingüísticas"@es <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#partition> <http://www.w3.org/2000/01/rdf-schema#comment> "The 'partition' property relates a lexicalization set or lexical linkset to a logical subset that contains lexicalizations for a given ontological type only."@en <https://www.w3.org/ns/lemon/lime#>.
+<http://rdfs.org/ns/void#Dataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#entry> <http://www.w3.org/2000/01/rdf-schema#label> "entrada"@es <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#LexicalLinkset> <http://www.w3.org/2000/01/rdf-schema#label> "lexical linkset"@en <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#LexicalizationSet> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/lemon/lime> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#avgNumOfLinks> <http://www.w3.org/2000/01/rdf-schema#label> "среднее количество ссылок"@ru <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#ConceptualizationSet> <http://www.w3.org/2000/01/rdf-schema#label> "banque de concepitalisations"@fr <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#referenceDataset> <http://www.w3.org/2000/01/rdf-schema#label> "conjunto de datos de referencia"@es <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#LexicalizationSet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#links> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://www.w3.org/ns/lemon/lime" <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#conceptualizations> <http://www.w3.org/2000/01/rdf-schema#label> "conceptualizaciones"@es <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexicalizationModel> <http://www.w3.org/2000/01/rdf-schema#label> "модель лексикализации"@ru <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#conceptualDataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexicalizations> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/lemon/lime> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexicalizationModel> <http://www.w3.org/2000/01/rdf-schema#label> "model van lexicalisatie"@nl <https://www.w3.org/ns/lemon/lime#>.
+<http://rdfs.org/ns/void#subset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexiconDataset> <http://www.w3.org/2000/01/rdf-schema#label> "lexikondatamängd"@sv <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime> <http://purl.org/dc/elements/1.1/contributor> <http://www.istc.cnr.it/people/aldo-gangemi> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#conceptualDataset> <http://www.w3.org/2000/01/rdf-schema#label> "conjunto de conceptos"@es <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#entry> <http://www.w3.org/2000/01/rdf-schema#label> "înregistrare"@ro <https://www.w3.org/ns/lemon/lime#>.
+_:g546680 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/lemon/lime#LexicalizationSet> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#resourceType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#avgAmbiguity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/lemon/lime#ConceptualizationSet> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#avgSynonymy> <http://www.w3.org/2000/01/rdf-schema#label> "gemiddelde synonymie"@nl <https://www.w3.org/ns/lemon/lime#>.
+_:g547000 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/lemon/lime#Lexicon> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#LexicalLinkset> <http://www.w3.org/2000/01/rdf-schema#label> "banque de liens lexicals"@fr <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#Lexicon> <http://www.w3.org/2000/01/rdf-schema#label> "Lexikon"@de <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime> <http://purl.org/dc/elements/1.1/contributor> <http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/teachers/52-emontiel> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#Lexicon> <http://www.w3.org/2000/01/rdf-schema#label> "Lexique"@fr <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#avgSynonymy> <http://www.w3.org/2000/01/rdf-schema#comment> "Свойство 'средняя синонимия' указывает среднее число словарных единиц, вызывающих каждое лексическое понятие в наборе понятий."@ru <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#language> <http://www.w3.org/2000/01/rdf-schema#label> "language"@en <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexicalizationModel> <http://www.w3.org/2000/01/rdf-schema#comment> "The 'lexicalization model' property indicates the model used for representing lexical information. Possible values include (but are not limited to) http://www.w3.org/2000/01/rdf-schema# (for the use of rdfs:label), http://www.w3.org/2004/02/skos/core (for the use of skos:pref/alt/hiddenLabel), http://www.w3.org/2008/05/skos-xl (for the use of skosxl:pref/alt/hiddenLabel) and http://www.w3.org/ns/lemon/all for lemon."@en <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#language> <http://www.w3.org/2000/01/rdf-schema#label> "lingua"@it <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexicalizations> <http://www.w3.org/2000/01/rdf-schema#label> "лексикализации"@ru <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#LexicalLinkset> <http://www.w3.org/2000/01/rdf-schema#comment> "A lexical linkset represents a collection of links between a reference dataset and a set of lexical concepts (e.g. synsets of a wordnet)."@en <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexiconDataset> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/lemon/lime#Lexicon> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#avgNumOfLexicalizations> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#LexicalizationSet> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:g547300 <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime> <http://creativecommons.org/ns#license> <https://creativecommons.org/publicdomain/zero/1.0/> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexiconDataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#avgNumOfLexicalizations> <http://www.w3.org/2000/01/rdf-schema#label> "genomsnittligt antal lexikaliseringar"@sv <https://www.w3.org/ns/lemon/lime#>.
+_:g547220 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/lemon/lime#partition> <https://www.w3.org/ns/lemon/lime#>.
+_:g546700 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <https://www.w3.org/ns/lemon/lime#>.
+_:g546740 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#entry> <http://www.w3.org/2000/01/rdf-schema#label> "entrada"@pt <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexiconDataset> <http://www.w3.org/2000/01/rdf-schema#label> "лексический набор данных"@ru <https://www.w3.org/ns/lemon/lime#>.
+<http://rdfs.org/ns/void#Linkset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#conceptualizations> <http://www.w3.org/2000/01/rdf-schema#comment> "Свойство 'концептуализации' указывает на число различных концептуализаций в наборе концептуализаций."@ru <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexicalizations> <http://www.w3.org/2000/01/rdf-schema#comment> "Свойство 'лексикализации' указывает общее число лексикализаций в наборе лексикализаций, то есть количество уникальных пар словарных единиц и обозначенного элемента онтологии."@ru <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexiconDataset> <http://www.w3.org/2000/01/rdf-schema#label> "leksikale datastel"@af <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#avgNumOfLexicalizations> <http://www.w3.org/2000/01/rdf-schema#label> "nombre moyen de lexicalisations"@fr <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime> <http://purl.org/dc/elements/1.1/contributor> <http://jogracia.url.ph/web/> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#conceptualDataset> <http://www.w3.org/2000/01/rdf-schema#label> "концептуальный набор данных"@ru <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#resourceType> <http://www.w3.org/2000/01/rdf-schema#label> "tipo de recurso"@es <https://www.w3.org/ns/lemon/lime#>.
+_:g546720 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/lemon/lime#LexicalLinkset> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#percentage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#partition> <http://www.w3.org/2000/01/rdf-schema#label> "partition"@fr <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#Lexicon> <http://www.w3.org/2000/01/rdf-schema#label> "Lessico"@it <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#referenceDataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://www.w3.org/ns/lemon/lime#>.
+_:g547180 <http://www.w3.org/2002/07/owl#onClass> <http://www.w3.org/ns/lemon/ontolex#ConceptSet> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#Lexicon> <http://www.w3.org/2000/01/rdf-schema#comment> "A lexicon represents a collection of lexical entries for a particular language or domain."@en <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#avgNumOfLinks> <http://www.w3.org/2000/01/rdf-schema#label> "Durchschnittliche Anzahl von Links"@de <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#LexicalizationSet> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:g547240 <https://www.w3.org/ns/lemon/lime#>.
+_:g547140 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/lemon/lime#conceptualDataset> <https://www.w3.org/ns/lemon/lime#>.
+_:g547020 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#Lexicon> <http://www.w3.org/2000/01/rdf-schema#label> "Lexicon"@nl <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexicalEntries> <http://www.w3.org/2000/01/rdf-schema#comment> "The 'lexical entries' property indicates the number of distinct lexical entries contained in a lexicon or lexicalization set."@en <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#entry> <http://www.w3.org/2000/01/rdf-schema#label> "entrata"@it <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#avgNumOfLexicalizations> <http://www.w3.org/2000/01/rdf-schema#label> "numărul mediu de lexicalizari"@ro <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#percentage> <http://www.w3.org/2000/01/rdf-schema#label> "percentage"@en <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#references> <http://www.w3.org/2000/01/rdf-schema#label> "referenser"@sv <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#references> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime> <http://purl.org/dc/elements/1.1/contributor> <http://www.paulbuitelaar.net/> <https://www.w3.org/ns/lemon/lime#>.
+_:g546440 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/lemon/lime#LexicalLinkset> <https://www.w3.org/ns/lemon/lime#>.
+_:g547020 <http://www.w3.org/2002/07/owl#unionOf> _:g547040 <https://www.w3.org/ns/lemon/lime#>.
+_:g547100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:g547120 <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexicalEntries> <http://www.w3.org/2000/01/rdf-schema#label> "lexical entries"@en <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#linguisticCatalog> <http://www.w3.org/2000/01/rdf-schema#label> "linguistische Kategorienmodell"@de <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#resourceType> <http://www.w3.org/2000/01/rdf-schema#domain> _:g546700 <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#avgAmbiguity> <http://www.w3.org/2000/01/rdf-schema#label> "ambiguità media"@it <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#concepts> <http://www.w3.org/2000/01/rdf-schema#label> "понятия"@ru <https://www.w3.org/ns/lemon/lime#>.
+_:g546820 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/lemon/ontolex#ConceptSet> <https://www.w3.org/ns/lemon/lime#>.
+_:g546860 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:g546880 <https://www.w3.org/ns/lemon/lime#>.
+_:g546500 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/lemon/lime#LexicalizationSet> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#linguisticCatalog> <http://www.w3.org/2000/01/rdf-schema#label> "lingustic catalog"@en <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#linguisticCatalog> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/lemon/lime#Lexicon> <https://www.w3.org/ns/lemon/lime#>.
+_:g547000 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#references> <http://www.w3.org/2000/01/rdf-schema#label> "references"@en <https://www.w3.org/ns/lemon/lime#>.
+_:g547300 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexicalEntries> <http://www.w3.org/2000/01/rdf-schema#label> "leksikale inskrywing"@af <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime> <http://purl.org/dc/elements/1.1/rights> "CC-Zero" <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#avgSynonymy> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexicalizationModel> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://www.w3.org/ns/lemon/lime" <https://www.w3.org/ns/lemon/lime#>.
+_:g546800 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/lemon/lime#LexicalLinkset> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#ConceptualizationSet> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:g547140 <https://www.w3.org/ns/lemon/lime#>.
+_:g546700 <http://www.w3.org/2002/07/owl#unionOf> _:g546720 <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#avgNumOfLexicalizations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#percentage> <http://www.w3.org/2000/01/rdf-schema#domain> _:g547020 <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#links> <http://www.w3.org/2000/01/rdf-schema#comment> "The 'links' property indicates the number of links between concepts in the concept set and entities in the reference dataset."@en <https://www.w3.org/ns/lemon/lime#>.
+_:g547160 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#references> <http://www.w3.org/2000/01/rdf-schema#label> "ссылки"@ru <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime> <http://www.w3.org/2002/07/owl#imports> <http://www.w3.org/ns/lemon/ontolex> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexicalEntries> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://www.w3.org/ns/lemon/lime" <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#avgSynonymy> <http://www.w3.org/2000/01/rdf-schema#label> "средняя синонимия"@ru <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#linguisticCatalog> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://www.w3.org/ns/lemon/lime" <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#avgNumOfLexicalizations> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://www.w3.org/ns/lemon/lime" <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#avgSynonymy> <http://www.w3.org/2000/01/rdf-schema#label> "sinóminedad promedia"@es <https://www.w3.org/ns/lemon/lime#>.
+_:g546400 <http://www.w3.org/2002/07/owl#unionOf> _:g546420 <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime> <http://purl.org/dc/elements/1.1/publisher> <http://www.w3.org/community/ontolex> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexicalizations> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://www.w3.org/ns/lemon/lime#>.
+_:g547320 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexiconDataset> <http://www.w3.org/2000/01/rdf-schema#label> "lexicale dataset"@nl <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#conceptualDataset> <http://www.w3.org/2000/01/rdf-schema#label> "conceptual dataset"@en <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexiconDataset> <http://www.w3.org/2000/01/rdf-schema#comment> "The 'lexicon dataset' property indicates the lexicon that contains the entries refered to in a lexicalization set or a conceptualization set."@en <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#entry> <http://www.w3.org/2000/01/rdf-schema#label> "inskrywing"@af <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#partition> <http://www.w3.org/2000/01/rdf-schema#label> "Teilung"@de <https://www.w3.org/ns/lemon/lime#>.
+_:g546520 <http://www.w3.org/2002/07/owl#unionOf> _:g546540 <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#entry> <http://www.w3.org/2000/01/rdf-schema#label> "entry"@en <https://www.w3.org/ns/lemon/lime#>.
+_:g546740 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/lemon/lime#LexicalizationSet> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#conceptualizations> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#linguisticCatalog> <http://www.w3.org/2000/01/rdf-schema#comment> "Свойство 'лингвистический каталог' указывает каталог языковых категорий, используемых в лексиконе, для определения лингвистических свойств словарных единиц."@ru <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#avgAmbiguity> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime> <http://www.w3.org/2000/01/rdf-schema#label> "Lexicon Model for Ontologies - LIngusitic MEtadata (LIME)"@en <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexiconDataset> <http://www.w3.org/2000/01/rdf-schema#comment> "Свойство 'лексический набор данных' указывает лексику, которая содержит записи, упомянутые в наборе лексикализации или наборе концептуализации."@ru <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#partition> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://www.w3.org/ns/lemon/lime#>.
+_:g547040 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:g547060 <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexicalizations> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#LexicalLinkset> <http://www.w3.org/2000/01/rdf-schema#label> "linkset lexical"@ro <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime> <http://purl.org/dc/terms/description> "LIME (LInguistic MEtadata) is a vocabulary for expressing linguistic metadata about linguistic resources and linguistically grounded datasets."@en <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime> <http://www.w3.org/2002/07/owl#versionInfo> "1.1"^^<http://www.w3.org/2001/XMLSchema#decimal> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#linguisticCatalog> <http://www.w3.org/2000/01/rdf-schema#label> "verzameling van taalkundige categories"@nl <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexicalizations> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/lemon/lime#LexicalizationSet> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#LexicalLinkset> <http://www.w3.org/2000/01/rdf-schema#label> "conjunto de enlaces"@es <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#language> <http://www.w3.org/2000/01/rdf-schema#label> "язык"@ru <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime> <http://purl.org/dc/terms/title> "Vocabulary of Linguistic Metadata"@en <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#avgNumOfLexicalizations> <http://www.w3.org/2000/01/rdf-schema#label> "gemiddelde aantal leksikaliserings"@af <https://www.w3.org/ns/lemon/lime#>.
+_:g546840 <http://www.w3.org/2002/07/owl#unionOf> _:g546860 <https://www.w3.org/ns/lemon/lime#>.
+_:g547140 <http://www.w3.org/2002/07/owl#onClass> <http://www.w3.org/ns/lemon/ontolex#ConceptSet> <https://www.w3.org/ns/lemon/lime#>.
+_:g547280 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#language> <http://www.w3.org/2000/01/rdf-schema#label> "limbă"@ro <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#percentage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <https://www.w3.org/ns/lemon/lime#>.
+_:g547080 <http://www.w3.org/2002/07/owl#unionOf> _:g547100 <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#Lexicon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#percentage> <http://www.w3.org/2000/01/rdf-schema#label> "процент"@ru <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexiconDataset> <http://www.w3.org/2000/01/rdf-schema#label> "banca dati lessicale"@it <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime> <http://creativecommons.org/ns#licence> <https://creativecommons.org/publicdomain/zero/1.0/> <https://www.w3.org/ns/lemon/lime#>.
+_:g546880 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:g546900 <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#LexicalizationSet> <http://www.w3.org/2000/01/rdf-schema#comment> "A 'lexicalization set' is a dataset that comprises a collection of lexicalizations, that is pairs of lexical entry and corresponding reference in the associated ontology/vocabulary/dataset."@en <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#linguisticCatalog> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://www.w3.org/ns/lemon/lime#>.
+_:g546980 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/lemon/lime#LexicalizationSet> <https://www.w3.org/ns/lemon/lime#>.
+_:g546640 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <https://www.w3.org/ns/lemon/lime#>.
+_:g546540 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:g546560 <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#linguisticCatalog> <http://www.w3.org/2000/01/rdf-schema#label> "banca categorie linguistiche"@it <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#Lexicon> <http://www.w3.org/2000/01/rdf-schema#label> "leksikon"@af <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#ConceptualizationSet> <http://www.w3.org/2000/01/rdf-schema#label> "Konzeptualisierungsatz"@de <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#referenceDataset> <http://www.w3.org/2000/01/rdf-schema#label> "reference dataset"@en <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#avgSynonymy> <http://www.w3.org/2000/01/rdf-schema#label> "Durchschnittliche Synonymie"@de <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexiconDataset> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://www.w3.org/ns/lemon/lime#>.
+_:g546760 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <https://www.w3.org/ns/lemon/lime#>.
+_:g547260 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/ns/lemon/lime#LexicalizationSet> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime> <http://purl.org/dc/elements/1.1/creator> <http://www.cimiano.de/> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexicalizations> <http://www.w3.org/2000/01/rdf-schema#label> "lexicalisations"@fr <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#avgSynonymy> <http://www.w3.org/2000/01/rdf-schema#label> "synonymie moyenne"@fr <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#conceptualizations> <http://www.w3.org/2000/01/rdf-schema#comment> "The 'conceptualizations' property indicates the number of distinct conceptualizations in a conceptualization set."@en <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#avgNumOfLexicalizations> <http://www.w3.org/2000/01/rdf-schema#label> "Durchschnittliche Anzahl von Lexikalisierungen"@de <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#links> <http://www.w3.org/2000/01/rdf-schema#label> "link"@it <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexicalizationModel> <http://www.w3.org/2000/01/rdf-schema#label> "Lexikalisierungmodell"@de <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#linguisticCatalog> <http://www.w3.org/2000/01/rdf-schema#label> "лингвистический каталог"@ru <https://www.w3.org/ns/lemon/lime#>.
+_:g547180 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/lemon/lime#conceptualDataset> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime> <http://www.w3.org/2000/01/rdf-schema#comment> "-Version 1.0: depreciation with minor change in metadata for LOV publication\n-Version 1.1: creation"@en <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexicalizationModel> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/lemon/lime#LexicalizationSet> <https://www.w3.org/ns/lemon/lime#>.
+_:g546900 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:g546920 <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#referenceDataset> <http://www.w3.org/2000/01/rdf-schema#label> "verwysingsdatastel"@af <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexicalEntries> <http://www.w3.org/2000/01/rdf-schema#domain> _:g546940 <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#percentage> <http://www.w3.org/2000/01/rdf-schema#label> "percentuale"@it <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#percentage> <http://www.w3.org/2000/01/rdf-schema#label> "percentage"@nl <https://www.w3.org/ns/lemon/lime#>.
+_:g547340 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/lemon/lime#language> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#conceptualDataset> <http://www.w3.org/2000/01/rdf-schema#label> "Konzeptdatensatz"@de <https://www.w3.org/ns/lemon/lime#>.
+_:g547320 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#avgSynonymy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://www.w3.org/ns/lemon/lime" <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#percentage> <http://www.w3.org/2000/01/rdf-schema#label> "Prozentsatz"@de <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#references> <http://www.w3.org/2000/01/rdf-schema#label> "referințe"@ro <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime> <http://purl.org/dc/elements/1.1/creator> <http://john.mccr.ae/> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#concepts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <https://www.w3.org/ns/lemon/lime#>.
+_:g547220 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#LexicalizationSet> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#conceptualizations> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://www.w3.org/ns/lemon/lime" <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime> <http://purl.org/dc/elements/1.1/contributor> <http://art.uniroma2.it/stellato/> <https://www.w3.org/ns/lemon/lime#>.
+_:g546960 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/lemon/lime#ConceptualizationSet> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#conceptualizations> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/lemon/lime#ConceptualizationSet> <https://www.w3.org/ns/lemon/lime#>.
+_:g547120 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/lemon/lime#LexicalizationSet> <https://www.w3.org/ns/lemon/lime#>.
+_:g546840 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#references> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/lemon/lime> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#LexicalLinkset> <http://www.w3.org/2000/01/rdf-schema#label> "verzameling van lexicale links"@nl <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#language> <http://www.w3.org/2000/01/rdf-schema#comment> "The  'language' property indicates the language of a lexicon, a lexical entry, a concept set or a lexicalization set."@en <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexicalizations> <http://www.w3.org/2000/01/rdf-schema#label> "lessicalizzazioni"@it <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#links> <http://www.w3.org/2000/01/rdf-schema#label> "enlaces"@es <https://www.w3.org/ns/lemon/lime#>.
+_:g546520 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <https://www.w3.org/ns/lemon/lime#>.
+_:g547340 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#conceptualDataset> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/lemon/ontolex#ConceptSet> <https://www.w3.org/ns/lemon/lime#>.
+_:g547120 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#concepts> <http://www.w3.org/2000/01/rdf-schema#comment> "Свойство 'понятия' указывает количество лексических понятий, определенных в наборе понятий или участвующих либо в LexicalLinkset, либо в ConceptualizationSet."@ru <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#conceptualizations> <http://www.w3.org/2000/01/rdf-schema#label> "conceptualisations"@fr <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#LexicalizationSet> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://rdfs.org/ns/void#Dataset> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#avgNumOfLexicalizations> <http://www.w3.org/2000/01/rdf-schema#label> "numero medio di lessicalizzazioni"@it <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#avgNumOfLexicalizations> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/lemon/lime#LexicalizationSet> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#partition> <http://www.w3.org/2000/01/rdf-schema#domain> _:g546520 <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#ConceptualizationSet> <http://www.w3.org/2000/01/rdf-schema#comment> "A conceptualization set represents a collection of links between lexical entries in a Lexicon and lexical concepts in a Concept Set they evoke."@en <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#entry> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://www.w3.org/ns/lemon/lime" <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexiconDataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://www.w3.org/ns/lemon/lime#>.
+_:g546480 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/lemon/lime#ConceptualizationSet> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexicalizations> <http://www.w3.org/2000/01/rdf-schema#label> "lexicalisaties"@nl <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#links> <http://www.w3.org/2000/01/rdf-schema#label> "Links"@de <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime> <http://purl.org/dc/elements/1.1/contributor> <http://art.uniroma2.it/fiorelli/> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#avgSynonymy> <http://www.w3.org/2000/01/rdf-schema#comment> "The 'average synonymy' property indicates the average number of lexical entries evoking each lexical concept in the concept set."@en <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexicalizations> <http://www.w3.org/2000/01/rdf-schema#label> "lexicalizari"@ro <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#LexicalLinkset> <http://www.w3.org/2000/01/rdf-schema#label> "Lexikonlinksatz"@de <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#percentage> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#avgAmbiguity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#entry> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#avgAmbiguity> <http://www.w3.org/2000/01/rdf-schema#label> "Durchschnittliche Amiguität"@de <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#Lexicon> <http://www.w3.org/2000/01/rdf-schema#comment> "Лексикон представляет собой набор словарных единиц для определенного языка или домена."@ru <https://www.w3.org/ns/lemon/lime#>.
+_:g546500 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#partition> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/lemon/lime> <https://www.w3.org/ns/lemon/lime#>.
+_:g547220 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/ns/lemon/lime#LexicalLinkset> <https://www.w3.org/ns/lemon/lime#>.
+_:g546560 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#avgNumOfLexicalizations> <http://www.w3.org/2000/01/rdf-schema#label> "promedio de lexicalizaciones"@es <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#ConceptualizationSet> <http://www.w3.org/2000/01/rdf-schema#label> "conjuto de conceptualizaciones"@es <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#concepts> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://www.w3.org/ns/lemon/lime"@en <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#conceptualDataset> <http://www.w3.org/2000/01/rdf-schema#domain> _:g546400 <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#resourceType> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#concepts> <http://www.w3.org/2000/01/rdf-schema#label> "begrippen"@nl <https://www.w3.org/ns/lemon/lime#>.
+_:g547040 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/lemon/lime#LexicalLinkset> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#ConceptualizationSet> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://rdfs.org/ns/void#Dataset> <https://www.w3.org/ns/lemon/lime#>.
+_:g546780 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/lemon/lime#ConceptualizationSet> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#references> <http://www.w3.org/2000/01/rdf-schema#label> "referencias"@pt <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#LexicalLinkset> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/lemon/lime> <https://www.w3.org/ns/lemon/lime#>.
+_:g547200 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#resourceType> <http://www.w3.org/2000/01/rdf-schema#comment> "The 'resource type' property indicates the type of ontological entity of a lexicalization set or lexical linkset."@en <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#avgNumOfLexicalizations> <http://www.w3.org/2000/01/rdf-schema#label> "среднее количество лексикализаций"@ru <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#Lexicon> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:g547340 <https://www.w3.org/ns/lemon/lime#>.
+_:g546600 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/lemon/lime#LexicalLinkset> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#resourceType> <http://www.w3.org/2000/01/rdf-schema#label> "тип ресурса"@ru <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#avgAmbiguity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#conceptualizations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#percentage> <http://www.w3.org/2000/01/rdf-schema#comment> "The 'percentage' property expresses the percentage of entities in the reference dataset which have at least one lexicalization in a lexicalization set or are linked to a lexical concept in a lexical linkset."@en <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#percentage> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://www.w3.org/ns/lemon/lime" <https://www.w3.org/ns/lemon/lime#>.
+_:g546900 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/lemon/ontolex#ConceptSet> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#references> <http://www.w3.org/2000/01/rdf-schema#comment> "The 'references' property indicates the number of distinct ontology or vocabulary elements that are either associated with lexical entries via a lexicalization set or linked to lexical concepts via a lexical link set."@en <https://www.w3.org/ns/lemon/lime#>.
+_:g547200 <http://www.w3.org/2002/07/owl#onClass> <http://rdfs.org/ns/void#Dataset> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#linguisticCatalog> <http://www.w3.org/2000/01/rdf-schema#comment> "The 'linguistic catalog' property indicates the catalog of linguistic categories used in a lexicon to define linguistic properties of lexical entries."@en <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexicalizations> <http://www.w3.org/2000/01/rdf-schema#label> "lexicalizações"@pt <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#links> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#avgNumOfLinks> <http://www.w3.org/2000/01/rdf-schema#label> "nombre moyen de liens"@fr <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#resourceType> <http://www.w3.org/2000/01/rdf-schema#comment> "Свойство 'тип ресурса' указывает тип онтологического объекта набора лексикализации или лексического набора ссылок."@ru <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexicalizations> <http://www.w3.org/2000/01/rdf-schema#label> "Lexikalisierungen"@de <https://www.w3.org/ns/lemon/lime#>.
+_:g546680 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#LexicalLinkset> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#partition> <http://www.w3.org/2000/01/rdf-schema#label> "раздел"@ru <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#entry> <http://www.w3.org/2000/01/rdf-schema#comment> "Свойство 'запись' связывает лексикон с одной из содержащихся в нем словарных единиц."@ru <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#conceptualDataset> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://www.w3.org/ns/lemon/lime" <https://www.w3.org/ns/lemon/lime#>.
+_:g547200 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/lemon/lime#referenceDataset> <https://www.w3.org/ns/lemon/lime#>.
+_:g546540 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/lemon/lime#LexicalLinkset> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#resourceType> <http://www.w3.org/2000/01/rdf-schema#label> "tipo di risorsa"@it <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#avgNumOfLinks> <http://www.w3.org/2000/01/rdf-schema#label> "promedio de enlaces"@es <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#LexicalLinkset> <http://www.w3.org/2000/01/rdf-schema#label> "leksikale skakelstel"@af <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocommons/voaf#Vocabulary> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#language> <http://www.w3.org/2000/01/rdf-schema#comment> "Свойство 'язык' указывает язык лексикона, словарной единицы, набора понятий или набора лексикализаций."@ru <https://www.w3.org/ns/lemon/lime#>.
+_:g547240 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#avgNumOfLexicalizations> <http://www.w3.org/2000/01/rdf-schema#label> "gemiddeld aantal van lexicalisatie"@nl <https://www.w3.org/ns/lemon/lime#>.
+_:g547160 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/lemon/lime#lexiconDataset> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#referenceDataset> <http://www.w3.org/2000/01/rdf-schema#label> "setul de date de referință"@ro <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#references> <http://www.w3.org/2000/01/rdf-schema#label> "referencias"@es <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#LexicalLinkset> <http://www.w3.org/2000/01/rdf-schema#label> "lexikalisk länkmängd"@sv <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#avgNumOfLexicalizations> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexicalizationModel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexicalEntries> <http://www.w3.org/2000/01/rdf-schema#label> "înregistrari lexicale"@ro <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#referenceDataset> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdfs.org/ns/void#Dataset> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexicalizations> <http://www.w3.org/2000/01/rdf-schema#label> "leksikaliserings"@af <https://www.w3.org/ns/lemon/lime#>.
+_:g546660 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:g546680 <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexicalizationModel> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://rdfs.org/ns/void#vocabulary> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#concepts> <http://www.w3.org/2000/01/rdf-schema#label> "conceptos"@es <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#conceptualizations> <http://www.w3.org/2000/01/rdf-schema#label> "concettualizzazioni"@it <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexicalEntries> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#partition> <http://www.w3.org/2000/01/rdf-schema#label> "partición"@es <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#links> <http://www.w3.org/2000/01/rdf-schema#label> "liens"@fr <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#percentage> <http://www.w3.org/2000/01/rdf-schema#comment> "Свойство 'процент' выражает процент объектов в наборе справочных данных, которые имеют хотя бы одну лексикализацию в наборе лексикализации или связаны с лексической концепцией в лексическом наборе ссылок."@ru <https://www.w3.org/ns/lemon/lime#>.
+_:g546460 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#LexicalizationSet> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:g547280 <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#referenceDataset> <http://www.w3.org/2000/01/rdf-schema#label> "справочный набор данных"@ru <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexicalEntries> <http://www.w3.org/2000/01/rdf-schema#label> "entradas léxicas"@es <https://www.w3.org/ns/lemon/lime#>.
+_:g546460 <http://www.w3.org/2002/07/owl#unionOf> _:g546480 <https://www.w3.org/ns/lemon/lime#>.
+_:g546600 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:g546620 <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#lexicalizations> <http://www.w3.org/2000/01/rdf-schema#comment> "The 'lexicalizations' property indicates the total number of lexicalizations in a lexicalization set, that is the number of unique pairs of lexical entry and denoted ontology element."@en <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#avgNumOfLinks> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#LexicalizationSet> <http://www.w3.org/2000/01/rdf-schema#comment> "'Набор лексикализации' - это набор данных, который содержит набор лексикализаций, т.е. пары словарной единицы и соответствующей ссылки в связанной онтологии/словаре/наборе данных."@ru <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#LexicalLinkset> <http://www.w3.org/2000/01/rdf-schema#label> "лексический набор ссылок"@ru <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#avgAmbiguity> <http://www.w3.org/2000/01/rdf-schema#label> "ambiguïté moyenne"@fr <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#conceptualizations> <http://www.w3.org/2000/01/rdf-schema#label> "conceptualizations"@en <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#Lexicon> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://www.w3.org/ns/lemon/lime#>.
+<http://www.w3.org/ns/lemon/lime#concepts> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> <https://www.w3.org/ns/lemon/lime#>.

@@ -1,4 +1,40 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+/// This module provides terms for `The Cert Ontology 1.0` vocabulary
+#[cfg(feature = "ns-cert")]
+pub mod cert;
+/// This module provides terms for `General Ontology for Linguistic Description` vocabulary
+#[cfg(feature = "ns-gold")]
+pub mod gold;
+/// This module provides terms for `Lexvo.org Ontology` vocabulary
+#[cfg(feature = "ns-lexvo")]
+pub mod lexvo;
+/// This module provides terms for `Lexicon Model for Ontologies - LIngusitic MEtadata (LIME)` vocabulary
+#[cfg(feature = "ns-lime")]
+pub mod lime;
+/// This module provides terms for `Solid OIDC` vocabulary
+#[cfg(feature = "ns-oidc")]
+pub mod oidc;
+/// This module provides terms for `Lexicon Model for Ontologies - Core` vocabulary
+#[cfg(feature = "ns-ontolex")]
+pub mod ontolex;
+/// This module provides terms for `Workspace Ontology` vocabulary
+#[cfg(feature = "ns-pim")]
+pub mod pim;
+/// This module provides terms for `Solid Terms` vocabulary
+#[cfg(feature = "ns-solid")]
+pub mod solid;
+/// This module provides terms for `Solid Protocol` vocabulary
+#[cfg(feature = "ns-solid_protocol_0_9")]
+pub mod solid_protocol_0_9;
+/// This module provides terms for `Specification ontology` vocabulary
+#[cfg(feature = "ns-spec")]
+pub mod spec;
+/// This module provides terms for `POSIX stat` vocabulary
+#[cfg(feature = "ns-stat")]
+pub mod stat;
+/// This module provides terms for `Lexicon Model for Ontologies - Vartrans` vocabulary
+#[cfg(feature = "ns-vartrans")]
+pub mod vartrans;
 /// This module provides terms for `acl` vocabulary
 #[cfg(feature = "ns-acl")]
 pub mod acl;

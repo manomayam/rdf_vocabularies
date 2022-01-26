@@ -1,3 +1,5 @@
+//! This module provides helpers to handle io
+
 use std::{
     fs::{File, self},
     io::{BufWriter, Write},
@@ -6,6 +8,7 @@ use std::{
 
 use anyhow::Context;
 
+/// writes content to file at given path
 pub fn write_to_file(content: &str, file_path: &Path) -> anyhow::Result<()> {
     BufWriter::new(
         File::create(file_path)
@@ -16,6 +19,7 @@ pub fn write_to_file(content: &str, file_path: &Path) -> anyhow::Result<()> {
     Ok(())
 }
 
+/// reads content as string from file at given path
 pub fn read_from_file(file_path: &Path) -> anyhow::Result<String> {
     Ok(fs::read_to_string(file_path)
             .with_context(|| format!("error in reading file {}", file_path.to_string_lossy()))?)

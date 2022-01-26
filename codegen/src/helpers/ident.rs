@@ -1,3 +1,5 @@
+//! This module provides helpers to handle names of identifiers
+
 use once_cell::sync::Lazy;
 
 const INVALID_CHARS_RE: Lazy<regex::Regex> = Lazy::new(|| {

@@ -26,6 +26,10 @@ rdf_utils = "0.1.0"
 toml = "0.5.8"
 regex = "1.5.4"
 syn = "1.0.84"
+rdf_dynsyn = "0.1.0"
+reqwest = {version = "0.11.9", features=["blocking"]}
+http = "0.2.6"
+mime = "0.3.16"
 
 [dev-dependencies]
 claim = "0.5.0"

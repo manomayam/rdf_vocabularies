@@ -1,3 +1,5 @@
+//! This module exports handlebars template registry for codegen
+
 use handlebars::Handlebars;
 use once_cell::sync::Lazy;
 
