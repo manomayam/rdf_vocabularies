@@ -1,4 +1,6 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+#![cfg_attr(docsrs, feature(doc_cfg))]
+#![cfg_attr(docsrs, doc(cfg(feature = "ns-rss")))]
 //! This module provides terms for `rss` vocabulary
 //!
 //! ## Vocabulary:
@@ -7,9 +9,9 @@
 //! |-----|-----|
 //! |**Title**||
 //! |**Prefix**|rss|
-//! |**Namespace base IRI**|[http://purl.org/rss/1.0/](http://purl.org/rss/1.0/)|
+//! |**Namespace base IRI**|<http://purl.org/rss/1.0/>|
 //! |**Description**||
-//! |**Is defined by**|[http://purl.org/rss/1.0/schema.rdf](http://purl.org/rss/1.0/schema.rdf)|
+//! |**Is defined by**|<http://purl.org/rss/1.0/schema.rdf>|
 //!
 
 use crate::namespace;

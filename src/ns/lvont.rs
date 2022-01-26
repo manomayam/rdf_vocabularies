@@ -1,4 +1,6 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+#![cfg_attr(docsrs, feature(doc_cfg))]
+#![cfg_attr(docsrs, doc(cfg(feature = "ns-lvont")))]
 //! This module provides terms for `Lexvo.org Ontology` vocabulary
 //!
 //! ## Vocabulary:
@@ -7,9 +9,9 @@
 //! |-----|-----|
 //! |**Title**|Lexvo.org Ontology|
 //! |**Prefix**|lvont|
-//! |**Namespace base IRI**|[http://lexvo.org/ontology#](http://lexvo.org/ontology#)|
+//! |**Namespace base IRI**|<http://lexvo.org/ontology#>|
 //! |**Description**|Lexvo.org Ontology|
-//! |**Is defined by**|[http://lexvo.org/ontology#](http://lexvo.org/ontology#)|
+//! |**Is defined by**|<http://lexvo.org/ontology#>|
 //!
 
 use crate::namespace;

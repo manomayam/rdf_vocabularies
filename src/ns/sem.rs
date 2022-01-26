@@ -1,4 +1,6 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+#![cfg_attr(docsrs, feature(doc_cfg))]
+#![cfg_attr(docsrs, doc(cfg(feature = "ns-sem")))]
 //! This module provides terms for `sem` vocabulary
 //!
 //! ## Vocabulary:
@@ -7,9 +9,9 @@
 //! |-----|-----|
 //! |**Title**||
 //! |**Prefix**|sem|
-//! |**Namespace base IRI**|[http://semanticweb.cs.vu.nl/2009/11/sem/](http://semanticweb.cs.vu.nl/2009/11/sem/)|
+//! |**Namespace base IRI**|<http://semanticweb.cs.vu.nl/2009/11/sem/>|
 //! |**Description**||
-//! |**Is defined by**|[http://semanticweb.cs.vu.nl/2009/11/sem/sem.rdf](http://semanticweb.cs.vu.nl/2009/11/sem/sem.rdf)|
+//! |**Is defined by**|<http://semanticweb.cs.vu.nl/2009/11/sem/sem.rdf>|
 //!
 
 use crate::namespace;

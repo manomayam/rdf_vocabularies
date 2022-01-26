@@ -1,4 +1,6 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+#![cfg_attr(docsrs, feature(doc_cfg))]
+#![cfg_attr(docsrs, doc(cfg(feature = "ns-frbr")))]
 //! This module provides terms for `frbr` vocabulary
 //!
 //! ## Vocabulary:
@@ -7,9 +9,9 @@
 //! |-----|-----|
 //! |**Title**||
 //! |**Prefix**|frbr|
-//! |**Namespace base IRI**|[http://purl.org/vocab/frbr/core#](http://purl.org/vocab/frbr/core#)|
+//! |**Namespace base IRI**|<http://purl.org/vocab/frbr/core#>|
 //! |**Description**||
-//! |**Is defined by**|[http://purl.org/spar/frbr.nt](http://purl.org/spar/frbr.nt)|
+//! |**Is defined by**|<http://purl.org/spar/frbr.nt>|
 //!
 
 use crate::namespace;

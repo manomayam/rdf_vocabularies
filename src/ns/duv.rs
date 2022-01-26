@@ -1,4 +1,6 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+#![cfg_attr(docsrs, feature(doc_cfg))]
+#![cfg_attr(docsrs, doc(cfg(feature = "ns-duv")))]
 //! This module provides terms for `Dataset Usage Vocabulary` vocabulary
 //!
 //! ## Vocabulary:
@@ -7,9 +9,9 @@
 //! |-----|-----|
 //! |**Title**|Dataset Usage Vocabulary|
 //! |**Prefix**|duv|
-//! |**Namespace base IRI**|[http://www.w3.org/ns/duv#](http://www.w3.org/ns/duv#)|
+//! |**Namespace base IRI**|<http://www.w3.org/ns/duv#>|
 //! |**Description**|The Dataset Usage Vocabulary (DUV) is used to describe consumer experiences, citations, and feedback about datasets from the human perspective.|
-//! |**Is defined by**|[http://www.w3.org/ns/duv#](http://www.w3.org/ns/duv#)|
+//! |**Is defined by**|<http://www.w3.org/ns/duv#>|
 //!
 
 use crate::namespace;

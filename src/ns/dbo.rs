@@ -1,4 +1,6 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+#![cfg_attr(docsrs, feature(doc_cfg))]
+#![cfg_attr(docsrs, doc(cfg(feature = "ns-dbo")))]
 //! This module provides terms for `The DBpedia Ontology` vocabulary
 //!
 //! ## Vocabulary:
@@ -7,9 +9,9 @@
 //! |-----|-----|
 //! |**Title**|The DBpedia Ontology|
 //! |**Prefix**|dbo|
-//! |**Namespace base IRI**|[http://dbpedia.org/ontology/](http://dbpedia.org/ontology/)|
+//! |**Namespace base IRI**|<http://dbpedia.org/ontology/>|
 //! |**Description**|The DBpedia ontology provides the classes and properties used in the DBpedia data set.|
-//! |**Is defined by**|[http://dbpedia.org/ontology/](http://dbpedia.org/ontology/)|
+//! |**Is defined by**|<http://dbpedia.org/ontology/>|
 //!
 
 use crate::namespace;

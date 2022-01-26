@@ -1,4 +1,6 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+#![cfg_attr(docsrs, feature(doc_cfg))]
+#![cfg_attr(docsrs, doc(cfg(feature = "ns-vann")))]
 //! This module provides terms for `VANN: A vocabulary for annotating vocabulary descriptions` vocabulary
 //!
 //! ## Vocabulary:
@@ -7,9 +9,9 @@
 //! |-----|-----|
 //! |**Title**|VANN: A vocabulary for annotating vocabulary descriptions|
 //! |**Prefix**|vann|
-//! |**Namespace base IRI**|[http://purl.org/vocab/vann/](http://purl.org/vocab/vann/)|
+//! |**Namespace base IRI**|<http://purl.org/vocab/vann/>|
 //! |**Description**|This document describes a vocabulary for annotating descriptions of vocabularies with examples and usage notes.|
-//! |**Is defined by**|[http://vocab.org/vann/vann-vocab-20100607.rdf](http://vocab.org/vann/vann-vocab-20100607.rdf)|
+//! |**Is defined by**|<http://vocab.org/vann/vann-vocab-20100607.rdf>|
 //!
 
 use crate::namespace;

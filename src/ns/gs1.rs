@@ -1,4 +1,6 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+#![cfg_attr(docsrs, feature(doc_cfg))]
+#![cfg_attr(docsrs, doc(cfg(feature = "ns-gs1")))]
 //! This module provides terms for `GS1 Vocabulary` vocabulary
 //!
 //! ## Vocabulary:
@@ -7,9 +9,9 @@
 //! |-----|-----|
 //! |**Title**|GS1 Vocabulary|
 //! |**Prefix**|gs1|
-//! |**Namespace base IRI**|[https://gs1.org/voc/](https://gs1.org/voc/)|
+//! |**Namespace base IRI**|<https://gs1.org/voc/>|
 //! |**Description**||
-//! |**Is defined by**|[https://raw.githubusercontent.com/gs1/WebVoc/master/gs1Voc_v1_3.ttl](https://raw.githubusercontent.com/gs1/WebVoc/master/gs1Voc_v1_3.ttl)|
+//! |**Is defined by**|<https://raw.githubusercontent.com/gs1/WebVoc/master/gs1Voc_v1_3.ttl>|
 //!
 
 use crate::namespace;

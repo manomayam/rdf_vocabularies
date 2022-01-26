@@ -1,4 +1,6 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+#![cfg_attr(docsrs, feature(doc_cfg))]
+#![cfg_attr(docsrs, doc(cfg(feature = "ns-locn")))]
 //! This module provides terms for `ISA Programme Location Core Vocabulary` vocabulary
 //!
 //! ## Vocabulary:
@@ -7,9 +9,9 @@
 //! |-----|-----|
 //! |**Title**|ISA Programme Location Core Vocabulary|
 //! |**Prefix**|locn|
-//! |**Namespace base IRI**|[http://www.w3.org/ns/locn#](http://www.w3.org/ns/locn#)|
+//! |**Namespace base IRI**|<http://www.w3.org/ns/locn#>|
 //! |**Description**|This is a new version of the final draft published by the European Commission in May 2012, revised according to the results of the ISA Core Location Pilot (see Section Change History for the list of changes). It is currently under the control of the Locations and Addresses Community Group, but is not under active development or review. Comments and queries should be sent to that group via public-locadd@w3.org. Terms defined here may be deprecated by that or future groups but will not disappear or their definition change.|
-//! |**Is defined by**|[http://www.w3.org/ns/locn#](http://www.w3.org/ns/locn#)|
+//! |**Is defined by**|<http://www.w3.org/ns/locn#>|
 //!
 
 use crate::namespace;

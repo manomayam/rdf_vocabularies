@@ -1,4 +1,6 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+#![cfg_attr(docsrs, feature(doc_cfg))]
+#![cfg_attr(docsrs, doc(cfg(feature = "ns-dcterms")))]
 //! This module provides terms for `DCMI Metadata Terms - other` vocabulary
 //!
 //! ## Vocabulary:
@@ -7,9 +9,9 @@
 //! |-----|-----|
 //! |**Title**|DCMI Metadata Terms - other|
 //! |**Prefix**|dcterms|
-//! |**Namespace base IRI**|[http://purl.org/dc/terms/](http://purl.org/dc/terms/)|
+//! |**Namespace base IRI**|<http://purl.org/dc/terms/>|
 //! |**Description**||
-//! |**Is defined by**|[http://purl.org/dc/terms/](http://purl.org/dc/terms/)|
+//! |**Is defined by**|<http://purl.org/dc/terms/>|
 //!
 
 use crate::namespace;

@@ -1,4 +1,6 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+#![cfg_attr(docsrs, feature(doc_cfg))]
+#![cfg_attr(docsrs, doc(cfg(feature = "ns-gold")))]
 //! This module provides terms for `General Ontology for Linguistic Description` vocabulary
 //!
 //! ## Vocabulary:
@@ -7,9 +9,9 @@
 //! |-----|-----|
 //! |**Title**|General Ontology for Linguistic Description|
 //! |**Prefix**|gold|
-//! |**Namespace base IRI**|[http://purl.org/linguistics/gold/](http://purl.org/linguistics/gold/)|
+//! |**Namespace base IRI**|<http://purl.org/linguistics/gold/>|
 //! |**Description**|This is the General Ontology for Linguistic Description (GOLD) described using the Web Ontology Language. This ontology was created primarily for applications involving descriptive linguistics.|
-//! |**Is defined by**|[http://rdf.greggkellogg.net/distiller?command=serialize&output_format=ntriples&url=http:%2F%2Flinguistics-ontology.org%2Fgold-2010.rdf&raw](http://rdf.greggkellogg.net/distiller?command=serialize&output_format=ntriples&url=http:%2F%2Flinguistics-ontology.org%2Fgold-2010.rdf&raw)|
+//! |**Is defined by**|<http://rdf.greggkellogg.net/distiller?command=serialize&output_format=ntriples&url=http:%2F%2Flinguistics-ontology.org%2Fgold-2010.rdf&raw>|
 //!
 
 use crate::namespace;

@@ -1,4 +1,6 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+#![cfg_attr(docsrs, feature(doc_cfg))]
+#![cfg_attr(docsrs, doc(cfg(feature = "ns-spec")))]
 //! This module provides terms for `Specification ontology` vocabulary
 //!
 //! ## Vocabulary:
@@ -7,9 +9,9 @@
 //! |-----|-----|
 //! |**Title**|Specification ontology|
 //! |**Prefix**|spec|
-//! |**Namespace base IRI**|[http://www.w3.org/ns/spec#](http://www.w3.org/ns/spec#)|
+//! |**Namespace base IRI**|<http://www.w3.org/ns/spec#>|
 //! |**Description**|Specification ontology.|
-//! |**Is defined by**|[https://www.w3.org/ns/spec](https://www.w3.org/ns/spec)|
+//! |**Is defined by**|<https://www.w3.org/ns/spec>|
 //!
 
 use crate::namespace;

@@ -1,4 +1,6 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+#![cfg_attr(docsrs, feature(doc_cfg))]
+#![cfg_attr(docsrs, doc(cfg(feature = "ns-geof")))]
 //! This module provides terms for `geof` vocabulary
 //!
 //! ## Vocabulary:
@@ -7,9 +9,9 @@
 //! |-----|-----|
 //! |**Title**||
 //! |**Prefix**|geof|
-//! |**Namespace base IRI**|[http://www.opengis.net/def/function/geosparql/](http://www.opengis.net/def/function/geosparql/)|
+//! |**Namespace base IRI**|<http://www.opengis.net/def/function/geosparql/>|
 //! |**Description**||
-//! |**Is defined by**|[http://www.opengis.net/def/function/geosparql/](http://www.opengis.net/def/function/geosparql/)|
+//! |**Is defined by**|<http://www.opengis.net/def/function/geosparql/>|
 //!
 
 use crate::namespace;

@@ -1,4 +1,6 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+#![cfg_attr(docsrs, feature(doc_cfg))]
+#![cfg_attr(docsrs, doc(cfg(feature = "ns-earl")))]
 //! This module provides terms for `Evaluation and Report Language (EARL) 1.0 Schema` vocabulary
 //!
 //! ## Vocabulary:
@@ -7,9 +9,9 @@
 //! |-----|-----|
 //! |**Title**|Evaluation and Report Language (EARL) 1.0 Schema|
 //! |**Prefix**|earl|
-//! |**Namespace base IRI**|[https://www.w3.org/ns/earl#](https://www.w3.org/ns/earl#)|
+//! |**Namespace base IRI**|<https://www.w3.org/ns/earl#>|
 //! |**Description**|Formal schema of the Evaluation and Report Language (EARL) 1.0|
-//! |**Is defined by**|[https://www.w3.org/ns/earl#](https://www.w3.org/ns/earl#)|
+//! |**Is defined by**|<https://www.w3.org/ns/earl#>|
 //!
 
 use crate::namespace;

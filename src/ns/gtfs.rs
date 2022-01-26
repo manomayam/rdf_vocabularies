@@ -1,4 +1,6 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+#![cfg_attr(docsrs, feature(doc_cfg))]
+#![cfg_attr(docsrs, doc(cfg(feature = "ns-gtfs")))]
 //! This module provides terms for `General Transit Feed Specification` vocabulary
 //!
 //! ## Vocabulary:
@@ -7,9 +9,9 @@
 //! |-----|-----|
 //! |**Title**|General Transit Feed Specification|
 //! |**Prefix**|gtfs|
-//! |**Namespace base IRI**|[http://vocab.gtfs.org/terms#](http://vocab.gtfs.org/terms#)|
+//! |**Namespace base IRI**|<http://vocab.gtfs.org/terms#>|
 //! |**Description**|This ontology is a translation of the General Transit Feed Specification towards URIs. Its intended use is creating an exchange platform where the Linked GTFS model can be used as a start to get the right data into the right format. For semantics of the classes and properties, see https://developers.google.com/transit/gtfs/reference.|
-//! |**Is defined by**|[http://vocab.gtfs.org/terms#](http://vocab.gtfs.org/terms#)|
+//! |**Is defined by**|<http://vocab.gtfs.org/terms#>|
 //!
 
 use crate::namespace;

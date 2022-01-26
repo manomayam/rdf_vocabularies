@@ -1,4 +1,6 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+#![cfg_attr(docsrs, feature(doc_cfg))]
+#![cfg_attr(docsrs, doc(cfg(feature = "ns-skosxl")))]
 //! This module provides terms for `SKOS XL Vocabulary` vocabulary
 //!
 //! ## Vocabulary:
@@ -7,9 +9,9 @@
 //! |-----|-----|
 //! |**Title**|SKOS XL Vocabulary|
 //! |**Prefix**|skosxl|
-//! |**Namespace base IRI**|[http://www.w3.org/2008/05/skos-xl#](http://www.w3.org/2008/05/skos-xl#)|
+//! |**Namespace base IRI**|<http://www.w3.org/2008/05/skos-xl#>|
 //! |**Description**|An RDF vocabulary extending SKOS and allowing the description and linking of lexical entities.|
-//! |**Is defined by**|[http://www.w3.org/2008/05/skos-xl#](http://www.w3.org/2008/05/skos-xl#)|
+//! |**Is defined by**|<http://www.w3.org/2008/05/skos-xl#>|
 //!
 
 use crate::namespace;

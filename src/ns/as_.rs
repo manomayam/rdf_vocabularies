@@ -1,4 +1,6 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+#![cfg_attr(docsrs, feature(doc_cfg))]
+#![cfg_attr(docsrs, doc(cfg(feature = "ns-as_")))]
 //! This module provides terms for `Activity Streams 2.0` vocabulary
 //!
 //! ## Vocabulary:
@@ -7,9 +9,9 @@
 //! |-----|-----|
 //! |**Title**|Activity Streams 2.0|
 //! |**Prefix**|as|
-//! |**Namespace base IRI**|[https://www.w3.org/ns/activitystreams#](https://www.w3.org/ns/activitystreams#)|
+//! |**Namespace base IRI**|<https://www.w3.org/ns/activitystreams#>|
 //! |**Description**|Extended Activity Streams 2.0 Vocabulary|
-//! |**Is defined by**|[https://raw.githubusercontent.com/zazuko/activitystreams/owl-fix/vocabulary/activitystreams2.owl](https://raw.githubusercontent.com/zazuko/activitystreams/owl-fix/vocabulary/activitystreams2.owl)|
+//! |**Is defined by**|<https://raw.githubusercontent.com/zazuko/activitystreams/owl-fix/vocabulary/activitystreams2.owl>|
 //!
 
 use crate::namespace;

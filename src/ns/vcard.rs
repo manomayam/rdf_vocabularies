@@ -1,4 +1,6 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+#![cfg_attr(docsrs, feature(doc_cfg))]
+#![cfg_attr(docsrs, doc(cfg(feature = "ns-vcard")))]
 //! This module provides terms for `Ontology for vCard` vocabulary
 //!
 //! ## Vocabulary:
@@ -7,9 +9,9 @@
 //! |-----|-----|
 //! |**Title**|Ontology for vCard|
 //! |**Prefix**|vcard|
-//! |**Namespace base IRI**|[http://www.w3.org/2006/vcard/ns#](http://www.w3.org/2006/vcard/ns#)|
+//! |**Namespace base IRI**|<http://www.w3.org/2006/vcard/ns#>|
 //! |**Description**|Ontology for vCard based on RFC6350|
-//! |**Is defined by**|[http://www.w3.org/2006/vcard/ns#](http://www.w3.org/2006/vcard/ns#)|
+//! |**Is defined by**|<http://www.w3.org/2006/vcard/ns#>|
 //!
 
 use crate::namespace;

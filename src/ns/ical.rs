@@ -1,4 +1,6 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+#![cfg_attr(docsrs, feature(doc_cfg))]
+#![cfg_attr(docsrs, doc(cfg(feature = "ns-ical")))]
 //! This module provides terms for `ical` vocabulary
 //!
 //! ## Vocabulary:
@@ -7,9 +9,9 @@
 //! |-----|-----|
 //! |**Title**||
 //! |**Prefix**|ical|
-//! |**Namespace base IRI**|[http://www.w3.org/2002/12/cal/icaltzd#](http://www.w3.org/2002/12/cal/icaltzd#)|
+//! |**Namespace base IRI**|<http://www.w3.org/2002/12/cal/icaltzd#>|
 //! |**Description**||
-//! |**Is defined by**|[http://www.w3.org/2002/12/cal/icaltzd.rdf](http://www.w3.org/2002/12/cal/icaltzd.rdf)|
+//! |**Is defined by**|<http://www.w3.org/2002/12/cal/icaltzd.rdf>|
 //!
 
 use crate::namespace;

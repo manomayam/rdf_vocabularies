@@ -1,4 +1,6 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+#![cfg_attr(docsrs, feature(doc_cfg))]
+#![cfg_attr(docsrs, doc(cfg(feature = "ns-ldp")))]
 //! This module provides terms for `The W3C Linked Data Platform (LDP) Vocabulary` vocabulary
 //!
 //! ## Vocabulary:
@@ -7,9 +9,9 @@
 //! |-----|-----|
 //! |**Title**|The W3C Linked Data Platform (LDP) Vocabulary|
 //! |**Prefix**|ldp|
-//! |**Namespace base IRI**|[http://www.w3.org/ns/ldp#](http://www.w3.org/ns/ldp#)|
+//! |**Namespace base IRI**|<http://www.w3.org/ns/ldp#>|
 //! |**Description**|Vocabulary URIs defined in the Linked Data Platform (LDP) namespace.|
-//! |**Is defined by**|[http://www.w3.org/ns/ldp#](http://www.w3.org/ns/ldp#)|
+//! |**Is defined by**|<http://www.w3.org/ns/ldp#>|
 //!
 
 use crate::namespace;

@@ -1,4 +1,6 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+#![cfg_attr(docsrs, feature(doc_cfg))]
+#![cfg_attr(docsrs, doc(cfg(feature = "ns-pim")))]
 //! This module provides terms for `Workspace Ontology` vocabulary
 //!
 //! ## Vocabulary:
@@ -7,9 +9,9 @@
 //! |-----|-----|
 //! |**Title**|Workspace Ontology|
 //! |**Prefix**|pim|
-//! |**Namespace base IRI**|[http://www.w3.org/ns/pim/space#](http://www.w3.org/ns/pim/space#)|
+//! |**Namespace base IRI**|<http://www.w3.org/ns/pim/space#>|
 //! |**Description**|This ontology is for use in describing Workspaces.  Workspaces are places where data is stored and associated policies of privacy|
-//! |**Is defined by**|[http://www.w3.org/ns/pim/space#](http://www.w3.org/ns/pim/space#)|
+//! |**Is defined by**|<http://www.w3.org/ns/pim/space#>|
 //!
 
 use crate::namespace;

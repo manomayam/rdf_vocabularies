@@ -229,11 +229,21 @@ ns-xsd = []
 [package]
 description = '''This crate is a distribution of few most commonly used RDF vocabularies. It also provides sophia terms for each vocabulary's terminology.'''
 edition = '2021'
+keywords = [
+    'rdf',
+    'vocabularies',
+    'namespace',
+]
 license = 'MIT OR Apache-2.0'
 name = 'rdf_vocabularies'
-version = '0.1.1'
-repository = "https://github.com/manomayam/rdf_vocabularies"
-keywords = ["rdf", "vocabularies", "namespace"]
+repository = 'https://github.com/manomayam/rdf_vocabularies'
+version = '0.1.2'
+[package.metadata.docs.rs]
+all-features = true
+rustdoc-args = [
+    '--cfg',
+    'docsrs',
+]
 
 [workspace]
 members = ['codegen']

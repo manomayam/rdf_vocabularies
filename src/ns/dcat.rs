@@ -1,4 +1,6 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+#![cfg_attr(docsrs, feature(doc_cfg))]
+#![cfg_attr(docsrs, doc(cfg(feature = "ns-dcat")))]
 //! This module provides terms for `The data catalog vocabulary` vocabulary
 //!
 //! ## Vocabulary:
@@ -7,9 +9,9 @@
 //! |-----|-----|
 //! |**Title**|The data catalog vocabulary|
 //! |**Prefix**|dcat|
-//! |**Namespace base IRI**|[http://www.w3.org/ns/dcat#](http://www.w3.org/ns/dcat#)|
+//! |**Namespace base IRI**|<http://www.w3.org/ns/dcat#>|
 //! |**Description**|DCAT is an RDF vocabulary designed to facilitate interoperability between data catalogs published on the Web. By using DCAT to describe datasets in data catalogs, publishers increase discoverability and enable applications easily to consume metadata from multiple catalogs. It further enables decentralized publishing of catalogs and facilitates federated dataset search across sites. Aggregated DCAT metadata can serve as a manifest file to facilitate digital preservation. DCAT is defined at http://www.w3.org/TR/vocab-dcat/. Any variance between that normative document and this schema is an error in this schema.|
-//! |**Is defined by**|[http://www.w3.org/ns/dcat#](http://www.w3.org/ns/dcat#)|
+//! |**Is defined by**|<http://www.w3.org/ns/dcat#>|
 //!
 
 use crate::namespace;

@@ -1,4 +1,6 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+#![cfg_attr(docsrs, feature(doc_cfg))]
+#![cfg_attr(docsrs, doc(cfg(feature = "ns-geor")))]
 //! This module provides terms for `geor` vocabulary
 //!
 //! ## Vocabulary:
@@ -7,9 +9,9 @@
 //! |-----|-----|
 //! |**Title**||
 //! |**Prefix**|geor|
-//! |**Namespace base IRI**|[http://www.opengis.net/def/rule/geosparql/](http://www.opengis.net/def/rule/geosparql/)|
+//! |**Namespace base IRI**|<http://www.opengis.net/def/rule/geosparql/>|
 //! |**Description**||
-//! |**Is defined by**|[http://www.opengis.net/def/rule/geosparql/](http://www.opengis.net/def/rule/geosparql/)|
+//! |**Is defined by**|<http://www.opengis.net/def/rule/geosparql/>|
 //!
 
 use crate::namespace;

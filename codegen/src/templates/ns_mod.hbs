@@ -1,5 +1,7 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
 {{#with vocab}}
+#![cfg_attr(docsrs, feature(doc_cfg))]
+#![cfg_attr(docsrs, doc(cfg(feature = "{{{feature_ns}}}")))]
 //! This module provides terms for `{{~#if title}}{{{title}}}{{else}}{{prefix}}{{/if}}` vocabulary
 //!
 //! ## Vocabulary:
@@ -8,9 +10,9 @@
 //! |-----|-----|
 //! |**Title**|{{{title}}}|
 //! |**Prefix**|{{{prefix}}}|
-//! |**Namespace base IRI**|[{{{namespace_base}}}]({{{namespace_base}}})|
+//! |**Namespace base IRI**|<{{{namespace_base}}}>|
 //! |**Description**|{{{description}}}|
-//! |**Is defined by**|[{{{is_defined_by}}}]({{{is_defined_by}}})|
+//! |**Is defined by**|<{{{is_defined_by}}}>|
 {{/with}}
 //!
 

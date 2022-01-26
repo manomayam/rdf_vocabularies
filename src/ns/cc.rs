@@ -1,4 +1,6 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+#![cfg_attr(docsrs, feature(doc_cfg))]
+#![cfg_attr(docsrs, doc(cfg(feature = "ns-cc")))]
 //! This module provides terms for `cc` vocabulary
 //!
 //! ## Vocabulary:
@@ -7,9 +9,9 @@
 //! |-----|-----|
 //! |**Title**||
 //! |**Prefix**|cc|
-//! |**Namespace base IRI**|[http://creativecommons.org/ns#](http://creativecommons.org/ns#)|
+//! |**Namespace base IRI**|<http://creativecommons.org/ns#>|
 //! |**Description**||
-//! |**Is defined by**|[https://creativecommons.org/schema.rdf](https://creativecommons.org/schema.rdf)|
+//! |**Is defined by**|<https://creativecommons.org/schema.rdf>|
 //!
 
 use crate::namespace;

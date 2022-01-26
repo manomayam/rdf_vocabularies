@@ -1,4 +1,6 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+#![cfg_attr(docsrs, feature(doc_cfg))]
+#![cfg_attr(docsrs, doc(cfg(feature = "ns-prefix")))]
 //! This module provides terms for `prefix` vocabulary
 //!
 //! ## Vocabulary:
@@ -7,9 +9,9 @@
 //! |-----|-----|
 //! |**Title**||
 //! |**Prefix**|prefix|
-//! |**Namespace base IRI**|[http://qudt.org/vocab/prefix/](http://qudt.org/vocab/prefix/)|
+//! |**Namespace base IRI**|<http://qudt.org/vocab/prefix/>|
 //! |**Description**||
-//! |**Is defined by**|[http://qudt.org/2.1/vocab/prefix](http://qudt.org/2.1/vocab/prefix)|
+//! |**Is defined by**|<http://qudt.org/2.1/vocab/prefix>|
 //!
 
 use crate::namespace;

@@ -1,4 +1,6 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+#![cfg_attr(docsrs, feature(doc_cfg))]
+#![cfg_attr(docsrs, doc(cfg(feature = "ns-foaf")))]
 //! This module provides terms for `Friend of a Friend (FOAF) vocabulary` vocabulary
 //!
 //! ## Vocabulary:
@@ -7,9 +9,9 @@
 //! |-----|-----|
 //! |**Title**|Friend of a Friend (FOAF) vocabulary|
 //! |**Prefix**|foaf|
-//! |**Namespace base IRI**|[http://xmlns.com/foaf/0.1/](http://xmlns.com/foaf/0.1/)|
+//! |**Namespace base IRI**|<http://xmlns.com/foaf/0.1/>|
 //! |**Description**|The Friend of a Friend (FOAF) RDF vocabulary, described using W3C RDF Schema and the Web Ontology Language.|
-//! |**Is defined by**|[http://xmlns.com/foaf/0.1/](http://xmlns.com/foaf/0.1/)|
+//! |**Is defined by**|<http://xmlns.com/foaf/0.1/>|
 //!
 
 use crate::namespace;

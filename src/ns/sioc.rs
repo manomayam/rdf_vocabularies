@@ -1,4 +1,6 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+#![cfg_attr(docsrs, feature(doc_cfg))]
+#![cfg_attr(docsrs, doc(cfg(feature = "ns-sioc")))]
 //! This module provides terms for `SIOC Core Ontology Namespace` vocabulary
 //!
 //! ## Vocabulary:
@@ -7,9 +9,9 @@
 //! |-----|-----|
 //! |**Title**|SIOC Core Ontology Namespace|
 //! |**Prefix**|sioc|
-//! |**Namespace base IRI**|[http://rdfs.org/sioc/ns#](http://rdfs.org/sioc/ns#)|
+//! |**Namespace base IRI**|<http://rdfs.org/sioc/ns#>|
 //! |**Description**|SIOC (Semantically-Interlinked Online Communities) is an ontology for describing the information in online communities.  This information can be used to export information from online communities and to link them together. The scope of the application areas that SIOC can be used for includes (and is not limited to) weblogs, message boards, mailing lists and chat channels.|
-//! |**Is defined by**|[http://rdfs.org/sioc/ns#](http://rdfs.org/sioc/ns#)|
+//! |**Is defined by**|<http://rdfs.org/sioc/ns#>|
 //!
 
 use crate::namespace;

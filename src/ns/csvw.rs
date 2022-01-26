@@ -1,4 +1,6 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+#![cfg_attr(docsrs, feature(doc_cfg))]
+#![cfg_attr(docsrs, doc(cfg(feature = "ns-csvw")))]
 //! This module provides terms for `CSVW Namespace Vocabulary Terms` vocabulary
 //!
 //! ## Vocabulary:
@@ -7,9 +9,9 @@
 //! |-----|-----|
 //! |**Title**|CSVW Namespace Vocabulary Terms|
 //! |**Prefix**|csvw|
-//! |**Namespace base IRI**|[http://www.w3.org/ns/csvw#](http://www.w3.org/ns/csvw#)|
+//! |**Namespace base IRI**|<http://www.w3.org/ns/csvw#>|
 //! |**Description**|This document describes the RDFS vocabulary description used in the Metadata Vocabulary for Tabular Data [[tabular-metadata]] along with the default JSON-LD Context.|
-//! |**Is defined by**|[http://www.w3.org/ns/csvw#](http://www.w3.org/ns/csvw#)|
+//! |**Is defined by**|<http://www.w3.org/ns/csvw#>|
 //!
 
 use crate::namespace;

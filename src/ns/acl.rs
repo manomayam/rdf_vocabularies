@@ -1,4 +1,6 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+#![cfg_attr(docsrs, feature(doc_cfg))]
+#![cfg_attr(docsrs, doc(cfg(feature = "ns-acl")))]
 //! This module provides terms for `acl` vocabulary
 //!
 //! ## Vocabulary:
@@ -7,9 +9,9 @@
 //! |-----|-----|
 //! |**Title**||
 //! |**Prefix**|acl|
-//! |**Namespace base IRI**|[http://www.w3.org/ns/auth/acl#](http://www.w3.org/ns/auth/acl#)|
+//! |**Namespace base IRI**|<http://www.w3.org/ns/auth/acl#>|
 //! |**Description**||
-//! |**Is defined by**|[http://www.w3.org/ns/auth/acl#](http://www.w3.org/ns/auth/acl#)|
+//! |**Is defined by**|<http://www.w3.org/ns/auth/acl#>|
 //!
 
 use crate::namespace;

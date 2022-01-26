@@ -1,4 +1,6 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+#![cfg_attr(docsrs, feature(doc_cfg))]
+#![cfg_attr(docsrs, doc(cfg(feature = "ns-rdfa")))]
 //! This module provides terms for `RDFa Vocabulary for Term and Prefix Assignment, and for Processor Graph Reporting` vocabulary
 //!
 //! ## Vocabulary:
@@ -7,9 +9,9 @@
 //! |-----|-----|
 //! |**Title**|RDFa Vocabulary for Term and Prefix Assignment, and for Processor Graph Reporting|
 //! |**Prefix**|rdfa|
-//! |**Namespace base IRI**|[http://www.w3.org/ns/rdfa#](http://www.w3.org/ns/rdfa#)|
+//! |**Namespace base IRI**|<http://www.w3.org/ns/rdfa#>|
 //! |**Description**|This document describes the RDFa Vocabulary for Term and Prefix Assignment. The Vocabulary is used to modify RDFa 1.1 processing behavior.|
-//! |**Is defined by**|[http://www.w3.org/ns/rdfa#](http://www.w3.org/ns/rdfa#)|
+//! |**Is defined by**|<http://www.w3.org/ns/rdfa#>|
 //!
 
 use crate::namespace;

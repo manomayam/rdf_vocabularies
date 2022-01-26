@@ -1,4 +1,6 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+#![cfg_attr(docsrs, feature(doc_cfg))]
+#![cfg_attr(docsrs, doc(cfg(feature = "ns-sou")))]
 //! This module provides terms for `sou` vocabulary
 //!
 //! ## Vocabulary:
@@ -7,9 +9,9 @@
 //! |-----|-----|
 //! |**Title**||
 //! |**Prefix**|sou|
-//! |**Namespace base IRI**|[http://qudt.org/vocab/sou/](http://qudt.org/vocab/sou/)|
+//! |**Namespace base IRI**|<http://qudt.org/vocab/sou/>|
 //! |**Description**||
-//! |**Is defined by**|[http://qudt.org/vocab/sou/](http://qudt.org/vocab/sou/)|
+//! |**Is defined by**|<http://qudt.org/vocab/sou/>|
 //!
 
 use crate::namespace;

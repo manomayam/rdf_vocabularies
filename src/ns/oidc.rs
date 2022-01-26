@@ -1,4 +1,6 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+#![cfg_attr(docsrs, feature(doc_cfg))]
+#![cfg_attr(docsrs, doc(cfg(feature = "ns-oidc")))]
 //! This module provides terms for `Solid OIDC` vocabulary
 //!
 //! ## Vocabulary:
@@ -7,9 +9,9 @@
 //! |-----|-----|
 //! |**Title**|Solid OIDC|
 //! |**Prefix**|oidc|
-//! |**Namespace base IRI**|[http://www.w3.org/ns/solid/oidc#](http://www.w3.org/ns/solid/oidc#)|
+//! |**Namespace base IRI**|<http://www.w3.org/ns/solid/oidc#>|
 //! |**Description**|The OpenID Connect vocabulary used by the Solid-OIDC authentication specification.|
-//! |**Is defined by**|[http://www.w3.org/ns/solid/oidc](http://www.w3.org/ns/solid/oidc)|
+//! |**Is defined by**|<http://www.w3.org/ns/solid/oidc>|
 //!
 
 use crate::namespace;

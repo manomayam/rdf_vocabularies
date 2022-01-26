@@ -1,4 +1,6 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+#![cfg_attr(docsrs, feature(doc_cfg))]
+#![cfg_attr(docsrs, doc(cfg(feature = "ns-qkdv")))]
 //! This module provides terms for `qkdv` vocabulary
 //!
 //! ## Vocabulary:
@@ -7,9 +9,9 @@
 //! |-----|-----|
 //! |**Title**||
 //! |**Prefix**|qkdv|
-//! |**Namespace base IRI**|[http://qudt.org/vocab/dimensionvector/](http://qudt.org/vocab/dimensionvector/)|
+//! |**Namespace base IRI**|<http://qudt.org/vocab/dimensionvector/>|
 //! |**Description**||
-//! |**Is defined by**|[http://qudt.org/vocab/dimensionvector/](http://qudt.org/vocab/dimensionvector/)|
+//! |**Is defined by**|<http://qudt.org/vocab/dimensionvector/>|
 //!
 
 use crate::namespace;

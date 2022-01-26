@@ -1,4 +1,6 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+#![cfg_attr(docsrs, feature(doc_cfg))]
+#![cfg_attr(docsrs, doc(cfg(feature = "ns-schema")))]
 //! This module provides terms for `schema` vocabulary
 //!
 //! ## Vocabulary:
@@ -7,9 +9,9 @@
 //! |-----|-----|
 //! |**Title**||
 //! |**Prefix**|schema|
-//! |**Namespace base IRI**|[http://schema.org/](http://schema.org/)|
+//! |**Namespace base IRI**|<http://schema.org/>|
 //! |**Description**||
-//! |**Is defined by**|[https://schema.org/version/latest/schemaorg-current-http.nt](https://schema.org/version/latest/schemaorg-current-http.nt)|
+//! |**Is defined by**|<https://schema.org/version/latest/schemaorg-current-http.nt>|
 //!
 
 use crate::namespace;

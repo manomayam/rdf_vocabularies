@@ -1,4 +1,6 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+#![cfg_attr(docsrs, feature(doc_cfg))]
+#![cfg_attr(docsrs, doc(cfg(feature = "ns-rdfs")))]
 //! This module provides terms for `The RDF Schema vocabulary (RDFS)` vocabulary
 //!
 //! ## Vocabulary:
@@ -7,9 +9,9 @@
 //! |-----|-----|
 //! |**Title**|The RDF Schema vocabulary (RDFS)|
 //! |**Prefix**|rdfs|
-//! |**Namespace base IRI**|[http://www.w3.org/2000/01/rdf-schema#](http://www.w3.org/2000/01/rdf-schema#)|
+//! |**Namespace base IRI**|<http://www.w3.org/2000/01/rdf-schema#>|
 //! |**Description**||
-//! |**Is defined by**|[http://www.w3.org/2000/01/rdf-schema#](http://www.w3.org/2000/01/rdf-schema#)|
+//! |**Is defined by**|<http://www.w3.org/2000/01/rdf-schema#>|
 //!
 
 use crate::namespace;

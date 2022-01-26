@@ -1,4 +1,6 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+#![cfg_attr(docsrs, feature(doc_cfg))]
+#![cfg_attr(docsrs, doc(cfg(feature = "ns-constant")))]
 //! This module provides terms for `constant` vocabulary
 //!
 //! ## Vocabulary:
@@ -7,9 +9,9 @@
 //! |-----|-----|
 //! |**Title**||
 //! |**Prefix**|constant|
-//! |**Namespace base IRI**|[http://qudt.org/vocab/constant/](http://qudt.org/vocab/constant/)|
+//! |**Namespace base IRI**|<http://qudt.org/vocab/constant/>|
 //! |**Description**||
-//! |**Is defined by**|[http://qudt.org/vocab/constant/](http://qudt.org/vocab/constant/)|
+//! |**Is defined by**|<http://qudt.org/vocab/constant/>|
 //!
 
 use crate::namespace;

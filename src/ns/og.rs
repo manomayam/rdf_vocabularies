@@ -1,4 +1,6 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+#![cfg_attr(docsrs, feature(doc_cfg))]
+#![cfg_attr(docsrs, doc(cfg(feature = "ns-og")))]
 //! This module provides terms for `og` vocabulary
 //!
 //! ## Vocabulary:
@@ -7,9 +9,9 @@
 //! |-----|-----|
 //! |**Title**||
 //! |**Prefix**|og|
-//! |**Namespace base IRI**|[http://ogp.me/ns#](http://ogp.me/ns#)|
+//! |**Namespace base IRI**|<http://ogp.me/ns#>|
 //! |**Description**||
-//! |**Is defined by**|[http://ogp.me/ns#](http://ogp.me/ns#)|
+//! |**Is defined by**|<http://ogp.me/ns#>|
 //!
 
 use crate::namespace;

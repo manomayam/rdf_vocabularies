@@ -1,4 +1,6 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+#![cfg_attr(docsrs, feature(doc_cfg))]
+#![cfg_attr(docsrs, doc(cfg(feature = "ns-vaem")))]
 //! This module provides terms for `vaem` vocabulary
 //!
 //! ## Vocabulary:
@@ -7,9 +9,9 @@
 //! |-----|-----|
 //! |**Title**||
 //! |**Prefix**|vaem|
-//! |**Namespace base IRI**|[http://www.linkedmodel.org/schema/vaem#](http://www.linkedmodel.org/schema/vaem#)|
+//! |**Namespace base IRI**|<http://www.linkedmodel.org/schema/vaem#>|
 //! |**Description**||
-//! |**Is defined by**|[http://www.linkedmodel.org/schema/vaem#](http://www.linkedmodel.org/schema/vaem#)|
+//! |**Is defined by**|<http://www.linkedmodel.org/schema/vaem#>|
 //!
 
 use crate::namespace;

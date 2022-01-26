@@ -1,4 +1,6 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+#![cfg_attr(docsrs, feature(doc_cfg))]
+#![cfg_attr(docsrs, doc(cfg(feature = "ns-dash")))]
 //! This module provides terms for `DASH Data Shapes Vocabulary` vocabulary
 //!
 //! ## Vocabulary:
@@ -7,9 +9,9 @@
 //! |-----|-----|
 //! |**Title**|DASH Data Shapes Vocabulary|
 //! |**Prefix**|dash|
-//! |**Namespace base IRI**|[http://datashapes.org/dash#](http://datashapes.org/dash#)|
+//! |**Namespace base IRI**|<http://datashapes.org/dash#>|
 //! |**Description**|DASH is a SHACL library for frequently needed features and design patterns. Almost all features in this library are 100% standards compliant and will work on any engine that fully supports SHACL.|
-//! |**Is defined by**|[http://datashapes.org/dash#](http://datashapes.org/dash#)|
+//! |**Is defined by**|<http://datashapes.org/dash#>|
 //!
 
 use crate::namespace;

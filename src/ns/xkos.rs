@@ -1,4 +1,6 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+#![cfg_attr(docsrs, feature(doc_cfg))]
+#![cfg_attr(docsrs, doc(cfg(feature = "ns-xkos")))]
 //! This module provides terms for `XKOS: an SKOS extension for representing statistical classifications` vocabulary
 //!
 //! ## Vocabulary:
@@ -7,9 +9,9 @@
 //! |-----|-----|
 //! |**Title**|XKOS: an SKOS extension for representing statistical classifications|
 //! |**Prefix**|xkos|
-//! |**Namespace base IRI**|[http://rdf-vocabulary.ddialliance.org/xkos#](http://rdf-vocabulary.ddialliance.org/xkos#)|
+//! |**Namespace base IRI**|<http://rdf-vocabulary.ddialliance.org/xkos#>|
 //! |**Description**|This ontology is based on work initiated at Dagstuhl Schloss in September 2011|
-//! |**Is defined by**|[https://raw.githubusercontent.com/linked-statistics/xkos/master/xkos.ttl](https://raw.githubusercontent.com/linked-statistics/xkos/master/xkos.ttl)|
+//! |**Is defined by**|<https://raw.githubusercontent.com/linked-statistics/xkos/master/xkos.ttl>|
 //!
 
 use crate::namespace;

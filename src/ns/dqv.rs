@@ -1,4 +1,6 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+#![cfg_attr(docsrs, feature(doc_cfg))]
+#![cfg_attr(docsrs, doc(cfg(feature = "ns-dqv")))]
 //! This module provides terms for `Data Quality Vocabulary` vocabulary
 //!
 //! ## Vocabulary:
@@ -7,9 +9,9 @@
 //! |-----|-----|
 //! |**Title**|Data Quality Vocabulary|
 //! |**Prefix**|dqv|
-//! |**Namespace base IRI**|[http://www.w3.org/ns/dqv#](http://www.w3.org/ns/dqv#)|
+//! |**Namespace base IRI**|<http://www.w3.org/ns/dqv#>|
 //! |**Description**|The Data Quality Vocabulary (DQV) is seen as an extension to DCAT to cover the quality of the data, how frequently is it updated, whether it accepts user corrections, persistence commitments etc. When used by publishers, this vocabulary will foster trust in the data amongst developers.|
-//! |**Is defined by**|[http://www.w3.org/ns/dqv#](http://www.w3.org/ns/dqv#)|
+//! |**Is defined by**|<http://www.w3.org/ns/dqv#>|
 //!
 
 use crate::namespace;

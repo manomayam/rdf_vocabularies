@@ -1,4 +1,6 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+#![cfg_attr(docsrs, feature(doc_cfg))]
+#![cfg_attr(docsrs, doc(cfg(feature = "ns-oa")))]
 //! This module provides terms for `Web Annotation Ontology` vocabulary
 //!
 //! ## Vocabulary:
@@ -7,9 +9,9 @@
 //! |-----|-----|
 //! |**Title**|Web Annotation Ontology|
 //! |**Prefix**|oa|
-//! |**Namespace base IRI**|[http://www.w3.org/ns/oa#](http://www.w3.org/ns/oa#)|
+//! |**Namespace base IRI**|<http://www.w3.org/ns/oa#>|
 //! |**Description**|The Web Annotation ontology defines the terms of the Web Annotation vocabulary. Any changes to this document MUST be from a Working Group in the W3C that has established expertise in the area.|
-//! |**Is defined by**|[http://www.w3.org/ns/oa#](http://www.w3.org/ns/oa#)|
+//! |**Is defined by**|<http://www.w3.org/ns/oa#>|
 //!
 
 use crate::namespace;

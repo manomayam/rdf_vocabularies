@@ -1,4 +1,6 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+#![cfg_attr(docsrs, feature(doc_cfg))]
+#![cfg_attr(docsrs, doc(cfg(feature = "ns-discipline")))]
 //! This module provides terms for `QUDT Disciplines Ontology` vocabulary
 //!
 //! ## Vocabulary:
@@ -7,9 +9,9 @@
 //! |-----|-----|
 //! |**Title**|QUDT Disciplines Ontology|
 //! |**Prefix**|discipline|
-//! |**Namespace base IRI**|[http://qudt.org/vocab/discipline/](http://qudt.org/vocab/discipline/)|
+//! |**Namespace base IRI**|<http://qudt.org/vocab/discipline/>|
 //! |**Description**||
-//! |**Is defined by**|[http://qudt.org/vocab/discipline/](http://qudt.org/vocab/discipline/)|
+//! |**Is defined by**|<http://qudt.org/vocab/discipline/>|
 //!
 
 use crate::namespace;

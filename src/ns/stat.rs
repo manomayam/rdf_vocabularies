@@ -1,4 +1,6 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+#![cfg_attr(docsrs, feature(doc_cfg))]
+#![cfg_attr(docsrs, doc(cfg(feature = "ns-stat")))]
 //! This module provides terms for `POSIX stat` vocabulary
 //!
 //! ## Vocabulary:
@@ -7,9 +9,9 @@
 //! |-----|-----|
 //! |**Title**|POSIX stat|
 //! |**Prefix**|stat|
-//! |**Namespace base IRI**|[http://www.w3.org/ns/posix/stat#](http://www.w3.org/ns/posix/stat#)|
+//! |**Namespace base IRI**|<http://www.w3.org/ns/posix/stat#>|
 //! |**Description**|Describes terms for POSIX-like files and directory listings|
-//! |**Is defined by**|[http://www.w3.org/ns/posix/stat](http://www.w3.org/ns/posix/stat)|
+//! |**Is defined by**|<http://www.w3.org/ns/posix/stat>|
 //!
 
 use crate::namespace;

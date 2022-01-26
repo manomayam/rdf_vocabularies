@@ -1,4 +1,6 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+#![cfg_attr(docsrs, feature(doc_cfg))]
+#![cfg_attr(docsrs, doc(cfg(feature = "ns-org")))]
 //! This module provides terms for `Core organization ontology` vocabulary
 //!
 //! ## Vocabulary:
@@ -7,9 +9,9 @@
 //! |-----|-----|
 //! |**Title**|Core organization ontology|
 //! |**Prefix**|org|
-//! |**Namespace base IRI**|[http://www.w3.org/ns/org#](http://www.w3.org/ns/org#)|
+//! |**Namespace base IRI**|<http://www.w3.org/ns/org#>|
 //! |**Description**|Vocabulary for describing organizational structures, specializable to a broad variety of types of organization.|
-//! |**Is defined by**|[http://www.w3.org/ns/org#](http://www.w3.org/ns/org#)|
+//! |**Is defined by**|<http://www.w3.org/ns/org#>|
 //!
 
 use crate::namespace;

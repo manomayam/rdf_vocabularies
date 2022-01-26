@@ -1,4 +1,6 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+#![cfg_attr(docsrs, feature(doc_cfg))]
+#![cfg_attr(docsrs, doc(cfg(feature = "ns-ebucore")))]
 //! This module provides terms for `EBUCore - the Dublin Core for media` vocabulary
 //!
 //! ## Vocabulary:
@@ -7,9 +9,9 @@
 //! |-----|-----|
 //! |**Title**|EBUCore - the Dublin Core for media|
 //! |**Prefix**|ebucore|
-//! |**Namespace base IRI**|[http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#](http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#)|
+//! |**Namespace base IRI**|<http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#>|
 //! |**Description**|Guidelines: for the purpose of flexibility and interoperability with a wider range of implementations, some properties purposefully do not have a range and accept either a resource or a literal.  When a resource is used, it is recommended to reuse objects defined in the model (e.g. pair hasEvent/Event or hasRole/Role). Example 1: x hasRole 'actor'. Example 2: x hasRole _:Role_1 (a reference to the Concept identifier from a SKOS Role vocabulary defined in the ontology).|
-//! |**Is defined by**|[https://www.ebu.ch/metadata/ontologies/ebucore/ebucore.rdf](https://www.ebu.ch/metadata/ontologies/ebucore/ebucore.rdf)|
+//! |**Is defined by**|<https://www.ebu.ch/metadata/ontologies/ebucore/ebucore.rdf>|
 //!
 
 use crate::namespace;

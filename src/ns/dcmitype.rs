@@ -1,4 +1,6 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+#![cfg_attr(docsrs, feature(doc_cfg))]
+#![cfg_attr(docsrs, doc(cfg(feature = "ns-dcmitype")))]
 //! This module provides terms for `DCMI Type Vocabulary` vocabulary
 //!
 //! ## Vocabulary:
@@ -7,9 +9,9 @@
 //! |-----|-----|
 //! |**Title**|DCMI Type Vocabulary|
 //! |**Prefix**|dcmitype|
-//! |**Namespace base IRI**|[http://purl.org/dc/dcmitype/](http://purl.org/dc/dcmitype/)|
+//! |**Namespace base IRI**|<http://purl.org/dc/dcmitype/>|
 //! |**Description**||
-//! |**Is defined by**|[http://purl.org/dc/dcmitype/](http://purl.org/dc/dcmitype/)|
+//! |**Is defined by**|<http://purl.org/dc/dcmitype/>|
 //!
 
 use crate::namespace;

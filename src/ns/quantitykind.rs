@@ -1,4 +1,6 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+#![cfg_attr(docsrs, feature(doc_cfg))]
+#![cfg_attr(docsrs, doc(cfg(feature = "ns-quantitykind")))]
 //! This module provides terms for `QUDT VOCAB Quantity Kinds  Release 2.1.12` vocabulary
 //!
 //! ## Vocabulary:
@@ -7,9 +9,9 @@
 //! |-----|-----|
 //! |**Title**|QUDT VOCAB Quantity Kinds  Release 2.1.12|
 //! |**Prefix**|quantitykind|
-//! |**Namespace base IRI**|[http://qudt.org/vocab/quantitykind/](http://qudt.org/vocab/quantitykind/)|
+//! |**Namespace base IRI**|<http://qudt.org/vocab/quantitykind/>|
 //! |**Description**||
-//! |**Is defined by**|[http://qudt.org/vocab/quantitykind/](http://qudt.org/vocab/quantitykind/)|
+//! |**Is defined by**|<http://qudt.org/vocab/quantitykind/>|
 //!
 
 use crate::namespace;

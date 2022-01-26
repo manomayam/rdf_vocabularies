@@ -1,4 +1,6 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+#![cfg_attr(docsrs, feature(doc_cfg))]
+#![cfg_attr(docsrs, doc(cfg(feature = "ns-lime")))]
 //! This module provides terms for `Lexicon Model for Ontologies - LIngusitic MEtadata (LIME)` vocabulary
 //!
 //! ## Vocabulary:
@@ -7,9 +9,9 @@
 //! |-----|-----|
 //! |**Title**|Lexicon Model for Ontologies - LIngusitic MEtadata (LIME)|
 //! |**Prefix**|lime|
-//! |**Namespace base IRI**|[https://www.w3.org/ns/lemon/lime#](https://www.w3.org/ns/lemon/lime#)|
+//! |**Namespace base IRI**|<https://www.w3.org/ns/lemon/lime#>|
 //! |**Description**|LIME (LInguistic MEtadata) is a vocabulary for expressing linguistic metadata about linguistic resources and linguistically grounded datasets.|
-//! |**Is defined by**|[http://rdf.greggkellogg.net/distiller?command=serialize&output_format=ntriples&url=https:%2F%2Fwww.w3.org%2Fns%2Flemon%2Flime&raw](http://rdf.greggkellogg.net/distiller?command=serialize&output_format=ntriples&url=https:%2F%2Fwww.w3.org%2Fns%2Flemon%2Flime&raw)|
+//! |**Is defined by**|<http://rdf.greggkellogg.net/distiller?command=serialize&output_format=ntriples&url=https:%2F%2Fwww.w3.org%2Fns%2Flemon%2Flime&raw>|
 //!
 
 use crate::namespace;

@@ -1,4 +1,6 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+#![cfg_attr(docsrs, feature(doc_cfg))]
+#![cfg_attr(docsrs, doc(cfg(feature = "ns-solid")))]
 //! This module provides terms for `Solid Terms` vocabulary
 //!
 //! ## Vocabulary:
@@ -7,9 +9,9 @@
 //! |-----|-----|
 //! |**Title**|Solid Terms|
 //! |**Prefix**|solid|
-//! |**Namespace base IRI**|[http://www.w3.org/ns/solid/terms#](http://www.w3.org/ns/solid/terms#)|
+//! |**Namespace base IRI**|<http://www.w3.org/ns/solid/terms#>|
 //! |**Description**|The Solid Terms vocabulary defines terms referenced in Solid specifications.|
-//! |**Is defined by**|[http://www.w3.org/ns/solid/terms](http://www.w3.org/ns/solid/terms)|
+//! |**Is defined by**|<http://www.w3.org/ns/solid/terms>|
 //!
 
 use crate::namespace;

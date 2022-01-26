@@ -1,4 +1,6 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+#![cfg_attr(docsrs, feature(doc_cfg))]
+#![cfg_attr(docsrs, doc(cfg(feature = "ns-rr")))]
 //! This module provides terms for `R2RML vocabulary` vocabulary
 //!
 //! ## Vocabulary:
@@ -7,9 +9,9 @@
 //! |-----|-----|
 //! |**Title**|R2RML vocabulary|
 //! |**Prefix**|rr|
-//! |**Namespace base IRI**|[http://www.w3.org/ns/r2rml#](http://www.w3.org/ns/r2rml#)|
+//! |**Namespace base IRI**|<http://www.w3.org/ns/r2rml#>|
 //! |**Description**|RDB to RDF Mapping Language - Vocabulary|
-//! |**Is defined by**|[http://www.w3.org/ns/r2rml#](http://www.w3.org/ns/r2rml#)|
+//! |**Is defined by**|<http://www.w3.org/ns/r2rml#>|
 //!
 
 use crate::namespace;

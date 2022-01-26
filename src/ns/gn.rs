@@ -1,4 +1,6 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+#![cfg_attr(docsrs, feature(doc_cfg))]
+#![cfg_attr(docsrs, doc(cfg(feature = "ns-gn")))]
 //! This module provides terms for `The Geonames ontology` vocabulary
 //!
 //! ## Vocabulary:
@@ -7,9 +9,9 @@
 //! |-----|-----|
 //! |**Title**|The Geonames ontology|
 //! |**Prefix**|gn|
-//! |**Namespace base IRI**|[http://www.geonames.org/ontology#](http://www.geonames.org/ontology#)|
+//! |**Namespace base IRI**|<http://www.geonames.org/ontology#>|
 //! |**Description**|The Geonames ontologies provides elements of description for geographical features, in particular those defined in the geonames.org data base|
-//! |**Is defined by**|[http://www.geonames.org/ontology#](http://www.geonames.org/ontology#)|
+//! |**Is defined by**|<http://www.geonames.org/ontology#>|
 //!
 
 use crate::namespace;

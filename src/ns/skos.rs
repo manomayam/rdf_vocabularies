@@ -1,4 +1,6 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+#![cfg_attr(docsrs, feature(doc_cfg))]
+#![cfg_attr(docsrs, doc(cfg(feature = "ns-skos")))]
 //! This module provides terms for `SKOS Vocabulary` vocabulary
 //!
 //! ## Vocabulary:
@@ -7,9 +9,9 @@
 //! |-----|-----|
 //! |**Title**|SKOS Vocabulary|
 //! |**Prefix**|skos|
-//! |**Namespace base IRI**|[http://www.w3.org/2004/02/skos/core#](http://www.w3.org/2004/02/skos/core#)|
+//! |**Namespace base IRI**|<http://www.w3.org/2004/02/skos/core#>|
 //! |**Description**|An RDF vocabulary for describing the basic structure and content of concept schemes such as thesauri, classification schemes, subject heading lists, taxonomies, 'folksonomies', other types of controlled vocabulary, and also concept schemes embedded in glossaries and terminologies.|
-//! |**Is defined by**|[http://www.w3.org/2004/02/skos/core#](http://www.w3.org/2004/02/skos/core#)|
+//! |**Is defined by**|<http://www.w3.org/2004/02/skos/core#>|
 //!
 
 use crate::namespace;

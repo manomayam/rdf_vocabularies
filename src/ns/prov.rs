@@ -1,4 +1,6 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+#![cfg_attr(docsrs, feature(doc_cfg))]
+#![cfg_attr(docsrs, doc(cfg(feature = "ns-prov")))]
 //! This module provides terms for `W3C PROVenance Interchange` vocabulary
 //!
 //! ## Vocabulary:
@@ -7,9 +9,9 @@
 //! |-----|-----|
 //! |**Title**|W3C PROVenance Interchange|
 //! |**Prefix**|prov|
-//! |**Namespace base IRI**|[http://www.w3.org/ns/prov#](http://www.w3.org/ns/prov#)|
+//! |**Namespace base IRI**|<http://www.w3.org/ns/prov#>|
 //! |**Description**|This document is published by the Provenance Working Group (http://www.w3.org/2011/prov/wiki/Main_Page).  If you wish to make comments regarding this document, please send them to public-prov-comments@w3.org (subscribe public-prov-comments-request@w3.org, archives http://lists.w3.org/ Archives/Public/public-prov-comments/). All feedback is welcome.|
-//! |**Is defined by**|[http://www.w3.org/ns/prov#](http://www.w3.org/ns/prov#)|
+//! |**Is defined by**|<http://www.w3.org/ns/prov#>|
 //!
 
 use crate::namespace;

@@ -1,4 +1,6 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+#![cfg_attr(docsrs, feature(doc_cfg))]
+#![cfg_attr(docsrs, doc(cfg(feature = "ns-solid_protocol_0_9")))]
 //! This module provides terms for `Solid Protocol` vocabulary
 //!
 //! ## Vocabulary:
@@ -7,9 +9,9 @@
 //! |-----|-----|
 //! |**Title**|Solid Protocol|
 //! |**Prefix**|solid_protocol_0_9|
-//! |**Namespace base IRI**|[https://solidproject.org/TR/protocol#](https://solidproject.org/TR/protocol#)|
+//! |**Namespace base IRI**|<https://solidproject.org/TR/protocol#>|
 //! |**Description**|This document connects a set of specifications that, together, provide applications with secure and permissioned access to externally stored data in an interoperable way.|
-//! |**Is defined by**|[http://rdf.greggkellogg.net/distiller?command=serialize&output_format=ntriples&url=https:%2F%2Fsolidproject.org%2FTR%2Fprotocol&raw](http://rdf.greggkellogg.net/distiller?command=serialize&output_format=ntriples&url=https:%2F%2Fsolidproject.org%2FTR%2Fprotocol&raw)|
+//! |**Is defined by**|<http://rdf.greggkellogg.net/distiller?command=serialize&output_format=ntriples&url=https:%2F%2Fsolidproject.org%2FTR%2Fprotocol&raw>|
 //!
 
 use crate::namespace;

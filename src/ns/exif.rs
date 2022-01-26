@@ -1,4 +1,6 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+#![cfg_attr(docsrs, feature(doc_cfg))]
+#![cfg_attr(docsrs, doc(cfg(feature = "ns-exif")))]
 //! This module provides terms for `Exif data description vocabulary` vocabulary
 //!
 //! ## Vocabulary:
@@ -7,9 +9,9 @@
 //! |-----|-----|
 //! |**Title**|Exif data description vocabulary|
 //! |**Prefix**|exif|
-//! |**Namespace base IRI**|[http://www.w3.org/2003/12/exif/ns#](http://www.w3.org/2003/12/exif/ns#)|
+//! |**Namespace base IRI**|<http://www.w3.org/2003/12/exif/ns#>|
 //! |**Description**|Vocabulary to describe an Exif format picture data. All Exif 2.2 tags are defined as RDF properties, as well as several terms to help this schema.|
-//! |**Is defined by**|[http://www.w3.org/2003/12/exif/ns#](http://www.w3.org/2003/12/exif/ns#)|
+//! |**Is defined by**|<http://www.w3.org/2003/12/exif/ns#>|
 //!
 
 use crate::namespace;

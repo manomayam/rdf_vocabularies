@@ -1,4 +1,6 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+#![cfg_attr(docsrs, feature(doc_cfg))]
+#![cfg_attr(docsrs, doc(cfg(feature = "ns-geo")))]
 //! This module provides terms for `geo` vocabulary
 //!
 //! ## Vocabulary:
@@ -7,9 +9,9 @@
 //! |-----|-----|
 //! |**Title**||
 //! |**Prefix**|geo|
-//! |**Namespace base IRI**|[http://www.opengis.net/ont/geosparql#](http://www.opengis.net/ont/geosparql#)|
+//! |**Namespace base IRI**|<http://www.opengis.net/ont/geosparql#>|
 //! |**Description**|An RDF/OWL vocabulary for representing spatial information|
-//! |**Is defined by**|[http://www.modelservers.org/public/ontologies/vcon/geosparql_vocab_all.rdf](http://www.modelservers.org/public/ontologies/vcon/geosparql_vocab_all.rdf)|
+//! |**Is defined by**|<http://www.modelservers.org/public/ontologies/vcon/geosparql_vocab_all.rdf>|
 //!
 
 use crate::namespace;
