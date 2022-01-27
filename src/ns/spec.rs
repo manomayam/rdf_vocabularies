@@ -11,7 +11,7 @@
 //! |**Prefix**|spec|
 //! |**Namespace base IRI**|<http://www.w3.org/ns/spec#>|
 //! |**Description**|Specification ontology.|
-//! |**Is defined by**|<https://www.w3.org/ns/spec>|
+//! |**Is defined by**|<http://www.w3.org/ns/spec>|
 //!
 
 use crate::namespace;

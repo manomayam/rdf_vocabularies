@@ -37,7 +37,7 @@
 <https://prefix.manomayam.org/cert:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
 <https://prefix.manomayam.org/cert:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/auth/cert.rdf> .
 <https://prefix.manomayam.org/cert:> <http://www.w3.org/ns/rdfa#prefix> "cert" .
-<https://prefix.manomayam.org/cert:> <http://www.w3.org/ns/rdfa#uri> <https://www.w3.org/ns/auth/cert#> .
+<https://prefix.manomayam.org/cert:> <http://www.w3.org/ns/rdfa#uri> <http://www.w3.org/ns/auth/cert#> .
 
 <https://prefix.manomayam.org/ontolex:> <http://dbpedia.org/ontology/filename> "ontologies_ext/ontolex.nq" .
 <https://prefix.manomayam.org/ontolex:> <http://purl.org/dc/terms/description> "A model for the representation of lexical information relative to ontologies. Core module." .
@@ -45,7 +45,7 @@
 <https://prefix.manomayam.org/ontolex:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
 <https://prefix.manomayam.org/ontolex:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf.greggkellogg.net/distiller?command=serialize&output_format=ntriples&url=https:%2F%2Fwww.w3.org%2Fns%2Flemon%2Fontolex&raw> .
 <https://prefix.manomayam.org/ontolex:> <http://www.w3.org/ns/rdfa#prefix> "ontolex" .
-<https://prefix.manomayam.org/ontolex:> <http://www.w3.org/ns/rdfa#uri> <https://www.w3.org/ns/lemon/ontolex#> .
+<https://prefix.manomayam.org/ontolex:> <http://www.w3.org/ns/rdfa#uri> <http://www.w3.org/ns/lemon/ontolex#> .
 
 <https://prefix.manomayam.org/lime:> <http://dbpedia.org/ontology/filename> "ontologies_ext/lime.nq" .
 <https://prefix.manomayam.org/lime:> <http://purl.org/dc/terms/description> "LIME (LInguistic MEtadata) is a vocabulary for expressing linguistic metadata about linguistic resources and linguistically grounded datasets." .
@@ -53,7 +53,7 @@
 <https://prefix.manomayam.org/lime:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
 <https://prefix.manomayam.org/lime:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf.greggkellogg.net/distiller?command=serialize&output_format=ntriples&url=https:%2F%2Fwww.w3.org%2Fns%2Flemon%2Flime&raw> .
 <https://prefix.manomayam.org/lime:> <http://www.w3.org/ns/rdfa#prefix> "lime" .
-<https://prefix.manomayam.org/lime:> <http://www.w3.org/ns/rdfa#uri> <https://www.w3.org/ns/lemon/lime#> .
+<https://prefix.manomayam.org/lime:> <http://www.w3.org/ns/rdfa#uri> <http://www.w3.org/ns/lemon/lime#> .
 
 <https://prefix.manomayam.org/vartrans:> <http://dbpedia.org/ontology/filename> "ontologies_ext/vartrans.nq" .
 <https://prefix.manomayam.org/vartrans:> <http://purl.org/dc/terms/description> "A model for the representation of lexical information relative to ontologies. Variation and translation module." .
@@ -61,7 +61,7 @@
 <https://prefix.manomayam.org/vartrans:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
 <https://prefix.manomayam.org/vartrans:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf.greggkellogg.net/distiller?command=serialize&output_format=ntriples&url=https:%2F%2Fwww.w3.org%2Fns%2Flemon%2Fvartrans&raw> .
 <https://prefix.manomayam.org/vartrans:> <http://www.w3.org/ns/rdfa#prefix> "vartrans" .
-<https://prefix.manomayam.org/vartrans:> <http://www.w3.org/ns/rdfa#uri> <https://www.w3.org/ns/lemon/vartrans#> .
+<https://prefix.manomayam.org/vartrans:> <http://www.w3.org/ns/rdfa#uri> <http://www.w3.org/ns/lemon/vartrans#> .
 
 <https://prefix.manomayam.org/gold:> <http://dbpedia.org/ontology/filename> "ontologies_ext/gold.nq" .
 <https://prefix.manomayam.org/gold:> <http://purl.org/dc/terms/description> "This is the General Ontology for Linguistic Description (GOLD) described using the Web Ontology Language. This ontology was created primarily for applications involving descriptive linguistics." .
@@ -93,7 +93,7 @@
 <https://prefix.manomayam.org/spec:> <http://purl.org/dc/terms/description> "Specification ontology." .
 <https://prefix.manomayam.org/spec:> <http://purl.org/dc/terms/title> "Specification ontology" .
 <https://prefix.manomayam.org/spec:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
-<https://prefix.manomayam.org/spec:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://www.w3.org/ns/spec> .
+<https://prefix.manomayam.org/spec:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/spec> .
 <https://prefix.manomayam.org/spec:> <http://www.w3.org/ns/rdfa#prefix> "spec" .
 <https://prefix.manomayam.org/spec:> <http://www.w3.org/ns/rdfa#uri> <http://www.w3.org/ns/spec#> .
 

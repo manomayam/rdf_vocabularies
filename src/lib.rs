@@ -10,7 +10,7 @@
 //! ```toml
 //! [dependencies]
 //! # includes namespaces for vocabularies `rdf`, `foaf`, `solid`, and ontology datasets for vocabularies `foaf`.
-//! rdf_vocabularies = { version = "0.1.5", features=["ns-rdf", "ns-foaf", "ns-solid", "dataset-foaf"] }
+//! rdf_vocabularies = { version = "0.1.6", features=["ns-rdf", "ns-foaf", "ns-solid", "dataset-foaf"] }
 //! 
 //! ```
 //! 
