@@ -63,7 +63,7 @@ pub fn load_nq_for_vocab(vocab: &Vocab) -> anyhow::Result<()> {
         let syntax = Correspondent::<RdfSyntax>::try_from(&mt)
             .with_context(|| "Unknown mime type for ontology for given vocab")?
             .value;
-        let parser = DynSynQuadParserFactory::new()
+        let parser = DynSynQuadParserFactory::default()
             .try_new_parser(
                 syntax,
                 Some(ontology_uri),

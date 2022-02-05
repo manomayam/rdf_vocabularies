@@ -8,23 +8,22 @@ version = '0.2.0'
 
 [dependencies.rio_turtle]
 optional = true
-version = '=0.6.1'
+version = '0.6.2'
 
 [dependencies.sophia_api]
-optional = true
-version = '0.7.1'
+version = '0.7.2'
 
 [dependencies.sophia_inmem]
 optional = true
-version = '0.7.1'
+version = '0.7.2'
 
 [dependencies.sophia_rio]
 optional = true
-version = '0.7.1'
+version = '0.7.2'
 
 [dependencies.sophia_turtle]
 optional = true
-version = '0.7.1'
+version = '0.7.2'
 
 [dev-dependencies]
 claim = '0.5.0'
@@ -32,7 +31,6 @@ claim = '0.5.0'
 [features]
 dataset = [
     'once_cell',
-    'sophia_api',
     'sophia_turtle',
     'sophia_rio',
     'sophia_inmem',
@@ -237,7 +235,7 @@ keywords = [
 license = 'MIT OR Apache-2.0'
 name = 'rdf_vocabularies'
 repository = 'https://github.com/manomayam/rdf_vocabularies'
-version = '0.1.6'
+version = '0.1.7'
 [package.metadata.docs.rs]
 all-features = true
 rustdoc-args = [
