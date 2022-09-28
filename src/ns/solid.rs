@@ -24,6 +24,8 @@ namespace!(
     Account, "Account",
     /// `Inbox`: A resource containing notifications.
     Inbox, "Inbox",
+    /// `Insert/delete patch`: A class of patch expressing insertions, deletions, and conditional modifications to a resource that has an RDF-based representation.
+    InsertDeletePatch, "InsertDeletePatch",
     /// `Listed Type Index`: Listed Type Index is a registry of resources that are publicly discoverable by outside users and applications.
     ListedDocument, "ListedDocument",
     /// `Notification`: A notification resource.

@@ -1,4 +1,6 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+#[cfg(feature = "ns-acp")]
+pub mod acp;
 #[cfg(feature = "ns-cert")]
 pub mod cert;
 #[cfg(feature = "ns-gold")]

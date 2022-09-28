@@ -38,6 +38,7 @@ dataset = [
     'rdf_utils',
 ]
 dataset-acl = ['dataset']
+dataset-acp = ['dataset']
 dataset-as_ = ['dataset']
 dataset-bibo = ['dataset']
 dataset-cc = ['dataset']
@@ -131,6 +132,7 @@ dataset-xhv = ['dataset']
 dataset-xkos = ['dataset']
 dataset-xsd = ['dataset']
 ns-acl = []
+ns-acp = []
 ns-as_ = []
 ns-bibo = []
 ns-cc = []
@@ -235,7 +237,7 @@ keywords = [
 license = 'MIT OR Apache-2.0'
 name = 'rdf_vocabularies'
 repository = 'https://github.com/manomayam/rdf_vocabularies'
-version = '0.1.7'
+version = '0.1.8'
 [package.metadata.docs.rs]
 all-features = true
 rustdoc-args = [

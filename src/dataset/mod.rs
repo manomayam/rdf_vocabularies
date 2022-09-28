@@ -1,4 +1,6 @@
 // THIS FILE IS GENERATED. ONE SHOULD NOT MODIFY IT
+#[cfg(feature = "dataset-acp")]
+pub mod acp;
 #[cfg(feature = "dataset-cert")]
 pub mod cert;
 #[cfg(feature = "dataset-gold")]

@@ -22,6 +22,15 @@
 <https://prefix.manomayam.org/oidc:> <http://www.w3.org/ns/rdfa#prefix> "oidc" .
 <https://prefix.manomayam.org/oidc:> <http://www.w3.org/ns/rdfa#uri> <http://www.w3.org/ns/solid/oidc#> .
 
+<https://prefix.manomayam.org/acp:> <http://dbpedia.org/ontology/filename> "ontologies_ext/acp.nq" .
+<https://prefix.manomayam.org/acp:> <http://purl.org/dc/terms/description> "ACP is a language for describing, controlling, and granting access to resources."@en  .
+<https://prefix.manomayam.org/acp:> <http://purl.org/dc/terms/title> "Access Control Policy (ACP)"@en .
+<https://prefix.manomayam.org/acp:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
+<https://prefix.manomayam.org/acp:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://solid.github.io/authorization-panel/acp-specification/acp.ttl> .
+<https://prefix.manomayam.org/acp:> <http://www.w3.org/ns/rdfa#prefix> "acp" .
+<https://prefix.manomayam.org/acp:> <http://www.w3.org/ns/rdfa#uri> <http://www.w3.org/ns/solid/acp#> .
+
+
 <https://prefix.manomayam.org/pim:> <http://dbpedia.org/ontology/filename> "ontologies_ext/pim.nq" .
 <https://prefix.manomayam.org/pim:> <http://purl.org/dc/terms/description> "This ontology is for use in describing Workspaces.  Workspaces are places where data is stored and associated policies of privacy" .
 <https://prefix.manomayam.org/pim:> <http://purl.org/dc/terms/title> "Workspace Ontology" .
