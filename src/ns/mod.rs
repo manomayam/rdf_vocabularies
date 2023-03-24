@@ -17,8 +17,6 @@ pub mod ontolex;
 pub mod pim;
 #[cfg(feature = "ns-solid")]
 pub mod solid;
-#[cfg(feature = "ns-solid_protocol_0_9")]
-pub mod solid_protocol_0_9;
 #[cfg(feature = "ns-spec")]
 pub mod spec;
 #[cfg(feature = "ns-stat")]

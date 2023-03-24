@@ -17,8 +17,6 @@ pub mod ontolex;
 pub mod pim;
 #[cfg(feature = "dataset-solid")]
 pub mod solid;
-#[cfg(feature = "dataset-solid_protocol_0_9")]
-pub mod solid_protocol_0_9;
 #[cfg(feature = "dataset-spec")]
 pub mod spec;
 #[cfg(feature = "dataset-stat")]

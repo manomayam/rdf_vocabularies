@@ -62,6 +62,8 @@ namespace!(
     notification, "notification",
     /// `OIDC issuer`: The preferred OpenID Connect issuer URI for a given WebID.
     oidcIssuer, "oidcIssuer",
+    /// `owner`: A person or social entity that is considered to have control, rights, and responsibilities over a data storage.
+    owner, "owner",
     /// `patches`: The document to which this patch applies.
     patches, "patches",
     /// `private type index`: Points to an unlisted type index resource.

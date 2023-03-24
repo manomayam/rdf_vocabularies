@@ -89,15 +89,6 @@
 <https://prefix.manomayam.org/lexvo:> <http://www.w3.org/ns/rdfa#uri> <http://lexvo.org/ontology#> .
 
 
-<https://prefix.manomayam.org/solid_protocol_0_9:> <http://dbpedia.org/ontology/filename> "ontologies_ext/solid_protocol_0_9.nq" .
-<https://prefix.manomayam.org/solid_protocol_0_9:> <http://purl.org/dc/terms/description> "This document connects a set of specifications that, together, provide applications with secure and permissioned access to externally stored data in an interoperable way." .
-<https://prefix.manomayam.org/solid_protocol_0_9:> <http://purl.org/dc/terms/title> "Solid Protocol" .
-<https://prefix.manomayam.org/solid_protocol_0_9:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
-<https://prefix.manomayam.org/solid_protocol_0_9:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf.greggkellogg.net/distiller?command=serialize&output_format=ntriples&url=https:%2F%2Fsolidproject.org%2FTR%2Fprotocol&raw> .
-<https://prefix.manomayam.org/solid_protocol_0_9:> <http://www.w3.org/ns/rdfa#prefix> "solid_protocol_0_9" .
-<https://prefix.manomayam.org/solid_protocol_0_9:> <http://www.w3.org/ns/rdfa#uri> <https://solidproject.org/TR/protocol#> .
-
-
 <https://prefix.manomayam.org/spec:> <http://dbpedia.org/ontology/filename> "ontologies_ext/spec.nq" .
 <https://prefix.manomayam.org/spec:> <http://purl.org/dc/terms/description> "Specification ontology." .
 <https://prefix.manomayam.org/spec:> <http://purl.org/dc/terms/title> "Specification ontology" .

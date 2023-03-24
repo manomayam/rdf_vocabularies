@@ -1,31 +1,390 @@
-<http://www.w3.org/ns/spec#requirement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/spec#> .
-
-<http://www.w3.org/ns/spec#statement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/spec#> .
-
-<http://www.w3.org/ns/spec#requirementLevel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/spec#> .
-<http://www.w3.org/ns/spec#requirementSubject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/spec#> .
-
-<http://www.w3.org/ns/spec#MUST> <http://www.w3.org/2000/01/rdf-schema#label> "MUST" <http://www.w3.org/ns/spec#> .
-
-<http://www.w3.org/ns/spec#MUST-NOT> <http://www.w3.org/2000/01/rdf-schema#label> "MUST-NOT" <http://www.w3.org/ns/spec#> .
-
-<http://www.w3.org/ns/spec#SHOULD> <http://www.w3.org/2000/01/rdf-schema#label> "SHOULD" <http://www.w3.org/ns/spec#> .
-
-<http://www.w3.org/ns/spec#SHOULD-NOT> <http://www.w3.org/2000/01/rdf-schema#label> "SHOULD-NOT" <http://www.w3.org/ns/spec#> .
-
-<http://www.w3.org/ns/spec#SHALL> <http://www.w3.org/2000/01/rdf-schema#label> "SHALL" <http://www.w3.org/ns/spec#> .
-
-<http://www.w3.org/ns/spec#SHALL-NOT> <http://www.w3.org/2000/01/rdf-schema#label> "SHALL-NOT" <http://www.w3.org/ns/spec#> .
-
-<http://www.w3.org/ns/spec#REQUIRED> <http://www.w3.org/2000/01/rdf-schema#label> "REQUIRED" <http://www.w3.org/ns/spec#> .
-
-<http://www.w3.org/ns/spec#RECOMMENDED> <http://www.w3.org/2000/01/rdf-schema#label> "RECOMMENDED" <http://www.w3.org/ns/spec#> .
-
-<http://www.w3.org/ns/spec#MAY> <http://www.w3.org/2000/01/rdf-schema#label> "MAY" <http://www.w3.org/ns/spec#> .
-
-<http://www.w3.org/ns/spec#OPTIONAL> <http://www.w3.org/2000/01/rdf-schema#label> "OPTIONAL" <http://www.w3.org/ns/spec#> .
-
-<http://www.w3.org/ns/spec#Server> <http://www.w3.org/2000/01/rdf-schema#label> "Server" <http://www.w3.org/ns/spec#> .
-
-<http://www.w3.org/ns/spec#Client> <http://www.w3.org/2000/01/rdf-schema#label> "Client" <http://www.w3.org/ns/spec#> .
-
+<http://www.w3.org/ns/spec#API> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#RulesForDerivingProfiles> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rules for deriving profiles"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#NOTRECOMMENDED> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#suitedFor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#profile> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/spec#defines> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#Extensibility> <http://www.w3.org/2000/01/rdf-schema#label> "Extensibility"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#consideration> <http://www.w3.org/2000/01/rdf-schema#label> "consideration"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#Client> <http://www.w3.org/2004/02/skos/core#prefLabel> "Client"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#ConformanceProfile> <http://www.w3.org/2000/01/rdf-schema#comment> "A profile is a subset of the technology that supports a particular functional objective or a subset of a set of technologies defining how they are required to operate together (e.g., XHTML plus MathML plus SVG)."@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#ConformanceModule> <http://www.w3.org/2000/01/rdf-schema#label> "Module"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#ProducerOfContent> <http://www.w3.org/2004/02/skos/core#definition> "Producer of content (may be divided into initiators and modifiers)."@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#conformance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#errorHandling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#reviewProcess> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#MAY> <http://www.w3.org/2004/02/skos/core#prefLabel> "MAY"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#issue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#editor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#statement> <http://www.w3.org/2000/01/rdf-schema#label> "statement"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#thisVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#FoundationOrAbstract> <http://www.w3.org/2004/02/skos/core#definition> "Describes an abstraction around which several other specs will synchronize, but which is not implemented in code. Example: XML InfoSet is a foundation for various specs that have a \"data model\" of the usable content of an XML document. However, there is no \"InfoSet API\" or \"InfoSet Parser\" specified."@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#implementationReports> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#operativeProcess> <http://www.w3.org/2000/01/rdf-schema#label> "operative process"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#> <http://purl.org/dc/terms/issued> "2021-06-04"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#NOTRECOMMENDED> <http://www.w3.org/2004/02/skos/core#prefLabel> "NOT RECOMMENDED"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#STRONGLYENCOURAGED> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://www.w3.org/ns/spec#AdvisementLevel> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#SHALLNOT> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://www.w3.org/ns/spec#MUSTNOT> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#> <http://purl.org/dc/terms/creator> <https://csarven.ca/#i> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#Consumer> <http://www.w3.org/2004/02/skos/core#definition> "Consumer in a one-way pipeline."@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#Specification> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/spec#> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#MUST> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://www.w3.org/ns/spec#REQUIRED> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#REQUIRED> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#MUSTNOT> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://www.w3.org/ns/spec#SHALLNOT> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#OPTIONAL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#STRONGLYDISCOURAGED> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://www.w3.org/ns/spec#AdvisementLevel> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#level> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#ContentData> <http://www.w3.org/2004/02/skos/core#definition> "Describes a markup language whose downstream usage is to express meaning to an end user or to applications specific to a discipline other than the Web itself. Example: MathML is a markup language for the math discipline, and may be used to express mathematical ideas to a person or to math software. SVG is a language for expressing graphical ideas."@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#defines> <http://www.w3.org/2000/01/rdf-schema#label> "defines"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#discouraged> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#composedOf> <http://www.w3.org/2000/01/rdf-schema#label> "composed of"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#functionalLevel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#COULDNOT> <http://www.w3.org/2004/02/skos/core#prefLabel> "could not"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#ConformanceProfile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#ContentData> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#SHALL> <http://www.w3.org/2004/02/skos/core#prefLabel> "SHALL"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#can> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#cannot> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://www.w3.org/ns/spec#AdvisementLevel> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#testScript> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2006/03/test-description#TestCase> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#documentStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#RegistrationConsideration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#RequirementLevel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#SelfReviewQuestionnaireSecurityPrivacy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#SelfReviewQuestionnaireSecurityPrivacy> <http://www.w3.org/2000/01/rdf-schema#label> "Self-Review Questionnaire: Security and Privacy"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#ClassesOfProducts> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://www.w3.org/ns/spec#ProducerOfContent> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#SpecificationCategory> <http://www.w3.org/2004/02/skos/core#prefLabel> "Specification Categories"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#could> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#requirementReference> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/spec#Requirement> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#SHOULDNOT> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://www.w3.org/ns/spec#RequirementLevel> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#encouraged> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://www.w3.org/ns/spec#AdvisementLevel> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#cannot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#> <http://purl.org/vocab/vann/preferredNamespaceUri> "http://www.w3.org/ns/spec#"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#terminology> <http://www.w3.org/2000/01/rdf-schema#label> "terminology"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#conventions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#acknowledgements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#consideration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#Player> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#discouraged> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://www.w3.org/ns/spec#AdvisementLevel> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#note> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#ConformanceProfile> <http://www.w3.org/2000/01/rdf-schema#label> "Profile"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#SpecificationGuidelines> <http://www.w3.org/2004/02/skos/core#definition> "Specification (guidelines)."@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#ContentData> <http://www.w3.org/2004/02/skos/core#prefLabel> "Content/data"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#OPTIONAL> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://www.w3.org/ns/spec#MAY> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#defines> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#Variability> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.w3.org/TR/spec-variability/> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#buildUpon> <http://www.w3.org/2000/01/rdf-schema#label> "build upon"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#consideration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#note> <http://www.w3.org/2000/01/rdf-schema#label> "note"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#terminology> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#ConceptScheme> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#STRONGLYENCOURAGED> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#conventions> <http://www.w3.org/2000/01/rdf-schema#label> "conventions"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#ProcessorBehaviour> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#composedOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#discretionaryItem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#encouraged> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#RequirementLevel> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://www.w3.org/ns/spec#MUST> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#ConformanceModule> <http://www.w3.org/2000/01/rdf-schema#comment> "Modules are discrete divisions or functional groupings of the technology and do not necessarily fit in a simple hierarchical structure."@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#REQUIRED> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://www.w3.org/ns/spec#SHALL> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#RequirementLevel> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://www.w3.org/ns/spec#REQUIRED> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#RequirementLevel> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://www.w3.org/ns/spec#OPTIONAL> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#requirementLevel> <http://www.w3.org/2000/01/rdf-schema#label> "requirement level"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#SHOULD> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://www.w3.org/ns/spec#RequirementLevel> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#SelfReviewQuestionnaire> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/spec#Consideration> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#conformance> <http://www.w3.org/2000/01/rdf-schema#label> "conformance"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#statement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#REQUIRED> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://www.w3.org/ns/spec#MUST> <http://www.w3.org/ns/spec#>.
+_:riog00000001 <http://purl.org/dc/terms/date> "2022-11-17"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#successCriteria> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#Consideration> <http://www.w3.org/2000/01/rdf-schema#label> "Consideration"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#ClassesOfProducts> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://www.w3.org/ns/spec#RespondingAgent> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#advisementLevel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#Requirement> <http://www.w3.org/2000/01/rdf-schema#label> "Requirement"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#testSuite> <http://www.w3.org/2000/01/rdf-schema#label> "test suite"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#documentStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#intellectualPropertyRights> <http://www.w3.org/2000/01/rdf-schema#label> "intellectual property rights"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#AdvisementLevel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#might> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://www.w3.org/ns/spec#AdvisementLevel> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#SelfReviewQuestionnaire> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#RequirementLevel> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://www.w3.org/ns/spec#NOTRECOMMENDED> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#ClassesOfProducts> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://www.w3.org/TR/spec-variability/#cop> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#SpecificationCategory> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://www.w3.org/ns/spec#NotationSyntax> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#exitCriteria> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#NotationSyntax> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#functionalLevel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#Specification> <http://www.w3.org/2000/01/rdf-schema#label> "Specification"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#advisementLevel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#Processor> <http://www.w3.org/2004/02/skos/core#prefLabel> "Processor"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#ConformanceFunctionalLevel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#extensibility> <http://www.w3.org/2000/01/rdf-schema#label> "extensibility"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#SpecificationCategory> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://www.w3.org/ns/spec#ProcessorBehaviour> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#SetOfEvents> <http://www.w3.org/2004/02/skos/core#prefLabel> "Set of events"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#requirementReference> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2006/03/test-description#SpecificationTestCase> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#reviewProcess> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#terminology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#RequirementLevel> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://www.w3.org/ns/spec#SHALL> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#requirement> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/spec#Requirement> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#RequirementLevel> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://www.w3.org/ns/spec#SHALLNOT> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#publicationRules> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#MUST> <http://www.w3.org/2004/02/skos/core#prefLabel> "MUST"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#conventions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#RespondingAgent> <http://www.w3.org/2004/02/skos/core#prefLabel> "Responding agent"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#exitCriteria> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#SecurityConsideration> <http://www.w3.org/2000/01/rdf-schema#label> "Security Consideration"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#SpecificationGuidelines> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#might> <http://www.w3.org/2004/02/skos/core#prefLabel> "might"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#successCriteria> <http://www.w3.org/2000/01/rdf-schema#label> "success criteria"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#can> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://www.w3.org/ns/spec#AdvisementLevel> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#Content> <http://www.w3.org/2004/02/skos/core#definition> "Content (of type, meaning, and format as defined in the specification)."@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#module> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/spec#composedOf> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#violatesAdvice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#statement> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#Client> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#OPTIONAL> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://www.w3.org/ns/spec#RequirementLevel> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#errorHandling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#Conformance> <http://www.w3.org/2000/01/rdf-schema#label> "Conformance"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#SHALL> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://www.w3.org/ns/spec#REQUIRED> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#ProducerOfInstructions> <http://www.w3.org/2004/02/skos/core#definition> "Producer of instructions/commands to processor."@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#module> <http://www.w3.org/2000/01/rdf-schema#label> "module"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#ConformanceModule> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://www.w3.org/TR/spec-variability/#subdivision-module> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#discouraged> <http://www.w3.org/2004/02/skos/core#prefLabel> "discouraged"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#ClassesOfProducts> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://www.w3.org/ns/spec#Processor> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#defines> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#publicationRules> <http://www.w3.org/2000/01/rdf-schema#label> "publication rules"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#cannot> <http://www.w3.org/2004/02/skos/core#prefLabel> "cannot"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#Profile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#STRONGLYDISCOURAGED> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#buildUpon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#RequirementLevel> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://www.w3.org/ns/spec#MUSTNOT> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#statement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#note> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#module> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#basedOnConsensus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#scope> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#MUST> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#Processor> <http://www.w3.org/2004/02/skos/core#definition> "Processor (consumer of its vocabulary/instructions)."@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#requirementSubject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#could> <http://www.w3.org/2004/02/skos/core#prefLabel> "could"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#requirement> <http://www.w3.org/2000/01/rdf-schema#label> "requirement"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#COULDNOT> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://www.w3.org/ns/spec#AdvisementLevel> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#RequirementLevel> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://datatracker.ietf.org/doc/html/rfc8174> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#STRONGLYDISCOURAGED> <http://www.w3.org/2004/02/skos/core#prefLabel> "strongly discouraged"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#PrivacyConsideration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#PrivacyConsideration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/spec#Consideration> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#errorHandling> <http://www.w3.org/2000/01/rdf-schema#label> "error handling"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#operativeProcess> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#SpecificationCategory> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://www.w3.org/ns/spec#FoundationOrAbstract> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#SHALL> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://www.w3.org/ns/spec#RequirementLevel> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#requirementSubject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#RequirementLevel> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://www.w3.org/ns/spec#SHOULDNOT> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#REQUIRED> <http://www.w3.org/2004/02/skos/core#prefLabel> "REQUIRED"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#SelfReviewQuestionnaireSecurityPrivacy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/spec#SelfReviewQuestionnaire> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#implementationReports> <http://www.w3.org/2000/01/rdf-schema#label> "implementation reports"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#issue> <http://www.w3.org/2000/01/rdf-schema#label> "issue"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#testCase> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2006/03/test-description#TestCase> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#MUST> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://www.w3.org/ns/spec#RequirementLevel> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#RegistrationConsideration> <http://www.w3.org/2000/01/rdf-schema#comment> "Registration considerations for collection of values or data at standards organisations, e.g., IANA, W3C."@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#SetOfEvents> <http://www.w3.org/2004/02/skos/core#definition> "Describes a coherent set of events that software may need to raise or listen for. Example: one part of XForms is a set of form-related events."@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#AccessibilityConsideration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/spec#Consideration> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#ProcessorBehaviour> <http://www.w3.org/2004/02/skos/core#definition> "Describes the behaviour of a piece of software that takes well-defined inputs and operates on them to produce specified output. Example: the XSL Transformations language specifies the behaviour of an XSLT processor. The specification describes an XML-based style sheet language that directs the operations of a processor, but it clearly states that conformance determinations apply to the processor, not the style sheets. Example: XML Query specifies the behaviour of a processor that takes the query language and fetches data, typically arranging that data in a convenient form for XML/Web use. It allows flexibility of the storage system from which data is fetched."@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#SHOULDNOT> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://www.w3.org/ns/spec#NOTRECOMMENDED> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#ProducerOfContent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#> <http://www.w3.org/2000/01/rdf-schema#label> "Spec Terms"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#Module> <http://www.w3.org/2004/02/skos/core#prefLabel> "Module"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#SetOfGuidelines> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#buildUpon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#Server> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#Protocol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#SetOfGuidelines> <http://www.w3.org/2004/02/skos/core#definition> "Describes desirable attributes of content intended for human consumption. Examples: QA Specification Guidelines, Web Content Accessibility Guidelines."@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#contributor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#FoundationOrAbstract> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#ClassesOfProducts> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://www.w3.org/ns/spec#Module> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#advisementLevel> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/spec#Advisement> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#exitCriteria> <http://www.w3.org/2000/01/rdf-schema#label> "exit criteria"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#RespondingAgent> <http://www.w3.org/2004/02/skos/core#definition> "Responding agent (e.g., server) of API (consumer and producer)."@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#module> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#Profile> <http://www.w3.org/2004/02/skos/core#definition> "Profile derived from the specification's Rules for Profiles."@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#> <http://purl.org/dc/terms/description> "Spec Terms provides classes and properties that can be used to describe any significant unit of information in technical reports."@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#> <http://purl.org/dc/terms/license> <https://creativecommons.org/publicdomain/zero/1.0/> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#scope> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#MAY> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://www.w3.org/ns/spec#OPTIONAL> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#Protocol> <http://www.w3.org/2004/02/skos/core#definition> "Describes the interaction between two parties. Example: SOAP."@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#RegistrationConsideration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/spec#Consideration> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#ConformanceModule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#requirementReference> <http://www.w3.org/2000/01/rdf-schema#label> "requirement reference"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#classesOfProducts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#MIGHTNOT> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://www.w3.org/ns/spec#AdvisementLevel> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#conformance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#functionalLevel> <http://www.w3.org/2000/01/rdf-schema#label> "functional level"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#RECOMMENDED> <http://www.w3.org/2004/02/skos/core#prefLabel> "RECOMMENDED"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#issue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#requirementLevel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#RECOMMENDED> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://www.w3.org/ns/spec#RequirementLevel> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#SpecificationCategory> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://www.w3.org/ns/spec#RulesForDerivingProfiles> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#MIGHTNOT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#publicationRules> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#SHALLNOT> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://www.w3.org/ns/spec#RequirementLevel> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#API> <http://www.w3.org/2004/02/skos/core#definition> "APIs - describes a programmatic interface, allowing independent implementation of software that occupies the roles on either side of the interface. Example: DOM specifies an interface that can be implemented by a parser or other processor that intends to offer an XML document in navigable form. Other software that wishes to navigate an XML document (e.g., an XSLT processor) can be written to use the DOM interface."@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#composedOf> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/spec#defines> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#extensibility> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/spec#Extensibility> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#> <http://purl.org/vocab/vann/preferredNamespacePrefix> "spec"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#encouraged> <http://www.w3.org/2004/02/skos/core#prefLabel> "encouraged"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#Protocol> <http://www.w3.org/2004/02/skos/core#prefLabel> "Protocol"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#profile> <http://www.w3.org/2000/01/rdf-schema#label> "profile"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#RequirementLevel> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://www.w3.org/ns/spec#MAY> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#scope> <http://www.w3.org/2000/01/rdf-schema#label> "scope"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#example> <http://www.w3.org/2000/01/rdf-schema#label> "example"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#AccessibilityConsideration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#requirement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#testCase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#intellectualPropertyRights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#advisementLevel> <http://www.w3.org/2000/01/rdf-schema#label> "advisement"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#operativeProcess> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#SHOULD> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://www.w3.org/ns/spec#RECOMMENDED> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#SHALL> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://www.w3.org/ns/spec#MUST> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#NOTRECOMMENDED> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://www.w3.org/ns/spec#RequirementLevel> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#basedOnConsensus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#SHOULD> <http://www.w3.org/2004/02/skos/core#prefLabel> "SHOULD"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#InternationalizationConsideration> <http://www.w3.org/2000/01/rdf-schema#label> "Internationalization Consideration"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#SelfReviewQuestionnaire> <http://www.w3.org/2000/01/rdf-schema#label> "Self-Review Questionnaire"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#Module> <http://www.w3.org/2004/02/skos/core#definition> "Module that hosts the processor."@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#SpecificationCategory> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://www.w3.org/ns/spec#SetOfEvents> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#can> <http://www.w3.org/2004/02/skos/core#prefLabel> "can"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#SetOfGuidelines> <http://www.w3.org/2004/02/skos/core#prefLabel> "Set of guidelines"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#RECOMMENDED> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://www.w3.org/ns/spec#SHOULD> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#API> <http://www.w3.org/2004/02/skos/core#prefLabel> "API"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#requirementSubject> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/spec#Requirement> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#could> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://www.w3.org/ns/spec#AdvisementLevel> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#suitedFor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#SpecificationCategory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#profile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#suitedFor> <http://www.w3.org/2000/01/rdf-schema#label> "suited for"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#testSuite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#buildUpon> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/spec#defines> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#> <http://purl.org/vocab/vann/usageNote> "Work in Progress!"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#ConformanceFunctionalLevel> <http://www.w3.org/2000/01/rdf-schema#label> "Functional level"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#author> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#implementation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#citation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#testSuite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#SHALL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#ConformanceFunctionalLevel> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://www.w3.org/TR/spec-variability/#subdivision-level> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#Specification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#OPTIONAL> <http://www.w3.org/2004/02/skos/core#prefLabel> "OPTIONAL"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#MIGHTNOT> <http://www.w3.org/2004/02/skos/core#prefLabel> "might not"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#requirementReference> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#specificationCategory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#RegistrationConsideration> <http://www.w3.org/2000/01/rdf-schema#label> "Registration Consideration"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#Consideration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#testScript> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#reviewProcess> <http://www.w3.org/2000/01/rdf-schema#label> "review process"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#ClassesOfProducts> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://www.w3.org/ns/spec#ProducerOfInstructions> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#MUST> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://www.w3.org/ns/spec#SHALL> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#acknowledgements> <http://www.w3.org/2000/01/rdf-schema#label> "acknowledgements"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#requirementSubject> <http://www.w3.org/2000/01/rdf-schema#label> "requirement subject"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#ClassesOfProducts> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://www.w3.org/ns/spec#Consumer> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#Consumer> <http://www.w3.org/2004/02/skos/core#prefLabel> "Consumer"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#previousVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#STRONGLYENCOURAGED> <http://www.w3.org/2004/02/skos/core#prefLabel> "strongly encouraged"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#MUSTNOT> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://www.w3.org/ns/spec#RequirementLevel> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#MUSTNOT> <http://www.w3.org/2004/02/skos/core#prefLabel> "MUST NOT"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#SHOULDNOT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#RulesForDerivingProfiles> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#FoundationOrAbstract> <http://www.w3.org/2004/02/skos/core#prefLabel> "Foundation or abstract"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#requirementReference> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#SHALLNOT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#SHOULD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#REQUIRED> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://www.w3.org/ns/spec#RequirementLevel> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#ClassesOfProducts> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://www.w3.org/ns/spec#Content> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#composedOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#requirement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#requirementReference> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#SelfReviewQuestionnaireSecurityPrivacy> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.w3.org/TR/security-privacy-questionnaire/> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#NotationSyntax> <http://www.w3.org/2004/02/skos/core#prefLabel> "Notation/syntax"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#> <http://usefulinc.com/ns/doap#repository> <https://github.com/solid/vocab/> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#SHOULDNOT> <http://www.w3.org/2004/02/skos/core#prefLabel> "SHOULD NOT"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#intellectualPropertyRights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#RECOMMENDED> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#COULDNOT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#complianceWithOtherSpecifications> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#complianceWithOtherSpecifications> <http://www.w3.org/2000/01/rdf-schema#label> "compliance with other specifications"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#ConformanceProfile> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://www.w3.org/TR/spec-variability/#subdivision-profile> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#RequirementLevel> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://www.rfc-editor.org/info/bcp14> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#documentStatus> <http://www.w3.org/2000/01/rdf-schema#label> "document status"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#Conformance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#testScript> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#RequirementLevel> <http://www.w3.org/2004/02/skos/core#prefLabel> "Requirement Level"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#Player> <http://www.w3.org/2004/02/skos/core#definition> "Player (read-only consumer, conveys content in non- XML way)."@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#Variability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#SpecificationCategory> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://www.w3.org/ns/spec#Protocol> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#ConformanceFunctionalLevel> <http://www.w3.org/2000/01/rdf-schema#comment> "Functional levels — or in common usage simply levels — are used to group functionality into nested subsets, ranging from minimal or core functionality to full or complete functionally. Level 1 is the minimum or core of the technology. Level 2 includes all of level 1 plus additional functionality. This nesting continues until level n, which consists of the entire technology."@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#RequirementLevel> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://datatracker.ietf.org/doc/html/rfc2119> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#terminology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#testCase> <http://www.w3.org/2000/01/rdf-schema#label> "test case"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#ProducerOfInstructions> <http://www.w3.org/2004/02/skos/core#prefLabel> "Producer of instructions"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#RulesForDerivingProfiles> <http://www.w3.org/2004/02/skos/core#definition> "Describes how implementers, or any parties other than the WG itself, may produce a profile for a particular situation that cannot be anticipated in complete detail at the time the WG is writing its specification. Example: part of SMIL."@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#issueTracker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#extensibility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#implementationReports> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#InternationalizationConsideration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/spec#Consideration> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#Module> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#Consumer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#RequirementLevel> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://www.w3.org/ns/spec#RECOMMENDED> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#successCriteria> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#ProcessorBehaviour> <http://www.w3.org/2004/02/skos/core#prefLabel> "Processor behaviour"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#AccessibilityConsideration> <http://www.w3.org/2000/01/rdf-schema#label> "Accessibility Consideration"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#latestVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#SecurityConsideration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#MAY> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#Player> <http://www.w3.org/2004/02/skos/core#prefLabel> "Player"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#MAY> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://www.w3.org/ns/spec#RequirementLevel> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#testCase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#might> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#Processor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#violatesAdvice> <http://www.w3.org/2000/01/rdf-schema#label> "violates advice"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#NOTRECOMMENDED> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://www.w3.org/ns/spec#SHOULDNOT> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#ClassesOfProducts> <http://www.w3.org/2004/02/skos/core#prefLabel> "Classes of Products"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#ClassesOfProducts> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://www.w3.org/ns/spec#Player> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#SpecificationCategory> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://www.w3.org/ns/spec#ContentData> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#SpecificationCategory> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://www.w3.org/ns/spec#API> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#complianceWithOtherSpecifications> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#SecurityConsideration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/spec#Consideration> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#deprecation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#NotationSyntax> <http://www.w3.org/2004/02/skos/core#definition> "Describes a language that will be expressed as an actual character stream in XML or Web content and whose semantics will be understood by other W3C-specified technologies. Example: XPath is a non-XML-based notation for expressions that is used as the W3C-standard expression language for XSLT, XPointer, and XForms. The specifications of those other technologies do not treat XPath as a black box, but rather impose limits, add extensions, and/or recognize the range of potential values of an XPath expression. By doing so, the other technologies require a certain level of precision in the XPath specification, including precision about its variability, to use the hooks and impose their limits."@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#Content> <http://www.w3.org/2004/02/skos/core#prefLabel> "Content"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#extensibility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#functionalLevel> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/spec#defines> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#violatesAdvice> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#repository> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#profile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#ProducerOfContent> <http://www.w3.org/2004/02/skos/core#prefLabel> "Producer of content"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#basedOnConsensus> <http://www.w3.org/2000/01/rdf-schema#label> "based on consensus"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#SHALLNOT> <http://www.w3.org/2004/02/skos/core#prefLabel> "SHALL NOT"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#PrivacyConsideration> <http://www.w3.org/2000/01/rdf-schema#label> "Privacy Consideration"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#RequirementLevel> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://www.w3.org/ns/spec#SHOULD> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#requirementLevel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#> <http://www.w3.org/2002/07/owl#versionInfo> _:riog00000001 <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#ClassesOfProducts> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://www.w3.org/ns/spec#Profile> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#Extensibility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#MUSTNOT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#Content> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#Server> <http://www.w3.org/2004/02/skos/core#prefLabel> "Server"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#Profile> <http://www.w3.org/2004/02/skos/core#prefLabel> "Profile"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#ClassesOfProducts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#violatesAdvice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#testScript> <http://www.w3.org/2000/01/rdf-schema#label> "test script"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#AdvisementLevel> <http://www.w3.org/2004/02/skos/core#prefLabel> "Advisement Level"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#consideration> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/spec#Consideration> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#requirementLevel> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/spec#Requirement> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#acknowledgements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#ProducerOfInstructions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#SpecificationCategory> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://www.w3.org/ns/spec#SetOfGuidelines> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#RespondingAgent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#ClassesOfProducts> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://www.w3.org/ns/spec#SpecificationGuidelines> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#Requirement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#InternationalizationConsideration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#SpecificationGuidelines> <http://www.w3.org/2004/02/skos/core#prefLabel> "Specification guidelines"@en <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#SpecificationCategory> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://www.w3.org/TR/spec-variability/#spec-cat> <http://www.w3.org/ns/spec#>.
+<http://www.w3.org/ns/spec#SetOfEvents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/ns/spec#>.
