@@ -17,19 +17,19 @@
 use crate::namespace;
 
 namespace!(
-    "http://www.w3.org/2008/05/skos-xl#",;
-    /// ``: 
-    NAMESPACE_BASE, "",
-    /// `Label`: 
-    Label, "Label",
-    /// `alternative label`: If C skosxl:altLabel L and L skosxl:literalForm V, then X skos:altLabel V.
-    altLabel, "altLabel",
-    /// `hidden label`: If C skosxl:hiddenLabel L and L skosxl:literalForm V, then C skos:hiddenLabel V.
-    hiddenLabel, "hiddenLabel",
-    /// `label relation`: 
-    labelRelation, "labelRelation",
-    /// `literal form`: If two instances of the class skosxl:Label have the same literal form, they are not necessarily the same resource.
-    literalForm, "literalForm",
-    /// `preferred label`: If C skosxl:prefLabel L and L skosxl:literalForm V, then X skos:prefLabel V.
-    prefLabel, "prefLabel"
+    base: "http://www.w3.org/2008/05/skos-xl#",
+
+    terms: [
+        /// `Label`:
+        (Label, "Label"),
+        /// `alternative label`: If C skosxl:altLabel L and L skosxl:literalForm V, then X skos:altLabel V.
+        (altLabel, "altLabel"),
+        /// `hidden label`: If C skosxl:hiddenLabel L and L skosxl:literalForm V, then C skos:hiddenLabel V.
+        (hiddenLabel, "hiddenLabel"),
+        /// `label relation`:
+        (labelRelation, "labelRelation"),
+        /// `literal form`: If two instances of the class skosxl:Label have the same literal form, they are not necessarily the same resource.
+        (literalForm, "literalForm"),
+        /// `preferred label`: If C skosxl:prefLabel L and L skosxl:literalForm V, then X skos:prefLabel V.
+        (prefLabel, "prefLabel")    ]
 );

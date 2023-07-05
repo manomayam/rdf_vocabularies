@@ -17,1193 +17,1193 @@
 use crate::namespace;
 
 namespace!(
-    "https://www.ica.org/standards/RiC/ontology#",;
-    /// ``: 
-    NAMESPACE_BASE, "",
-    /// `Accumulation Relation`: Connects at least one Record Resource or Instantiation to at             least one Agent, when the Agent accumulates it, be it intentionally (collecting it) or             not (receiving it in the course of its activities).
-    AccumulationRelation, "AccumulationRelation",
-    /// `Activity`: The doing of something for some human purpose.
-    Activity, "Activity",
-    /// `Activity Documentation Relation`: Connects at least one Record Resource or Instantiation to at             least one Activity, when the Record Resource or Instantiation results from the             activity.
-    ActivityDocumentationRelation, "ActivityDocumentationRelation",
-    /// `Activity Type`: Categorization of an Activity.
-    ActivityType, "ActivityType",
-    /// `Agent`: A Person, or Group, or an entity created by a Person or Group             (Mechanism), or a Position, that acts in the world.
-    Agent, "Agent",
-    /// `Agent Control Relation`: Connects at least one Agent, to at least another Agent, when the             first one(s) control(s) in a way the activities of the second one(s).
-    AgentControlRelation, "AgentControlRelation",
-    /// `Agent Hierarchical Relation`: Connects at least one Agent to at least another Agent, when the             first one is hierarchically superior to the second one.
-    AgentHierarchicalRelation, "AgentHierarchicalRelation",
-    /// `Agent Name`: A label, title or term designating an Agent in order to make it             distinguishable from other similar entities.
-    AgentName, "AgentName",
-    /// `Agent Origination Relation`: Connects at least one Record Resource or an Instantiation to at             least one Agent that creates or accumulates the Record Resource, receives it, or sends             it.
-    AgentOriginationRelation, "AgentOriginationRelation",
-    /// `Agent Temporal Relation`: Connects at least one Agent, to at least another Agent, that             succeeds it chronologically for, for instance, fullfilling some functions or performing             some activities.
-    AgentTemporalRelation, "AgentTemporalRelation",
-    /// `Agent Relation`: Connects at least two Agents.
-    AgentToAgentRelation, "AgentToAgentRelation",
-    /// `Appellation`: A concept of any kind that is used for designating an Entity and             referring to it.
-    Appellation, "Appellation",
-    /// `Appellation Relation`: The relation between an Appellation and at least one Thing that             the Appellation designates.
-    AppellationRelation, "AppellationRelation",
-    /// `Authority Relation`: Connects at least one Agent, and at least one Thing over which             the Agent has some authority.
-    AuthorityRelation, "AuthorityRelation",
-    /// `Authorship Relation`: Connects at least one Record to at least one Person, Group or             Position that is responsible for conceiving and formulating the information contained in             the Record.
-    AuthorshipRelation, "AuthorshipRelation",
-    /// `Carrier Extent`: The extent of a Record Resource carrier
-    CarrierExtent, "CarrierExtent",
-    /// `Carrier Type`: Categorization of physical material in or on which information             is represented.
-    CarrierType, "CarrierType",
-    /// `Child Relation`: Connects at lest one Person, to at least another Person, when             the first has child the second one.
-    ChildRelation, "ChildRelation",
-    /// `Concept`: An idea, unit of thought, abstract cultural object or             category
-    Concept, "Concept",
-    /// `Content Type`: The fundamental form of communication in which a Record is             expressed and the human sense through which it is intended to be             perceived.
-    ContentType, "ContentType",
-    /// `Coordinates`: Longitudinal and latitudinal information of a             Place.
-    Coordinates, "Coordinates",
-    /// `Corporate Body`: An organized group of persons that act together as an Agent, and             that has a recognized legal or social status.
-    CorporateBody, "CorporateBody",
-    /// `Corporate Body Type`: Categorization of a Corporate Body.
-    CorporateBodyType, "CorporateBodyType",
-    /// `Correspondence Relation`: Connects at least two Persons, when they correspond to each             other.
-    CorrespondenceRelation, "CorrespondenceRelation",
-    /// `Creation Relation`: Connects at least one Record Resource or Instantiation to at             least one Agent, when the Agent is either responsible for all or some of the content of             the Record Resource, or is a contributor to the genesis or production of the             Instantiation.
-    CreationRelation, "CreationRelation",
-    /// `Date`: Chronological information associated with an entity that             contributes to its identification and contextualization.
-    Date, "Date",
-    /// `Date Range`: Chronological information associated with an entity that             contributes to its identification and contextualization, that implies or explicitly             states a start date and end date.
-    DateRange, "DateRange",
-    /// `Date Set`: Non-contiguous single dates or date ranges.
-    DateSet, "DateSet",
-    /// `Demographic Group`: Categorization of a person according to characteristics such as             age, gender, education, place of origin, ethnic/cultural identification, religion,             etc.
-    DemographicGroup, "DemographicGroup",
-    /// `Derivation Relation`: Connects an Instantiation to at least one Instantiation that is             derived from it.
-    DerivationRelation, "DerivationRelation",
-    /// `Descendance Relation`: Connects at least one Person to at least another Person, when             the first has/have descendant the second one(s).
-    DescendanceRelation, "DescendanceRelation",
-    /// `Documentary Form Type`: Categorization of the document with respect to its extrinsic and             intrinsic elements that together communicate its content, administrative and documentary             context, and authority
-    DocumentaryFormType, "DocumentaryFormType",
-    /// `Event`: Something that happens in time and space.
-    Event, "Event",
-    /// `Event Relation`: Connects at least one Event to at least one Thing, when the             first is associated with the existence and lifecycle of the second one.
-    EventRelation, "EventRelation",
-    /// `Event Type`: Categorization of an Event.
-    EventType, "EventType",
-    /// `Extent`: Countable characteristics of the content of an entity expressed             as a quantity.
-    Extent, "Extent",
-    /// `Extent Type`: Categorization of the extent that is being measured
-    ExtentType, "ExtentType",
-    /// `Family`: Two or more persons related by birth, or through marriage,             adoption, civil union, or other social conventions that bind them together as a socially             recognized familial group.
-    Family, "Family",
-    /// `Family Relation`: Connects at least two Persons, when they have some family link,             i.e. belong to the same family.
-    FamilyRelation, "FamilyRelation",
-    /// `Family Type`: Categorization of a Family.
-    FamilyType, "FamilyType",
-    /// `Functional Equivalence Relation`: Connects at least two Instantiations which may be considered as             equivalent.
-    FunctionalEquivalenceRelation, "FunctionalEquivalenceRelation",
-    /// `Group`: Two or more Agents that act together as an Agent.
-    Group, "Group",
-    /// `Group Subdivision Relation`: Connects a Group and at least another Group, when the first one             as the second one(s) among its subdivisions.
-    GroupSubdivisionRelation, "GroupSubdivisionRelation",
-    /// `Identifier`: A word, number, letter, symbol, or any combination of these used             to uniquely identify or reference an individual instance of an entity within a specific             information domain.
-    Identifier, "Identifier",
-    /// `Identifier Type`: Categorization of an Identifier.
-    IdentifierType, "IdentifierType",
-    /// `Instantiation`: The inscription of information made by an Agent on a physical             carrier in any persistent, recoverable form as a means of communicating information             through time and space.
-    Instantiation, "Instantiation",
-    /// `Instantiation Extent`: The extent of an Instantiation.
-    InstantiationExtent, "InstantiationExtent",
-    /// `Instantiation to Instantiation Relation`: Connects at least two instantiations
-    InstantiationToInstantiationRelation, "InstantiationToInstantiationRelation",
-    /// `Intellectual Property Rights Relation`: Connects at least one Agent and one Record Resource or             Instantiation on which the Agent has some intellectual property rights.
-    IntellectualPropertyRightsRelation, "IntellectualPropertyRightsRelation",
-    /// `Knowing Of Relation`: Connects at least one Person to at least another one, when the             first one has some knowledge of the second one through time or space.
-    KnowingOfRelation, "KnowingOfRelation",
-    /// `Knowing Relation`: Connects at least two Persons that directly know each other             during their existence. This relation is symmetric.
-    KnowingRelation, "KnowingRelation",
-    /// `Language`: A spoken or written human language represented in the Record or             Record Part, or used by the Agent.
-    Language, "Language",
-    /// `Leadership Relation`: Connects at least one Person and at least one Group, when the             first one leads the second one.
-    LeadershipRelation, "LeadershipRelation",
-    /// `Legal Status`: A status defined by law.
-    LegalStatus, "LegalStatus",
-    /// `Management Relation`: Connects at least one Agent, and at least one Record Resource or             Instantiation that the Agent manages.
-    ManagementRelation, "ManagementRelation",
-    /// `Mandate`: Delegation of authority by an Agent to another Agent to perform             an Activity.
-    Mandate, "Mandate",
-    /// `Mandate Relation`: Connects at least one Mandate, and at least one Agent, when the             first gives the second one the authority or competencies to act. May also involve one to             many Activities that the Mandate(s) assign(s) to the Agent(s).
-    MandateRelation, "MandateRelation",
-    /// `Mechanism`: A process or system created by a Person or Group that performs             an Activity.
-    Mechanism, "Mechanism",
-    /// `Membership Relation`: Connects a Group and at least one Person, when the first one has             the second one(s) among its members.
-    MembershipRelation, "MembershipRelation",
-    /// `Migration Relation`: Connects an Instantiation and at least another Instantiation,             when the first is migrated into the second one(s).
-    MigrationRelation, "MigrationRelation",
-    /// `Name`: A label, title or term designating the entity in order to make             it distinguishable from other similar entities.
-    Name, "Name",
-    /// `Occupation Type`: Categorization of a profession, trade, or craft pursued by a             person in fulfilment of an Activity.
-    OccupationType, "OccupationType",
-    /// `Ownership Relation`: Connects at least one Group, Person or Position, and at least a             Thing that these Agent(s) own(s).
-    OwnershipRelation, "OwnershipRelation",
-    /// `Performance Relation`: Connects at least one Activity to at least one Agent, when the             first is performed by the second one(s).
-    PerformanceRelation, "PerformanceRelation",
-    /// `Person`: A human being with a social identity or persona.
-    Person, "Person",
-    /// `Physical Location`: A delimitation of the physical territory of a             Place.
-    PhysicalLocation, "PhysicalLocation",
-    /// `Place`: Bounded, named geographic area or region.
-    Place, "Place",
-    /// `Place Name`: A label, title or term designating a Place in order to make it             distinguishable from other similar entities.
-    PlaceName, "PlaceName",
-    /// `Place Relation`: Connects a Place and at least one Thing, when the first is             associated with the existence and lifecycle of the second one.
-    PlaceRelation, "PlaceRelation",
-    /// `Place Type`: Categorization of a Place.
-    PlaceType, "PlaceType",
-    /// `Position`: The functional role of a Person within a Group.
-    Position, "Position",
-    /// `Position Holding Relation`: Connects at least one Person, and at least one Position that the             Person occupies.
-    PositionHoldingRelation, "PositionHoldingRelation",
-    /// `Position to Group Relation`: Connects at least one Position, and a Group, when the first             one(s) exist(s) in/is defined within the second one.
-    PositionToGroupRelation, "PositionToGroupRelation",
-    /// `Production Technique Type`: Categorization of the method used in the representation of             information on the Instantiation.
-    ProductionTechniqueType, "ProductionTechniqueType",
-    /// `Provenance Relation`: Specifies the provenance or origin of at least one Record             Resource or Instantiation, for example the relation between a Record Resource and the             Agent which created it or the Activity from which it resulted.
-    ProvenanceRelation, "ProvenanceRelation",
-    /// `Proxy`: A Proxy represents (stands for) a Record Resource as it exists             in a specific Record Set.
-    Proxy, "Proxy",
-    /// `Record`: Information inscribed at least once by any method on any             physical carrier in any persistent, recoverable form by an Agent in the course of life             or work Activity.
-    Record, "Record",
-    /// `Record Part`: Part of a Record with discrete information content that             contributes to the Record's physical or intellectual completeness.
-    RecordPart, "RecordPart",
-    /// `Record Resource`: A Record, Record Set, or Record Part produced or acquired and             retained by an Agent in the course of Activity.
-    RecordResource, "RecordResource",
-    /// `Record Resource Extent`: The extent of the content of a Record Resource.
-    RecordResourceExtent, "RecordResourceExtent",
-    /// `Record Resource Genetic Relation`: Connects two to more Record Resources when there is a genetic             relation between them. Genetic in this sense is as defined by diplomatics, i.e. the             process by which a Record Resource is developed.
-    RecordResourceGeneticRelation, "RecordResourceGeneticRelation",
-    /// `Record Resource Holding Relation`: Connects at least one Agent, and one or more Record Resource or             Instantiation that the Agent holds.
-    RecordResourceHoldingRelation, "RecordResourceHoldingRelation",
-    /// `Record Resource to Instantiation Relation`: Connects a Record Resource to one or more Instantiations that             instantiate it.
-    RecordResourceToInstantiationRelation, "RecordResourceToInstantiationRelation",
-    /// `Record Resource to Record Resource Relation`: Connects at least two Record Resources.
-    RecordResourceToRecordResourceRelation, "RecordResourceToRecordResourceRelation",
-    /// `Record Set`: One or more records that are associated by categorization and/or             physical aggregation by the creator or other Agent.
-    RecordSet, "RecordSet",
-    /// `Record Set Type`: A broad categorization of the type of Record Set.
-    RecordSetType, "RecordSetType",
-    /// `Record State`: Categorization of the production or reproduction status of a             Record or Record Part.
-    RecordState, "RecordState",
-    /// `Relation`: The top level relation class. It connects at least two Things.             An instance of a Relation may have some datatype and object properties : a descriptive             note (datatype property) like any Thing ; certainty (for 'certain', 'quite probable',             'uncertain','unknown'); a date (use either the date datatype property or the Date class             and isAssociatedWithDate object property ; a state (relationState) ; a location (use             Place class and isAssociatedWithPlace object property) ; a source of information that             can be used as an evidence for it (use either source datatype property or hasSource             object property).
-    Relation, "Relation",
-    /// `Representation Type`: Categorization of the method of recording the content type of a             Record Resource.
-    RepresentationType, "RepresentationType",
-    /// `RiC-CM corresponding component`: When it exists, specifies the identifier and name of RiC-CM             component that corresponds to the annotated class or property.
-    RiCCMCorrespondingComponent, "RiCCMCorrespondingComponent",
-    /// `Role Type`: The role an agent plays in some context (usually in some             creation relation). Not to be confused with a position (position of an agent in some             group). For example, a person who is the head of some corporate body may play the role             of annotator (of a record) in a creation relation.
-    RoleType, "RoleType",
-    /// `Rule`: Conditions that govern the existence or authority of an Agent or the performance of an Activity, or that contribute to the distinct characteristics of things created or managed by an Agent.
-    Rule, "Rule",
-    /// `Rule Relation`: Connects at least one Rule to at least one Thing, when it is             associated with existence and lifecycle of the Thing.
-    RuleRelation, "RuleRelation",
-    /// `Rule Type`: Categorization of a Rule.
-    RuleType, "RuleType",
-    /// `Sequential Relation`: Connects at least one Thing to at least one Thing that follows             it in some sequence.
-    SequentialRelation, "SequentialRelation",
-    /// `Sibling Relation`: Connects at least two Persons, when they are             siblings.
-    SiblingRelation, "SiblingRelation",
-    /// `Single Date`: Chronological information associated with an entity that             contributes to its identification and contextualization, related to a single point in             time.
-    SingleDate, "SingleDate",
-    /// `Spouse Relation`: Connects at least two Persons, when they are             spouses.
-    SpouseRelation, "SpouseRelation",
-    /// `Teaching Relation`: Connects at least one Person to at least another Person, who is             their student.
-    TeachingRelation, "TeachingRelation",
-    /// `Temporal Relation`: Connects at least one Thing to at least one Thing that follows             it in chronological order.
-    TemporalRelation, "TemporalRelation",
-    /// `Thing`: Any idea, material thing, or event within the realm of human             experience.
-    Thing, "Thing",
-    /// `Title`: A name that is used for a Record Resource or a             Rule
-    Title, "Title",
-    /// `Type`: A superclass for any category of some thing. A type             characterizes an entity.
-    Type, "Type",
-    /// `Type Relation`: Connects a category (a Type) and at least one Thing that belongs             to this category.
-    TypeRelation, "TypeRelation",
-    /// `Unit Of Measurement`: A definite magnitude of a quantity, defined and adopted by convention or by             law, that is used as a standard for measurement of the same kind of quantity. Can be             spacial units (cm, m), weigt (g, kg), time (s, h), storage (MB, TB) or more informal             units used in the archival context like number of boxes, pages or words.
-    UnitOfMeasurement, "UnitOfMeasurement",
-    /// `Whole Part Relation`: Connects a Thing to at least one constitutive or component part             of that Thing.
-    WholePartRelation, "WholePartRelation",
-    /// `Work Relation`: Connects at least two Agents that have some type of work             relation in the course of their activities.
-    WorkRelation, "WorkRelation",
-    /// `accrual`: Information on the anticipated accession(s) to the Record             Set.
-    accrual, "accrual",
-    /// `accrual status`: Information on the status of an Accrual
-    accrualStatus, "accrualStatus",
-    /// `accumulation relation has source `: Connects an Accumulation Relation to one of the accumulated             Record Resources or Instantiations
-    accumulationRelationHasSource, "accumulationRelationHasSource",
-    /// `accumulation relation has target `: Connects an Accumulation Relation to one of the accumulating             Agents
-    accumulationRelationHasTarget, "accumulationRelationHasTarget",
-    /// `activity documentation relation has source `: Connects an Activity Documentation Relation to one of the             resulting Record Resources or Instantiations
-    activityDocumentationRelationHasSource, "activityDocumentationRelationHasSource",
-    /// `activity documentation relation has target `: Connects an Activity Documentation Relation to one of the             documented Activities
-    activityDocumentationRelationHasTarget, "activityDocumentationRelationHasTarget",
-    /// `activity is context of relation `: Connects an Activity to an Agent Temporal Relation (when the             Activity is transferred from an Agent to another one) or a Mandate Relation (the Mandate             assigns the Activity to the Agent or defines it).
-    activityIsContextOfRelation, "activityIsContextOfRelation",
-    /// `activity is source of performance relation `: Connects an Activity that is performed to a Performance             Relation
-    activityIsSourceOfPerformanceRelation, "activityIsSourceOfPerformanceRelation",
-    /// `activity is target of activity documentation relation         `: Connects an Activity to an Activity Documentation             Relation
-    activityIsTargetOfActivityDocumentationRelation, "activityIsTargetOfActivityDocumentationRelation",
-    /// `affects or affected`: Connects an Event to a Thing on which the Event has or had some             significant impact.
-    affectsOrAffected, "affectsOrAffected",
-    /// `agent control relation has source `: Connects an Agent Control Relation to one of the controlling             Agents
-    agentControlRelationHasSource, "agentControlRelationHasSource",
-    /// `agent control relation has target `: Connects an Agent Control Relation to one of the controlled             Agents
-    agentControlRelationHasTarget, "agentControlRelationHasTarget",
-    /// `agent has work relation `: Connects an Agent to a Work Relation
-    agentHasWorkRelation, "agentHasWorkRelation",
-    /// `agent hierarchical relation has source `: Connects an Agent Hierarchical Relation to one of the             hierarchically superior Agents
-    agentHierarchicalRelationHasSource, "agentHierarchicalRelationHasSource",
-    /// `agent hierarchical relation has target `: Connects an Agent Hierarchical Relation to one of the             hierarchically inferior Agents
-    agentHierarchicalRelationHasTarget, "agentHierarchicalRelationHasTarget",
-    /// `agent is connected to agent relation `: Connects an Agent to an Agent Relation
-    agentIsConnectedToAgentRelation, "agentIsConnectedToAgentRelation",
-    /// `agent is source of agent control relation `: Connects a controlling Agent to an Agent Control             Relation
-    agentIsSourceOfAgentControlRelation, "agentIsSourceOfAgentControlRelation",
-    /// `agent is source of agent hierarchical relation `: Connects a hierarchically superior Agent to an Agent             Hierarchical Relation
-    agentIsSourceOfAgentHierarchicalRelation, "agentIsSourceOfAgentHierarchicalRelation",
-    /// `agent is source of agent temporal relation `: Connects a predecessor Agent to an Agent Temporal             Relation
-    agentIsSourceOfAgentTemporalRelation, "agentIsSourceOfAgentTemporalRelation",
-    /// `agent is source of authority relation `: Connects an Agent thas has the authority, to an Authority             Relation
-    agentIsSourceOfAuthorityRelation, "agentIsSourceOfAuthorityRelation",
-    /// `agent is source of intellectual property rights relation         `: Connects an Agent having the intellectual property rights, to an             Intellectual Property Rights Relation
-    agentIsSourceOfIntellectualPropertyRightsRelation, "agentIsSourceOfIntellectualPropertyRightsRelation",
-    /// `agent is source of management relation `: Connects a manager Agent to a Management Relation
-    agentIsSourceOfManagementRelation, "agentIsSourceOfManagementRelation",
-    /// `agent is source of ownership relation `: Connects an owner Agent to an Ownership Relation
-    agentIsSourceOfOwnershipRelation, "agentIsSourceOfOwnershipRelation",
-    /// `agent is source of record resource holding relation `: Connects an Agent that holds a Record Resource or Instantiation,             to a Record Resource Holding Relation
-    agentIsSourceOfRecordResourceHoldingRelation, "agentIsSourceOfRecordResourceHoldingRelation",
-    /// `agent is target of accumulation relation `: Connects one of the accumulating Agents to an Accumulation             Relation
-    agentIsTargetOfAccumulationRelation, "agentIsTargetOfAccumulationRelation",
-    /// `agent is target of agent control relation `: Connects one of the controlled Agents to an Agent Control             Relation
-    agentIsTargetOfAgentControlRelation, "agentIsTargetOfAgentControlRelation",
-    /// `agent is target of agent hierarchical relation `: Connects one of the hierarchically inferior Agents to an Agent             Hierarchical Relation
-    agentIsTargetOfAgentHierarchicalRelation, "agentIsTargetOfAgentHierarchicalRelation",
-    /// `agent is target of agent origination relation `: Connects one of the Agents that created or accumulated the             Record resource or Instantiation, to an Agent Origination Relation
-    agentIsTargetOfAgentOriginationRelation, "agentIsTargetOfAgentOriginationRelation",
-    /// `agent is target of agent temporal relation `: Connects a successor Agent to an Agent Temporal             Relation
-    agentIsTargetOfAgentTemporalRelation, "agentIsTargetOfAgentTemporalRelation",
-    /// `agent is target of authorship relation`: Connects a Person, Group or Position to an Authorship             Relation.
-    agentIsTargetOfAuthorshipRelation, "agentIsTargetOfAuthorshipRelation",
-    /// `agent is target of creation relation `: Connects a creator Agent to a Creation Relation
-    agentIsTargetOfCreationRelation, "agentIsTargetOfCreationRelation",
-    /// `agent is target of mandate relation `: Connects a mandated Agent to a Mandate Relation
-    agentIsTargetOfMandateRelation, "agentIsTargetOfMandateRelation",
-    /// `agent is target of performance relation `: Connects an Agent to a Performance Relation
-    agentIsTargetOfPerformanceRelation, "agentIsTargetOfPerformanceRelation",
-    /// `agent or activity is target of provenance relation `: Connects an Agent or Activity that is the provenance of a Record             resource or Instantiation, to a Provenance Relation
-    agentOrActivityIsTargetOfProvenanceRelation, "agentOrActivityIsTargetOfProvenanceRelation",
-    /// `agent origination relation has source `: Connects an Agent Origination Relation to one of the resulting             Record Resource or Instantiation
-    agentOriginationRelationHasSource, "agentOriginationRelationHasSource",
-    /// `agent origination relation has target `: Connects an Agent Origination Relation to one of the creating or             accumulating Agents
-    agentOriginationRelationHasTarget, "agentOriginationRelationHasTarget",
-    /// `agent relation connects `: Connects an Agent Relation to one of the involved             Agents
-    agentRelationConnects, "agentRelationConnects",
-    /// `agent temporal relation has source `: Connects an Agent Temporal Relation to one of the predecessor             Agents
-    agentTemporalRelationHasSource, "agentTemporalRelationHasSource",
-    /// `agent temporal relation has target `: Connects an Agent Temporal Relation to one of the successor             Agents
-    agentTemporalRelationHasTarget, "agentTemporalRelationHasTarget",
-    /// `altimetric system`: Reference system used for altitude
-    altimetricSystem, "altimetricSystem",
-    /// `altitude`: The height of a Place above a reference level, especially above             sea level.
-    altitude, "altitude",
-    /// `appellation is source of appellation relation `: Connects an Appellation to an Appellation             Relation
-    appellationIsSourceOfAppellationRelation, "appellationIsSourceOfAppellationRelation",
-    /// `appellation relation has source `: Connects an Appellation Relation to the concerned             Appellation
-    appellationRelationHasSource, "appellationRelationHasSource",
-    /// `appellation relation has target `: Connects an Appellation Relation to one of the designated             Things
-    appellationRelationHasTarget, "appellationRelationHasTarget",
-    /// `as concerns activity `: Connects an Agent Temporal Relation or Mandate Relation, to an             Activity that is, either transferred from an Agent to another one, or assigned by a             Mandate to an Agent.
-    asConcernsActivity, "asConcernsActivity",
-    /// `authenticity note`: Description of evidences that the Record Resource or             Instantiation is what it purports to be, was created or sent by the said Agent, at the             said time and has not been tampered or corrupted.
-    authenticityNote, "authenticityNote",
-    /// `authority relation has source `: Connects an Authority Relation to an Agent that has the             authority
-    authorityRelationHasSource, "authorityRelationHasSource",
-    /// `authority relation has target `: Connects an Authority Relation to a Thing over which the             Authority is performed
-    authorityRelationHasTarget, "authorityRelationHasTarget",
-    /// `authorized by `: Inverse of 'authorizes' object property
-    authorizedBy, "authorizedBy",
-    /// `authorizes`: Connects a Mandate to the Agent that the Mandate gives the             authority or competencies to act.
-    authorizes, "authorizes",
-    /// `authorizing agent `: Connects a Mandate Relation to an Agent that assigns the             Mandate.
-    authorizingAgent, "authorizingAgent",
-    /// `authorizing mandate`: Information on a Mandate that authorizes an Agent to perform an             Activity.
-    authorizingMandate, "authorizingMandate",
-    /// `authorship relation has source`: Connects an Authorship Relation to one of the Records involved             in the relation.
-    authorshipRelationHasSource, "authorshipRelationHasSource",
-    /// `authorship relation has target`: Connects an Authorship Relation to one of the author Person,             Group or Position.
-    authorshipRelationHasTarget, "authorshipRelationHasTarget",
-    /// `beginning date`: Date at which something began.
-    beginningDate, "beginningDate",
-    /// `birth date`: Date at which a Person was born.
-    birthDate, "birthDate",
-    /// `calendar`: Used system of reckoning time in which the beginning, length,             and divisions of a year are defined, sometimes along with multiyear             cycles.
-    calendar, "calendar",
-    /// `carrier extent`: Number of physical units and/or physical dimensions of the             carrier of a record resource instantiation. Various carriers, depending on specific             needs, may have more than one relevant dimension. In some cases, indicating the number             of physical units may be sufficient, while in other case, relevant dimensions should be             used in order to characterize the carrier.
-    carrierExtent, "carrierExtent",
-    /// `certainty`: Qualifies the level of certitude of the accuracy of a Date, an             Event or a Relation.
-    certainty, "certainty",
-    /// `child relation has source `: Connects a Child Relation to a parent Person
-    childRelationHasSource, "childRelationHasSource",
-    /// `child relation has target `: Connects a Child Relation to a child Person
-    childRelationHasTarget, "childRelationHasTarget",
-    /// `classification`: A term, number or alphanumeric string that is usually taken from             an external classification vocabulary or scheme that qualifies the Record             Resource.
-    classification, "classification",
-    /// `close to`: An annotation property for recording a possible mapping to a             component in another model or ontology
-    closeTo, "closeTo",
-    /// `conditions of access`: Terms and circumstances affecting the availability of a Record             Resource for consultation. Such conditions may originate in laws, regulations and             policies, including those pertaining to privacy and security concerns or restrictions;             they may concern a specific Instantiation of a Record Resource, for example, conditions             that require preservation treatment; or they may specify the software or hardware             necessary to access the Instantiation.
-    conditionsOfAccess, "conditionsOfAccess",
-    /// `conditions of use`: Terms and circumstances affecting the use of a Record Resource             after access has been provided. Includes conditions governing reproduction of the Record             Resource under applicable copyright (intellectual property) and/or property legislation,             and of the Instantiation, due to conservation status.
-    conditionsOfUse, "conditionsOfUse",
-    /// `contains or contained`: Connects a Place to a region that is or was within             it.
-    containsOrContained, "containsOrContained",
-    /// `correspondence relation connects `: Connects a Correspondence Relation to one of the Persons             involved
-    correspondenceRelationConnects, "correspondenceRelationConnects",
-    /// `creation date`: Date at which an entity was created.
-    creationDate, "creationDate",
-    /// `creation relation has source `: Connects a Creation Relation to one of the created Record             Resources or Instantiations
-    creationRelationHasSource, "creationRelationHasSource",
-    /// `creation relation has target `: Connects a Creation Relation to one of the creator             Agents
-    creationRelationHasTarget, "creationRelationHasTarget",
-    /// `creation with role `: Connects a Creation Relation to the Role Type that the creator             Agent(s) has in the creation process
-    creationWithRole, "creationWithRole",
-    /// `date`: Chronological information associated with an entity that             contributes to its identification and contextualization.
-    date, "date",
-    /// `date qualifier`: Indicates the precision of a date. It specifies if, and to what             extent, the value is an estimation.
-    dateQualifier, "dateQualifier",
-    /// `date standard`: Identifier of the standard of the Normalized             date.
-    dateStandard, "dateStandard",
-    /// `death date`: Date at which a Person died.
-    deathDate, "deathDate",
-    /// `deletion date`: Date at which an entity was deleted.
-    deletionDate, "deletionDate",
-    /// `derivation relation has source `: Connects a Derivation Relation to the Instantiation from which             one or more Instantiations is derived.
-    derivationRelationHasSource, "derivationRelationHasSource",
-    /// `derivation relation has target `: Connects a Derivation Relation to one of the derived             Instantiations
-    derivationRelationHasTarget, "derivationRelationHasTarget",
-    /// `descendance relation has source `: Connects a Descendance Relation to one of the ancestor             Persons
-    descendanceRelationHasSource, "descendanceRelationHasSource",
-    /// `descendance relation has target `: Connects a Descendance Relation to one of the descendant             Persons
-    descendanceRelationHasTarget, "descendanceRelationHasTarget",
-    /// `describes or described`: Connects a Record Resource to a Thing that it             describes.
-    describesOrDescribed, "describesOrDescribed",
-    /// `descriptive note`: Descriptive information about an entity that is not otherwise             addressed.
-    descriptiveNote, "descriptiveNote",
-    /// `documented by`: Inverse of 'documents' object property.
-    documentedBy, "documentedBy",
-    /// `documents`: Connects a Record Resource or an Instantiation to the Activity             that generates the Record Resource or Instantiation.
-    documents, "documents",
-    /// `end date`: Date at which something ended.
-    endDate, "endDate",
-    /// `event is source of event relation `: Connects an Event to an Event Relation
-    eventIsSourceOfEventRelation, "eventIsSourceOfEventRelation",
-    /// `event relation has source `: Connects an Event Relation to an Event
-    eventRelationHasSource, "eventRelationHasSource",
-    /// `event relation has target `: Connects an Event Relation to an associated Thing
-    eventRelationHasTarget, "eventRelationHasTarget",
-    /// `exists or existed in`: Connects a Position to a Group in which that Position exists or             existed, or that is defined by that Group�s organizational structure.
-    existsOrExistedIn, "existsOrExistedIn",
-    /// `expressed date`: Natural language expression of a Date.
-    expressedDate, "expressedDate",
-    /// `expresses or expressed`: Inverse of 'is or was expressed by' object             property.
-    expressesOrExpressed, "expressesOrExpressed",
-    /// `family relation connects `: Connects a Family Relation to a Person.
-    familyRelationConnects, "familyRelationConnects",
-    /// `follows in time`: Inverse of 'precedes in time' object property.
-    followsInTime, "followsInTime",
-    /// `follows or followed`: Inverse of 'precedesOrPreceded' object property.
-    followsOrFollowed, "followsOrFollowed",
-    /// `functional equivalence relation connects `: Connects a Functional Equivalence Relation to one of the             functionally equivalent Instantiations.
-    functionalEquivalenceRelationConnects, "functionalEquivalenceRelationConnects",
-    /// `geodesic system`: Reference system used for geographical             coordinates.
-    geodesicSystem, "geodesicSystem",
-    /// `geographical coordinates`: Longitudinal and latitudinal information of a             Place.
-    geographicalCoordinates, "geographicalCoordinates",
-    /// `group is source of group subdivision relation `: Connects the Group that has at least a subdivision, to a Group             Subdivision Relation
-    groupIsSourceOfGroupSubdivisionRelation, "groupIsSourceOfGroupSubdivisionRelation",
-    /// `group is source of membership relation `: Connects the Group (that has one to many members) to a             Membership Relation
-    groupIsSourceOfMembershipRelation, "groupIsSourceOfMembershipRelation",
-    /// `group is target of group subdivision relation `: Connects a Group that is a subdivision, to a Group Subdivision             Relation
-    groupIsTargetOfGroupSubdivisionRelation, "groupIsTargetOfGroupSubdivisionRelation",
-    /// `group is target of leadership relation `: Connects a Group (which has a leader) to a Leadership             Relation
-    groupIsTargetOfLeadershipRelation, "groupIsTargetOfLeadershipRelation",
-    /// `group is target of position to group relation `: Connects the Group (in which a Position exists) to a Position To             Group Relation
-    groupIsTargetOfPositionToGroupRelation, "groupIsTargetOfPositionToGroupRelation",
-    /// `group subdivision relation has source `: Connects a Group Subdivision Relation to the Group that has             subdivisions
-    groupSubdivisionRelationHasSource, "groupSubdivisionRelationHasSource",
-    /// `group subdivision relation has target `: Connects a Group Subdivision Relation to one of the Groups that             is a subdivision
-    groupSubdivisionRelationHasTarget, "groupSubdivisionRelationHasTarget",
-    /// `has accumulator`: Connects a Record Resource or an Instantiation to the Agent that             accumulates it, be it intentionally (collecting) or not (receiving in the course of its             activities).
-    hasAccumulator, "hasAccumulator",
-    /// `has activity type`: Connects an Activity to an Activity Type that categorizes             it.
-    hasActivityType, "hasActivityType",
-    /// `has addressee`: Connects a Record Resource or an Instantiation to the Agent that             it is addressed to.
-    hasAddressee, "hasAddressee",
-    /// `has ancestor`: Inverse of 'has descendant' object property.
-    hasAncestor, "hasAncestor",
-    /// `has author`: Connects a Record to the Group, Person or Position that is             responsible for conceiving and formulating the information contained in the             Record.
-    hasAuthor, "hasAuthor",
-    /// `has beginning date `: Inverse of 'is beginning date of' object property
-    hasBeginningDate, "hasBeginningDate",
-    /// `has birth date `: Inverse of 'is birth date of' object property
-    hasBirthDate, "hasBirthDate",
-    /// `has carrier type`: Connects an Instantiation to a Carrier Type which categorizes             its carrier.
-    hasCarrierType, "hasCarrierType",
-    /// `has child`: Connects a Person to one of their children.
-    hasChild, "hasChild",
-    /// `has collector`: Connects a Record Resource or an Instantiation to the Agent that             collects it intentionally (is a collector).
-    hasCollector, "hasCollector",
-    /// `has content of type`: Connects a Record or a Record Part to a Content Type which             categorizes its content.
-    hasContentOfType, "hasContentOfType",
-    /// `has copy `: Connects a Record Resource to a copy of that Record             Resource.
-    hasCopy, "hasCopy",
-    /// `has creator`: Connects a Record Resource or an Instantiation to an Agent that             is either responsible for all or some of the content of the Record Resource or is a             contributor to the genesis or production of an Instantiation.
-    hasCreator, "hasCreator",
-    /// `has death date `: Inverse of 'is death date of' object property
-    hasDeathDate, "hasDeathDate",
-    /// `has derived instantiation `: Connects an Instantiation to an Instantiation that is derived             from it.
-    hasDerivedInstantiation, "hasDerivedInstantiation",
-    /// `has descendant`: Connects a Person to one of their descendants.
-    hasDescendant, "hasDescendant",
-    /// `has documentary form type`: Connects a Record or Record Part to its Documentary Form             Type.
-    hasDocumentaryFormType, "hasDocumentaryFormType",
-    /// `has draft `: Inverse of 'is draft of' object property.
-    hasDraft, "hasDraft",
-    /// `has end date `: Inverse of 'is end date of' object property.
-    hasEndDate, "hasEndDate",
-    /// `has event type`: Connects an Event to an Event Type which categorizes             it.
-    hasEventType, "hasEventType",
-    /// `has extent`: Connects a Record Resource or Instantiation to an Extent
-    hasExtent, "hasExtent",
-    /// `has extent type`: Connects an Extent to an Extent Type that categorizes what is being             measured.
-    hasExtentType, "hasExtentType",
-    /// `has family association with`: Connects two Persons that have some type of family link, i.e.             belong to the same family. This relation is symmetric.
-    hasFamilyAssociationWith, "hasFamilyAssociationWith",
-    /// `has family type`: Connects a Family to a Family Type that categorizes             it.
-    hasFamilyType, "hasFamilyType",
-    /// `has genetic link to record resource `: Connects two Record Resources when there is a genetic link             between them. Genetic in this sense is as defined by diplomatics, i.e. the process by             which a Record Resource is developed. This relation is symmetric.
-    hasGeneticLinkToRecordResource, "hasGeneticLinkToRecordResource",
-    /// `has identifier type`: Connects an Identifier and an Identifier Type that categorizes             it.
-    hasIdentifierType, "hasIdentifierType",
-    /// `has instantiation`: Connects a Record Resource to one of its             Instantiations.
-    hasInstantiation, "hasInstantiation",
-    /// `has modification date `: Inverse of 'is modification date of' object             property.
-    hasModificationDate, "hasModificationDate",
-    /// `has or had agent name`: Connects an Agent and (one of) its present or past Agent             Name.
-    hasOrHadAgentName, "hasOrHadAgentName",
-    /// `has or had all members with category`: Connects a Record Set and a Category (Type) to which all the             Records or Record Parts that are or were included in the Record Set             belong.
-    hasOrHadAllMembersWithCategory, "hasOrHadAllMembersWithCategory",
-    /// `has of had all members with content type`: Connects a Record Set and a Content Type that categorizes all             the Records or Record Parts that are or were included in the Record Set.
-    hasOrHadAllMembersWithContentType, "hasOrHadAllMembersWithContentType",
-    /// `has of had all members with documentary form type`: Connects a Record Set and a Documentary Form Type that             categorizes all the Records or Record Parts that are or were included in the Record             Set.
-    hasOrHadAllMembersWithDocumentaryFormType, "hasOrHadAllMembersWithDocumentaryFormType",
-    /// `has of had all members with language`: Connects a Record Set and a Language used by all the Records or             Record Parts that are or were included in the Record Set.
-    hasOrHadAllMembersWithLanguage, "hasOrHadAllMembersWithLanguage",
-    /// `has of had all members with legal status`: Connects a Record Set and a Legal Status that categorizes all             the Records or Record Parts that are or were included in the Record Set.
-    hasOrHadAllMembersWithLegalStatus, "hasOrHadAllMembersWithLegalStatus",
-    /// `has of had all members with record state`: Connects a Record Set and a Record State that categorizes all             the Records or Record Parts that are or were included in the Record Set.
-    hasOrHadAllMembersWithRecordState, "hasOrHadAllMembersWithRecordState",
-    /// `has or had appellation`: Connects a Thing to an Appellation that is or was used for             designating it.
-    hasOrHadAppellation, "hasOrHadAppellation",
-    /// `has or had authority over`: Connects an Agent to a Thing the Agent has or had authority             over.
-    hasOrHadAuthorityOver, "hasOrHadAuthorityOver",
-    /// `has or had category`: Connects a Thing to a Type that categorizes or categorized             it.
-    hasOrHadCategory, "hasOrHadCategory",
-    /// `has or had component`: Connects an Instantiation to one of its present or past             component instantiations.
-    hasOrHadComponent, "hasOrHadComponent",
-    /// `has or had constituent`: Connects a Record to a Record Part that is or was a component of             that Record.
-    hasOrHadConstituent, "hasOrHadConstituent",
-    /// `has or had controller`: Inverse of 'is or was controller of' object             property.
-    hasOrHadController, "hasOrHadController",
-    /// `has coordinates`: Connects a Physical Location to its past or present coordinates             in a reference system.
-    hasOrHadCoordinates, "hasOrHadCoordinates",
-    /// `has or had corporate body type`: Connects a Corporate Body to a Corporate Body Type which             categorizes or categorized it.
-    hasOrHadCorporateBodyType, "hasOrHadCorporateBodyType",
-    /// `has or had correspondent`: Connects two Persons that correspond or have corresponded with             each other. This relation is symmetric.
-    hasOrHadCorrespondent, "hasOrHadCorrespondent",
-    /// `has or had demographic group`: Connects a Person or a Group to a Demographic Group to which it             belongs or belonged.
-    hasOrHadDemographicGroup, "hasOrHadDemographicGroup",
-    /// `has or had holder`: Inverse of 'is or was holder of' object property.
-    hasOrHadHolder, "hasOrHadHolder",
-    /// `has or had identifier`: Connects a Thing to one of its past or present             Identifiers.
-    hasOrHadIdentifier, "hasOrHadIdentifier",
-    /// `has or had intellectual property rights holder`: Inverse of 'is or was holder of intellectual property rights of'             object property.
-    hasOrHadIntellectualPropertyRightsHolder, "hasOrHadIntellectualPropertyRightsHolder",
-    /// `has or had jurisdiction`: Inverse of 'is or was jurisdiction of' object             property.
-    hasOrHadJurisdiction, "hasOrHadJurisdiction",
-    /// `has or had language`: Connects an Agent or Record Resource to a Language that it uses             or used.
-    hasOrHadLanguage, "hasOrHadLanguage",
-    /// `has or had leader`: Inverse of 'is or was leader of' object property.
-    hasOrHadLeader, "hasOrHadLeader",
-    /// `has or had legal status`: Connects an Agent or Record Resource to a Legal Status which             categorized or categorizes it.
-    hasOrHadLegalStatus, "hasOrHadLegalStatus",
-    /// `has or had location`: Inverse of 'is or was location of' object             property.
-    hasOrHadLocation, "hasOrHadLocation",
-    /// `has or had main subject`: Connects a Record Resource to a Thing that is or was its main             subject.
-    hasOrHadMainSubject, "hasOrHadMainSubject",
-    /// `has or had manager`: Inverse of 'is or was manager of' object             property.
-    hasOrHadManager, "hasOrHadManager",
-    /// `has or had member`: Connects a Group to a Person that is or was a member of that             Group.
-    hasOrHadMember, "hasOrHadMember",
-    /// `has or had name`: Connects a Thing to one of its past or present             Names.
-    hasOrHadName, "hasOrHadName",
-    /// `has or had occupation of type`: Connects a Person to an Occupation Type that categorized or             categorizes his/her occupation (profession, trade or craft).
-    hasOrHadOccupationOfType, "hasOrHadOccupationOfType",
-    /// `has or had owner`: Inverse of 'is or was owner of' object property.
-    hasOrHadOwner, "hasOrHadOwner",
-    /// `has or had part`: Connects a Thing to a constitutive or component part of that             Thing.
-    hasOrHadPart, "hasOrHadPart",
-    /// `has or had participant`: Connects an Event to a Thing that is or was actively or             passively involved in it.
-    hasOrHadParticipant, "hasOrHadParticipant",
-    /// `has or had physical location`: Connects a Place to one of its past or present Physical             Location.
-    hasOrHadPhysicalLocation, "hasOrHadPhysicalLocation",
-    /// `has or had place name`: Connects a Place to one of its past or present             names.
-    hasOrHadPlaceName, "hasOrHadPlaceName",
-    /// `has or had place type`: Connects a Place to a Place Type that categorized or categorizes             it.
-    hasOrHadPlaceType, "hasOrHadPlaceType",
-    /// `has or had position`: Inverse of 'exists or existed in' object             property.
-    hasOrHadPosition, "hasOrHadPosition",
-    /// `has or had rule type`: Connects a Rule to a Rule Type that categorized or categorizes             it.
-    hasOrHadRuleType, "hasOrHadRuleType",
-    /// `has or had some members with category`: Connects a Record Set and a Category (Type) to which some of the             Records or Record Parts that are or were included in the Record Set             belong.
-    hasOrHadSomeMembersWithCategory, "hasOrHadSomeMembersWithCategory",
-    /// `has or had some members with content type`: Connects a Record Set and a Content Type that categorizes some             of the Records or Record Parts that are or were included in the Record             Set.
-    hasOrHadSomeMembersWithContentType, "hasOrHadSomeMembersWithContentType",
-    /// `has or had some members with language`: Connects a Record Set and a Language used by some of the Records             or Record Parts that are or were included in the Record Set.
-    hasOrHadSomeMembersWithLanguage, "hasOrHadSomeMembersWithLanguage",
-    /// `has or had some members with legal status`: Connects a Record Set and a Legal Status that categorizes some             of the Records or Record Parts that are or were included in the Record             Set.
-    hasOrHadSomeMembersWithLegalStatus, "hasOrHadSomeMembersWithLegalStatus",
-    /// `has or had some members with record state`: Connects a Record Set and a Record State that categorizes some             of the Records or Record Parts that are or were included in the Record             Set.
-    hasOrHadSomeMembersWithRecordState, "hasOrHadSomeMembersWithRecordState",
-    /// `has or had some members with documentary form type`: Connects a Record Set and a Documentary Form Type that             categorizes some of the Records or Record Parts that are or were included in the Record             Set.
-    hasOrHadSomeMemberswithDocumentaryFormType, "hasOrHadSomeMemberswithDocumentaryFormType",
-    /// `has or had spouse`: Connects two Persons that are or were married. This relation is             symmetric.
-    hasOrHadSpouse, "hasOrHadSpouse",
-    /// `has or had student`: Inverse of 'has or had teacher' object property.
-    hasOrHadStudent, "hasOrHadStudent",
-    /// `has or had subdivision`: Connects a Group to one of its present or past             subdivisions.
-    hasOrHadSubdivision, "hasOrHadSubdivision",
-    /// `has or had subevent`: Connects an Event to one of a series of Events that constitute             the original, broader, past or ongoing Event.
-    hasOrHadSubevent, "hasOrHadSubevent",
-    /// `has or had subject`: Connects a Record Resource to a Thing that is or was its             subject.
-    hasOrHadSubject, "hasOrHadSubject",
-    /// `has or had subordinate`: Connects an Agent to an Agent that is hierarchically             inferior.
-    hasOrHadSubordinate, "hasOrHadSubordinate",
-    /// `has or had teacher`: Connects a Person to another Person who is or was their             student.
-    hasOrHadTeacher, "hasOrHadTeacher",
-    /// `has or had title`: Connects a Record Resource, Instantiation or Rule to a title             that is or was used for designating it.
-    hasOrHadTitle, "hasOrHadTitle",
-    /// `has or had work relation with`: Connects two Agents that have or had some type of work relation             in the course of their activities. This relation is symmetric.
-    hasOrHadWorkRelationWith, "hasOrHadWorkRelationWith",
-    /// `has original `: Inverse of 'is original of' object property.
-    hasOriginal, "hasOriginal",
-    /// `has production technique type`: Connects an Instantiation to a Production Technique Type that             categorizes its production technique.
-    hasProductionTechniqueType, "hasProductionTechniqueType",
-    /// `has provenance `: Connects a Record Resource or an Instantiation to an Agent that             creates or accumulates the Record Resource, receives it, or sends it.
-    hasProvenance, "hasProvenance",
-    /// `hasPublisher`: Connects a Record resource to an Agent who published             it.
-    hasPublisher, "hasPublisher",
-    /// `has receiver`: Connects a Record Resource or an Instantiation to the Agent that             receives it in the course of its activities.
-    hasReceiver, "hasReceiver",
-    /// `has record set type`: Connects a Record Set to a Record Set Type that categorizes             it.
-    hasRecordSetType, "hasRecordSetType",
-    /// `has record state`: Connects a Record or Record Part to a Record State that             categorizes its state.
-    hasRecordState, "hasRecordState",
-    /// `has reply`: Connects a Record Resource to a reply, usually in the form of             correspondence.
-    hasReply, "hasReply",
-    /// `has representation type`: Connects an Instantiation to a Representation Type that             categorizes its representation type.
-    hasRepresentationType, "hasRepresentationType",
-    /// `has sender `: Connects a Record Resource or an Instantiation to the Agent that             sends it
-    hasSender, "hasSender",
-    /// `has sibling`: Connects two Persons that are siblings. This relation is             symmetric.
-    hasSibling, "hasSibling",
-    /// `has source `: Connects a Record Resource or Relation to a Record Resource or             Agent that is used as a source of information for identifying or describing             it.
-    hasSource, "hasSource",
-    /// `has successor`: Connects an Agent to another Agent that succeeds it             chronologically.
-    hasSuccessor, "hasSuccessor",
-    /// `has unit of measurement`: Connects an Extent to a Unit Of Measurement
-    hasUnitOfMeasurement, "hasUnitOfMeasurement",
-    /// `height`: Vertical dimension of an entity.
-    height, "height",
-    /// `history`: Summary of the development of an entity, since its origin until             present time.
-    history, "history",
-    /// `identifier`: A word, number, letter, symbol, or any combination of these used             to uniquely identify or reference an individual instance of an entity within a specific             information domain. Includes Global Persistent Identifiers (globally unique and             persistently resolvable identifier for the entity) and/or Local             Identifiers.
-    identifier, "identifier",
-    /// `includes or included`: Connects a Record Set to a Record or Record Set it aggregates,             or aggregated in the past.
-    includesOrIncluded, "includesOrIncluded",
-    /// `Instantiation extent`: Countable characteristics of the Instantiation expressed as a             quantity.
-    instantiationExtent, "instantiationExtent",
-    /// `instantiation is connected to functional equivalence relation         `: Connects an Instantiation to a Functional Equivalence             Relation
-    instantiationIsConnectedToFunctionalEquivalenceRelation, "instantiationIsConnectedToFunctionalEquivalenceRelation",
-    /// `instantiation is connected to instantiation relation `: Connects an Instantiation to an Instantiation to Instantiation             Relation.
-    instantiationIsConnectedToInstantiationRelation, "instantiationIsConnectedToInstantiationRelation",
-    /// `instantiation is source of derivation relation `: Connects an Instantiation (from which at least one Instantiation             is derived) to a Derivation Relation.
-    instantiationIsSourceOfDerivationRelation, "instantiationIsSourceOfDerivationRelation",
-    /// `instantiation is source of migration relation `: Connects an Instantiation (from which at least one Instantiation             is migrated) to a Migration Relation.
-    instantiationIsSourceOfMigrationRelation, "instantiationIsSourceOfMigrationRelation",
-    /// `instantiation is target of derivation relation `: Connects a derived Instantiation to a Derivation             Relation.
-    instantiationIsTargetOfDerivationRelation, "instantiationIsTargetOfDerivationRelation",
-    /// `instantiation is target of migration relation `: Connects an Instantiation which results from a migration, to a             Migration Relation.
-    instantiationIsTargetOfMigrationRelation, "instantiationIsTargetOfMigrationRelation",
-    /// `instantiation is target of record resource to instantiation             relation `: Connects an Instantiation of a Record Resource to the Record             Resource to Instantiation Relation.
-    instantiationIsTargetOfRecordResourceToInstantiationRelation, "instantiationIsTargetOfRecordResourceToInstantiationRelation",
-    /// `Instantiation structure`: Information about the physical arrangement and composition of an             Instantiation.
-    instantiationStructure, "instantiationStructure",
-    /// `instantiation to instantiation relation connects `: Connects an Instantiation to Instantiation Relation to one of             the related Instantiations.
-    instantiationToInstantiationRelationConnects, "instantiationToInstantiationRelationConnects",
-    /// `integrity`: Information about the completeness of a Record Resource or             Instantiation.
-    integrity, "integrity",
-    /// `intellectual property rights relation has source `: Connects an IntellectualPropertyRightsRelation to one of the             Group, Person or Position that holds the rights.
-    intellectualPropertyRightsRelationHasSource, "intellectualPropertyRightsRelationHasSource",
-    /// `intellectual property rights relation has target `: Connects an IintellectualPropertyRightsRelation to one of the             Record Resource or Instantiation on which the rights are held.
-    intellectualPropertyRightsRelationHasTarget, "intellectualPropertyRightsRelationHasTarget",
-    /// `is accumulator of`: Inverse of 'has accumulator' object property.
-    isAccumulatorOf, "isAccumulatorOf",
-    /// `is activity type of`: Connects an Activity Type to an Activity that it             categorizes.
-    isActivityTypeOf, "isActivityTypeOf",
-    /// `is addressee of `: Inverse of 'has addressee' object property.
-    isAddresseeOf, "isAddresseeOf",
-    /// `is agent associated with agent `: Connects two Agents. This object property is             symmetric.
-    isAgentAssociatedWithAgent, "isAgentAssociatedWithAgent",
-    /// `is associated with date `: Inverse of 'is date associated with' object             property.
-    isAssociatedWithDate, "isAssociatedWithDate",
-    /// `is associated with event `: Inverse of 'is event associated with' object             property.
-    isAssociatedWithEvent, "isAssociatedWithEvent",
-    /// `is associated with place `: Inverse of 'is place associated with' object             property.
-    isAssociatedWithPlace, "isAssociatedWithPlace",
-    /// `is associated with rule `: Inverse of 'is rule associated with' object             property.
-    isAssociatedWithRule, "isAssociatedWithRule",
-    /// `is author of`: Inverse of 'has author' object property.
-    isAuthorOf, "isAuthorOf",
-    /// `is authorizing agent in mandate relation `: Connects an Agent that assigns the Mandate, to a Mandate             Relation.
-    isAuthorizingAgentInMandateRelation, "isAuthorizingAgentInMandateRelation",
-    /// `is beginning date of `: Connects a Date to a Thing that came into existence on that             Date.
-    isBeginningDateOf, "isBeginningDateOf",
-    /// `is birth date of `: Connects a Date to a Person that was born on that             Date.
-    isBirthDateOf, "isBirthDateOf",
-    /// `is carrier type of`: Connects a Carrier Type to an Instantiation whose carrier it             categorizes.
-    isCarrierTypeOf, "isCarrierTypeOf",
-    /// `is child of`: Inverse of 'has child' object property.
-    isChildOf, "isChildOf",
-    /// `is collector of`: Inverse of 'has collector' object property.
-    isCollectorOf, "isCollectorOf",
-    /// `is content type of`: Connects a Content Type to a Record or Record Part whose content             it categorizes.
-    isContentTypeOf, "isContentTypeOf",
-    /// `is copy of`: Inverse of 'has copy' object property.
-    isCopyOf, "isCopyOf",
-    /// `is creator of`: Inverse of 'has creator' object property.
-    isCreatorOf, "isCreatorOf",
-    /// `is date associated with `: Connects a Date to a Thing that the Date is associated with the             existence and lifecycle of.
-    isDateAssociatedWith, "isDateAssociatedWith",
-    /// `is death date of `: Connects a Date to a Person who died on that             Date.
-    isDeathDateOf, "isDeathDateOf",
-    /// `is derived from instantiation `: Inverse of 'has derived instantiation' object             property.
-    isDerivedFromInstantiation, "isDerivedFromInstantiation",
-    /// `is documentary form type of`: Connects a Documentary Form Type to a Record or Record Part that             it categorizes.
-    isDocumentaryFormTypeOf, "isDocumentaryFormTypeOf",
-    /// `is draft of `: Connects a draft to the final version of a             Record.
-    isDraftOf, "isDraftOf",
-    /// `is end date of `: Connects a Date to a Thing whose existence ended on that             Date.
-    isEndDateOf, "isEndDateOf",
-    /// `is equivalent to `: Connects two Things that are considered             equivalent.
-    isEquivalentTo, "isEquivalentTo",
-    /// `is event associated with `: Connects an Event to a Thing that is associated with the             existence and lifecycle of the Event.
-    isEventAssociatedWith, "isEventAssociatedWith",
-    /// `is event type of`: Connects an Event Type to an Event that is             categorizes.
-    isEventTypeOf, "isEventTypeOf",
-    /// `is extent of`: Connects an Extent to a Record Resource or Instantiation
-    isExtentOf, "isExtentOf",
-    /// `is extent type of`: Connects an Extent Type to an Extent that it             categorizes.
-    isExtentTypeOf, "isExtentTypeOf",
-    /// `is family type of`: Connects a Family Type to a Family that is             categorizes.
-    isFamilyTypeOf, "isFamilyTypeOf",
-    /// `is from use date of `: Connects a Date to an Appellation, when it is the date at which             the Appellation was first used.
-    isFromUseDateOf, "isFromUseDateOf",
-    /// `is functionally equivalent to`: Connects two Instantiations which may be considered as             equivalent. This relation is symmetric.
-    isFunctionallyEquivalentTo, "isFunctionallyEquivalentTo",
-    /// `is identifier type of`: Connects an Identifier Type and an Identifier that it             categorizes.
-    isIdentifierTypeOf, "isIdentifierTypeOf",
-    /// `is instantiation associated with instantiation `: Connects two Instantiations. This object property is             symmetric.
-    isInstantiationAssociatedWithInstantiation, "isInstantiationAssociatedWithInstantiation",
-    /// `is instantiation of`: Inverse of 'has instantiation' object property.
-    isInstantiationOf, "isInstantiationOf",
-    /// `is last update date of `: Connects a Date and a Thing that was last modified at this             Date.
-    isLastUpdateDateOf, "isLastUpdateDateOf",
-    /// `is modification date of `: Connects a Date to a Thing that was modified on that             Date.
-    isModificationDateOf, "isModificationDateOf",
-    /// `is or was adjacent to`: Connects two Places that are or were geographically adjacent.             This is a symmetric object property.
-    isOrWasAdjacentTo, "isOrWasAdjacentTo",
-    /// `is or was affected by`: Inverse of 'affects or affected' object property.
-    isOrWasAffectedBy, "isOrWasAffectedBy",
-    /// `is or was agent name of`: Connects an Agent Name to an Agent it designates or             designated.
-    isOrWasAgentNameOf, "isOrWasAgentNameOf",
-    /// `is or was appellation of`: Connects an Appellation to a Thing that it designates or             designated.
-    isOrWasAppellationOf, "isOrWasAppellationOf",
-    /// `is or was category of`: Connects a Type (a category) to a Thing that it categorizes or             categorized.
-    isOrWasCategoryOf, "isOrWasCategoryOf",
-    /// `is or was category of all members of`: Connects a Category (Type) and a Record Set whose all present or             past Record or Record Part members belong to that Category.
-    isOrWasCategoryOfAllMembersOf, "isOrWasCategoryOfAllMembersOf",
-    /// `is or was category of some members of`: Connects a Category (Type) and a Record Set whose some present             or past Record or Record Part members belong to that Category.
-    isOrWasCategoryOfSomeMembersOf, "isOrWasCategoryOfSomeMembersOf",
-    /// `is or was component of`: Inverse of 'has or had component' object             property.
-    isOrWasComponentOf, "isOrWasComponentOf",
-    /// `is or was constituent of`: Inverse of 'has or had constituent' object             property.
-    isOrWasConstituentOf, "isOrWasConstituentOf",
-    /// `is or was contained by`: Inverse of 'contains or contained' object             property.
-    isOrWasContainedBy, "isOrWasContainedBy",
-    /// `is or was content type of all members of`: Connects a Content Type and a Record Set whose all past or             present Record or Record Part members have that Content Type.
-    isOrWasContentTypeOfAllMembersOf, "isOrWasContentTypeOfAllMembersOf",
-    /// `is or was content type of some members of`: Connects a Content Type and a Record Set whose some past or             present Record or Record Part members have that Content Type.
-    isOrWasContentTypeOfSomeMembersOf, "isOrWasContentTypeOfSomeMembersOf",
-    /// `is or was controller of`: Connects an Agent to another Agent it controls or controlled via             Activities, i.e. controls by function.
-    isOrWasControllerOf, "isOrWasControllerOf",
-    /// `is or was coordinates of`: Connects an instance of Coordinates to a Physical Location it             locates or located on earth, according to some reference system.
-    isOrWasCoordinatesOf, "isOrWasCoordinatesOf",
-    /// `is or was corporate body type of`: Connects a Corporate Body Type to a Corporate Body that it             categorizes or categorized.
-    isOrWasCorporateBodyTypeOf, "isOrWasCorporateBodyTypeOf",
-    /// `is or was demographic group of`: Connects a Demographic Group to a Person or Group which belongs             or belonged to it.
-    isOrWasDemographicGroupOf, "isOrWasDemographicGroupOf",
-    /// `is or was described by`: Inverse of 'describes or described' object             property.
-    isOrWasDescribedBy, "isOrWasDescribedBy",
-    /// `is or was documentary form type of all members of`: Connects a Documentary Form Type and a Record Set whose all past             or present Record or Record Part members have that Documentary Form Type.
-    isOrWasDocumentaryFormTypeOfAllMembersOf, "isOrWasDocumentaryFormTypeOfAllMembersOf",
-    /// `is or was documentary form type of some members of`: Connects a Documentary Form Type and a Record Set whose some             past or present Record or Record Part members have that Documentary Form             Type.
-    isOrWasDocumentaryFormTypeOfSomeMembersOf, "isOrWasDocumentaryFormTypeOfSomeMembersOf",
-    /// `is or was enforced by`: Connects a Rule to an Agent that enforces or enforced the             Rule.
-    isOrWasEnforcedBy, "isOrWasEnforcedBy",
-    /// `is or was expressed by`: Connects a Rule to a Record Resource that expresses or expressed             the Rule.
-    isOrWasExpressedBy, "isOrWasExpressedBy",
-    /// `is or was holder of`: Connects an Agent to a Record Resource or Instantiation that the             Agent holds or held.
-    isOrWasHolderOf, "isOrWasHolderOf",
-    /// `is or was holder of intellectual property rights of`: Connects an Agent to a Record Resource or Instantiation on which             the Agent has or had some intellectual property rights.
-    isOrWasHolderOfIntellectualPropertyRightsOf, "isOrWasHolderOfIntellectualPropertyRightsOf",
-    /// `is or was identifier of`: Connects an Identifier to a Thing that it identified or             identifies.
-    isOrWasIdentifierOf, "isOrWasIdentifierOf",
-    /// `is or was included in`: Inverse of 'includes or included' object             property.
-    isOrWasIncludedIn, "isOrWasIncludedIn",
-    /// `is or was jurisdiction of`: Connects a Place to an Agent that has or had jurisdiction over             the Place.
-    isOrWasJurisdictionOf, "isOrWasJurisdictionOf",
-    /// `is or was language of`: Connects a Language to an Agent, Record or Record Part that uses             or used it.
-    isOrWasLanguageOf, "isOrWasLanguageOf",
-    /// `is or was language of all members of`: Connects a Language and a Record Set whose all present or past             Record or Record Part members use that Language.
-    isOrWasLanguageOfAllMembersOf, "isOrWasLanguageOfAllMembersOf",
-    /// `is or was language of some members of`: Connects a Language and a Record Set whose some present or past             Record or Record Part members use that Language.
-    isOrWasLanguageOfSomeMembersOf, "isOrWasLanguageOfSomeMembersOf",
-    /// `is or was leader of`: Connects a Person to the Group that Person leads or led in the             past.
-    isOrWasLeaderOf, "isOrWasLeaderOf",
-    /// `is or was legal status of`: Connects a Legal Status to an Agent or Record Resource that it             categorizes.
-    isOrWasLegalStatusOf, "isOrWasLegalStatusOf",
-    /// `is or was legal status of all members of`: Connects a Legal Status and a Record Set whose all past or             present Record or Record Part members have that Legal Status.
-    isOrWasLegalStatusOfAllMembersOf, "isOrWasLegalStatusOfAllMembersOf",
-    /// `is or was legal status of some members of`: Connects a Legal Status and a Record Set whose some past or             present Record or Record Part members have that Legal Status.
-    isOrWasLegalStatusOfSomeMembersOf, "isOrWasLegalStatusOfSomeMembersOf",
-    /// `is or was location of`: Connects a Place to a Thing that is or was located in the             Place.
-    isOrWasLocationOf, "isOrWasLocationOf",
-    /// `is or was main subject of`: Inverse of 'has or had main subject' object             property.
-    isOrWasMainSubjectOf, "isOrWasMainSubjectOf",
-    /// `is or was manager of`: Connects an Agent to a Record Resource or Instantiation that the             Agent managed or manages.
-    isOrWasManagerOf, "isOrWasManagerOf",
-    /// `is or was member of`: Inverse of 'has or had member' object property.
-    isOrWasMemberOf, "isOrWasMemberOf",
-    /// `is or was name of`: Connects a Name to a Thing that it designated or             designates.
-    isOrWasNameOf, "isOrWasNameOf",
-    /// `is or was occupation type of`: Connects an Occupation Type to a Person whose occupation is or             was categorized by it.
-    isOrWasOccupationTypeOf, "isOrWasOccupationTypeOf",
-    /// `is or was occupied by`: Inverse of 'occupies or occupied' object             property.
-    isOrWasOccupiedBy, "isOrWasOccupiedBy",
-    /// `is or was owner of`: Connects a Group, Person or Position to a Thing that this Agent             owns or owned.
-    isOrWasOwnerOf, "isOrWasOwnerOf",
-    /// `is or was part of`: Inverse of 'has or had part' relation.
-    isOrWasPartOf, "isOrWasPartOf",
-    /// `is or was participant in`: Inverse of 'has or had participant' object             property.
-    isOrWasParticipantIn, "isOrWasParticipantIn",
-    /// `is or was performed by`: Connects an Activity to an Agent that performed or performs the             Activity.
-    isOrWasPerformedBy, "isOrWasPerformedBy",
-    /// `is or was physical location of`: Connects a Physical Location to a Place, when it is or was its             location.
-    isOrWasPhysicalLocationOf, "isOrWasPhysicalLocationOf",
-    /// `is or was place name of`: Connects a Place Name to a Place that was or is designated by             it.
-    isOrWasPlaceNameOf, "isOrWasPlaceNameOf",
-    /// `is or was place type of`: Connects a Place Type to a Place that is or was categorized by             it.
-    isOrWasPlaceTypeOf, "isOrWasPlaceTypeOf",
-    /// `is or was record state of all members of`: Connects a Record State and a Record Set whose all past or             present Record or Record Part members have that Record State.
-    isOrWasRecordStateOfAllMembersOf, "isOrWasRecordStateOfAllMembersOf",
-    /// `is or was record state of some members of`: Connects a Record State and a Record Set whose some past or             present Record or Record Part members have that Record State.
-    isOrWasRecordStateOfSomeMembersOf, "isOrWasRecordStateOfSomeMembersOf",
-    /// `is or was regulated by`: Inverse of the 'regulates or regulated' object             property.
-    isOrWasRegulatedBy, "isOrWasRegulatedBy",
-    /// `is or was responsible for enforcing`: Inverse of 'is or was enforced by' object             property.
-    isOrWasResponsibleForEnforcing, "isOrWasResponsibleForEnforcing",
-    /// `is or was rule type of`: connects a Rule Type to a Rule that it categorized or             categorizes.
-    isOrWasRuleTypeOf, "isOrWasRuleTypeOf",
-    /// `is or was subdivision of`: Inverse of 'has or had subdivision' object             property.
-    isOrWasSubdivisionOf, "isOrWasSubdivisionOf",
-    /// `is or was subevent of`: Inverse of 'has or had subevent' object property.
-    isOrWasSubeventOf, "isOrWasSubeventOf",
-    /// `is or was subject of`: Inverse of 'has or had subject' object property.
-    isOrWasSubjectOf, "isOrWasSubjectOf",
-    /// `is or was subordinate to`: Inverse of 'has or had subordinate' object             property.
-    isOrWasSubordinateTo, "isOrWasSubordinateTo",
-    /// `is or was title of`: Connects a Title to a Record Resource, Instantiation or Rule             that it designated or designates.
-    isOrWasTitleOf, "isOrWasTitleOf",
-    /// `is or was under authority of`: Inverse of 'has or had authority over' object             property.
-    isOrWasUnderAuthorityOf, "isOrWasUnderAuthorityOf",
-    /// `is original of `: Connects the original version of a Record to a copy or a later             version.
-    isOriginalOf, "isOriginalOf",
-    /// `is place associated with `: Connects a Place to a Thing that Place is associated with the             existence and lifecycle of.
-    isPlaceAssociatedWith, "isPlaceAssociatedWith",
-    /// `is production technique type of`: Connects a Production Technique Type to an Instantiation whose             production technique is categorized by it.
-    isProductionTechniqueTypeOf, "isProductionTechniqueTypeOf",
-    /// `is provenance of `: inverse of 'has provenance' object property.
-    isProvenanceOf, "isProvenanceOf",
-    /// `isPublisherOf`: Connects an Agent to a Record Resource that it             published.
-    isPublisherOf, "isPublisherOf",
-    /// `is receiver of`: Inverse of 'received by' object property.
-    isReceiverOf, "isReceiverOf",
-    /// `is record resource associated with record resource `: Connects two Record Resources. This object property is             symmetric.
-    isRecordResourceAssociatedWithRecordResource, "isRecordResourceAssociatedWithRecordResource",
-    /// `is record set type of`: Connects a Record Set Type to a Record Set that it             categorizes.
-    isRecordSetTypeOf, "isRecordSetTypeOf",
-    /// `is record state of`: Connects a Record State to a Record or Record Part whose state             it categorizes.
-    isRecordStateOf, "isRecordStateOf",
-    /// `is related to `: The most generic object property. Connects an Thing to any other             Thing This is a symmetric object property.
-    isRelatedTo, "isRelatedTo",
-    /// `is reply to`: Inverse of 'has reply' object property.
-    isReplyTo, "isReplyTo",
-    /// `is representation type of`: Connects a Representation Type to an Instantiation that it             categorizes.
-    isRepresentationTypeOf, "isRepresentationTypeOf",
-    /// `is responsible for issuing `: Inverse of 'issued by' object property.
-    isResponsibleForIssuing, "isResponsibleForIssuing",
-    /// `is rule associated with `: Connects a Rule to a Thing that is associated with the existence             and lifecycle of the Rule.
-    isRuleAssociatedWith, "isRuleAssociatedWith",
-    /// `is sender of `: Inverse of 'has sender' object property.
-    isSenderOf, "isSenderOf",
-    /// `is source of `: Connects a Record Resource or an Agent to a Record Resource or             Relation, when the first is used as a source of information for identifying or             describing the second one.
-    isSourceOf, "isSourceOf",
-    /// `is successor of`: Inverse of 'has successor' object property.
-    isSuccessorOf, "isSuccessorOf",
-    /// `is to use date of `: Connects a Date to an Appellation, when it is the date till             which the Appellation was used.
-    isToUseDateOf, "isToUseDateOf",
-    /// `is unit of measurement of`: Inverse of 'has unit of measurement' object property
-    isUnitOfMeasurementOf, "isUnitOfMeasurementOf",
-    /// `issued by `: Connects a Rule to the Agent that issued or published the             Rule.
-    issuedBy, "issuedBy",
-    /// `knowing of relation has source `: Connects a Knowing Of Relation to a 'knowing of' Person (a             Person who has some knowledge of another one.)
-    knowingOfRelationHasSource, "knowingOfRelationHasSource",
-    /// `knowing of relation has target `: Connects a Knowing Of Relation to a 'known by' Person (a Person             on which another one has some has some knowledge.)
-    knowingOfRelationHasTarget, "knowingOfRelationHasTarget",
-    /// `knowing relation connects `: Connects Knowing Relation to any known Person             involved.
-    knowingRelationConnects, "knowingRelationConnects",
-    /// `known by `: Inverse of 'knows of' object property.
-    knownBy, "knownBy",
-    /// `knows `: Connects two Persons that directly know each other during their             existence. This object property is symmetric.
-    knows, "knows",
-    /// `knows of `: Connects a Person to another Person they have some knowledge of             through time or space.
-    knowsOf, "knowsOf",
-    /// `last modification date`: Date at which an entity was last updated.
-    lastModificationDate, "lastModificationDate",
-    /// `latitude`: Distance in degrees north or south of the             equator.
-    latitude, "latitude",
-    /// `leadership relation has source `: Connects a Leadership Relation to a Person who is involved as a             leader.
-    leadershipRelationHasSource, "leadershipRelationHasSource",
-    /// `leadership relation has target `: Connects a Leadership Relation to a lead Group.
-    leadershipRelationHasTarget, "leadershipRelationHasTarget",
-    /// `leadership with position `: Connects a Leadership Relation to the Position occupied by the             leading Person.
-    leadershipWithPosition, "leadershipWithPosition",
-    /// `location`: A delimitation of the physical territory of a place. This             datatype property is used to describe basic human-readable text such as an address, a             cadastral reference, or less precise information found in a record.
-    location, "location",
-    /// `longitude`: Distance in degrees east or west of a prime             meridian.
-    longitude, "longitude",
-    /// `management relation has source `: Connects a Management Relation to an Agent who is involved as a             manager.
-    managementRelationHasSource, "managementRelationHasSource",
-    /// `management relation has target `: Connects a Management Relation to a Record Resource or             Instantiation that is involved as a managed thing.
-    managementRelationHasTarget, "managementRelationHasTarget",
-    /// `mandate is source of mandate relation `: Connects a Mandate to a Mandate Relation.
-    mandateIsSourceOfMandateRelation, "mandateIsSourceOfMandateRelation",
-    /// `mandate relation has source `: Connects a Mandate Relation to a Mandate.
-    mandateRelationHasSource, "mandateRelationHasSource",
-    /// `mandate relation has target `: Connects a Mandate Relation to an Agent who is given the             authority or competencies to act.
-    mandateRelationHasTarget, "mandateRelationHasTarget",
-    /// `measure`: The extent, quantity, amount, or degree of an entity, as             determined by measurement or calculation.
-    measure, "measure",
-    /// `membership relation has source `: Connects a Membership Relation to the Group that has             member(s).
-    membershipRelationHasSource, "membershipRelationHasSource",
-    /// `membership relation has target `: Connects a Membership Relation to a Person who is involved as a             member.
-    membershipRelationHasTarget, "membershipRelationHasTarget",
-    /// `membership with position `: Connects a Membership Relation to the Position occupied by the             member Person(s).
-    membershipWithPosition, "membershipWithPosition",
-    /// `migrated from`: Inverse of 'migrated into' object property.
-    migratedFrom, "migratedFrom",
-    /// `migrated into`: Connects an Instantiation to a version it has been migrated             to.
-    migratedInto, "migratedInto",
-    /// `migration relation has source `: Connects a Migration Relation to the migrated             Instantiation.
-    migrationRelationHasSource, "migrationRelationHasSource",
-    /// `migration relation has target `: Connects a Migration Relation to a resulting             Instantiation.
-    migrationRelationHasTarget, "migrationRelationHasTarget",
-    /// `modification date`: Date of the modification of an entity.
-    modificationDate, "modificationDate",
-    /// `name`: A label, title or term designating the entity in order to make             it distinguishable from other similar entities. For Record Resource or Instantiation,             the Name is generally assigned by an Agent as most do not have a Name given when             created.
-    name, "name",
-    /// `normalized date value`: Date representation based on a standard, preferably             machine-readable.
-    normalizedDateValue, "normalizedDateValue",
-    /// `normalized value`: Value representation based on a standard, preferably             machine-readable.
-    normalizedValue, "normalizedValue",
-    /// `occupies or occupied`: Connects a Person to a Position they occupy or             occupied.
-    occupiesOrOccupied, "occupiesOrOccupied",
-    /// `overlaps or overlapped`: Connects two Places that geographically overlap or overlapped.             This object property is symmetric.
-    overlapsOrOverlapped, "overlapsOrOverlapped",
-    /// `ownership relation has source `: Connects an Ownership Relation to a Person, Group or Position             that is involved as an owner.
-    ownershipRelationHasSource, "ownershipRelationHasSource",
-    /// `owner ship relation has target `: Connects an Ownership Relation to a Thing that is             owned.
-    ownershipRelationHasTarget, "ownershipRelationHasTarget",
-    /// `performance relation has source `: Connects a Performance Relation to a performed             Activity.
-    performanceRelationHasSource, "performanceRelationHasSource",
-    /// `performance relation has target `: Connects a Performance Relation to a performing             Agent.
-    performanceRelationHasTarget, "performanceRelationHasTarget",
-    /// `performs or performed`: Inverse of 'is or was performed by' object             property.
-    performsOrPerformed, "performsOrPerformed",
-    /// `person has correspondence relation `: Connects a Person to a Correspondence Relation.
-    personHasCorrespondenceRelation, "personHasCorrespondenceRelation",
-    /// `person has family relation `: Connects a Person to a Family Relation.
-    personHasFamilyRelation, "personHasFamilyRelation",
-    /// `person has knowing relation `: Connects a Person to a Knowing Relation.
-    personHasKnowingRelation, "personHasKnowingRelation",
-    /// `person has sibling relation `: Connects a Person to a Sibling Relation.
-    personHasSiblingRelation, "personHasSiblingRelation",
-    /// `person has spouse relation `: Connects a Person to a Spouse Relation.
-    personHasSpouseRelation, "personHasSpouseRelation",
-    /// `person is source of child relation `: Connects a Person (as a parent) to a Child             Relation.
-    personIsSourceOfChildRelation, "personIsSourceOfChildRelation",
-    /// `person is source of descendance relation `: Connects a Person (as an ancestor) to a Descendance             Relation.
-    personIsSourceOfDescendanceRelation, "personIsSourceOfDescendanceRelation",
-    /// `person is source of knowing of relation `: Connects a Person (who has some knowledge of another one) to a             Knowing Of Relation.
-    personIsSourceOfKnowingOfRelation, "personIsSourceOfKnowingOfRelation",
-    /// `person is source of leadership relation `: Connects a Person (as a leader) to a Leadership             Relation.
-    personIsSourceOfLeadershipRelation, "personIsSourceOfLeadershipRelation",
-    /// `person is source of position holding relation `: Connects a Person (who occupies a Position) to a Position             Holding Relation.
-    personIsSourceOfPositionHoldingRelation, "personIsSourceOfPositionHoldingRelation",
-    /// `person is source of teaching relation `: Connects a Person (as a teacher) to a Teaching             Relation.
-    personIsSourceOfTeachingRelation, "personIsSourceOfTeachingRelation",
-    /// `person is target of child relation `: Connects a Person (as a child) to a Child             Relation.
-    personIsTargetOfChildRelation, "personIsTargetOfChildRelation",
-    /// `person is target of descendance relation `: Connects a Person (as a descendant) to a Descendance             Relation.
-    personIsTargetOfDescendanceRelation, "personIsTargetOfDescendanceRelation",
-    /// `person is target of knowing of relation `: Connects a Person (of which another Person has some knowledge)             to a Knowing Of Relation.
-    personIsTargetOfKnowingOfRelation, "personIsTargetOfKnowingOfRelation",
-    /// `person is target of membership relation `: Connects a Person (as a member of a Group) to a Membership             Relation.
-    personIsTargetOfMembershipRelation, "personIsTargetOfMembershipRelation",
-    /// `person is target of teaching relation `: Connects a Person (as a student) to a Teaching             Relation.
-    personIsTargetOfTeachingRelation, "personIsTargetOfTeachingRelation",
-    /// `physical characteristics`: Information about the physical features of the Instantiation.             Includes information about the physical nature and condition such as conservation             status.
-    physicalCharacteristics, "physicalCharacteristics",
-    /// `physical or logical extent`: Countable characteristics of the content of an entity expressed             as a quantity.
-    physicalOrLogicalExtent, "physicalOrLogicalExtent",
-    /// `place is source of place relation `: Connects a Place (as associated to a Thing) to a Place             Relation.
-    placeIsSourceOfPlaceRelation, "placeIsSourceOfPlaceRelation",
-    /// `place relation has source `: Connects a Place Relation to the Place concerned.
-    placeRelationHasSource, "placeRelationHasSource",
-    /// `place relation has target `: Connects a Place Relation to a Thing that is associated to the             Place.
-    placeRelationHasTarget, "placeRelationHasTarget",
-    /// `position holding relation has source `: Connects a Position Holding Relation to a Person (who occupies a             Position).
-    positionHoldingRelationHasSource, "positionHoldingRelationHasSource",
-    /// `position holding relation has target `: Connects a Position Holding Relation to a Position (that is             occupied).
-    positionHoldingRelationHasTarget, "positionHoldingRelationHasTarget",
-    /// `position is context of leadership relation `: Connects a Position to a Leadership Relation (the leading Person             occupies that Position).
-    positionIsContextOfLeadershipRelation, "positionIsContextOfLeadershipRelation",
-    /// `position is context of membership relation `: Connects a Position to a Membership Relation (the member Person             occupies that Position).
-    positionIsContextOfMembershipRelation, "positionIsContextOfMembershipRelation",
-    /// `position is source of position to group relation `: Connects a Position (that exists within a Group) to a Position             to Group Relation.
-    positionIsSourceOfPositionToGroupRelation, "positionIsSourceOfPositionToGroupRelation",
-    /// `position is target of position holding relation `: Connects a Position (that is occupied by a Person) to a Position             Holding Relation.
-    positionIsTargetOfPositionHoldingRelation, "positionIsTargetOfPositionHoldingRelation",
-    /// `position to group relation has source `: Connects a Position to Group Relation to a Position (that exists             in a Group).
-    positionToGroupRelationHasSource, "positionToGroupRelationHasSource",
-    /// `position to group relation has target `: Connects a Position to Group Relation to a Group (in which a             Position exists).
-    positionToGroupRelationHasTarget, "positionToGroupRelationHasTarget",
-    /// `precedes in time`: Connects a Thing to a Thing that follows it in chronological             order.
-    precedesInTime, "precedesInTime",
-    /// `precedes or preceded`: Connects a Thing to a Thing that follows or followed it in some             sequence.
-    precedesOrPreceded, "precedesOrPreceded",
-    /// `production technique`: Method used in the representation of information on the             Instantiation.
-    productionTechnique, "productionTechnique",
-    /// `provenance relation has source `: Connects a Provenance Relation to a Record Resource or             Instantiation.
-    provenanceRelationHasSource, "provenanceRelationHasSource",
-    /// `provenance relation has target `: Connects a Provenance Relation to an Agent or             Activity.
-    provenanceRelationHasTarget, "provenanceRelationHasTarget",
-    /// `proxy for `: Connects a Proxy to the Record Resource it stands for in the             specific context of a Record Set.
-    proxyFor, "proxyFor",
-    /// `proxy in `: Connects a Proxy to the Record Set in which it stands for             (represents) another Record Resource.
-    proxyIn, "proxyIn",
-    /// `publication date`: Date of the publication of a Record Resource.
-    publicationDate, "publicationDate",
-    /// `quality of representation`: Conditions of an Instantiation that impact the legibility or             completeness of Record Resource, and thus the viability of its use. Conditions may be             associated with deficiencies in the processes of Record (re)creation or capture, or the             deterioration of the Instantiation (e.g. its carrier) causing loss of information of the             record over time
-    qualityOfRepresentation, "qualityOfRepresentation",
-    /// `quantity`: Machine-readable quantity.
-    quantity, "quantity",
-    /// `record is source of authorship relation`: Connects a Record and an Authorship Relation.
-    recordIsSourceOfAuthorshipRelation, "recordIsSourceOfAuthorshipRelation",
-    /// `Record Resource extent`: The quantity of information content as human experienced             represented in the Record Resource. The method and precision of expressing the quantity             of information represented in a Record Resource will vary by the kind of Record Resource             being described as well as by processing economy constraints. For record sets, quantity             may be expressed as number of records, or, for analogue records in particular, by the             physical storage dimensions of the Record members. For individual records or record             parts, quantity may be expressed in more precise terms. Use if you don't use             RecordResourceExtent class and its properties for handling such             information.
-    recordResourceExtent, "recordResourceExtent",
-    /// `record resource genetic relation connects `: Connects a Record Resource Genetic Relation to one of the             associated Record Resources.
-    recordResourceGeneticRelationConnects, "recordResourceGeneticRelationConnects",
-    /// `record resource holding relation has source `: Connects a Record Resource Holding Relation to an Agent (as the             holder of a Record Resource or Instantiation).
-    recordResourceHoldingRelationHasSource, "recordResourceHoldingRelationHasSource",
-    /// `record resource holding relation has target `: Connects a Record Resource Holding Relation to a Record Resource             or Instantiation (that is held by an Agent).
-    recordResourceHoldingRelationHasTarget, "recordResourceHoldingRelationHasTarget",
-    /// `record resource is connected to record resource genetic relation         `: Connects a Record Resource to a Record Resource Genetic             Relation.
-    recordResourceIsConnectedToRecordResourceGeneticRelation, "recordResourceIsConnectedToRecordResourceGeneticRelation",
-    /// `record resource is connected to record resource relation         `: Connects a Record Resource to a Record Resource             Relation.
-    recordResourceIsConnectedToRecordResourceRelation, "recordResourceIsConnectedToRecordResourceRelation",
-    /// `record resource is source of record resource to instantiation             relation `: Connects a Record Resource (that was instantiated) to a Record             Resource To Instantiation Relation
-    recordResourceIsSourceOfRecordResourceToInstantiationRelation, "recordResourceIsSourceOfRecordResourceToInstantiationRelation",
-    /// `record resource or instantiation is source of accumulation             relation `: Connects a Record Resource or Instantiation (that is             accumulated) to an Accumulation Relation.
-    recordResourceOrInstantiationIsSourceOfAccumulationRelation, "recordResourceOrInstantiationIsSourceOfAccumulationRelation",
-    /// `record resource or instantiation is source of activity             documentation relation `: Connects a Record Resource or Instantiation (that documents an             Activity) to an Activity Documentation Relation.
-    recordResourceOrInstantiationIsSourceOfActivityDocumentationRelation, "recordResourceOrInstantiationIsSourceOfActivityDocumentationRelation",
-    /// `record resource or instantiation is source of agent origination             relation `: Connects a Record Resource or Instantiation (that is created,             sent or accumulated) to an Agent Origination Relation.
-    recordResourceOrInstantiationIsSourceOfAgentOriginationRelation, "recordResourceOrInstantiationIsSourceOfAgentOriginationRelation",
-    /// `record resource or instantiation is source of creation relation         `: Connects a Record Resource or Instantiation (that is created) to             a Creation Relation.
-    recordResourceOrInstantiationIsSourceOfCreationRelation, "recordResourceOrInstantiationIsSourceOfCreationRelation",
-    /// `record resource or instantiation is source of provenance relation         `: Connects a Record Resource or Instantiation (that is created or             accumulated by an Agent, or documents an Activity) to a Provenance             Relation.
-    recordResourceOrInstantiationIsSourceOfProvenanceRelation, "recordResourceOrInstantiationIsSourceOfProvenanceRelation",
-    /// `record resource or instantiation is target of intellectual             property rights relation `: Connects a Record Resource or Instantiation (on which some             intellectual property rights are held) to an Intellectual Property Rights             Relation.
-    recordResourceOrInstantiationIsTargetOfIntellectualPropertyRightsRelation, "recordResourceOrInstantiationIsTargetOfIntellectualPropertyRightsRelation",
-    /// `record resource or instantiation is target of management relation         `: Connects a Record Resource or Instantiation (that is managed by             an Agent) to a Management Relation.
-    recordResourceOrInstantiationIsTargetOfManagementRelation, "recordResourceOrInstantiationIsTargetOfManagementRelation",
-    /// `record resource or instantiation is target of record resource             holding relation `: Connects a Record Resource or Instantiation (that is held by an             Agent) to a Record Resource Holding Relation.
-    recordResourceOrInstantiationIsTargetOfRecordResourceHoldingRelation, "recordResourceOrInstantiationIsTargetOfRecordResourceHoldingRelation",
-    /// `record resource relation connects `: Connects a Record Resource relation to one of the related Record             Resources.
-    recordResourceRelationConnects, "recordResourceRelationConnects",
-    /// `Record Resource structure`: Information about the intellectual arrangement and composition             of a Record Resource. For Record and Record Part, it encompasses information about the             intellectual composition of the record, the presence of record parts and their             functions. For Record Set, it encompasses information about the methodology or criteria             used for arranging the Record Set members or Record members within the containing Record             Set
-    recordResourceStructure, "recordResourceStructure",
-    /// `record resource to instantiation relation has source `: Connects a Record Resource To Instantiation Relation to the             Record Resource (that was instantiated). 
-    recordResourceToInstantiationRelationHasSource, "recordResourceToInstantiationRelationHasSource",
-    /// `record resource to instantiation relation has target `: Connects a Record Resource To Instantiation Relation to an             Instantiation of the involved Record Resource. 
-    recordResourceToInstantiationRelationHasTarget, "recordResourceToInstantiationRelationHasTarget",
-    /// `reference system`: Framework or standard used to represent an             information.
-    referenceSystem, "referenceSystem",
-    /// `regulates or regulated`: Connects a Rule to a Thing that it regulates or             regulated.
-    regulatesOrRegulated, "regulatesOrRegulated",
-    /// `relation connects `: Connects an n-ary Relation to any of the Things             involved.
-    relationConnects, "relationConnects",
-    /// `relation has context `: Connects an n-ary Relation to a Thing that is a secondary,             contextual entity during the existence of the Relation.
-    relationHasContext, "relationHasContext",
-    /// `relation has source `: Connects an n-ary Relation to a Thing that is its             source.
-    relationHasSource, "relationHasSource",
-    /// `relation has target `: Connects an n-ary Relation to a Thing that is its             target.
-    relationHasTarget, "relationHasTarget",
-    /// `Relation state`: Used to qualify the state of a Relation (e. g. present, past,             ongoing, unknown).
-    relationState, "relationState",
-    /// `results or resulted from`: Inverse of 'results or resulted in' object             property.
-    resultsOrResultedFrom, "resultsOrResultedFrom",
-    /// `results or resulted in`: Connects an Event to a Thing that results or resulted from the             Event.
-    resultsOrResultedIn, "resultsOrResultedIn",
-    /// `role is context of creation relation `: Connects a Role Type to a Creation Relation (this Role Type             being the specific role played by the creating Person in the context of this             Relation).
-    roleIsContextOfCreationRelation, "roleIsContextOfCreationRelation",
-    /// `rule followed`: The rule or conditions that govern the existence or lifecycle of             a Thing.
-    ruleFollowed, "ruleFollowed",
-    /// `rule is source of rule relation `: Connects a Rule to a Rule Relation.
-    ruleIsSourceOfRuleRelation, "ruleIsSourceOfRuleRelation",
-    /// `rule relation has source `: Connects a Rule Relation to a Rule.
-    ruleRelationHasSource, "ruleRelationHasSource",
-    /// `rule relation has target `: Connects a Rule Relation to a Thing (that is associated to a             Rule).
-    ruleRelationHasTarget, "ruleRelationHasTarget",
-    /// `scope and content`: Summary of the scope (such as time periods, geography) and             content (such as subject matter, administrative processes) of the Record Resource. It             should highlight the information conveyed in the Record Resource, why it was created,             received, and/or maintained, and the Agents connected to it. Scope and Content provides             a more complete summary of the informational content of the Record Resource. It may             include description of relations with agents, activities, dates and places, or with             other record resources. It is not to be confused with the History attribute which             focuses on the origination and subsequence changes to a Record Resource.
-    scopeAndContent, "scopeAndContent",
-    /// `sequential relation has source `: Connects a Sequential Relation to a Thing that precedes other             Thing(s) in the sequence.
-    sequentialRelationHasSource, "sequentialRelationHasSource",
-    /// `sequential relation has target `: Connects a Sequential Relation to a Thing that follows other             Thing(s) in the sequence.
-    sequentialRelationHasTarget, "sequentialRelationHasTarget",
-    /// `sibling relation connects `: Connects a Sibling Relation to one of the siblings             involved.
-    siblingRelationConnects, "siblingRelationConnects",
-    /// `source`: Information about a source used to identify or describe an             entity.
-    source, "source",
-    /// `spouse relation connects `: Connects a Sibling Relation to one of the spouses             involved.
-    spouseRelationConnects, "spouseRelationConnects",
-    /// `structure`: Information about the intellectual arrangement and composition             of a Record Resource or the physical arrangement and composition of an Instantiation.             For Record and Record Part, it encompasses information about the intellectual             composition of the record, the presence of record parts and their functions. For Record             Set, it encompasses information about the methodology or criteria used for arranging the             Record Set members or Record members within the containing Record Set. For             Instantiation, it may comprise information about the composition of the physical             elements of the instantiation
-    structure, "structure",
-    /// `teaching relation has source `: Connects a Teaching Relation to a Person (who is a             teacher).
-    teachingRelationHasSource, "teachingRelationHasSource",
-    /// `teaching relation has target `: Connects a Teaching Relation to a Person (who is a             student).
-    teachingRelationHasTarget, "teachingRelationHasTarget",
-    /// `technical characteristics`: Describes any relevant physical or software feature of any             device involved in the creation or management of a Record Resource.
-    technicalCharacteristics, "technicalCharacteristics",
-    /// `temporal relation has source `: Connects a Temporal Relation to a Thing that precedes other             Thing(s) in time.
-    temporalRelationHasSource, "temporalRelationHasSource",
-    /// `temporal relation has target `: Connects a Temporal Relation to a Thing that follows other             Thing(s) in time.
-    temporalRelationHasTarget, "temporalRelationHasTarget",
-    /// `textual value`: A textual expression of an Appellation or Date.
-    textualValue, "textualValue",
-    /// `thing is connected to relation `: Connects a Thing to a n-ary Relation.
-    thingIsConnectedToRelation, "thingIsConnectedToRelation",
-    /// `thing is context of relation `: Connects a Thing (that is a secondary, contextual entity during             the existence of the Relation) to a n-ary Relation.
-    thingIsContextOfRelation, "thingIsContextOfRelation",
-    /// `thing is source of relation `: Connects a Thing (that is the source of a Relation) to a             Relation.
-    thingIsSourceOfRelation, "thingIsSourceOfRelation",
-    /// `thing is source of sequential relation `: Connects a Thing to a Sequential Relation, when this Thing             precedes other Thing(s) in the sequence.
-    thingIsSourceOfSequentialRelation, "thingIsSourceOfSequentialRelation",
-    /// `thing is source of temporal relation `: Connects a Thing to a Temporal Relation, when this Thing             precedes other Thing(s) in time.
-    thingIsSourceOfTemporalRelation, "thingIsSourceOfTemporalRelation",
-    /// `thing is source of whole part relation `: Connects a Thing to a Whole Part Relation, when this Thing has             Part other Thing(s).
-    thingIsSourceOfWholePartRelation, "thingIsSourceOfWholePartRelation",
-    /// `thing is target of appellation relation `: Connects a Thing (that is designated by an Appellation) to an             Appellation Relation.
-    thingIsTargetOfAppellationRelation, "thingIsTargetOfAppellationRelation",
-    /// `thing is target of authority relation `: Connects a Thing (that is under authority of an Agent) to an             Authority Relation.
-    thingIsTargetOfAuthorityRelation, "thingIsTargetOfAuthorityRelation",
-    /// `thing is target of event relation `: Connects a Thing (that is associated with an Event) to an Event             Relation.
-    thingIsTargetOfEventRelation, "thingIsTargetOfEventRelation",
-    /// `thing is target of ownership relation `: Connects a Thing (that is owned by a Group, a Person or a             Position) to an Ownership Relation.
-    thingIsTargetOfOwnershipRelation, "thingIsTargetOfOwnershipRelation",
-    /// `thing is target of place relation `: Connects a Thing (that is associated with a Place) to a Place             Relation.
-    thingIsTargetOfPlaceRelation, "thingIsTargetOfPlaceRelation",
-    /// `thing is target of relation `: Connects a Thing to a n-ary Relation.
-    thingIsTargetOfRelation, "thingIsTargetOfRelation",
-    /// `thing is target of rule relation `: Connects a Thing (that is associated with a Rule) to a Rule             Relation.
-    thingIsTargetOfRuleRelation, "thingIsTargetOfRuleRelation",
-    /// `thing is target of sequential relation `: Connects a Thing (that follows other Thing(s) in a sequence) to             a Sequential Relation.
-    thingIsTargetOfSequentialRelation, "thingIsTargetOfSequentialRelation",
-    /// `thing is target of temporal relation `: Connects a Thing (that follows other Thing(s) in time) to a             Temporal Relation.
-    thingIsTargetOfTemporalRelation, "thingIsTargetOfTemporalRelation",
-    /// `thing is target of type relation `: Connects a Thing (that is categorized by a Type) to a Type             Relation.
-    thingIsTargetOfTypeRelation, "thingIsTargetOfTypeRelation",
-    /// `thing is target of whole part relation `: Connects a Thing to a Whole Part Relation, when this Thing is             Part of another Thing.
-    thingIsTargetOfWholePartRelation, "thingIsTargetOfWholePartRelation",
-    /// `title`: An identifying name of a Record Resource, Instantiation or             Rule.
-    title, "title",
-    /// `type`: A term used to characterize an entity.
-    type_, "type",
-    /// `type is source of type relation `: Connects a Type (a category) to a Type Relation.
-    typeIsSourceOfTypeRelation, "typeIsSourceOfTypeRelation",
-    /// `type relation has source `: Connects a Type Relation to the Type (that categorizes the             involved Thing(s)).
-    typeRelationHasSource, "typeRelationHasSource",
-    /// `type relation has target `: Connects a Type Relation to a Thing (that is categorized by the             involved Type).
-    typeRelationHasTarget, "typeRelationHasTarget",
-    /// `unit of measurement`: A definite magnitude of a quantity, defined and adopted by convention or by             law, that is used as a standard for measurement of the same kind of quantity. Can be             spacial units (cm, m), weight (g, kg), time (s, h), storage (MB, TB) or more informal             units used in the archival context like number of boxes, pages or words.
-    unitOfMeasurement, "unitOfMeasurement",
-    /// `used from date`: Date at which an Appellation was first used.
-    usedFromDate, "usedFromDate",
-    /// `used to date`: Date until an Appellation was used.
-    usedToDate, "usedToDate",
-    /// `was last updated at date `: Connects a Thing to the Date when it was last             modified.
-    wasLastUpdatedAtDate, "wasLastUpdatedAtDate",
-    /// `was used from date `: Connects an Appellation to the Date from which it was             used.
-    wasUsedFromDate, "wasUsedFromDate",
-    /// `was used to date `: Connects an Appellation to the Date till when it was             used.
-    wasUsedToDate, "wasUsedToDate",
-    /// `whole part relation has source `: Connects a Whole Part Relation to the Thing that has some             parts.
-    wholePartRelationHasSource, "wholePartRelationHasSource",
-    /// `whole part relation has target `: Connects a Whole Part Relation to a Thing that is a             part.
-    wholePartRelationHasTarget, "wholePartRelationHasTarget",
-    /// `width`: Horizontal dimension of an entity.
-    width, "width",
-    /// `work relation connects `: Connects a Work Relation to an Agent.
-    workRelationConnects, "workRelationConnects"
+    base: "https://www.ica.org/standards/RiC/ontology#",
+
+    terms: [
+        /// `Accumulation Relation`: Connects at least one Record Resource or Instantiation to at             least one Agent, when the Agent accumulates it, be it intentionally (collecting it) or             not (receiving it in the course of its activities).
+        (AccumulationRelation, "AccumulationRelation"),
+        /// `Activity`: The doing of something for some human purpose.
+        (Activity, "Activity"),
+        /// `Activity Documentation Relation`: Connects at least one Record Resource or Instantiation to at             least one Activity, when the Record Resource or Instantiation results from the             activity.
+        (ActivityDocumentationRelation, "ActivityDocumentationRelation"),
+        /// `Activity Type`: Categorization of an Activity.
+        (ActivityType, "ActivityType"),
+        /// `Agent`: A Person, or Group, or an entity created by a Person or Group             (Mechanism), or a Position, that acts in the world.
+        (Agent, "Agent"),
+        /// `Agent Control Relation`: Connects at least one Agent, to at least another Agent, when the             first one(s) control(s) in a way the activities of the second one(s).
+        (AgentControlRelation, "AgentControlRelation"),
+        /// `Agent Hierarchical Relation`: Connects at least one Agent to at least another Agent, when the             first one is hierarchically superior to the second one.
+        (AgentHierarchicalRelation, "AgentHierarchicalRelation"),
+        /// `Agent Name`: A label, title or term designating an Agent in order to make it             distinguishable from other similar entities.
+        (AgentName, "AgentName"),
+        /// `Agent Origination Relation`: Connects at least one Record Resource or an Instantiation to at             least one Agent that creates or accumulates the Record Resource, receives it, or sends             it.
+        (AgentOriginationRelation, "AgentOriginationRelation"),
+        /// `Agent Temporal Relation`: Connects at least one Agent, to at least another Agent, that             succeeds it chronologically for, for instance, fullfilling some functions or performing             some activities.
+        (AgentTemporalRelation, "AgentTemporalRelation"),
+        /// `Agent Relation`: Connects at least two Agents.
+        (AgentToAgentRelation, "AgentToAgentRelation"),
+        /// `Appellation`: A concept of any kind that is used for designating an Entity and             referring to it.
+        (Appellation, "Appellation"),
+        /// `Appellation Relation`: The relation between an Appellation and at least one Thing that             the Appellation designates.
+        (AppellationRelation, "AppellationRelation"),
+        /// `Authority Relation`: Connects at least one Agent, and at least one Thing over which             the Agent has some authority.
+        (AuthorityRelation, "AuthorityRelation"),
+        /// `Authorship Relation`: Connects at least one Record to at least one Person, Group or             Position that is responsible for conceiving and formulating the information contained in             the Record.
+        (AuthorshipRelation, "AuthorshipRelation"),
+        /// `Carrier Extent`: The extent of a Record Resource carrier
+        (CarrierExtent, "CarrierExtent"),
+        /// `Carrier Type`: Categorization of physical material in or on which information             is represented.
+        (CarrierType, "CarrierType"),
+        /// `Child Relation`: Connects at lest one Person, to at least another Person, when             the first has child the second one.
+        (ChildRelation, "ChildRelation"),
+        /// `Concept`: An idea, unit of thought, abstract cultural object or             category
+        (Concept, "Concept"),
+        /// `Content Type`: The fundamental form of communication in which a Record is             expressed and the human sense through which it is intended to be             perceived.
+        (ContentType, "ContentType"),
+        /// `Coordinates`: Longitudinal and latitudinal information of a             Place.
+        (Coordinates, "Coordinates"),
+        /// `Corporate Body`: An organized group of persons that act together as an Agent, and             that has a recognized legal or social status.
+        (CorporateBody, "CorporateBody"),
+        /// `Corporate Body Type`: Categorization of a Corporate Body.
+        (CorporateBodyType, "CorporateBodyType"),
+        /// `Correspondence Relation`: Connects at least two Persons, when they correspond to each             other.
+        (CorrespondenceRelation, "CorrespondenceRelation"),
+        /// `Creation Relation`: Connects at least one Record Resource or Instantiation to at             least one Agent, when the Agent is either responsible for all or some of the content of             the Record Resource, or is a contributor to the genesis or production of the             Instantiation.
+        (CreationRelation, "CreationRelation"),
+        /// `Date`: Chronological information associated with an entity that             contributes to its identification and contextualization.
+        (Date, "Date"),
+        /// `Date Range`: Chronological information associated with an entity that             contributes to its identification and contextualization, that implies or explicitly             states a start date and end date.
+        (DateRange, "DateRange"),
+        /// `Date Set`: Non-contiguous single dates or date ranges.
+        (DateSet, "DateSet"),
+        /// `Demographic Group`: Categorization of a person according to characteristics such as             age, gender, education, place of origin, ethnic/cultural identification, religion,             etc.
+        (DemographicGroup, "DemographicGroup"),
+        /// `Derivation Relation`: Connects an Instantiation to at least one Instantiation that is             derived from it.
+        (DerivationRelation, "DerivationRelation"),
+        /// `Descendance Relation`: Connects at least one Person to at least another Person, when             the first has/have descendant the second one(s).
+        (DescendanceRelation, "DescendanceRelation"),
+        /// `Documentary Form Type`: Categorization of the document with respect to its extrinsic and             intrinsic elements that together communicate its content, administrative and documentary             context, and authority
+        (DocumentaryFormType, "DocumentaryFormType"),
+        /// `Event`: Something that happens in time and space.
+        (Event, "Event"),
+        /// `Event Relation`: Connects at least one Event to at least one Thing, when the             first is associated with the existence and lifecycle of the second one.
+        (EventRelation, "EventRelation"),
+        /// `Event Type`: Categorization of an Event.
+        (EventType, "EventType"),
+        /// `Extent`: Countable characteristics of the content of an entity expressed             as a quantity.
+        (Extent, "Extent"),
+        /// `Extent Type`: Categorization of the extent that is being measured
+        (ExtentType, "ExtentType"),
+        /// `Family`: Two or more persons related by birth, or through marriage,             adoption, civil union, or other social conventions that bind them together as a socially             recognized familial group.
+        (Family, "Family"),
+        /// `Family Relation`: Connects at least two Persons, when they have some family link,             i.e. belong to the same family.
+        (FamilyRelation, "FamilyRelation"),
+        /// `Family Type`: Categorization of a Family.
+        (FamilyType, "FamilyType"),
+        /// `Functional Equivalence Relation`: Connects at least two Instantiations which may be considered as             equivalent.
+        (FunctionalEquivalenceRelation, "FunctionalEquivalenceRelation"),
+        /// `Group`: Two or more Agents that act together as an Agent.
+        (Group, "Group"),
+        /// `Group Subdivision Relation`: Connects a Group and at least another Group, when the first one             as the second one(s) among its subdivisions.
+        (GroupSubdivisionRelation, "GroupSubdivisionRelation"),
+        /// `Identifier`: A word, number, letter, symbol, or any combination of these used             to uniquely identify or reference an individual instance of an entity within a specific             information domain.
+        (Identifier, "Identifier"),
+        /// `Identifier Type`: Categorization of an Identifier.
+        (IdentifierType, "IdentifierType"),
+        /// `Instantiation`: The inscription of information made by an Agent on a physical             carrier in any persistent, recoverable form as a means of communicating information             through time and space.
+        (Instantiation, "Instantiation"),
+        /// `Instantiation Extent`: The extent of an Instantiation.
+        (InstantiationExtent, "InstantiationExtent"),
+        /// `Instantiation to Instantiation Relation`: Connects at least two instantiations
+        (InstantiationToInstantiationRelation, "InstantiationToInstantiationRelation"),
+        /// `Intellectual Property Rights Relation`: Connects at least one Agent and one Record Resource or             Instantiation on which the Agent has some intellectual property rights.
+        (IntellectualPropertyRightsRelation, "IntellectualPropertyRightsRelation"),
+        /// `Knowing Of Relation`: Connects at least one Person to at least another one, when the             first one has some knowledge of the second one through time or space.
+        (KnowingOfRelation, "KnowingOfRelation"),
+        /// `Knowing Relation`: Connects at least two Persons that directly know each other             during their existence. This relation is symmetric.
+        (KnowingRelation, "KnowingRelation"),
+        /// `Language`: A spoken or written human language represented in the Record or             Record Part, or used by the Agent.
+        (Language, "Language"),
+        /// `Leadership Relation`: Connects at least one Person and at least one Group, when the             first one leads the second one.
+        (LeadershipRelation, "LeadershipRelation"),
+        /// `Legal Status`: A status defined by law.
+        (LegalStatus, "LegalStatus"),
+        /// `Management Relation`: Connects at least one Agent, and at least one Record Resource or             Instantiation that the Agent manages.
+        (ManagementRelation, "ManagementRelation"),
+        /// `Mandate`: Delegation of authority by an Agent to another Agent to perform             an Activity.
+        (Mandate, "Mandate"),
+        /// `Mandate Relation`: Connects at least one Mandate, and at least one Agent, when the             first gives the second one the authority or competencies to act. May also involve one to             many Activities that the Mandate(s) assign(s) to the Agent(s).
+        (MandateRelation, "MandateRelation"),
+        /// `Mechanism`: A process or system created by a Person or Group that performs             an Activity.
+        (Mechanism, "Mechanism"),
+        /// `Membership Relation`: Connects a Group and at least one Person, when the first one has             the second one(s) among its members.
+        (MembershipRelation, "MembershipRelation"),
+        /// `Migration Relation`: Connects an Instantiation and at least another Instantiation,             when the first is migrated into the second one(s).
+        (MigrationRelation, "MigrationRelation"),
+        /// `Name`: A label, title or term designating the entity in order to make             it distinguishable from other similar entities.
+        (Name, "Name"),
+        /// `Occupation Type`: Categorization of a profession, trade, or craft pursued by a             person in fulfilment of an Activity.
+        (OccupationType, "OccupationType"),
+        /// `Ownership Relation`: Connects at least one Group, Person or Position, and at least a             Thing that these Agent(s) own(s).
+        (OwnershipRelation, "OwnershipRelation"),
+        /// `Performance Relation`: Connects at least one Activity to at least one Agent, when the             first is performed by the second one(s).
+        (PerformanceRelation, "PerformanceRelation"),
+        /// `Person`: A human being with a social identity or persona.
+        (Person, "Person"),
+        /// `Physical Location`: A delimitation of the physical territory of a             Place.
+        (PhysicalLocation, "PhysicalLocation"),
+        /// `Place`: Bounded, named geographic area or region.
+        (Place, "Place"),
+        /// `Place Name`: A label, title or term designating a Place in order to make it             distinguishable from other similar entities.
+        (PlaceName, "PlaceName"),
+        /// `Place Relation`: Connects a Place and at least one Thing, when the first is             associated with the existence and lifecycle of the second one.
+        (PlaceRelation, "PlaceRelation"),
+        /// `Place Type`: Categorization of a Place.
+        (PlaceType, "PlaceType"),
+        /// `Position`: The functional role of a Person within a Group.
+        (Position, "Position"),
+        /// `Position Holding Relation`: Connects at least one Person, and at least one Position that the             Person occupies.
+        (PositionHoldingRelation, "PositionHoldingRelation"),
+        /// `Position to Group Relation`: Connects at least one Position, and a Group, when the first             one(s) exist(s) in/is defined within the second one.
+        (PositionToGroupRelation, "PositionToGroupRelation"),
+        /// `Production Technique Type`: Categorization of the method used in the representation of             information on the Instantiation.
+        (ProductionTechniqueType, "ProductionTechniqueType"),
+        /// `Provenance Relation`: Specifies the provenance or origin of at least one Record             Resource or Instantiation, for example the relation between a Record Resource and the             Agent which created it or the Activity from which it resulted.
+        (ProvenanceRelation, "ProvenanceRelation"),
+        /// `Proxy`: A Proxy represents (stands for) a Record Resource as it exists             in a specific Record Set.
+        (Proxy, "Proxy"),
+        /// `Record`: Information inscribed at least once by any method on any             physical carrier in any persistent, recoverable form by an Agent in the course of life             or work Activity.
+        (Record, "Record"),
+        /// `Record Part`: Part of a Record with discrete information content that             contributes to the Record's physical or intellectual completeness.
+        (RecordPart, "RecordPart"),
+        /// `Record Resource`: A Record, Record Set, or Record Part produced or acquired and             retained by an Agent in the course of Activity.
+        (RecordResource, "RecordResource"),
+        /// `Record Resource Extent`: The extent of the content of a Record Resource.
+        (RecordResourceExtent, "RecordResourceExtent"),
+        /// `Record Resource Genetic Relation`: Connects two to more Record Resources when there is a genetic             relation between them. Genetic in this sense is as defined by diplomatics, i.e. the             process by which a Record Resource is developed.
+        (RecordResourceGeneticRelation, "RecordResourceGeneticRelation"),
+        /// `Record Resource Holding Relation`: Connects at least one Agent, and one or more Record Resource or             Instantiation that the Agent holds.
+        (RecordResourceHoldingRelation, "RecordResourceHoldingRelation"),
+        /// `Record Resource to Instantiation Relation`: Connects a Record Resource to one or more Instantiations that             instantiate it.
+        (RecordResourceToInstantiationRelation, "RecordResourceToInstantiationRelation"),
+        /// `Record Resource to Record Resource Relation`: Connects at least two Record Resources.
+        (RecordResourceToRecordResourceRelation, "RecordResourceToRecordResourceRelation"),
+        /// `Record Set`: One or more records that are associated by categorization and/or             physical aggregation by the creator or other Agent.
+        (RecordSet, "RecordSet"),
+        /// `Record Set Type`: A broad categorization of the type of Record Set.
+        (RecordSetType, "RecordSetType"),
+        /// `Record State`: Categorization of the production or reproduction status of a             Record or Record Part.
+        (RecordState, "RecordState"),
+        /// `Relation`: The top level relation class. It connects at least two Things.             An instance of a Relation may have some datatype and object properties : a descriptive             note (datatype property) like any Thing ; certainty (for 'certain', 'quite probable',             'uncertain','unknown'); a date (use either the date datatype property or the Date class             and isAssociatedWithDate object property ; a state (relationState) ; a location (use             Place class and isAssociatedWithPlace object property) ; a source of information that             can be used as an evidence for it (use either source datatype property or hasSource             object property).
+        (Relation, "Relation"),
+        /// `Representation Type`: Categorization of the method of recording the content type of a             Record Resource.
+        (RepresentationType, "RepresentationType"),
+        /// `RiC-CM corresponding component`: When it exists, specifies the identifier and name of RiC-CM             component that corresponds to the annotated class or property.
+        (RiCCMCorrespondingComponent, "RiCCMCorrespondingComponent"),
+        /// `Role Type`: The role an agent plays in some context (usually in some             creation relation). Not to be confused with a position (position of an agent in some             group). For example, a person who is the head of some corporate body may play the role             of annotator (of a record) in a creation relation.
+        (RoleType, "RoleType"),
+        /// `Rule`: Conditions that govern the existence or authority of an Agent or the performance of an Activity, or that contribute to the distinct characteristics of things created or managed by an Agent.
+        (Rule, "Rule"),
+        /// `Rule Relation`: Connects at least one Rule to at least one Thing, when it is             associated with existence and lifecycle of the Thing.
+        (RuleRelation, "RuleRelation"),
+        /// `Rule Type`: Categorization of a Rule.
+        (RuleType, "RuleType"),
+        /// `Sequential Relation`: Connects at least one Thing to at least one Thing that follows             it in some sequence.
+        (SequentialRelation, "SequentialRelation"),
+        /// `Sibling Relation`: Connects at least two Persons, when they are             siblings.
+        (SiblingRelation, "SiblingRelation"),
+        /// `Single Date`: Chronological information associated with an entity that             contributes to its identification and contextualization, related to a single point in             time.
+        (SingleDate, "SingleDate"),
+        /// `Spouse Relation`: Connects at least two Persons, when they are             spouses.
+        (SpouseRelation, "SpouseRelation"),
+        /// `Teaching Relation`: Connects at least one Person to at least another Person, who is             their student.
+        (TeachingRelation, "TeachingRelation"),
+        /// `Temporal Relation`: Connects at least one Thing to at least one Thing that follows             it in chronological order.
+        (TemporalRelation, "TemporalRelation"),
+        /// `Thing`: Any idea, material thing, or event within the realm of human             experience.
+        (Thing, "Thing"),
+        /// `Title`: A name that is used for a Record Resource or a             Rule
+        (Title, "Title"),
+        /// `Type`: A superclass for any category of some thing. A type             characterizes an entity.
+        (Type, "Type"),
+        /// `Type Relation`: Connects a category (a Type) and at least one Thing that belongs             to this category.
+        (TypeRelation, "TypeRelation"),
+        /// `Unit Of Measurement`: A definite magnitude of a quantity, defined and adopted by convention or by             law, that is used as a standard for measurement of the same kind of quantity. Can be             spacial units (cm, m), weigt (g, kg), time (s, h), storage (MB, TB) or more informal             units used in the archival context like number of boxes, pages or words.
+        (UnitOfMeasurement, "UnitOfMeasurement"),
+        /// `Whole Part Relation`: Connects a Thing to at least one constitutive or component part             of that Thing.
+        (WholePartRelation, "WholePartRelation"),
+        /// `Work Relation`: Connects at least two Agents that have some type of work             relation in the course of their activities.
+        (WorkRelation, "WorkRelation"),
+        /// `accrual`: Information on the anticipated accession(s) to the Record             Set.
+        (accrual, "accrual"),
+        /// `accrual status`: Information on the status of an Accrual
+        (accrualStatus, "accrualStatus"),
+        /// `accumulation relation has source `: Connects an Accumulation Relation to one of the accumulated             Record Resources or Instantiations
+        (accumulationRelationHasSource, "accumulationRelationHasSource"),
+        /// `accumulation relation has target `: Connects an Accumulation Relation to one of the accumulating             Agents
+        (accumulationRelationHasTarget, "accumulationRelationHasTarget"),
+        /// `activity documentation relation has source `: Connects an Activity Documentation Relation to one of the             resulting Record Resources or Instantiations
+        (activityDocumentationRelationHasSource, "activityDocumentationRelationHasSource"),
+        /// `activity documentation relation has target `: Connects an Activity Documentation Relation to one of the             documented Activities
+        (activityDocumentationRelationHasTarget, "activityDocumentationRelationHasTarget"),
+        /// `activity is context of relation `: Connects an Activity to an Agent Temporal Relation (when the             Activity is transferred from an Agent to another one) or a Mandate Relation (the Mandate             assigns the Activity to the Agent or defines it).
+        (activityIsContextOfRelation, "activityIsContextOfRelation"),
+        /// `activity is source of performance relation `: Connects an Activity that is performed to a Performance             Relation
+        (activityIsSourceOfPerformanceRelation, "activityIsSourceOfPerformanceRelation"),
+        /// `activity is target of activity documentation relation         `: Connects an Activity to an Activity Documentation             Relation
+        (activityIsTargetOfActivityDocumentationRelation, "activityIsTargetOfActivityDocumentationRelation"),
+        /// `affects or affected`: Connects an Event to a Thing on which the Event has or had some             significant impact.
+        (affectsOrAffected, "affectsOrAffected"),
+        /// `agent control relation has source `: Connects an Agent Control Relation to one of the controlling             Agents
+        (agentControlRelationHasSource, "agentControlRelationHasSource"),
+        /// `agent control relation has target `: Connects an Agent Control Relation to one of the controlled             Agents
+        (agentControlRelationHasTarget, "agentControlRelationHasTarget"),
+        /// `agent has work relation `: Connects an Agent to a Work Relation
+        (agentHasWorkRelation, "agentHasWorkRelation"),
+        /// `agent hierarchical relation has source `: Connects an Agent Hierarchical Relation to one of the             hierarchically superior Agents
+        (agentHierarchicalRelationHasSource, "agentHierarchicalRelationHasSource"),
+        /// `agent hierarchical relation has target `: Connects an Agent Hierarchical Relation to one of the             hierarchically inferior Agents
+        (agentHierarchicalRelationHasTarget, "agentHierarchicalRelationHasTarget"),
+        /// `agent is connected to agent relation `: Connects an Agent to an Agent Relation
+        (agentIsConnectedToAgentRelation, "agentIsConnectedToAgentRelation"),
+        /// `agent is source of agent control relation `: Connects a controlling Agent to an Agent Control             Relation
+        (agentIsSourceOfAgentControlRelation, "agentIsSourceOfAgentControlRelation"),
+        /// `agent is source of agent hierarchical relation `: Connects a hierarchically superior Agent to an Agent             Hierarchical Relation
+        (agentIsSourceOfAgentHierarchicalRelation, "agentIsSourceOfAgentHierarchicalRelation"),
+        /// `agent is source of agent temporal relation `: Connects a predecessor Agent to an Agent Temporal             Relation
+        (agentIsSourceOfAgentTemporalRelation, "agentIsSourceOfAgentTemporalRelation"),
+        /// `agent is source of authority relation `: Connects an Agent thas has the authority, to an Authority             Relation
+        (agentIsSourceOfAuthorityRelation, "agentIsSourceOfAuthorityRelation"),
+        /// `agent is source of intellectual property rights relation         `: Connects an Agent having the intellectual property rights, to an             Intellectual Property Rights Relation
+        (agentIsSourceOfIntellectualPropertyRightsRelation, "agentIsSourceOfIntellectualPropertyRightsRelation"),
+        /// `agent is source of management relation `: Connects a manager Agent to a Management Relation
+        (agentIsSourceOfManagementRelation, "agentIsSourceOfManagementRelation"),
+        /// `agent is source of ownership relation `: Connects an owner Agent to an Ownership Relation
+        (agentIsSourceOfOwnershipRelation, "agentIsSourceOfOwnershipRelation"),
+        /// `agent is source of record resource holding relation `: Connects an Agent that holds a Record Resource or Instantiation,             to a Record Resource Holding Relation
+        (agentIsSourceOfRecordResourceHoldingRelation, "agentIsSourceOfRecordResourceHoldingRelation"),
+        /// `agent is target of accumulation relation `: Connects one of the accumulating Agents to an Accumulation             Relation
+        (agentIsTargetOfAccumulationRelation, "agentIsTargetOfAccumulationRelation"),
+        /// `agent is target of agent control relation `: Connects one of the controlled Agents to an Agent Control             Relation
+        (agentIsTargetOfAgentControlRelation, "agentIsTargetOfAgentControlRelation"),
+        /// `agent is target of agent hierarchical relation `: Connects one of the hierarchically inferior Agents to an Agent             Hierarchical Relation
+        (agentIsTargetOfAgentHierarchicalRelation, "agentIsTargetOfAgentHierarchicalRelation"),
+        /// `agent is target of agent origination relation `: Connects one of the Agents that created or accumulated the             Record resource or Instantiation, to an Agent Origination Relation
+        (agentIsTargetOfAgentOriginationRelation, "agentIsTargetOfAgentOriginationRelation"),
+        /// `agent is target of agent temporal relation `: Connects a successor Agent to an Agent Temporal             Relation
+        (agentIsTargetOfAgentTemporalRelation, "agentIsTargetOfAgentTemporalRelation"),
+        /// `agent is target of authorship relation`: Connects a Person, Group or Position to an Authorship             Relation.
+        (agentIsTargetOfAuthorshipRelation, "agentIsTargetOfAuthorshipRelation"),
+        /// `agent is target of creation relation `: Connects a creator Agent to a Creation Relation
+        (agentIsTargetOfCreationRelation, "agentIsTargetOfCreationRelation"),
+        /// `agent is target of mandate relation `: Connects a mandated Agent to a Mandate Relation
+        (agentIsTargetOfMandateRelation, "agentIsTargetOfMandateRelation"),
+        /// `agent is target of performance relation `: Connects an Agent to a Performance Relation
+        (agentIsTargetOfPerformanceRelation, "agentIsTargetOfPerformanceRelation"),
+        /// `agent or activity is target of provenance relation `: Connects an Agent or Activity that is the provenance of a Record             resource or Instantiation, to a Provenance Relation
+        (agentOrActivityIsTargetOfProvenanceRelation, "agentOrActivityIsTargetOfProvenanceRelation"),
+        /// `agent origination relation has source `: Connects an Agent Origination Relation to one of the resulting             Record Resource or Instantiation
+        (agentOriginationRelationHasSource, "agentOriginationRelationHasSource"),
+        /// `agent origination relation has target `: Connects an Agent Origination Relation to one of the creating or             accumulating Agents
+        (agentOriginationRelationHasTarget, "agentOriginationRelationHasTarget"),
+        /// `agent relation connects `: Connects an Agent Relation to one of the involved             Agents
+        (agentRelationConnects, "agentRelationConnects"),
+        /// `agent temporal relation has source `: Connects an Agent Temporal Relation to one of the predecessor             Agents
+        (agentTemporalRelationHasSource, "agentTemporalRelationHasSource"),
+        /// `agent temporal relation has target `: Connects an Agent Temporal Relation to one of the successor             Agents
+        (agentTemporalRelationHasTarget, "agentTemporalRelationHasTarget"),
+        /// `altimetric system`: Reference system used for altitude
+        (altimetricSystem, "altimetricSystem"),
+        /// `altitude`: The height of a Place above a reference level, especially above             sea level.
+        (altitude, "altitude"),
+        /// `appellation is source of appellation relation `: Connects an Appellation to an Appellation             Relation
+        (appellationIsSourceOfAppellationRelation, "appellationIsSourceOfAppellationRelation"),
+        /// `appellation relation has source `: Connects an Appellation Relation to the concerned             Appellation
+        (appellationRelationHasSource, "appellationRelationHasSource"),
+        /// `appellation relation has target `: Connects an Appellation Relation to one of the designated             Things
+        (appellationRelationHasTarget, "appellationRelationHasTarget"),
+        /// `as concerns activity `: Connects an Agent Temporal Relation or Mandate Relation, to an             Activity that is, either transferred from an Agent to another one, or assigned by a             Mandate to an Agent.
+        (asConcernsActivity, "asConcernsActivity"),
+        /// `authenticity note`: Description of evidences that the Record Resource or             Instantiation is what it purports to be, was created or sent by the said Agent, at the             said time and has not been tampered or corrupted.
+        (authenticityNote, "authenticityNote"),
+        /// `authority relation has source `: Connects an Authority Relation to an Agent that has the             authority
+        (authorityRelationHasSource, "authorityRelationHasSource"),
+        /// `authority relation has target `: Connects an Authority Relation to a Thing over which the             Authority is performed
+        (authorityRelationHasTarget, "authorityRelationHasTarget"),
+        /// `authorized by `: Inverse of 'authorizes' object property
+        (authorizedBy, "authorizedBy"),
+        /// `authorizes`: Connects a Mandate to the Agent that the Mandate gives the             authority or competencies to act.
+        (authorizes, "authorizes"),
+        /// `authorizing agent `: Connects a Mandate Relation to an Agent that assigns the             Mandate.
+        (authorizingAgent, "authorizingAgent"),
+        /// `authorizing mandate`: Information on a Mandate that authorizes an Agent to perform an             Activity.
+        (authorizingMandate, "authorizingMandate"),
+        /// `authorship relation has source`: Connects an Authorship Relation to one of the Records involved             in the relation.
+        (authorshipRelationHasSource, "authorshipRelationHasSource"),
+        /// `authorship relation has target`: Connects an Authorship Relation to one of the author Person,             Group or Position.
+        (authorshipRelationHasTarget, "authorshipRelationHasTarget"),
+        /// `beginning date`: Date at which something began.
+        (beginningDate, "beginningDate"),
+        /// `birth date`: Date at which a Person was born.
+        (birthDate, "birthDate"),
+        /// `calendar`: Used system of reckoning time in which the beginning, length,             and divisions of a year are defined, sometimes along with multiyear             cycles.
+        (calendar, "calendar"),
+        /// `carrier extent`: Number of physical units and/or physical dimensions of the             carrier of a record resource instantiation. Various carriers, depending on specific             needs, may have more than one relevant dimension. In some cases, indicating the number             of physical units may be sufficient, while in other case, relevant dimensions should be             used in order to characterize the carrier.
+        (carrierExtent, "carrierExtent"),
+        /// `certainty`: Qualifies the level of certitude of the accuracy of a Date, an             Event or a Relation.
+        (certainty, "certainty"),
+        /// `child relation has source `: Connects a Child Relation to a parent Person
+        (childRelationHasSource, "childRelationHasSource"),
+        /// `child relation has target `: Connects a Child Relation to a child Person
+        (childRelationHasTarget, "childRelationHasTarget"),
+        /// `classification`: A term, number or alphanumeric string that is usually taken from             an external classification vocabulary or scheme that qualifies the Record             Resource.
+        (classification, "classification"),
+        /// `close to`: An annotation property for recording a possible mapping to a             component in another model or ontology
+        (closeTo, "closeTo"),
+        /// `conditions of access`: Terms and circumstances affecting the availability of a Record             Resource for consultation. Such conditions may originate in laws, regulations and             policies, including those pertaining to privacy and security concerns or restrictions;             they may concern a specific Instantiation of a Record Resource, for example, conditions             that require preservation treatment; or they may specify the software or hardware             necessary to access the Instantiation.
+        (conditionsOfAccess, "conditionsOfAccess"),
+        /// `conditions of use`: Terms and circumstances affecting the use of a Record Resource             after access has been provided. Includes conditions governing reproduction of the Record             Resource under applicable copyright (intellectual property) and/or property legislation,             and of the Instantiation, due to conservation status.
+        (conditionsOfUse, "conditionsOfUse"),
+        /// `contains or contained`: Connects a Place to a region that is or was within             it.
+        (containsOrContained, "containsOrContained"),
+        /// `correspondence relation connects `: Connects a Correspondence Relation to one of the Persons             involved
+        (correspondenceRelationConnects, "correspondenceRelationConnects"),
+        /// `creation date`: Date at which an entity was created.
+        (creationDate, "creationDate"),
+        /// `creation relation has source `: Connects a Creation Relation to one of the created Record             Resources or Instantiations
+        (creationRelationHasSource, "creationRelationHasSource"),
+        /// `creation relation has target `: Connects a Creation Relation to one of the creator             Agents
+        (creationRelationHasTarget, "creationRelationHasTarget"),
+        /// `creation with role `: Connects a Creation Relation to the Role Type that the creator             Agent(s) has in the creation process
+        (creationWithRole, "creationWithRole"),
+        /// `date`: Chronological information associated with an entity that             contributes to its identification and contextualization.
+        (date, "date"),
+        /// `date qualifier`: Indicates the precision of a date. It specifies if, and to what             extent, the value is an estimation.
+        (dateQualifier, "dateQualifier"),
+        /// `date standard`: Identifier of the standard of the Normalized             date.
+        (dateStandard, "dateStandard"),
+        /// `death date`: Date at which a Person died.
+        (deathDate, "deathDate"),
+        /// `deletion date`: Date at which an entity was deleted.
+        (deletionDate, "deletionDate"),
+        /// `derivation relation has source `: Connects a Derivation Relation to the Instantiation from which             one or more Instantiations is derived.
+        (derivationRelationHasSource, "derivationRelationHasSource"),
+        /// `derivation relation has target `: Connects a Derivation Relation to one of the derived             Instantiations
+        (derivationRelationHasTarget, "derivationRelationHasTarget"),
+        /// `descendance relation has source `: Connects a Descendance Relation to one of the ancestor             Persons
+        (descendanceRelationHasSource, "descendanceRelationHasSource"),
+        /// `descendance relation has target `: Connects a Descendance Relation to one of the descendant             Persons
+        (descendanceRelationHasTarget, "descendanceRelationHasTarget"),
+        /// `describes or described`: Connects a Record Resource to a Thing that it             describes.
+        (describesOrDescribed, "describesOrDescribed"),
+        /// `descriptive note`: Descriptive information about an entity that is not otherwise             addressed.
+        (descriptiveNote, "descriptiveNote"),
+        /// `documented by`: Inverse of 'documents' object property.
+        (documentedBy, "documentedBy"),
+        /// `documents`: Connects a Record Resource or an Instantiation to the Activity             that generates the Record Resource or Instantiation.
+        (documents, "documents"),
+        /// `end date`: Date at which something ended.
+        (endDate, "endDate"),
+        /// `event is source of event relation `: Connects an Event to an Event Relation
+        (eventIsSourceOfEventRelation, "eventIsSourceOfEventRelation"),
+        /// `event relation has source `: Connects an Event Relation to an Event
+        (eventRelationHasSource, "eventRelationHasSource"),
+        /// `event relation has target `: Connects an Event Relation to an associated Thing
+        (eventRelationHasTarget, "eventRelationHasTarget"),
+        /// `exists or existed in`: Connects a Position to a Group in which that Position exists or             existed, or that is defined by that Group�s organizational structure.
+        (existsOrExistedIn, "existsOrExistedIn"),
+        /// `expressed date`: Natural language expression of a Date.
+        (expressedDate, "expressedDate"),
+        /// `expresses or expressed`: Inverse of 'is or was expressed by' object             property.
+        (expressesOrExpressed, "expressesOrExpressed"),
+        /// `family relation connects `: Connects a Family Relation to a Person.
+        (familyRelationConnects, "familyRelationConnects"),
+        /// `follows in time`: Inverse of 'precedes in time' object property.
+        (followsInTime, "followsInTime"),
+        /// `follows or followed`: Inverse of 'precedesOrPreceded' object property.
+        (followsOrFollowed, "followsOrFollowed"),
+        /// `functional equivalence relation connects `: Connects a Functional Equivalence Relation to one of the             functionally equivalent Instantiations.
+        (functionalEquivalenceRelationConnects, "functionalEquivalenceRelationConnects"),
+        /// `geodesic system`: Reference system used for geographical             coordinates.
+        (geodesicSystem, "geodesicSystem"),
+        /// `geographical coordinates`: Longitudinal and latitudinal information of a             Place.
+        (geographicalCoordinates, "geographicalCoordinates"),
+        /// `group is source of group subdivision relation `: Connects the Group that has at least a subdivision, to a Group             Subdivision Relation
+        (groupIsSourceOfGroupSubdivisionRelation, "groupIsSourceOfGroupSubdivisionRelation"),
+        /// `group is source of membership relation `: Connects the Group (that has one to many members) to a             Membership Relation
+        (groupIsSourceOfMembershipRelation, "groupIsSourceOfMembershipRelation"),
+        /// `group is target of group subdivision relation `: Connects a Group that is a subdivision, to a Group Subdivision             Relation
+        (groupIsTargetOfGroupSubdivisionRelation, "groupIsTargetOfGroupSubdivisionRelation"),
+        /// `group is target of leadership relation `: Connects a Group (which has a leader) to a Leadership             Relation
+        (groupIsTargetOfLeadershipRelation, "groupIsTargetOfLeadershipRelation"),
+        /// `group is target of position to group relation `: Connects the Group (in which a Position exists) to a Position To             Group Relation
+        (groupIsTargetOfPositionToGroupRelation, "groupIsTargetOfPositionToGroupRelation"),
+        /// `group subdivision relation has source `: Connects a Group Subdivision Relation to the Group that has             subdivisions
+        (groupSubdivisionRelationHasSource, "groupSubdivisionRelationHasSource"),
+        /// `group subdivision relation has target `: Connects a Group Subdivision Relation to one of the Groups that             is a subdivision
+        (groupSubdivisionRelationHasTarget, "groupSubdivisionRelationHasTarget"),
+        /// `has accumulator`: Connects a Record Resource or an Instantiation to the Agent that             accumulates it, be it intentionally (collecting) or not (receiving in the course of its             activities).
+        (hasAccumulator, "hasAccumulator"),
+        /// `has activity type`: Connects an Activity to an Activity Type that categorizes             it.
+        (hasActivityType, "hasActivityType"),
+        /// `has addressee`: Connects a Record Resource or an Instantiation to the Agent that             it is addressed to.
+        (hasAddressee, "hasAddressee"),
+        /// `has ancestor`: Inverse of 'has descendant' object property.
+        (hasAncestor, "hasAncestor"),
+        /// `has author`: Connects a Record to the Group, Person or Position that is             responsible for conceiving and formulating the information contained in the             Record.
+        (hasAuthor, "hasAuthor"),
+        /// `has beginning date `: Inverse of 'is beginning date of' object property
+        (hasBeginningDate, "hasBeginningDate"),
+        /// `has birth date `: Inverse of 'is birth date of' object property
+        (hasBirthDate, "hasBirthDate"),
+        /// `has carrier type`: Connects an Instantiation to a Carrier Type which categorizes             its carrier.
+        (hasCarrierType, "hasCarrierType"),
+        /// `has child`: Connects a Person to one of their children.
+        (hasChild, "hasChild"),
+        /// `has collector`: Connects a Record Resource or an Instantiation to the Agent that             collects it intentionally (is a collector).
+        (hasCollector, "hasCollector"),
+        /// `has content of type`: Connects a Record or a Record Part to a Content Type which             categorizes its content.
+        (hasContentOfType, "hasContentOfType"),
+        /// `has copy `: Connects a Record Resource to a copy of that Record             Resource.
+        (hasCopy, "hasCopy"),
+        /// `has creator`: Connects a Record Resource or an Instantiation to an Agent that             is either responsible for all or some of the content of the Record Resource or is a             contributor to the genesis or production of an Instantiation.
+        (hasCreator, "hasCreator"),
+        /// `has death date `: Inverse of 'is death date of' object property
+        (hasDeathDate, "hasDeathDate"),
+        /// `has derived instantiation `: Connects an Instantiation to an Instantiation that is derived             from it.
+        (hasDerivedInstantiation, "hasDerivedInstantiation"),
+        /// `has descendant`: Connects a Person to one of their descendants.
+        (hasDescendant, "hasDescendant"),
+        /// `has documentary form type`: Connects a Record or Record Part to its Documentary Form             Type.
+        (hasDocumentaryFormType, "hasDocumentaryFormType"),
+        /// `has draft `: Inverse of 'is draft of' object property.
+        (hasDraft, "hasDraft"),
+        /// `has end date `: Inverse of 'is end date of' object property.
+        (hasEndDate, "hasEndDate"),
+        /// `has event type`: Connects an Event to an Event Type which categorizes             it.
+        (hasEventType, "hasEventType"),
+        /// `has extent`: Connects a Record Resource or Instantiation to an Extent
+        (hasExtent, "hasExtent"),
+        /// `has extent type`: Connects an Extent to an Extent Type that categorizes what is being             measured.
+        (hasExtentType, "hasExtentType"),
+        /// `has family association with`: Connects two Persons that have some type of family link, i.e.             belong to the same family. This relation is symmetric.
+        (hasFamilyAssociationWith, "hasFamilyAssociationWith"),
+        /// `has family type`: Connects a Family to a Family Type that categorizes             it.
+        (hasFamilyType, "hasFamilyType"),
+        /// `has genetic link to record resource `: Connects two Record Resources when there is a genetic link             between them. Genetic in this sense is as defined by diplomatics, i.e. the process by             which a Record Resource is developed. This relation is symmetric.
+        (hasGeneticLinkToRecordResource, "hasGeneticLinkToRecordResource"),
+        /// `has identifier type`: Connects an Identifier and an Identifier Type that categorizes             it.
+        (hasIdentifierType, "hasIdentifierType"),
+        /// `has instantiation`: Connects a Record Resource to one of its             Instantiations.
+        (hasInstantiation, "hasInstantiation"),
+        /// `has modification date `: Inverse of 'is modification date of' object             property.
+        (hasModificationDate, "hasModificationDate"),
+        /// `has or had agent name`: Connects an Agent and (one of) its present or past Agent             Name.
+        (hasOrHadAgentName, "hasOrHadAgentName"),
+        /// `has or had all members with category`: Connects a Record Set and a Category (Type) to which all the             Records or Record Parts that are or were included in the Record Set             belong.
+        (hasOrHadAllMembersWithCategory, "hasOrHadAllMembersWithCategory"),
+        /// `has of had all members with content type`: Connects a Record Set and a Content Type that categorizes all             the Records or Record Parts that are or were included in the Record Set.
+        (hasOrHadAllMembersWithContentType, "hasOrHadAllMembersWithContentType"),
+        /// `has of had all members with documentary form type`: Connects a Record Set and a Documentary Form Type that             categorizes all the Records or Record Parts that are or were included in the Record             Set.
+        (hasOrHadAllMembersWithDocumentaryFormType, "hasOrHadAllMembersWithDocumentaryFormType"),
+        /// `has of had all members with language`: Connects a Record Set and a Language used by all the Records or             Record Parts that are or were included in the Record Set.
+        (hasOrHadAllMembersWithLanguage, "hasOrHadAllMembersWithLanguage"),
+        /// `has of had all members with legal status`: Connects a Record Set and a Legal Status that categorizes all             the Records or Record Parts that are or were included in the Record Set.
+        (hasOrHadAllMembersWithLegalStatus, "hasOrHadAllMembersWithLegalStatus"),
+        /// `has of had all members with record state`: Connects a Record Set and a Record State that categorizes all             the Records or Record Parts that are or were included in the Record Set.
+        (hasOrHadAllMembersWithRecordState, "hasOrHadAllMembersWithRecordState"),
+        /// `has or had appellation`: Connects a Thing to an Appellation that is or was used for             designating it.
+        (hasOrHadAppellation, "hasOrHadAppellation"),
+        /// `has or had authority over`: Connects an Agent to a Thing the Agent has or had authority             over.
+        (hasOrHadAuthorityOver, "hasOrHadAuthorityOver"),
+        /// `has or had category`: Connects a Thing to a Type that categorizes or categorized             it.
+        (hasOrHadCategory, "hasOrHadCategory"),
+        /// `has or had component`: Connects an Instantiation to one of its present or past             component instantiations.
+        (hasOrHadComponent, "hasOrHadComponent"),
+        /// `has or had constituent`: Connects a Record to a Record Part that is or was a component of             that Record.
+        (hasOrHadConstituent, "hasOrHadConstituent"),
+        /// `has or had controller`: Inverse of 'is or was controller of' object             property.
+        (hasOrHadController, "hasOrHadController"),
+        /// `has coordinates`: Connects a Physical Location to its past or present coordinates             in a reference system.
+        (hasOrHadCoordinates, "hasOrHadCoordinates"),
+        /// `has or had corporate body type`: Connects a Corporate Body to a Corporate Body Type which             categorizes or categorized it.
+        (hasOrHadCorporateBodyType, "hasOrHadCorporateBodyType"),
+        /// `has or had correspondent`: Connects two Persons that correspond or have corresponded with             each other. This relation is symmetric.
+        (hasOrHadCorrespondent, "hasOrHadCorrespondent"),
+        /// `has or had demographic group`: Connects a Person or a Group to a Demographic Group to which it             belongs or belonged.
+        (hasOrHadDemographicGroup, "hasOrHadDemographicGroup"),
+        /// `has or had holder`: Inverse of 'is or was holder of' object property.
+        (hasOrHadHolder, "hasOrHadHolder"),
+        /// `has or had identifier`: Connects a Thing to one of its past or present             Identifiers.
+        (hasOrHadIdentifier, "hasOrHadIdentifier"),
+        /// `has or had intellectual property rights holder`: Inverse of 'is or was holder of intellectual property rights of'             object property.
+        (hasOrHadIntellectualPropertyRightsHolder, "hasOrHadIntellectualPropertyRightsHolder"),
+        /// `has or had jurisdiction`: Inverse of 'is or was jurisdiction of' object             property.
+        (hasOrHadJurisdiction, "hasOrHadJurisdiction"),
+        /// `has or had language`: Connects an Agent or Record Resource to a Language that it uses             or used.
+        (hasOrHadLanguage, "hasOrHadLanguage"),
+        /// `has or had leader`: Inverse of 'is or was leader of' object property.
+        (hasOrHadLeader, "hasOrHadLeader"),
+        /// `has or had legal status`: Connects an Agent or Record Resource to a Legal Status which             categorized or categorizes it.
+        (hasOrHadLegalStatus, "hasOrHadLegalStatus"),
+        /// `has or had location`: Inverse of 'is or was location of' object             property.
+        (hasOrHadLocation, "hasOrHadLocation"),
+        /// `has or had main subject`: Connects a Record Resource to a Thing that is or was its main             subject.
+        (hasOrHadMainSubject, "hasOrHadMainSubject"),
+        /// `has or had manager`: Inverse of 'is or was manager of' object             property.
+        (hasOrHadManager, "hasOrHadManager"),
+        /// `has or had member`: Connects a Group to a Person that is or was a member of that             Group.
+        (hasOrHadMember, "hasOrHadMember"),
+        /// `has or had name`: Connects a Thing to one of its past or present             Names.
+        (hasOrHadName, "hasOrHadName"),
+        /// `has or had occupation of type`: Connects a Person to an Occupation Type that categorized or             categorizes his/her occupation (profession, trade or craft).
+        (hasOrHadOccupationOfType, "hasOrHadOccupationOfType"),
+        /// `has or had owner`: Inverse of 'is or was owner of' object property.
+        (hasOrHadOwner, "hasOrHadOwner"),
+        /// `has or had part`: Connects a Thing to a constitutive or component part of that             Thing.
+        (hasOrHadPart, "hasOrHadPart"),
+        /// `has or had participant`: Connects an Event to a Thing that is or was actively or             passively involved in it.
+        (hasOrHadParticipant, "hasOrHadParticipant"),
+        /// `has or had physical location`: Connects a Place to one of its past or present Physical             Location.
+        (hasOrHadPhysicalLocation, "hasOrHadPhysicalLocation"),
+        /// `has or had place name`: Connects a Place to one of its past or present             names.
+        (hasOrHadPlaceName, "hasOrHadPlaceName"),
+        /// `has or had place type`: Connects a Place to a Place Type that categorized or categorizes             it.
+        (hasOrHadPlaceType, "hasOrHadPlaceType"),
+        /// `has or had position`: Inverse of 'exists or existed in' object             property.
+        (hasOrHadPosition, "hasOrHadPosition"),
+        /// `has or had rule type`: Connects a Rule to a Rule Type that categorized or categorizes             it.
+        (hasOrHadRuleType, "hasOrHadRuleType"),
+        /// `has or had some members with category`: Connects a Record Set and a Category (Type) to which some of the             Records or Record Parts that are or were included in the Record Set             belong.
+        (hasOrHadSomeMembersWithCategory, "hasOrHadSomeMembersWithCategory"),
+        /// `has or had some members with content type`: Connects a Record Set and a Content Type that categorizes some             of the Records or Record Parts that are or were included in the Record             Set.
+        (hasOrHadSomeMembersWithContentType, "hasOrHadSomeMembersWithContentType"),
+        /// `has or had some members with language`: Connects a Record Set and a Language used by some of the Records             or Record Parts that are or were included in the Record Set.
+        (hasOrHadSomeMembersWithLanguage, "hasOrHadSomeMembersWithLanguage"),
+        /// `has or had some members with legal status`: Connects a Record Set and a Legal Status that categorizes some             of the Records or Record Parts that are or were included in the Record             Set.
+        (hasOrHadSomeMembersWithLegalStatus, "hasOrHadSomeMembersWithLegalStatus"),
+        /// `has or had some members with record state`: Connects a Record Set and a Record State that categorizes some             of the Records or Record Parts that are or were included in the Record             Set.
+        (hasOrHadSomeMembersWithRecordState, "hasOrHadSomeMembersWithRecordState"),
+        /// `has or had some members with documentary form type`: Connects a Record Set and a Documentary Form Type that             categorizes some of the Records or Record Parts that are or were included in the Record             Set.
+        (hasOrHadSomeMemberswithDocumentaryFormType, "hasOrHadSomeMemberswithDocumentaryFormType"),
+        /// `has or had spouse`: Connects two Persons that are or were married. This relation is             symmetric.
+        (hasOrHadSpouse, "hasOrHadSpouse"),
+        /// `has or had student`: Inverse of 'has or had teacher' object property.
+        (hasOrHadStudent, "hasOrHadStudent"),
+        /// `has or had subdivision`: Connects a Group to one of its present or past             subdivisions.
+        (hasOrHadSubdivision, "hasOrHadSubdivision"),
+        /// `has or had subevent`: Connects an Event to one of a series of Events that constitute             the original, broader, past or ongoing Event.
+        (hasOrHadSubevent, "hasOrHadSubevent"),
+        /// `has or had subject`: Connects a Record Resource to a Thing that is or was its             subject.
+        (hasOrHadSubject, "hasOrHadSubject"),
+        /// `has or had subordinate`: Connects an Agent to an Agent that is hierarchically             inferior.
+        (hasOrHadSubordinate, "hasOrHadSubordinate"),
+        /// `has or had teacher`: Connects a Person to another Person who is or was their             student.
+        (hasOrHadTeacher, "hasOrHadTeacher"),
+        /// `has or had title`: Connects a Record Resource, Instantiation or Rule to a title             that is or was used for designating it.
+        (hasOrHadTitle, "hasOrHadTitle"),
+        /// `has or had work relation with`: Connects two Agents that have or had some type of work relation             in the course of their activities. This relation is symmetric.
+        (hasOrHadWorkRelationWith, "hasOrHadWorkRelationWith"),
+        /// `has original `: Inverse of 'is original of' object property.
+        (hasOriginal, "hasOriginal"),
+        /// `has production technique type`: Connects an Instantiation to a Production Technique Type that             categorizes its production technique.
+        (hasProductionTechniqueType, "hasProductionTechniqueType"),
+        /// `has provenance `: Connects a Record Resource or an Instantiation to an Agent that             creates or accumulates the Record Resource, receives it, or sends it.
+        (hasProvenance, "hasProvenance"),
+        /// `hasPublisher`: Connects a Record resource to an Agent who published             it.
+        (hasPublisher, "hasPublisher"),
+        /// `has receiver`: Connects a Record Resource or an Instantiation to the Agent that             receives it in the course of its activities.
+        (hasReceiver, "hasReceiver"),
+        /// `has record set type`: Connects a Record Set to a Record Set Type that categorizes             it.
+        (hasRecordSetType, "hasRecordSetType"),
+        /// `has record state`: Connects a Record or Record Part to a Record State that             categorizes its state.
+        (hasRecordState, "hasRecordState"),
+        /// `has reply`: Connects a Record Resource to a reply, usually in the form of             correspondence.
+        (hasReply, "hasReply"),
+        /// `has representation type`: Connects an Instantiation to a Representation Type that             categorizes its representation type.
+        (hasRepresentationType, "hasRepresentationType"),
+        /// `has sender `: Connects a Record Resource or an Instantiation to the Agent that             sends it
+        (hasSender, "hasSender"),
+        /// `has sibling`: Connects two Persons that are siblings. This relation is             symmetric.
+        (hasSibling, "hasSibling"),
+        /// `has source `: Connects a Record Resource or Relation to a Record Resource or             Agent that is used as a source of information for identifying or describing             it.
+        (hasSource, "hasSource"),
+        /// `has successor`: Connects an Agent to another Agent that succeeds it             chronologically.
+        (hasSuccessor, "hasSuccessor"),
+        /// `has unit of measurement`: Connects an Extent to a Unit Of Measurement
+        (hasUnitOfMeasurement, "hasUnitOfMeasurement"),
+        /// `height`: Vertical dimension of an entity.
+        (height, "height"),
+        /// `history`: Summary of the development of an entity, since its origin until             present time.
+        (history, "history"),
+        /// `identifier`: A word, number, letter, symbol, or any combination of these used             to uniquely identify or reference an individual instance of an entity within a specific             information domain. Includes Global Persistent Identifiers (globally unique and             persistently resolvable identifier for the entity) and/or Local             Identifiers.
+        (identifier, "identifier"),
+        /// `includes or included`: Connects a Record Set to a Record or Record Set it aggregates,             or aggregated in the past.
+        (includesOrIncluded, "includesOrIncluded"),
+        /// `Instantiation extent`: Countable characteristics of the Instantiation expressed as a             quantity.
+        (instantiationExtent, "instantiationExtent"),
+        /// `instantiation is connected to functional equivalence relation         `: Connects an Instantiation to a Functional Equivalence             Relation
+        (instantiationIsConnectedToFunctionalEquivalenceRelation, "instantiationIsConnectedToFunctionalEquivalenceRelation"),
+        /// `instantiation is connected to instantiation relation `: Connects an Instantiation to an Instantiation to Instantiation             Relation.
+        (instantiationIsConnectedToInstantiationRelation, "instantiationIsConnectedToInstantiationRelation"),
+        /// `instantiation is source of derivation relation `: Connects an Instantiation (from which at least one Instantiation             is derived) to a Derivation Relation.
+        (instantiationIsSourceOfDerivationRelation, "instantiationIsSourceOfDerivationRelation"),
+        /// `instantiation is source of migration relation `: Connects an Instantiation (from which at least one Instantiation             is migrated) to a Migration Relation.
+        (instantiationIsSourceOfMigrationRelation, "instantiationIsSourceOfMigrationRelation"),
+        /// `instantiation is target of derivation relation `: Connects a derived Instantiation to a Derivation             Relation.
+        (instantiationIsTargetOfDerivationRelation, "instantiationIsTargetOfDerivationRelation"),
+        /// `instantiation is target of migration relation `: Connects an Instantiation which results from a migration, to a             Migration Relation.
+        (instantiationIsTargetOfMigrationRelation, "instantiationIsTargetOfMigrationRelation"),
+        /// `instantiation is target of record resource to instantiation             relation `: Connects an Instantiation of a Record Resource to the Record             Resource to Instantiation Relation.
+        (instantiationIsTargetOfRecordResourceToInstantiationRelation, "instantiationIsTargetOfRecordResourceToInstantiationRelation"),
+        /// `Instantiation structure`: Information about the physical arrangement and composition of an             Instantiation.
+        (instantiationStructure, "instantiationStructure"),
+        /// `instantiation to instantiation relation connects `: Connects an Instantiation to Instantiation Relation to one of             the related Instantiations.
+        (instantiationToInstantiationRelationConnects, "instantiationToInstantiationRelationConnects"),
+        /// `integrity`: Information about the completeness of a Record Resource or             Instantiation.
+        (integrity, "integrity"),
+        /// `intellectual property rights relation has source `: Connects an IntellectualPropertyRightsRelation to one of the             Group, Person or Position that holds the rights.
+        (intellectualPropertyRightsRelationHasSource, "intellectualPropertyRightsRelationHasSource"),
+        /// `intellectual property rights relation has target `: Connects an IintellectualPropertyRightsRelation to one of the             Record Resource or Instantiation on which the rights are held.
+        (intellectualPropertyRightsRelationHasTarget, "intellectualPropertyRightsRelationHasTarget"),
+        /// `is accumulator of`: Inverse of 'has accumulator' object property.
+        (isAccumulatorOf, "isAccumulatorOf"),
+        /// `is activity type of`: Connects an Activity Type to an Activity that it             categorizes.
+        (isActivityTypeOf, "isActivityTypeOf"),
+        /// `is addressee of `: Inverse of 'has addressee' object property.
+        (isAddresseeOf, "isAddresseeOf"),
+        /// `is agent associated with agent `: Connects two Agents. This object property is             symmetric.
+        (isAgentAssociatedWithAgent, "isAgentAssociatedWithAgent"),
+        /// `is associated with date `: Inverse of 'is date associated with' object             property.
+        (isAssociatedWithDate, "isAssociatedWithDate"),
+        /// `is associated with event `: Inverse of 'is event associated with' object             property.
+        (isAssociatedWithEvent, "isAssociatedWithEvent"),
+        /// `is associated with place `: Inverse of 'is place associated with' object             property.
+        (isAssociatedWithPlace, "isAssociatedWithPlace"),
+        /// `is associated with rule `: Inverse of 'is rule associated with' object             property.
+        (isAssociatedWithRule, "isAssociatedWithRule"),
+        /// `is author of`: Inverse of 'has author' object property.
+        (isAuthorOf, "isAuthorOf"),
+        /// `is authorizing agent in mandate relation `: Connects an Agent that assigns the Mandate, to a Mandate             Relation.
+        (isAuthorizingAgentInMandateRelation, "isAuthorizingAgentInMandateRelation"),
+        /// `is beginning date of `: Connects a Date to a Thing that came into existence on that             Date.
+        (isBeginningDateOf, "isBeginningDateOf"),
+        /// `is birth date of `: Connects a Date to a Person that was born on that             Date.
+        (isBirthDateOf, "isBirthDateOf"),
+        /// `is carrier type of`: Connects a Carrier Type to an Instantiation whose carrier it             categorizes.
+        (isCarrierTypeOf, "isCarrierTypeOf"),
+        /// `is child of`: Inverse of 'has child' object property.
+        (isChildOf, "isChildOf"),
+        /// `is collector of`: Inverse of 'has collector' object property.
+        (isCollectorOf, "isCollectorOf"),
+        /// `is content type of`: Connects a Content Type to a Record or Record Part whose content             it categorizes.
+        (isContentTypeOf, "isContentTypeOf"),
+        /// `is copy of`: Inverse of 'has copy' object property.
+        (isCopyOf, "isCopyOf"),
+        /// `is creator of`: Inverse of 'has creator' object property.
+        (isCreatorOf, "isCreatorOf"),
+        /// `is date associated with `: Connects a Date to a Thing that the Date is associated with the             existence and lifecycle of.
+        (isDateAssociatedWith, "isDateAssociatedWith"),
+        /// `is death date of `: Connects a Date to a Person who died on that             Date.
+        (isDeathDateOf, "isDeathDateOf"),
+        /// `is derived from instantiation `: Inverse of 'has derived instantiation' object             property.
+        (isDerivedFromInstantiation, "isDerivedFromInstantiation"),
+        /// `is documentary form type of`: Connects a Documentary Form Type to a Record or Record Part that             it categorizes.
+        (isDocumentaryFormTypeOf, "isDocumentaryFormTypeOf"),
+        /// `is draft of `: Connects a draft to the final version of a             Record.
+        (isDraftOf, "isDraftOf"),
+        /// `is end date of `: Connects a Date to a Thing whose existence ended on that             Date.
+        (isEndDateOf, "isEndDateOf"),
+        /// `is equivalent to `: Connects two Things that are considered             equivalent.
+        (isEquivalentTo, "isEquivalentTo"),
+        /// `is event associated with `: Connects an Event to a Thing that is associated with the             existence and lifecycle of the Event.
+        (isEventAssociatedWith, "isEventAssociatedWith"),
+        /// `is event type of`: Connects an Event Type to an Event that is             categorizes.
+        (isEventTypeOf, "isEventTypeOf"),
+        /// `is extent of`: Connects an Extent to a Record Resource or Instantiation
+        (isExtentOf, "isExtentOf"),
+        /// `is extent type of`: Connects an Extent Type to an Extent that it             categorizes.
+        (isExtentTypeOf, "isExtentTypeOf"),
+        /// `is family type of`: Connects a Family Type to a Family that is             categorizes.
+        (isFamilyTypeOf, "isFamilyTypeOf"),
+        /// `is from use date of `: Connects a Date to an Appellation, when it is the date at which             the Appellation was first used.
+        (isFromUseDateOf, "isFromUseDateOf"),
+        /// `is functionally equivalent to`: Connects two Instantiations which may be considered as             equivalent. This relation is symmetric.
+        (isFunctionallyEquivalentTo, "isFunctionallyEquivalentTo"),
+        /// `is identifier type of`: Connects an Identifier Type and an Identifier that it             categorizes.
+        (isIdentifierTypeOf, "isIdentifierTypeOf"),
+        /// `is instantiation associated with instantiation `: Connects two Instantiations. This object property is             symmetric.
+        (isInstantiationAssociatedWithInstantiation, "isInstantiationAssociatedWithInstantiation"),
+        /// `is instantiation of`: Inverse of 'has instantiation' object property.
+        (isInstantiationOf, "isInstantiationOf"),
+        /// `is last update date of `: Connects a Date and a Thing that was last modified at this             Date.
+        (isLastUpdateDateOf, "isLastUpdateDateOf"),
+        /// `is modification date of `: Connects a Date to a Thing that was modified on that             Date.
+        (isModificationDateOf, "isModificationDateOf"),
+        /// `is or was adjacent to`: Connects two Places that are or were geographically adjacent.             This is a symmetric object property.
+        (isOrWasAdjacentTo, "isOrWasAdjacentTo"),
+        /// `is or was affected by`: Inverse of 'affects or affected' object property.
+        (isOrWasAffectedBy, "isOrWasAffectedBy"),
+        /// `is or was agent name of`: Connects an Agent Name to an Agent it designates or             designated.
+        (isOrWasAgentNameOf, "isOrWasAgentNameOf"),
+        /// `is or was appellation of`: Connects an Appellation to a Thing that it designates or             designated.
+        (isOrWasAppellationOf, "isOrWasAppellationOf"),
+        /// `is or was category of`: Connects a Type (a category) to a Thing that it categorizes or             categorized.
+        (isOrWasCategoryOf, "isOrWasCategoryOf"),
+        /// `is or was category of all members of`: Connects a Category (Type) and a Record Set whose all present or             past Record or Record Part members belong to that Category.
+        (isOrWasCategoryOfAllMembersOf, "isOrWasCategoryOfAllMembersOf"),
+        /// `is or was category of some members of`: Connects a Category (Type) and a Record Set whose some present             or past Record or Record Part members belong to that Category.
+        (isOrWasCategoryOfSomeMembersOf, "isOrWasCategoryOfSomeMembersOf"),
+        /// `is or was component of`: Inverse of 'has or had component' object             property.
+        (isOrWasComponentOf, "isOrWasComponentOf"),
+        /// `is or was constituent of`: Inverse of 'has or had constituent' object             property.
+        (isOrWasConstituentOf, "isOrWasConstituentOf"),
+        /// `is or was contained by`: Inverse of 'contains or contained' object             property.
+        (isOrWasContainedBy, "isOrWasContainedBy"),
+        /// `is or was content type of all members of`: Connects a Content Type and a Record Set whose all past or             present Record or Record Part members have that Content Type.
+        (isOrWasContentTypeOfAllMembersOf, "isOrWasContentTypeOfAllMembersOf"),
+        /// `is or was content type of some members of`: Connects a Content Type and a Record Set whose some past or             present Record or Record Part members have that Content Type.
+        (isOrWasContentTypeOfSomeMembersOf, "isOrWasContentTypeOfSomeMembersOf"),
+        /// `is or was controller of`: Connects an Agent to another Agent it controls or controlled via             Activities, i.e. controls by function.
+        (isOrWasControllerOf, "isOrWasControllerOf"),
+        /// `is or was coordinates of`: Connects an instance of Coordinates to a Physical Location it             locates or located on earth, according to some reference system.
+        (isOrWasCoordinatesOf, "isOrWasCoordinatesOf"),
+        /// `is or was corporate body type of`: Connects a Corporate Body Type to a Corporate Body that it             categorizes or categorized.
+        (isOrWasCorporateBodyTypeOf, "isOrWasCorporateBodyTypeOf"),
+        /// `is or was demographic group of`: Connects a Demographic Group to a Person or Group which belongs             or belonged to it.
+        (isOrWasDemographicGroupOf, "isOrWasDemographicGroupOf"),
+        /// `is or was described by`: Inverse of 'describes or described' object             property.
+        (isOrWasDescribedBy, "isOrWasDescribedBy"),
+        /// `is or was documentary form type of all members of`: Connects a Documentary Form Type and a Record Set whose all past             or present Record or Record Part members have that Documentary Form Type.
+        (isOrWasDocumentaryFormTypeOfAllMembersOf, "isOrWasDocumentaryFormTypeOfAllMembersOf"),
+        /// `is or was documentary form type of some members of`: Connects a Documentary Form Type and a Record Set whose some             past or present Record or Record Part members have that Documentary Form             Type.
+        (isOrWasDocumentaryFormTypeOfSomeMembersOf, "isOrWasDocumentaryFormTypeOfSomeMembersOf"),
+        /// `is or was enforced by`: Connects a Rule to an Agent that enforces or enforced the             Rule.
+        (isOrWasEnforcedBy, "isOrWasEnforcedBy"),
+        /// `is or was expressed by`: Connects a Rule to a Record Resource that expresses or expressed             the Rule.
+        (isOrWasExpressedBy, "isOrWasExpressedBy"),
+        /// `is or was holder of`: Connects an Agent to a Record Resource or Instantiation that the             Agent holds or held.
+        (isOrWasHolderOf, "isOrWasHolderOf"),
+        /// `is or was holder of intellectual property rights of`: Connects an Agent to a Record Resource or Instantiation on which             the Agent has or had some intellectual property rights.
+        (isOrWasHolderOfIntellectualPropertyRightsOf, "isOrWasHolderOfIntellectualPropertyRightsOf"),
+        /// `is or was identifier of`: Connects an Identifier to a Thing that it identified or             identifies.
+        (isOrWasIdentifierOf, "isOrWasIdentifierOf"),
+        /// `is or was included in`: Inverse of 'includes or included' object             property.
+        (isOrWasIncludedIn, "isOrWasIncludedIn"),
+        /// `is or was jurisdiction of`: Connects a Place to an Agent that has or had jurisdiction over             the Place.
+        (isOrWasJurisdictionOf, "isOrWasJurisdictionOf"),
+        /// `is or was language of`: Connects a Language to an Agent, Record or Record Part that uses             or used it.
+        (isOrWasLanguageOf, "isOrWasLanguageOf"),
+        /// `is or was language of all members of`: Connects a Language and a Record Set whose all present or past             Record or Record Part members use that Language.
+        (isOrWasLanguageOfAllMembersOf, "isOrWasLanguageOfAllMembersOf"),
+        /// `is or was language of some members of`: Connects a Language and a Record Set whose some present or past             Record or Record Part members use that Language.
+        (isOrWasLanguageOfSomeMembersOf, "isOrWasLanguageOfSomeMembersOf"),
+        /// `is or was leader of`: Connects a Person to the Group that Person leads or led in the             past.
+        (isOrWasLeaderOf, "isOrWasLeaderOf"),
+        /// `is or was legal status of`: Connects a Legal Status to an Agent or Record Resource that it             categorizes.
+        (isOrWasLegalStatusOf, "isOrWasLegalStatusOf"),
+        /// `is or was legal status of all members of`: Connects a Legal Status and a Record Set whose all past or             present Record or Record Part members have that Legal Status.
+        (isOrWasLegalStatusOfAllMembersOf, "isOrWasLegalStatusOfAllMembersOf"),
+        /// `is or was legal status of some members of`: Connects a Legal Status and a Record Set whose some past or             present Record or Record Part members have that Legal Status.
+        (isOrWasLegalStatusOfSomeMembersOf, "isOrWasLegalStatusOfSomeMembersOf"),
+        /// `is or was location of`: Connects a Place to a Thing that is or was located in the             Place.
+        (isOrWasLocationOf, "isOrWasLocationOf"),
+        /// `is or was main subject of`: Inverse of 'has or had main subject' object             property.
+        (isOrWasMainSubjectOf, "isOrWasMainSubjectOf"),
+        /// `is or was manager of`: Connects an Agent to a Record Resource or Instantiation that the             Agent managed or manages.
+        (isOrWasManagerOf, "isOrWasManagerOf"),
+        /// `is or was member of`: Inverse of 'has or had member' object property.
+        (isOrWasMemberOf, "isOrWasMemberOf"),
+        /// `is or was name of`: Connects a Name to a Thing that it designated or             designates.
+        (isOrWasNameOf, "isOrWasNameOf"),
+        /// `is or was occupation type of`: Connects an Occupation Type to a Person whose occupation is or             was categorized by it.
+        (isOrWasOccupationTypeOf, "isOrWasOccupationTypeOf"),
+        /// `is or was occupied by`: Inverse of 'occupies or occupied' object             property.
+        (isOrWasOccupiedBy, "isOrWasOccupiedBy"),
+        /// `is or was owner of`: Connects a Group, Person or Position to a Thing that this Agent             owns or owned.
+        (isOrWasOwnerOf, "isOrWasOwnerOf"),
+        /// `is or was part of`: Inverse of 'has or had part' relation.
+        (isOrWasPartOf, "isOrWasPartOf"),
+        /// `is or was participant in`: Inverse of 'has or had participant' object             property.
+        (isOrWasParticipantIn, "isOrWasParticipantIn"),
+        /// `is or was performed by`: Connects an Activity to an Agent that performed or performs the             Activity.
+        (isOrWasPerformedBy, "isOrWasPerformedBy"),
+        /// `is or was physical location of`: Connects a Physical Location to a Place, when it is or was its             location.
+        (isOrWasPhysicalLocationOf, "isOrWasPhysicalLocationOf"),
+        /// `is or was place name of`: Connects a Place Name to a Place that was or is designated by             it.
+        (isOrWasPlaceNameOf, "isOrWasPlaceNameOf"),
+        /// `is or was place type of`: Connects a Place Type to a Place that is or was categorized by             it.
+        (isOrWasPlaceTypeOf, "isOrWasPlaceTypeOf"),
+        /// `is or was record state of all members of`: Connects a Record State and a Record Set whose all past or             present Record or Record Part members have that Record State.
+        (isOrWasRecordStateOfAllMembersOf, "isOrWasRecordStateOfAllMembersOf"),
+        /// `is or was record state of some members of`: Connects a Record State and a Record Set whose some past or             present Record or Record Part members have that Record State.
+        (isOrWasRecordStateOfSomeMembersOf, "isOrWasRecordStateOfSomeMembersOf"),
+        /// `is or was regulated by`: Inverse of the 'regulates or regulated' object             property.
+        (isOrWasRegulatedBy, "isOrWasRegulatedBy"),
+        /// `is or was responsible for enforcing`: Inverse of 'is or was enforced by' object             property.
+        (isOrWasResponsibleForEnforcing, "isOrWasResponsibleForEnforcing"),
+        /// `is or was rule type of`: connects a Rule Type to a Rule that it categorized or             categorizes.
+        (isOrWasRuleTypeOf, "isOrWasRuleTypeOf"),
+        /// `is or was subdivision of`: Inverse of 'has or had subdivision' object             property.
+        (isOrWasSubdivisionOf, "isOrWasSubdivisionOf"),
+        /// `is or was subevent of`: Inverse of 'has or had subevent' object property.
+        (isOrWasSubeventOf, "isOrWasSubeventOf"),
+        /// `is or was subject of`: Inverse of 'has or had subject' object property.
+        (isOrWasSubjectOf, "isOrWasSubjectOf"),
+        /// `is or was subordinate to`: Inverse of 'has or had subordinate' object             property.
+        (isOrWasSubordinateTo, "isOrWasSubordinateTo"),
+        /// `is or was title of`: Connects a Title to a Record Resource, Instantiation or Rule             that it designated or designates.
+        (isOrWasTitleOf, "isOrWasTitleOf"),
+        /// `is or was under authority of`: Inverse of 'has or had authority over' object             property.
+        (isOrWasUnderAuthorityOf, "isOrWasUnderAuthorityOf"),
+        /// `is original of `: Connects the original version of a Record to a copy or a later             version.
+        (isOriginalOf, "isOriginalOf"),
+        /// `is place associated with `: Connects a Place to a Thing that Place is associated with the             existence and lifecycle of.
+        (isPlaceAssociatedWith, "isPlaceAssociatedWith"),
+        /// `is production technique type of`: Connects a Production Technique Type to an Instantiation whose             production technique is categorized by it.
+        (isProductionTechniqueTypeOf, "isProductionTechniqueTypeOf"),
+        /// `is provenance of `: inverse of 'has provenance' object property.
+        (isProvenanceOf, "isProvenanceOf"),
+        /// `isPublisherOf`: Connects an Agent to a Record Resource that it             published.
+        (isPublisherOf, "isPublisherOf"),
+        /// `is receiver of`: Inverse of 'received by' object property.
+        (isReceiverOf, "isReceiverOf"),
+        /// `is record resource associated with record resource `: Connects two Record Resources. This object property is             symmetric.
+        (isRecordResourceAssociatedWithRecordResource, "isRecordResourceAssociatedWithRecordResource"),
+        /// `is record set type of`: Connects a Record Set Type to a Record Set that it             categorizes.
+        (isRecordSetTypeOf, "isRecordSetTypeOf"),
+        /// `is record state of`: Connects a Record State to a Record or Record Part whose state             it categorizes.
+        (isRecordStateOf, "isRecordStateOf"),
+        /// `is related to `: The most generic object property. Connects an Thing to any other             Thing This is a symmetric object property.
+        (isRelatedTo, "isRelatedTo"),
+        /// `is reply to`: Inverse of 'has reply' object property.
+        (isReplyTo, "isReplyTo"),
+        /// `is representation type of`: Connects a Representation Type to an Instantiation that it             categorizes.
+        (isRepresentationTypeOf, "isRepresentationTypeOf"),
+        /// `is responsible for issuing `: Inverse of 'issued by' object property.
+        (isResponsibleForIssuing, "isResponsibleForIssuing"),
+        /// `is rule associated with `: Connects a Rule to a Thing that is associated with the existence             and lifecycle of the Rule.
+        (isRuleAssociatedWith, "isRuleAssociatedWith"),
+        /// `is sender of `: Inverse of 'has sender' object property.
+        (isSenderOf, "isSenderOf"),
+        /// `is source of `: Connects a Record Resource or an Agent to a Record Resource or             Relation, when the first is used as a source of information for identifying or             describing the second one.
+        (isSourceOf, "isSourceOf"),
+        /// `is successor of`: Inverse of 'has successor' object property.
+        (isSuccessorOf, "isSuccessorOf"),
+        /// `is to use date of `: Connects a Date to an Appellation, when it is the date till             which the Appellation was used.
+        (isToUseDateOf, "isToUseDateOf"),
+        /// `is unit of measurement of`: Inverse of 'has unit of measurement' object property
+        (isUnitOfMeasurementOf, "isUnitOfMeasurementOf"),
+        /// `issued by `: Connects a Rule to the Agent that issued or published the             Rule.
+        (issuedBy, "issuedBy"),
+        /// `knowing of relation has source `: Connects a Knowing Of Relation to a 'knowing of' Person (a             Person who has some knowledge of another one.)
+        (knowingOfRelationHasSource, "knowingOfRelationHasSource"),
+        /// `knowing of relation has target `: Connects a Knowing Of Relation to a 'known by' Person (a Person             on which another one has some has some knowledge.)
+        (knowingOfRelationHasTarget, "knowingOfRelationHasTarget"),
+        /// `knowing relation connects `: Connects Knowing Relation to any known Person             involved.
+        (knowingRelationConnects, "knowingRelationConnects"),
+        /// `known by `: Inverse of 'knows of' object property.
+        (knownBy, "knownBy"),
+        /// `knows `: Connects two Persons that directly know each other during their             existence. This object property is symmetric.
+        (knows, "knows"),
+        /// `knows of `: Connects a Person to another Person they have some knowledge of             through time or space.
+        (knowsOf, "knowsOf"),
+        /// `last modification date`: Date at which an entity was last updated.
+        (lastModificationDate, "lastModificationDate"),
+        /// `latitude`: Distance in degrees north or south of the             equator.
+        (latitude, "latitude"),
+        /// `leadership relation has source `: Connects a Leadership Relation to a Person who is involved as a             leader.
+        (leadershipRelationHasSource, "leadershipRelationHasSource"),
+        /// `leadership relation has target `: Connects a Leadership Relation to a lead Group.
+        (leadershipRelationHasTarget, "leadershipRelationHasTarget"),
+        /// `leadership with position `: Connects a Leadership Relation to the Position occupied by the             leading Person.
+        (leadershipWithPosition, "leadershipWithPosition"),
+        /// `location`: A delimitation of the physical territory of a place. This             datatype property is used to describe basic human-readable text such as an address, a             cadastral reference, or less precise information found in a record.
+        (location, "location"),
+        /// `longitude`: Distance in degrees east or west of a prime             meridian.
+        (longitude, "longitude"),
+        /// `management relation has source `: Connects a Management Relation to an Agent who is involved as a             manager.
+        (managementRelationHasSource, "managementRelationHasSource"),
+        /// `management relation has target `: Connects a Management Relation to a Record Resource or             Instantiation that is involved as a managed thing.
+        (managementRelationHasTarget, "managementRelationHasTarget"),
+        /// `mandate is source of mandate relation `: Connects a Mandate to a Mandate Relation.
+        (mandateIsSourceOfMandateRelation, "mandateIsSourceOfMandateRelation"),
+        /// `mandate relation has source `: Connects a Mandate Relation to a Mandate.
+        (mandateRelationHasSource, "mandateRelationHasSource"),
+        /// `mandate relation has target `: Connects a Mandate Relation to an Agent who is given the             authority or competencies to act.
+        (mandateRelationHasTarget, "mandateRelationHasTarget"),
+        /// `measure`: The extent, quantity, amount, or degree of an entity, as             determined by measurement or calculation.
+        (measure, "measure"),
+        /// `membership relation has source `: Connects a Membership Relation to the Group that has             member(s).
+        (membershipRelationHasSource, "membershipRelationHasSource"),
+        /// `membership relation has target `: Connects a Membership Relation to a Person who is involved as a             member.
+        (membershipRelationHasTarget, "membershipRelationHasTarget"),
+        /// `membership with position `: Connects a Membership Relation to the Position occupied by the             member Person(s).
+        (membershipWithPosition, "membershipWithPosition"),
+        /// `migrated from`: Inverse of 'migrated into' object property.
+        (migratedFrom, "migratedFrom"),
+        /// `migrated into`: Connects an Instantiation to a version it has been migrated             to.
+        (migratedInto, "migratedInto"),
+        /// `migration relation has source `: Connects a Migration Relation to the migrated             Instantiation.
+        (migrationRelationHasSource, "migrationRelationHasSource"),
+        /// `migration relation has target `: Connects a Migration Relation to a resulting             Instantiation.
+        (migrationRelationHasTarget, "migrationRelationHasTarget"),
+        /// `modification date`: Date of the modification of an entity.
+        (modificationDate, "modificationDate"),
+        /// `name`: A label, title or term designating the entity in order to make             it distinguishable from other similar entities. For Record Resource or Instantiation,             the Name is generally assigned by an Agent as most do not have a Name given when             created.
+        (name, "name"),
+        /// `normalized date value`: Date representation based on a standard, preferably             machine-readable.
+        (normalizedDateValue, "normalizedDateValue"),
+        /// `normalized value`: Value representation based on a standard, preferably             machine-readable.
+        (normalizedValue, "normalizedValue"),
+        /// `occupies or occupied`: Connects a Person to a Position they occupy or             occupied.
+        (occupiesOrOccupied, "occupiesOrOccupied"),
+        /// `overlaps or overlapped`: Connects two Places that geographically overlap or overlapped.             This object property is symmetric.
+        (overlapsOrOverlapped, "overlapsOrOverlapped"),
+        /// `ownership relation has source `: Connects an Ownership Relation to a Person, Group or Position             that is involved as an owner.
+        (ownershipRelationHasSource, "ownershipRelationHasSource"),
+        /// `owner ship relation has target `: Connects an Ownership Relation to a Thing that is             owned.
+        (ownershipRelationHasTarget, "ownershipRelationHasTarget"),
+        /// `performance relation has source `: Connects a Performance Relation to a performed             Activity.
+        (performanceRelationHasSource, "performanceRelationHasSource"),
+        /// `performance relation has target `: Connects a Performance Relation to a performing             Agent.
+        (performanceRelationHasTarget, "performanceRelationHasTarget"),
+        /// `performs or performed`: Inverse of 'is or was performed by' object             property.
+        (performsOrPerformed, "performsOrPerformed"),
+        /// `person has correspondence relation `: Connects a Person to a Correspondence Relation.
+        (personHasCorrespondenceRelation, "personHasCorrespondenceRelation"),
+        /// `person has family relation `: Connects a Person to a Family Relation.
+        (personHasFamilyRelation, "personHasFamilyRelation"),
+        /// `person has knowing relation `: Connects a Person to a Knowing Relation.
+        (personHasKnowingRelation, "personHasKnowingRelation"),
+        /// `person has sibling relation `: Connects a Person to a Sibling Relation.
+        (personHasSiblingRelation, "personHasSiblingRelation"),
+        /// `person has spouse relation `: Connects a Person to a Spouse Relation.
+        (personHasSpouseRelation, "personHasSpouseRelation"),
+        /// `person is source of child relation `: Connects a Person (as a parent) to a Child             Relation.
+        (personIsSourceOfChildRelation, "personIsSourceOfChildRelation"),
+        /// `person is source of descendance relation `: Connects a Person (as an ancestor) to a Descendance             Relation.
+        (personIsSourceOfDescendanceRelation, "personIsSourceOfDescendanceRelation"),
+        /// `person is source of knowing of relation `: Connects a Person (who has some knowledge of another one) to a             Knowing Of Relation.
+        (personIsSourceOfKnowingOfRelation, "personIsSourceOfKnowingOfRelation"),
+        /// `person is source of leadership relation `: Connects a Person (as a leader) to a Leadership             Relation.
+        (personIsSourceOfLeadershipRelation, "personIsSourceOfLeadershipRelation"),
+        /// `person is source of position holding relation `: Connects a Person (who occupies a Position) to a Position             Holding Relation.
+        (personIsSourceOfPositionHoldingRelation, "personIsSourceOfPositionHoldingRelation"),
+        /// `person is source of teaching relation `: Connects a Person (as a teacher) to a Teaching             Relation.
+        (personIsSourceOfTeachingRelation, "personIsSourceOfTeachingRelation"),
+        /// `person is target of child relation `: Connects a Person (as a child) to a Child             Relation.
+        (personIsTargetOfChildRelation, "personIsTargetOfChildRelation"),
+        /// `person is target of descendance relation `: Connects a Person (as a descendant) to a Descendance             Relation.
+        (personIsTargetOfDescendanceRelation, "personIsTargetOfDescendanceRelation"),
+        /// `person is target of knowing of relation `: Connects a Person (of which another Person has some knowledge)             to a Knowing Of Relation.
+        (personIsTargetOfKnowingOfRelation, "personIsTargetOfKnowingOfRelation"),
+        /// `person is target of membership relation `: Connects a Person (as a member of a Group) to a Membership             Relation.
+        (personIsTargetOfMembershipRelation, "personIsTargetOfMembershipRelation"),
+        /// `person is target of teaching relation `: Connects a Person (as a student) to a Teaching             Relation.
+        (personIsTargetOfTeachingRelation, "personIsTargetOfTeachingRelation"),
+        /// `physical characteristics`: Information about the physical features of the Instantiation.             Includes information about the physical nature and condition such as conservation             status.
+        (physicalCharacteristics, "physicalCharacteristics"),
+        /// `physical or logical extent`: Countable characteristics of the content of an entity expressed             as a quantity.
+        (physicalOrLogicalExtent, "physicalOrLogicalExtent"),
+        /// `place is source of place relation `: Connects a Place (as associated to a Thing) to a Place             Relation.
+        (placeIsSourceOfPlaceRelation, "placeIsSourceOfPlaceRelation"),
+        /// `place relation has source `: Connects a Place Relation to the Place concerned.
+        (placeRelationHasSource, "placeRelationHasSource"),
+        /// `place relation has target `: Connects a Place Relation to a Thing that is associated to the             Place.
+        (placeRelationHasTarget, "placeRelationHasTarget"),
+        /// `position holding relation has source `: Connects a Position Holding Relation to a Person (who occupies a             Position).
+        (positionHoldingRelationHasSource, "positionHoldingRelationHasSource"),
+        /// `position holding relation has target `: Connects a Position Holding Relation to a Position (that is             occupied).
+        (positionHoldingRelationHasTarget, "positionHoldingRelationHasTarget"),
+        /// `position is context of leadership relation `: Connects a Position to a Leadership Relation (the leading Person             occupies that Position).
+        (positionIsContextOfLeadershipRelation, "positionIsContextOfLeadershipRelation"),
+        /// `position is context of membership relation `: Connects a Position to a Membership Relation (the member Person             occupies that Position).
+        (positionIsContextOfMembershipRelation, "positionIsContextOfMembershipRelation"),
+        /// `position is source of position to group relation `: Connects a Position (that exists within a Group) to a Position             to Group Relation.
+        (positionIsSourceOfPositionToGroupRelation, "positionIsSourceOfPositionToGroupRelation"),
+        /// `position is target of position holding relation `: Connects a Position (that is occupied by a Person) to a Position             Holding Relation.
+        (positionIsTargetOfPositionHoldingRelation, "positionIsTargetOfPositionHoldingRelation"),
+        /// `position to group relation has source `: Connects a Position to Group Relation to a Position (that exists             in a Group).
+        (positionToGroupRelationHasSource, "positionToGroupRelationHasSource"),
+        /// `position to group relation has target `: Connects a Position to Group Relation to a Group (in which a             Position exists).
+        (positionToGroupRelationHasTarget, "positionToGroupRelationHasTarget"),
+        /// `precedes in time`: Connects a Thing to a Thing that follows it in chronological             order.
+        (precedesInTime, "precedesInTime"),
+        /// `precedes or preceded`: Connects a Thing to a Thing that follows or followed it in some             sequence.
+        (precedesOrPreceded, "precedesOrPreceded"),
+        /// `production technique`: Method used in the representation of information on the             Instantiation.
+        (productionTechnique, "productionTechnique"),
+        /// `provenance relation has source `: Connects a Provenance Relation to a Record Resource or             Instantiation.
+        (provenanceRelationHasSource, "provenanceRelationHasSource"),
+        /// `provenance relation has target `: Connects a Provenance Relation to an Agent or             Activity.
+        (provenanceRelationHasTarget, "provenanceRelationHasTarget"),
+        /// `proxy for `: Connects a Proxy to the Record Resource it stands for in the             specific context of a Record Set.
+        (proxyFor, "proxyFor"),
+        /// `proxy in `: Connects a Proxy to the Record Set in which it stands for             (represents) another Record Resource.
+        (proxyIn, "proxyIn"),
+        /// `publication date`: Date of the publication of a Record Resource.
+        (publicationDate, "publicationDate"),
+        /// `quality of representation`: Conditions of an Instantiation that impact the legibility or             completeness of Record Resource, and thus the viability of its use. Conditions may be             associated with deficiencies in the processes of Record (re)creation or capture, or the             deterioration of the Instantiation (e.g. its carrier) causing loss of information of the             record over time
+        (qualityOfRepresentation, "qualityOfRepresentation"),
+        /// `quantity`: Machine-readable quantity.
+        (quantity, "quantity"),
+        /// `record is source of authorship relation`: Connects a Record and an Authorship Relation.
+        (recordIsSourceOfAuthorshipRelation, "recordIsSourceOfAuthorshipRelation"),
+        /// `Record Resource extent`: The quantity of information content as human experienced             represented in the Record Resource. The method and precision of expressing the quantity             of information represented in a Record Resource will vary by the kind of Record Resource             being described as well as by processing economy constraints. For record sets, quantity             may be expressed as number of records, or, for analogue records in particular, by the             physical storage dimensions of the Record members. For individual records or record             parts, quantity may be expressed in more precise terms. Use if you don't use             RecordResourceExtent class and its properties for handling such             information.
+        (recordResourceExtent, "recordResourceExtent"),
+        /// `record resource genetic relation connects `: Connects a Record Resource Genetic Relation to one of the             associated Record Resources.
+        (recordResourceGeneticRelationConnects, "recordResourceGeneticRelationConnects"),
+        /// `record resource holding relation has source `: Connects a Record Resource Holding Relation to an Agent (as the             holder of a Record Resource or Instantiation).
+        (recordResourceHoldingRelationHasSource, "recordResourceHoldingRelationHasSource"),
+        /// `record resource holding relation has target `: Connects a Record Resource Holding Relation to a Record Resource             or Instantiation (that is held by an Agent).
+        (recordResourceHoldingRelationHasTarget, "recordResourceHoldingRelationHasTarget"),
+        /// `record resource is connected to record resource genetic relation         `: Connects a Record Resource to a Record Resource Genetic             Relation.
+        (recordResourceIsConnectedToRecordResourceGeneticRelation, "recordResourceIsConnectedToRecordResourceGeneticRelation"),
+        /// `record resource is connected to record resource relation         `: Connects a Record Resource to a Record Resource             Relation.
+        (recordResourceIsConnectedToRecordResourceRelation, "recordResourceIsConnectedToRecordResourceRelation"),
+        /// `record resource is source of record resource to instantiation             relation `: Connects a Record Resource (that was instantiated) to a Record             Resource To Instantiation Relation
+        (recordResourceIsSourceOfRecordResourceToInstantiationRelation, "recordResourceIsSourceOfRecordResourceToInstantiationRelation"),
+        /// `record resource or instantiation is source of accumulation             relation `: Connects a Record Resource or Instantiation (that is             accumulated) to an Accumulation Relation.
+        (recordResourceOrInstantiationIsSourceOfAccumulationRelation, "recordResourceOrInstantiationIsSourceOfAccumulationRelation"),
+        /// `record resource or instantiation is source of activity             documentation relation `: Connects a Record Resource or Instantiation (that documents an             Activity) to an Activity Documentation Relation.
+        (recordResourceOrInstantiationIsSourceOfActivityDocumentationRelation, "recordResourceOrInstantiationIsSourceOfActivityDocumentationRelation"),
+        /// `record resource or instantiation is source of agent origination             relation `: Connects a Record Resource or Instantiation (that is created,             sent or accumulated) to an Agent Origination Relation.
+        (recordResourceOrInstantiationIsSourceOfAgentOriginationRelation, "recordResourceOrInstantiationIsSourceOfAgentOriginationRelation"),
+        /// `record resource or instantiation is source of creation relation         `: Connects a Record Resource or Instantiation (that is created) to             a Creation Relation.
+        (recordResourceOrInstantiationIsSourceOfCreationRelation, "recordResourceOrInstantiationIsSourceOfCreationRelation"),
+        /// `record resource or instantiation is source of provenance relation         `: Connects a Record Resource or Instantiation (that is created or             accumulated by an Agent, or documents an Activity) to a Provenance             Relation.
+        (recordResourceOrInstantiationIsSourceOfProvenanceRelation, "recordResourceOrInstantiationIsSourceOfProvenanceRelation"),
+        /// `record resource or instantiation is target of intellectual             property rights relation `: Connects a Record Resource or Instantiation (on which some             intellectual property rights are held) to an Intellectual Property Rights             Relation.
+        (recordResourceOrInstantiationIsTargetOfIntellectualPropertyRightsRelation, "recordResourceOrInstantiationIsTargetOfIntellectualPropertyRightsRelation"),
+        /// `record resource or instantiation is target of management relation         `: Connects a Record Resource or Instantiation (that is managed by             an Agent) to a Management Relation.
+        (recordResourceOrInstantiationIsTargetOfManagementRelation, "recordResourceOrInstantiationIsTargetOfManagementRelation"),
+        /// `record resource or instantiation is target of record resource             holding relation `: Connects a Record Resource or Instantiation (that is held by an             Agent) to a Record Resource Holding Relation.
+        (recordResourceOrInstantiationIsTargetOfRecordResourceHoldingRelation, "recordResourceOrInstantiationIsTargetOfRecordResourceHoldingRelation"),
+        /// `record resource relation connects `: Connects a Record Resource relation to one of the related Record             Resources.
+        (recordResourceRelationConnects, "recordResourceRelationConnects"),
+        /// `Record Resource structure`: Information about the intellectual arrangement and composition             of a Record Resource. For Record and Record Part, it encompasses information about the             intellectual composition of the record, the presence of record parts and their             functions. For Record Set, it encompasses information about the methodology or criteria             used for arranging the Record Set members or Record members within the containing Record             Set
+        (recordResourceStructure, "recordResourceStructure"),
+        /// `record resource to instantiation relation has source `: Connects a Record Resource To Instantiation Relation to the             Record Resource (that was instantiated).
+        (recordResourceToInstantiationRelationHasSource, "recordResourceToInstantiationRelationHasSource"),
+        /// `record resource to instantiation relation has target `: Connects a Record Resource To Instantiation Relation to an             Instantiation of the involved Record Resource.
+        (recordResourceToInstantiationRelationHasTarget, "recordResourceToInstantiationRelationHasTarget"),
+        /// `reference system`: Framework or standard used to represent an             information.
+        (referenceSystem, "referenceSystem"),
+        /// `regulates or regulated`: Connects a Rule to a Thing that it regulates or             regulated.
+        (regulatesOrRegulated, "regulatesOrRegulated"),
+        /// `relation connects `: Connects an n-ary Relation to any of the Things             involved.
+        (relationConnects, "relationConnects"),
+        /// `relation has context `: Connects an n-ary Relation to a Thing that is a secondary,             contextual entity during the existence of the Relation.
+        (relationHasContext, "relationHasContext"),
+        /// `relation has source `: Connects an n-ary Relation to a Thing that is its             source.
+        (relationHasSource, "relationHasSource"),
+        /// `relation has target `: Connects an n-ary Relation to a Thing that is its             target.
+        (relationHasTarget, "relationHasTarget"),
+        /// `Relation state`: Used to qualify the state of a Relation (e. g. present, past,             ongoing, unknown).
+        (relationState, "relationState"),
+        /// `results or resulted from`: Inverse of 'results or resulted in' object             property.
+        (resultsOrResultedFrom, "resultsOrResultedFrom"),
+        /// `results or resulted in`: Connects an Event to a Thing that results or resulted from the             Event.
+        (resultsOrResultedIn, "resultsOrResultedIn"),
+        /// `role is context of creation relation `: Connects a Role Type to a Creation Relation (this Role Type             being the specific role played by the creating Person in the context of this             Relation).
+        (roleIsContextOfCreationRelation, "roleIsContextOfCreationRelation"),
+        /// `rule followed`: The rule or conditions that govern the existence or lifecycle of             a Thing.
+        (ruleFollowed, "ruleFollowed"),
+        /// `rule is source of rule relation `: Connects a Rule to a Rule Relation.
+        (ruleIsSourceOfRuleRelation, "ruleIsSourceOfRuleRelation"),
+        /// `rule relation has source `: Connects a Rule Relation to a Rule.
+        (ruleRelationHasSource, "ruleRelationHasSource"),
+        /// `rule relation has target `: Connects a Rule Relation to a Thing (that is associated to a             Rule).
+        (ruleRelationHasTarget, "ruleRelationHasTarget"),
+        /// `scope and content`: Summary of the scope (such as time periods, geography) and             content (such as subject matter, administrative processes) of the Record Resource. It             should highlight the information conveyed in the Record Resource, why it was created,             received, and/or maintained, and the Agents connected to it. Scope and Content provides             a more complete summary of the informational content of the Record Resource. It may             include description of relations with agents, activities, dates and places, or with             other record resources. It is not to be confused with the History attribute which             focuses on the origination and subsequence changes to a Record Resource.
+        (scopeAndContent, "scopeAndContent"),
+        /// `sequential relation has source `: Connects a Sequential Relation to a Thing that precedes other             Thing(s) in the sequence.
+        (sequentialRelationHasSource, "sequentialRelationHasSource"),
+        /// `sequential relation has target `: Connects a Sequential Relation to a Thing that follows other             Thing(s) in the sequence.
+        (sequentialRelationHasTarget, "sequentialRelationHasTarget"),
+        /// `sibling relation connects `: Connects a Sibling Relation to one of the siblings             involved.
+        (siblingRelationConnects, "siblingRelationConnects"),
+        /// `source`: Information about a source used to identify or describe an             entity.
+        (source, "source"),
+        /// `spouse relation connects `: Connects a Sibling Relation to one of the spouses             involved.
+        (spouseRelationConnects, "spouseRelationConnects"),
+        /// `structure`: Information about the intellectual arrangement and composition             of a Record Resource or the physical arrangement and composition of an Instantiation.             For Record and Record Part, it encompasses information about the intellectual             composition of the record, the presence of record parts and their functions. For Record             Set, it encompasses information about the methodology or criteria used for arranging the             Record Set members or Record members within the containing Record Set. For             Instantiation, it may comprise information about the composition of the physical             elements of the instantiation
+        (structure, "structure"),
+        /// `teaching relation has source `: Connects a Teaching Relation to a Person (who is a             teacher).
+        (teachingRelationHasSource, "teachingRelationHasSource"),
+        /// `teaching relation has target `: Connects a Teaching Relation to a Person (who is a             student).
+        (teachingRelationHasTarget, "teachingRelationHasTarget"),
+        /// `technical characteristics`: Describes any relevant physical or software feature of any             device involved in the creation or management of a Record Resource.
+        (technicalCharacteristics, "technicalCharacteristics"),
+        /// `temporal relation has source `: Connects a Temporal Relation to a Thing that precedes other             Thing(s) in time.
+        (temporalRelationHasSource, "temporalRelationHasSource"),
+        /// `temporal relation has target `: Connects a Temporal Relation to a Thing that follows other             Thing(s) in time.
+        (temporalRelationHasTarget, "temporalRelationHasTarget"),
+        /// `textual value`: A textual expression of an Appellation or Date.
+        (textualValue, "textualValue"),
+        /// `thing is connected to relation `: Connects a Thing to a n-ary Relation.
+        (thingIsConnectedToRelation, "thingIsConnectedToRelation"),
+        /// `thing is context of relation `: Connects a Thing (that is a secondary, contextual entity during             the existence of the Relation) to a n-ary Relation.
+        (thingIsContextOfRelation, "thingIsContextOfRelation"),
+        /// `thing is source of relation `: Connects a Thing (that is the source of a Relation) to a             Relation.
+        (thingIsSourceOfRelation, "thingIsSourceOfRelation"),
+        /// `thing is source of sequential relation `: Connects a Thing to a Sequential Relation, when this Thing             precedes other Thing(s) in the sequence.
+        (thingIsSourceOfSequentialRelation, "thingIsSourceOfSequentialRelation"),
+        /// `thing is source of temporal relation `: Connects a Thing to a Temporal Relation, when this Thing             precedes other Thing(s) in time.
+        (thingIsSourceOfTemporalRelation, "thingIsSourceOfTemporalRelation"),
+        /// `thing is source of whole part relation `: Connects a Thing to a Whole Part Relation, when this Thing has             Part other Thing(s).
+        (thingIsSourceOfWholePartRelation, "thingIsSourceOfWholePartRelation"),
+        /// `thing is target of appellation relation `: Connects a Thing (that is designated by an Appellation) to an             Appellation Relation.
+        (thingIsTargetOfAppellationRelation, "thingIsTargetOfAppellationRelation"),
+        /// `thing is target of authority relation `: Connects a Thing (that is under authority of an Agent) to an             Authority Relation.
+        (thingIsTargetOfAuthorityRelation, "thingIsTargetOfAuthorityRelation"),
+        /// `thing is target of event relation `: Connects a Thing (that is associated with an Event) to an Event             Relation.
+        (thingIsTargetOfEventRelation, "thingIsTargetOfEventRelation"),
+        /// `thing is target of ownership relation `: Connects a Thing (that is owned by a Group, a Person or a             Position) to an Ownership Relation.
+        (thingIsTargetOfOwnershipRelation, "thingIsTargetOfOwnershipRelation"),
+        /// `thing is target of place relation `: Connects a Thing (that is associated with a Place) to a Place             Relation.
+        (thingIsTargetOfPlaceRelation, "thingIsTargetOfPlaceRelation"),
+        /// `thing is target of relation `: Connects a Thing to a n-ary Relation.
+        (thingIsTargetOfRelation, "thingIsTargetOfRelation"),
+        /// `thing is target of rule relation `: Connects a Thing (that is associated with a Rule) to a Rule             Relation.
+        (thingIsTargetOfRuleRelation, "thingIsTargetOfRuleRelation"),
+        /// `thing is target of sequential relation `: Connects a Thing (that follows other Thing(s) in a sequence) to             a Sequential Relation.
+        (thingIsTargetOfSequentialRelation, "thingIsTargetOfSequentialRelation"),
+        /// `thing is target of temporal relation `: Connects a Thing (that follows other Thing(s) in time) to a             Temporal Relation.
+        (thingIsTargetOfTemporalRelation, "thingIsTargetOfTemporalRelation"),
+        /// `thing is target of type relation `: Connects a Thing (that is categorized by a Type) to a Type             Relation.
+        (thingIsTargetOfTypeRelation, "thingIsTargetOfTypeRelation"),
+        /// `thing is target of whole part relation `: Connects a Thing to a Whole Part Relation, when this Thing is             Part of another Thing.
+        (thingIsTargetOfWholePartRelation, "thingIsTargetOfWholePartRelation"),
+        /// `title`: An identifying name of a Record Resource, Instantiation or             Rule.
+        (title, "title"),
+        /// `type`: A term used to characterize an entity.
+        (type_, "type"),
+        /// `type is source of type relation `: Connects a Type (a category) to a Type Relation.
+        (typeIsSourceOfTypeRelation, "typeIsSourceOfTypeRelation"),
+        /// `type relation has source `: Connects a Type Relation to the Type (that categorizes the             involved Thing(s)).
+        (typeRelationHasSource, "typeRelationHasSource"),
+        /// `type relation has target `: Connects a Type Relation to a Thing (that is categorized by the             involved Type).
+        (typeRelationHasTarget, "typeRelationHasTarget"),
+        /// `unit of measurement`: A definite magnitude of a quantity, defined and adopted by convention or by             law, that is used as a standard for measurement of the same kind of quantity. Can be             spacial units (cm, m), weight (g, kg), time (s, h), storage (MB, TB) or more informal             units used in the archival context like number of boxes, pages or words.
+        (unitOfMeasurement, "unitOfMeasurement"),
+        /// `used from date`: Date at which an Appellation was first used.
+        (usedFromDate, "usedFromDate"),
+        /// `used to date`: Date until an Appellation was used.
+        (usedToDate, "usedToDate"),
+        /// `was last updated at date `: Connects a Thing to the Date when it was last             modified.
+        (wasLastUpdatedAtDate, "wasLastUpdatedAtDate"),
+        /// `was used from date `: Connects an Appellation to the Date from which it was             used.
+        (wasUsedFromDate, "wasUsedFromDate"),
+        /// `was used to date `: Connects an Appellation to the Date till when it was             used.
+        (wasUsedToDate, "wasUsedToDate"),
+        /// `whole part relation has source `: Connects a Whole Part Relation to the Thing that has some             parts.
+        (wholePartRelationHasSource, "wholePartRelationHasSource"),
+        /// `whole part relation has target `: Connects a Whole Part Relation to a Thing that is a             part.
+        (wholePartRelationHasTarget, "wholePartRelationHasTarget"),
+        /// `width`: Horizontal dimension of an entity.
+        (width, "width"),
+        /// `work relation connects `: Connects a Work Relation to an Agent.
+        (workRelationConnects, "workRelationConnects")    ]
 );

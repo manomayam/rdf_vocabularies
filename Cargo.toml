@@ -1,136 +1,10 @@
-[dependencies.once_cell]
-optional = true
-version = '1.9.0'
-
-[dependencies.rdf_utils]
-optional = true
-version = '0.2.0'
-
-[dependencies.rio_turtle]
-optional = true
-version = '0.6.2'
-
 [dependencies.sophia_api]
-version = '0.7.2'
-
-[dependencies.sophia_inmem]
-optional = true
-version = '0.7.2'
-
-[dependencies.sophia_rio]
-optional = true
-version = '0.7.2'
-
-[dependencies.sophia_turtle]
-optional = true
-version = '0.7.2'
+version = '0.8.0-alpha.1'
 
 [dev-dependencies]
-claim = '0.5.0'
+claims = '0.7.1'
 
 [features]
-dataset = [
-    'once_cell',
-    'sophia_turtle',
-    'sophia_rio',
-    'sophia_inmem',
-    'rio_turtle',
-    'rdf_utils',
-]
-dataset-acl = ['dataset']
-dataset-acp = ['dataset']
-dataset-as_ = ['dataset']
-dataset-bibo = ['dataset']
-dataset-cc = ['dataset']
-dataset-cert = ['dataset']
-dataset-cnt = ['dataset']
-dataset-constant = ['dataset']
-dataset-csvw = ['dataset']
-dataset-dash = ['dataset']
-dataset-dbo = ['dataset']
-dataset-dc11 = ['dataset']
-dataset-dcam = ['dataset']
-dataset-dcat = ['dataset']
-dataset-dcmitype = ['dataset']
-dataset-dcterms = ['dataset']
-dataset-discipline = ['dataset']
-dataset-doap = ['dataset']
-dataset-dpv = ['dataset']
-dataset-dqv = ['dataset']
-dataset-dtype = ['dataset']
-dataset-duv = ['dataset']
-dataset-earl = ['dataset']
-dataset-ebucore = ['dataset']
-dataset-exif = ['dataset']
-dataset-foaf = ['dataset']
-dataset-frbr = ['dataset']
-dataset-geo = ['dataset']
-dataset-geof = ['dataset']
-dataset-geor = ['dataset']
-dataset-gn = ['dataset']
-dataset-gold = ['dataset']
-dataset-gr = ['dataset']
-dataset-grddl = ['dataset']
-dataset-gs1 = ['dataset']
-dataset-gtfs = ['dataset']
-dataset-http = ['dataset']
-dataset-hydra = ['dataset']
-dataset-ical = ['dataset']
-dataset-ldp = ['dataset']
-dataset-lexvo = ['dataset']
-dataset-lime = ['dataset']
-dataset-locn = ['dataset']
-dataset-lvont = ['dataset']
-dataset-ma = ['dataset']
-dataset-oa = ['dataset']
-dataset-og = ['dataset']
-dataset-oidc = ['dataset']
-dataset-ontolex = ['dataset']
-dataset-org = ['dataset']
-dataset-owl = ['dataset']
-dataset-pim = ['dataset']
-dataset-prefix = ['dataset']
-dataset-prov = ['dataset']
-dataset-qb = ['dataset']
-dataset-qkdv = ['dataset']
-dataset-quantitykind = ['dataset']
-dataset-qudt = ['dataset']
-dataset-rdau = ['dataset']
-dataset-rdf = ['dataset']
-dataset-rdfa = ['dataset']
-dataset-rdfs = ['dataset']
-dataset-rico = ['dataset']
-dataset-rr = ['dataset']
-dataset-rss = ['dataset']
-dataset-schema = ['dataset']
-dataset-sd = ['dataset']
-dataset-sdmx = ['dataset']
-dataset-sem = ['dataset']
-dataset-sh = ['dataset']
-dataset-shex = ['dataset']
-dataset-sioc = ['dataset']
-dataset-skos = ['dataset']
-dataset-skosxl = ['dataset']
-dataset-solid = ['dataset']
-dataset-solid_protocol_0_9 = ['dataset']
-dataset-sosa = ['dataset']
-dataset-sou = ['dataset']
-dataset-spec = ['dataset']
-dataset-ssn = ['dataset']
-dataset-stat = ['dataset']
-dataset-test = ['dataset']
-dataset-time = ['dataset']
-dataset-unit = ['dataset']
-dataset-vaem = ['dataset']
-dataset-vann = ['dataset']
-dataset-vartrans = ['dataset']
-dataset-vcard = ['dataset']
-dataset-void = ['dataset']
-dataset-vs = ['dataset']
-dataset-wgs = ['dataset']
-dataset-xhv = ['dataset']
-dataset-xkos = ['dataset']
-dataset-xsd = ['dataset']
 ns-acl = []
 ns-acp = []
 ns-as_ = []
@@ -237,7 +111,7 @@ keywords = [
 license = 'MIT OR Apache-2.0'
 name = 'rdf_vocabularies'
 repository = 'https://github.com/manomayam/rdf_vocabularies'
-version = '0.1.9'
+version = '0.2.0'
 [package.metadata.docs.rs]
 all-features = true
 rustdoc-args = [

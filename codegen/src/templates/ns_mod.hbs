@@ -19,9 +19,12 @@
 use crate::namespace;
 
 namespace!(
-    "{{{vocab.namespace_base}}}",;
-    {{#each entities}}
-    /// `{{#if label}}{{{label}}}{{else}}{{term_suffix}}{{/if}}`: {{{comment}}}
-    {{{safe_term_suffix}}}, "{{{term_suffix}}}"{{#unless @last}},{{/unless}}
-    {{/each}}
+    base: "{{{vocab.namespace_base}}}",
+
+    terms: [
+        {{#each entities}}
+        /// `{{#if label}}{{{label}}}{{else}}{{term_suffix}}{{/if}}`: {{{comment}}}
+        ({{{safe_term_suffix}}}, "{{{term_suffix}}}"){{#unless @last}},{{/unless}}
+        {{/each}}
+    ]
 );

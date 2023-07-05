@@ -17,15 +17,15 @@
 use crate::namespace;
 
 namespace!(
-    "http://purl.org/dc/dcam/",;
-    /// ``: 
-    NAMESPACE_BASE, "",
-    /// `Vocabulary Encoding Scheme`: An enumerated set of resources.
-    VocabularyEncodingScheme, "VocabularyEncodingScheme",
-    /// `Domain Includes`: A suggested class for subjects of this property.
-    domainIncludes, "domainIncludes",
-    /// `Member Of`: A relationship between a resource and a vocabulary encoding scheme which indicates that the resource is a member of a set.
-    memberOf, "memberOf",
-    /// `Range Includes`: A suggested class for values of this property.
-    rangeIncludes, "rangeIncludes"
+    base: "http://purl.org/dc/dcam/",
+
+    terms: [
+        /// `Vocabulary Encoding Scheme`: An enumerated set of resources.
+        (VocabularyEncodingScheme, "VocabularyEncodingScheme"),
+        /// `Domain Includes`: A suggested class for subjects of this property.
+        (domainIncludes, "domainIncludes"),
+        /// `Member Of`: A relationship between a resource and a vocabulary encoding scheme which indicates that the resource is a member of a set.
+        (memberOf, "memberOf"),
+        /// `Range Includes`: A suggested class for values of this property.
+        (rangeIncludes, "rangeIncludes")    ]
 );

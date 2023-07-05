@@ -1,196 +1,200 @@
-<http://www.w3.org/ns/solid/acp#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<http://www.w3.org/ns/solid/acp#> <http://www.w3.org/2000/01/rdf-schema#label> "Access Control Policy Language (ACP)"@en .
-<http://www.w3.org/ns/solid/acp#> <http://www.w3.org/2000/01/rdf-schema#comment> "The Access Control Policy Language (ACP) is a language for describing, controlling, and granting access to resources."@en .
-<http://www.w3.org/ns/solid/acp#> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> .
-<http://www.w3.org/ns/solid/acp#> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://solid.github.io/authorization-panel/acp-specification/> .
-<http://www.w3.org/ns/solid/acp#> <http://purl.org/spar/cito/citesAsAuthority> <https://www.w3.org/TR/rdf11-concepts/> .
-<http://www.w3.org/ns/solid/acp#> <http://purl.org/spar/cito/citesAsAuthority> <https://www.rfc-editor.org/info/rfc2119> .
-<http://www.w3.org/ns/solid/acp#> <http://purl.org/spar/cito/citesAsAuthority> <https://www.rfc-editor.org/info/rfc8174> .
-<http://www.w3.org/ns/solid/acp#> <http://purl.org/spar/cito/citesAsAuthority> <https://www.rfc-editor.org/info/rfc8288> .
-<http://www.w3.org/ns/solid/acp#> <http://purl.org/spar/cito/citesAsAuthority> <https://www.w3.org/TR/vc-data-model/> .
-<http://www.w3.org/ns/solid/acp#> <http://purl.org/dc/terms/issued> "2022-05-18"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://www.w3.org/ns/solid/acp#> <http://purl.org/vocab/vann/preferredNamespacePrefix> "acp" .
-<http://www.w3.org/ns/solid/acp#> <http://purl.org/vocab/vann/preferredNamespaceUri> "http://www.w3.org/ns/solid/acp#"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
-<http://www.w3.org/ns/solid/acp#Context> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://www.w3.org/ns/solid/acp#Context> <http://www.w3.org/2000/01/rdf-schema#label> "Context"@en .
-<http://www.w3.org/ns/solid/acp#Context> <http://www.w3.org/2000/01/rdf-schema#comment> "Instances of the Context class describe instances of resource access."@en .
-<http://www.w3.org/ns/solid/acp#Context> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> .
-<http://www.w3.org/ns/solid/acp#AccessControlResource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://www.w3.org/ns/solid/acp#AccessControlResource> <http://www.w3.org/2000/01/rdf-schema#label> "Access Control Resource"@en .
-<http://www.w3.org/ns/solid/acp#AccessControlResource> <http://www.w3.org/2000/01/rdf-schema#comment> "Instances of the Access Control Resource (ACR) class connect resources to their Access Controls."@en .
-<http://www.w3.org/ns/solid/acp#AccessControlResource> <http://www.w3.org/2000/01/rdf-schema#comment> "Both the acp:resource property and its inverse acp:accessControlResource MUST be taken into account in determining the Access Control Resources controlling access to resources."@en .
-<http://www.w3.org/ns/solid/acp#AccessControlResource> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> .
-<http://www.w3.org/ns/solid/acp#AccessControl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://www.w3.org/ns/solid/acp#AccessControl> <http://www.w3.org/2000/01/rdf-schema#label> "Access Control"@en .
-<http://www.w3.org/ns/solid/acp#AccessControl> <http://www.w3.org/2000/01/rdf-schema#comment> "Instances of the Access Control class connect Access Control Resources to their Policies."@en .
-<http://www.w3.org/ns/solid/acp#AccessControl> <http://www.w3.org/2000/01/rdf-schema#comment> "All Access Controls controlling member resources access via the acp:memberAccessControl property MUST be included in the set of Access Controls linked as acp:accessControl in the effective authorization graph of a resource."@en .
-<http://www.w3.org/ns/solid/acp#AccessControl> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> .
-<http://www.w3.org/ns/solid/acp#Policy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://www.w3.org/ns/solid/acp#Policy> <http://www.w3.org/2000/01/rdf-schema#label> "Access Policy"@en .
-<http://www.w3.org/ns/solid/acp#Policy> <http://www.w3.org/2000/01/rdf-schema#comment> "Instances of the Policy class connect Access Controls to allowed and denied Access Modes as well as sets of Matchers describing instances of resource access."@en .
-<http://www.w3.org/ns/solid/acp#Policy> <http://www.w3.org/2000/01/rdf-schema#comment> "An ACP engine MUST grant exactly those Access Modes allowed by Effective Policies. Effective Policies are the Policies controlling access to a resource. A Policy MUST control access to a resource if: it is applied by an Access Control of an ACR of the resource; or, it is applied by a member Access Control of an ACR of an ancestor of the resource."@en .
-<http://www.w3.org/ns/solid/acp#Policy> <http://www.w3.org/2000/01/rdf-schema#comment> "An Access Mode MUST be granted if and only if in the set of Effective Policies controlling access to it: a satisfied policy allows the Access Mode; and, no satisfied policy denies it."@en .
-<http://www.w3.org/ns/solid/acp#Policy> <http://www.w3.org/2000/01/rdf-schema#comment> "A Policy MUST be satisfied if and only if: it references at least one Matcher via an acp:allOf or acp:anyOf property; and, all of its acp:allOf Matchers are satisfied; and, at least one of its acp:anyOf Matchers is satisfied; and, none of its acp:noneOf Matchers are satisfied."@en .
-<http://www.w3.org/ns/solid/acp#Policy> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.w3.org/TR/sparql11-query/#propertypaths> .
-<http://www.w3.org/ns/solid/acp#Policy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> .
-<http://www.w3.org/ns/solid/acp#Matcher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://www.w3.org/ns/solid/acp#Matcher> <http://www.w3.org/2000/01/rdf-schema#label> "Matcher"@en .
-<http://www.w3.org/ns/solid/acp#Matcher> <http://www.w3.org/2000/01/rdf-schema#comment> "Instances of the Matcher class are descriptions of matching resource access Contexts."@en .
-<http://www.w3.org/ns/solid/acp#Matcher> <http://www.w3.org/2000/01/rdf-schema#comment> "A Matcher MUST be satisfied if and only if: it defines at least one attribute; and, at least one value of each defined attribute matches the Context. ACP engines MUST match the context attributes defined by this specification according to IRI equality and literal term equality."@en .
-<http://www.w3.org/ns/solid/acp#Matcher> <http://www.w3.org/2000/01/rdf-schema#comment> "ACP implementations supporting sub-properties of acp:attribute other than the ones defined by ACP SHOULD also define and implement corresponding matching algorithms."@en .
-<http://www.w3.org/ns/solid/acp#Matcher> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.w3.org/TR/rdf11-concepts/> .
-<http://www.w3.org/ns/solid/acp#Matcher> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> .
-<http://www.w3.org/ns/solid/acp#AlwaysSatisfiedRestriction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://www.w3.org/ns/solid/acp#AlwaysSatisfiedRestriction> <http://www.w3.org/2000/01/rdf-schema#label> "Always Satisfied Restriction"@en .
-<http://www.w3.org/ns/solid/acp#AlwaysSatisfiedRestriction> <http://www.w3.org/2000/01/rdf-schema#comment> "Defined instances of the Always Satisfied Restriction class are used in Matcher restrictions to indicate that the restriction is always satisfied. The default behaviour of a Matcher is to not be satisfied, so this is the only way to make a Matcher always satisfied."@en .
-<http://www.w3.org/ns/solid/acp#AlwaysSatisfiedRestriction> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> .
-<http://www.w3.org/ns/solid/acp#AccessMode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://www.w3.org/ns/solid/acp#AccessMode> <http://www.w3.org/2000/01/rdf-schema#label> "Access Mode"@en .
-<http://www.w3.org/ns/solid/acp#AccessMode> <http://www.w3.org/2000/01/rdf-schema#comment> "The ACP specification does not define specific Access Modes. Instead, any Access Mode granted is an instance of the Access Mode class. Access Modes and their granularity can be tailored to the needs of an application and Access Modes defined in other vocabularies can also be used (for example, instances of ACL Access)."@en .
-<http://www.w3.org/ns/solid/acp#AccessMode> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> .
-<http://www.w3.org/ns/solid/acp#AccessMode> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.w3.org/ns/auth/acl#Access> .
-<http://www.w3.org/ns/solid/acp#AccessGrant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://www.w3.org/ns/solid/acp#AccessGrant> <http://www.w3.org/2000/01/rdf-schema#label> "Access Grant"@en .
-<http://www.w3.org/ns/solid/acp#AccessGrant> <http://www.w3.org/2000/01/rdf-schema#comment> "Instances of the Access Grant class define sets of Access Modes granted in particular Contexts."@en .
-<http://www.w3.org/ns/solid/acp#AccessGrant> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> .
-<http://www.w3.org/ns/solid/acp#resource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.w3.org/ns/solid/acp#resource> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3.org/ns/solid/acp#accessControlResource> .
-<http://www.w3.org/ns/solid/acp#resource> <http://www.w3.org/2000/01/rdf-schema#label> "resource"@en .
-<http://www.w3.org/ns/solid/acp#resource> <http://www.w3.org/2000/01/rdf-schema#comment> "The resource property connects ACRs to resources they control. It is the inverse of acp:accessControlResource."@en .
-<http://www.w3.org/ns/solid/acp#resource> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> .
-<http://www.w3.org/ns/solid/acp#resource> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/solid/acp#AccessControlResource> .
-<http://www.w3.org/ns/solid/acp#accessControlResource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.w3.org/ns/solid/acp#accessControlResource> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3.org/ns/solid/acp#resource> .
-<http://www.w3.org/ns/solid/acp#accessControlResource> <http://www.w3.org/2000/01/rdf-schema#label> "access control resource"@en .
-<http://www.w3.org/ns/solid/acp#accessControlResource> <http://www.w3.org/2000/01/rdf-schema#comment> "The access control resource property connects resources to ACRs controlling access to them. It is the inverse of acp:resource."@en .
-<http://www.w3.org/ns/solid/acp#accessControlResource> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> .
-<http://www.w3.org/ns/solid/acp#accessControlResource> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/solid/acp#AccessControlResource> .
-<http://www.w3.org/ns/solid/acp#accessControl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.w3.org/ns/solid/acp#accessControl> <http://www.w3.org/2000/01/rdf-schema#label> "access control"@en .
-<http://www.w3.org/ns/solid/acp#accessControl> <http://www.w3.org/2000/01/rdf-schema#comment> "The access control property connects ACRs to Access Controls."@en .
-<http://www.w3.org/ns/solid/acp#accessControl> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> .
-<http://www.w3.org/ns/solid/acp#accessControl> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/solid/acp#AccessControlResource> .
-<http://www.w3.org/ns/solid/acp#accessControl> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/solid/acp#AccessControl> .
-<http://www.w3.org/ns/solid/acp#memberAccessControl> <http://www.w3.org/2000/01/rdf-schema#label> "member access control"@en .
-<http://www.w3.org/ns/solid/acp#memberAccessControl> <http://www.w3.org/2000/01/rdf-schema#comment> "The member access control property transitively connects ACRs of member resources to Access Controls."@en .
-<http://www.w3.org/ns/solid/acp#memberAccessControl> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> .
-<http://www.w3.org/ns/solid/acp#memberAccessControl> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/solid/acp#AccessControlResource> .
-<http://www.w3.org/ns/solid/acp#memberAccessControl> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/solid/acp#AccessControl> .
-<http://www.w3.org/ns/solid/acp#apply> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.w3.org/ns/solid/acp#apply> <http://www.w3.org/2000/01/rdf-schema#label> "apply"@en .
-<http://www.w3.org/ns/solid/acp#apply> <http://www.w3.org/2000/01/rdf-schema#comment> "The apply property connects Access Controls to the Policies they apply to resources."@en .
-<http://www.w3.org/ns/solid/acp#apply> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> .
-<http://www.w3.org/ns/solid/acp#apply> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/solid/acp#AccessControl> .
-<http://www.w3.org/ns/solid/acp#apply> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/solid/acp#Policy> .
-<http://www.w3.org/ns/solid/acp#allow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.w3.org/ns/solid/acp#allow> <http://www.w3.org/2000/01/rdf-schema#label> "allow"@en .
-<http://www.w3.org/ns/solid/acp#allow> <http://www.w3.org/2000/01/rdf-schema#comment> "The allow property connects Policies to the Access Modes they allow if satisfied."@en .
-<http://www.w3.org/ns/solid/acp#allow> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> .
-<http://www.w3.org/ns/solid/acp#allow> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/solid/acp#Policy> .
-<http://www.w3.org/ns/solid/acp#allow> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/solid/acp#AccessMode> .
-<http://www.w3.org/ns/solid/acp#deny> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.w3.org/ns/solid/acp#deny> <http://www.w3.org/2000/01/rdf-schema#label> "deny"@en .
-<http://www.w3.org/ns/solid/acp#deny> <http://www.w3.org/2000/01/rdf-schema#comment> "The deny property connects Policies to the Access Modes they deny if satisfied."@en .
-<http://www.w3.org/ns/solid/acp#deny> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> .
-<http://www.w3.org/ns/solid/acp#deny> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/solid/acp#Policy> .
-<http://www.w3.org/ns/solid/acp#deny> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/solid/acp#AccessMode> .
-<http://www.w3.org/ns/solid/acp#allOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.w3.org/ns/solid/acp#allOf> <http://www.w3.org/2000/01/rdf-schema#label> "all of"@en .
-<http://www.w3.org/ns/solid/acp#allOf> <http://www.w3.org/2000/01/rdf-schema#comment> "The all of property connects Policies to a set of Matchers, all of which MUST be satisfied for the Policy to be satisfied."@en .
-<http://www.w3.org/ns/solid/acp#allOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> .
-<http://www.w3.org/ns/solid/acp#allOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/solid/acp#Policy> .
-<http://www.w3.org/ns/solid/acp#allOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/solid/acp#Matcher> .
-<http://www.w3.org/ns/solid/acp#anyOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.w3.org/ns/solid/acp#anyOf> <http://www.w3.org/2000/01/rdf-schema#label> "any of"@en .
-<http://www.w3.org/ns/solid/acp#anyOf> <http://www.w3.org/2000/01/rdf-schema#comment> "The any of property connects Policies to a set of Matchers, at least one of which MUST be satisfied for the Policy to be satisfied."@en .
-<http://www.w3.org/ns/solid/acp#anyOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> .
-<http://www.w3.org/ns/solid/acp#anyOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/solid/acp#Policy> .
-<http://www.w3.org/ns/solid/acp#anyOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/solid/acp#Matcher> .
-<http://www.w3.org/ns/solid/acp#noneOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.w3.org/ns/solid/acp#noneOf> <http://www.w3.org/2000/01/rdf-schema#label> "none of"@en .
-<http://www.w3.org/ns/solid/acp#noneOf> <http://www.w3.org/2000/01/rdf-schema#comment> "The none of property connects Policies to a set of Matchers, all of which MUST NOT be satisfied for the Policy to be satisfied."@en .
-<http://www.w3.org/ns/solid/acp#noneOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> .
-<http://www.w3.org/ns/solid/acp#noneOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/solid/acp#Policy> .
-<http://www.w3.org/ns/solid/acp#noneOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/solid/acp#Matcher> .
-<http://www.w3.org/ns/solid/acp#attribute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.w3.org/ns/solid/acp#attribute> <http://www.w3.org/2000/01/rdf-schema#label> "attribute"@en .
-<http://www.w3.org/ns/solid/acp#attribute> <http://www.w3.org/2000/01/rdf-schema#comment> "Sub-properties of ACP attribute are used to describe instances of resource access."@en .
-<http://www.w3.org/ns/solid/acp#attribute> <http://www.w3.org/2000/01/rdf-schema#comment> "Sub-properties of acp:attribute can be created to fit the specific access control requirements of applications."@en .
-<http://www.w3.org/ns/solid/acp#attribute> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> .
-<http://www.w3.org/ns/solid/acp#attribute> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/solid/acp#Context> .
-<http://www.w3.org/ns/solid/acp#target> <http://www.w3.org/2000/01/rdf-schema#label> "target"@en .
-<http://www.w3.org/ns/solid/acp#target> <http://www.w3.org/2000/01/rdf-schema#comment> "The target attribute describes requested resources."@en .
-<http://www.w3.org/ns/solid/acp#target> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> .
-<http://www.w3.org/ns/solid/acp#target> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/solid/acp#attribute> .
-<http://www.w3.org/ns/solid/acp#mode> <http://www.w3.org/2000/01/rdf-schema#label> "mode"@en .
-<http://www.w3.org/ns/solid/acp#mode> <http://www.w3.org/2000/01/rdf-schema#comment> "The mode attribute describes requested modes of access."@en .
-<http://www.w3.org/ns/solid/acp#mode> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> .
-<http://www.w3.org/ns/solid/acp#mode> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/solid/acp#attribute> .
-<http://www.w3.org/ns/solid/acp#agent> <http://www.w3.org/2000/01/rdf-schema#label> "agent"@en .
-<http://www.w3.org/ns/solid/acp#agent> <http://www.w3.org/2000/01/rdf-schema#comment> "The agent attribute describes agents initiating requests."@en .
-<http://www.w3.org/ns/solid/acp#agent> <http://www.w3.org/2000/01/rdf-schema#comment> "In a Matcher, agent attributes define a set of agents, at least one of which MUST match the Context for the Matcher to be satisfied."@en .
-<http://www.w3.org/ns/solid/acp#agent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> .
-<http://www.w3.org/ns/solid/acp#agent> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/solid/acp#attribute> .
-<http://www.w3.org/ns/solid/acp#creator> <http://www.w3.org/2000/01/rdf-schema#label> "creator"@en .
-<http://www.w3.org/ns/solid/acp#creator> <http://www.w3.org/2000/01/rdf-schema#comment> "The creator attribute describes creators of requested resources."@en .
-<http://www.w3.org/ns/solid/acp#creator> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> .
-<http://www.w3.org/ns/solid/acp#creator> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/solid/acp#attribute> .
-<http://www.w3.org/ns/solid/acp#owner> <http://www.w3.org/2000/01/rdf-schema#label> "owner"@en .
-<http://www.w3.org/ns/solid/acp#owner> <http://www.w3.org/2000/01/rdf-schema#comment> "The owner attribute describes owners of requested resources."@en .
-<http://www.w3.org/ns/solid/acp#owner> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> .
-<http://www.w3.org/ns/solid/acp#owner> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/solid/acp#attribute> .
-<http://www.w3.org/ns/solid/acp#client> <http://www.w3.org/2000/01/rdf-schema#label> "client"@en .
-<http://www.w3.org/ns/solid/acp#client> <http://www.w3.org/2000/01/rdf-schema#comment> "The client attribute describes client applications used to request resources."@en .
-<http://www.w3.org/ns/solid/acp#client> <http://www.w3.org/2000/01/rdf-schema#comment> "In a Matcher, client attributes define a set of clients, at least one of which MUST match the Context for the Matcher to be satisfied. "@en .
-<http://www.w3.org/ns/solid/acp#client> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> .
-<http://www.w3.org/ns/solid/acp#client> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/solid/acp#attribute> .
-<http://www.w3.org/ns/solid/acp#issuer> <http://www.w3.org/2000/01/rdf-schema#label> "issuer"@en .
-<http://www.w3.org/ns/solid/acp#issuer> <http://www.w3.org/2000/01/rdf-schema#comment> "The issuer attribute describes identity providers used to assert the identity of agents requesting resources."@en .
-<http://www.w3.org/ns/solid/acp#issuer> <http://www.w3.org/2000/01/rdf-schema#comment> "In a Matcher, issuer attributes define a set of issuers, at least one of which MUST match the Context for the Matcher to be satisfied."@en .
-<http://www.w3.org/ns/solid/acp#issuer> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> .
-<http://www.w3.org/ns/solid/acp#issuer> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/solid/acp#attribute> .
-<http://www.w3.org/ns/solid/acp#vc> <http://www.w3.org/2000/01/rdf-schema#label> "vc"@en .
-<http://www.w3.org/ns/solid/acp#vc> <http://www.w3.org/2000/01/rdf-schema#comment> "The vc attribute describes types of Verifiable Credentials (VC) presented as part of resource access requests."@en .
-<http://www.w3.org/ns/solid/acp#vc> <http://www.w3.org/2000/01/rdf-schema#comment> "In a Matcher, vc attributes define a set of types of Verifiable Credentials (VC), at least one of which MUST match the Context for the Matcher to be satisfied. A VC type present in the Context MUST be a valid VC presented as part of the resource access request."@en .
-<http://www.w3.org/ns/solid/acp#vc> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> .
-<http://www.w3.org/ns/solid/acp#vc> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/solid/acp#attribute> .
-<http://www.w3.org/ns/solid/acp#vc> <http://purl.org/spar/cito/citesAsAuthority> <https://www.w3.org/TR/vc-data-model/> .
-<http://www.w3.org/ns/solid/acp#vc> <http://purl.org/spar/cito/citesAsAuthority> <https://www.w3.org/TR/vc-data-model/#dfn-type> .
-<http://www.w3.org/ns/solid/acp#vc> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.w3.org/TR/vc-data-model/#validation> .
-<http://www.w3.org/ns/solid/acp#context> <http://www.w3.org/2000/01/rdf-schema#label> "context"@en .
-<http://www.w3.org/ns/solid/acp#context> <http://www.w3.org/2000/01/rdf-schema#comment> "The context property connects Access Grants to the Contexts in which they're given."@en .
-<http://www.w3.org/ns/solid/acp#context> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> .
-<http://www.w3.org/ns/solid/acp#context> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/solid/acp#AccessGrant> .
-<http://www.w3.org/ns/solid/acp#context> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/solid/acp#Context> .
-<http://www.w3.org/ns/solid/acp#grant> <http://www.w3.org/2000/01/rdf-schema#label> "grant"@en .
-<http://www.w3.org/ns/solid/acp#grant> <http://www.w3.org/2000/01/rdf-schema#comment> "The grant property connects Access Grants to the Access Modes they grant."@en .
-<http://www.w3.org/ns/solid/acp#grant> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> .
-<http://www.w3.org/ns/solid/acp#grant> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/solid/acp#AccessGrant> .
-<http://www.w3.org/ns/solid/acp#grant> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/solid/acp#AccessMode> .
-<http://www.w3.org/ns/solid/acp#PublicAgent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.w3.org/ns/solid/acp#PublicAgent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/solid/acp#AlwaysSatisfiedRestriction> .
-<http://www.w3.org/ns/solid/acp#PublicAgent> <http://www.w3.org/2000/01/rdf-schema#comment> "In a Matcher, agent attributes using the Public Agent named individual MUST match all Contexts."@en .
-<http://www.w3.org/ns/solid/acp#PublicAgent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> .
-<http://www.w3.org/ns/solid/acp#PublicAgent> <http://www.w3.org/2000/01/rdf-schema#label> "Public Agent"@en .
-<http://www.w3.org/ns/solid/acp#AuthenticatedAgent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.w3.org/ns/solid/acp#AuthenticatedAgent> <http://www.w3.org/2000/01/rdf-schema#comment> "In a Matcher, agent attributes using the Authenticated Agent named individual MUST match Contexts that contain an agent."@en .
-<http://www.w3.org/ns/solid/acp#AuthenticatedAgent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> .
-<http://www.w3.org/ns/solid/acp#AuthenticatedAgent> <http://www.w3.org/2000/01/rdf-schema#label> "Authenticated Agent"@en .
-<http://www.w3.org/ns/solid/acp#CreatorAgent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.w3.org/ns/solid/acp#CreatorAgent> <http://www.w3.org/2000/01/rdf-schema#comment> "In a Matcher, agent attributes using the Creator Agent named individual MUST match Contexts where a defined creator matches the defined agent."@en .
-<http://www.w3.org/ns/solid/acp#CreatorAgent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> .
-<http://www.w3.org/ns/solid/acp#CreatorAgent> <http://www.w3.org/2000/01/rdf-schema#label> "Creator Agent"@en .
-<http://www.w3.org/ns/solid/acp#OwnerAgent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.w3.org/ns/solid/acp#OwnerAgent> <http://www.w3.org/2000/01/rdf-schema#comment> "In a Matcher, agent attributes using the Owner Agent named individual MUST match Contexts where a defined owner matches the defined agent."@en .
-<http://www.w3.org/ns/solid/acp#OwnerAgent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> .
-<http://www.w3.org/ns/solid/acp#OwnerAgent> <http://www.w3.org/2000/01/rdf-schema#label> "Owner Agent"@en .
-<http://www.w3.org/ns/solid/acp#PublicClient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.w3.org/ns/solid/acp#PublicClient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/solid/acp#AlwaysSatisfiedRestriction> .
-<http://www.w3.org/ns/solid/acp#PublicClient> <http://www.w3.org/2000/01/rdf-schema#comment> "In a Matcher, client attributes using the Public Client named individual MUST match all Contexts."@en .
-<http://www.w3.org/ns/solid/acp#PublicClient> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> .
-<http://www.w3.org/ns/solid/acp#PublicClient> <http://www.w3.org/2000/01/rdf-schema#label> "Public Client"@en .
-<http://www.w3.org/ns/solid/acp#PublicIssuer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.w3.org/ns/solid/acp#PublicIssuer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/solid/acp#AlwaysSatisfiedRestriction> .
-<http://www.w3.org/ns/solid/acp#PublicIssuer> <http://www.w3.org/2000/01/rdf-schema#comment> "In a Matcher, issuer attributes using the Public Issuer named individual MUST match all Contexts."@en .
-<http://www.w3.org/ns/solid/acp#PublicIssuer> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> .
-<http://www.w3.org/ns/solid/acp#PublicIssuer> <http://www.w3.org/2000/01/rdf-schema#label> "Public Issuer"@en .
+<http://www.w3.org/ns/solid/acp#anyOf> <http://www.w3.org/2000/01/rdf-schema#label> "any of"@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#deny> <http://www.w3.org/2000/01/rdf-schema#comment> "The deny property connects Policies to the Access Modes they deny if satisfied."@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#AccessControlResource> <http://www.w3.org/2000/01/rdf-schema#comment> "Both the acp:resource property and its inverse acp:accessControlResource MUST be taken into account in determining the Access Control Resources controlling access to resources."@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#OwnerAgent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#resource> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#accessControlResource> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3.org/ns/solid/acp#resource> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#issuer> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/solid/acp#attribute> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#CreatorAgent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#allow> <http://www.w3.org/2000/01/rdf-schema#comment> "The allow property connects Policies to the Access Modes they allow if satisfied."@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#vc> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.w3.org/TR/vc-data-model/#validation> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#issuer> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#grant> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/solid/acp#AccessMode> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#issuer> <http://www.w3.org/2000/01/rdf-schema#comment> "The issuer attribute describes identity providers used to assert the identity of agents requesting resources."@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#attribute> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#PublicAgent> <http://www.w3.org/2000/01/rdf-schema#label> "Public Agent"@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#vc> <http://www.w3.org/2000/01/rdf-schema#label> "vc"@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#context> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/solid/acp#Context> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#AuthenticatedAgent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#AccessMode> <http://www.w3.org/2000/01/rdf-schema#label> "Access Mode"@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#PublicClient> <http://www.w3.org/2000/01/rdf-schema#comment> "In a Matcher, client attributes using the Public Client named individual MUST match all Contexts."@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#apply> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#AuthenticatedIssuer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#attribute> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/solid/acp#Context> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#PublicClient> <http://www.w3.org/2000/01/rdf-schema#label> "Public Client"@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#resource> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/solid/acp#AccessControlResource> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#noneOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/solid/acp#Matcher> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#PublicIssuer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#resource> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3.org/ns/solid/acp#accessControlResource> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#deny> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/solid/acp#AccessMode> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#Policy> <http://www.w3.org/2000/01/rdf-schema#label> "Access Policy"@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#deny> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/solid/acp#Policy> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#context> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#AccessControl> <http://www.w3.org/2000/01/rdf-schema#comment> "All Access Controls controlling member resources access via the acp:memberAccessControl property MUST be included in the set of Access Controls linked as acp:accessControl in the effective authorization graph of a resource."@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#owner> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#AccessGrant> <http://www.w3.org/2000/01/rdf-schema#label> "Access Grant"@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#AccessControlResource> <http://www.w3.org/2000/01/rdf-schema#label> "Access Control Resource"@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#AccessGrant> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#target> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#> <http://purl.org/spar/cito/citesAsAuthority> <https://www.w3.org/TR/vc-data-model/> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#allow> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#AccessControl> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#apply> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/solid/acp#AccessControl> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#creator> <http://www.w3.org/2000/01/rdf-schema#label> "creator"@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#Policy> <http://www.w3.org/2000/01/rdf-schema#comment> "An Access Mode MUST be granted if and only if in the set of Effective Policies controlling access to it: a satisfied policy allows the Access Mode; and, no satisfied policy denies it."@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#accessControl> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#anyOf> <http://www.w3.org/2000/01/rdf-schema#comment> "The any of property connects Policies to a set of Matchers, at least one of which MUST be satisfied for the Policy to be satisfied."@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#creator> <http://www.w3.org/2000/01/rdf-schema#comment> "The creator attribute describes creators of requested resources."@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#creator> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#Context> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#vc> <http://purl.org/spar/cito/citesAsAuthority> <https://www.w3.org/TR/vc-data-model/> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#memberAccessControl> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#AlwaysSatisfiedRestriction> <http://www.w3.org/2000/01/rdf-schema#comment> "Defined instances of the Always Satisfied Restriction class are used in Matcher restrictions to indicate that the restriction is always satisfied. The default behaviour of a Matcher is to not be satisfied, so this is the only way to make a Matcher always satisfied."@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#> <http://purl.org/vocab/vann/preferredNamespacePrefix> "acp" <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#AccessMode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#Matcher> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#accessControlResource> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/solid/acp#AccessControlResource> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#apply> <http://www.w3.org/2000/01/rdf-schema#label> "apply"@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#attribute> <http://www.w3.org/2000/01/rdf-schema#label> "attribute"@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#> <http://www.w3.org/2000/01/rdf-schema#label> "Access Control Policy Language (ACP)"@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#deny> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#target> <http://www.w3.org/2000/01/rdf-schema#label> "target"@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#agent> <http://www.w3.org/2000/01/rdf-schema#label> "agent"@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#client> <http://www.w3.org/2000/01/rdf-schema#comment> "In a Matcher, client attributes define a set of clients, at least one of which MUST match the Context for the Matcher to be satisfied. "@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#issuer> <http://www.w3.org/2000/01/rdf-schema#comment> "In a Matcher, issuer attributes define a set of issuers, at least one of which MUST match the Context for the Matcher to be satisfied."@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#vc> <http://www.w3.org/2000/01/rdf-schema#comment> "The vc attribute describes types of Verifiable Credentials (VC) presented as part of resource access requests."@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#vc> <http://www.w3.org/2000/01/rdf-schema#comment> "In a Matcher, vc attributes define a set of types of Verifiable Credentials (VC), at least one of which MUST match the Context for the Matcher to be satisfied. A VC type present in the Context MUST be a valid VC presented as part of the resource access request."@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#context> <http://www.w3.org/2000/01/rdf-schema#comment> "The context property connects Access Grants to the Contexts in which they're given."@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#grant> <http://www.w3.org/2000/01/rdf-schema#label> "grant"@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#PublicAgent> <http://www.w3.org/2000/01/rdf-schema#comment> "In a Matcher, agent attributes using the Public Agent named individual MUST match all Contexts."@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#AuthenticatedClient> <http://www.w3.org/2000/01/rdf-schema#label> "Authenticated Client"@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#noneOf> <http://www.w3.org/2000/01/rdf-schema#comment> "The none of property connects Policies to a set of Matchers, all of which MUST NOT be satisfied for the Policy to be satisfied."@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#agent> <http://www.w3.org/2000/01/rdf-schema#comment> "The agent attribute describes agents initiating requests."@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#Context> <http://www.w3.org/2000/01/rdf-schema#comment> "Instances of the Context class describe instances of resource access."@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#resource> <http://www.w3.org/2000/01/rdf-schema#comment> "The resource property connects ACRs to resources they control. It is the inverse of acp:accessControlResource."@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://solid.github.io/authorization-panel/acp-specification/> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#allow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#vc> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/solid/acp#attribute> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#Matcher> <http://www.w3.org/2000/01/rdf-schema#label> "Matcher"@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#AuthenticatedClient> <http://www.w3.org/2000/01/rdf-schema#comment> "In a Matcher, client attributes using the Authenticated Client named individual MUST match Contexts that contain a client."@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#noneOf> <http://www.w3.org/2000/01/rdf-schema#label> "none of"@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#Matcher> <http://www.w3.org/2000/01/rdf-schema#comment> "A Matcher MUST be satisfied if and only if: it defines at least one attribute; and, at least one value of each defined attribute matches the Context. ACP engines MUST match the context attributes defined by this specification according to IRI equality and literal term equality."@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#PublicAgent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/solid/acp#AlwaysSatisfiedRestriction> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#> <http://purl.org/spar/cito/citesAsAuthority> <https://www.w3.org/TR/rdf11-concepts/> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#AlwaysSatisfiedRestriction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#AccessControlResource> <http://www.w3.org/2000/01/rdf-schema#comment> "Instances of the Access Control Resource (ACR) class connect resources to their Access Controls."@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#accessControlResource> <http://www.w3.org/2000/01/rdf-schema#label> "access control resource"@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#Policy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#allow> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/solid/acp#Policy> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#Policy> <http://www.w3.org/2000/01/rdf-schema#comment> "Instances of the Policy class connect Access Controls to allowed and denied Access Modes as well as sets of Matchers describing instances of resource access."@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#AccessControlResource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#anyOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/solid/acp#Policy> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#anyOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#AccessControl> <http://www.w3.org/2000/01/rdf-schema#comment> "Instances of the Access Control class connect Access Control Resources to their Policies."@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#grant> <http://www.w3.org/2000/01/rdf-schema#comment> "The grant property connects Access Grants to the Access Modes they grant."@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#client> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/solid/acp#attribute> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#AuthenticatedAgent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#deny> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#> <http://purl.org/dc/terms/issued> "2022-05-18"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#memberAccessControl> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/solid/acp#AccessControl> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#apply> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#deny> <http://www.w3.org/2000/01/rdf-schema#label> "deny"@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#resource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#agent> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/solid/acp#attribute> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#Matcher> <http://www.w3.org/2000/01/rdf-schema#comment> "Instances of the Matcher class are descriptions of matching resource access Contexts."@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#Matcher> <http://www.w3.org/2000/01/rdf-schema#comment> "ACP implementations supporting sub-properties of acp:attribute other than the ones defined by ACP SHOULD also define and implement corresponding matching algorithms."@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#attribute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#target> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/solid/acp#attribute> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#CreatorAgent> <http://www.w3.org/2000/01/rdf-schema#label> "Creator Agent"@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#OwnerAgent> <http://www.w3.org/2000/01/rdf-schema#label> "Owner Agent"@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#creator> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/solid/acp#attribute> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#context> <http://www.w3.org/2000/01/rdf-schema#label> "context"@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#AuthenticatedIssuer> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#> <http://www.w3.org/2000/01/rdf-schema#comment> "The Access Control Policy Language (ACP) is a language for describing, controlling, and granting access to resources."@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#AccessGrant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#vc> <http://purl.org/spar/cito/citesAsAuthority> <https://www.w3.org/TR/vc-data-model/#dfn-type> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#target> <http://www.w3.org/2000/01/rdf-schema#comment> "The target attribute describes requested resources."@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#owner> <http://www.w3.org/2000/01/rdf-schema#comment> "The owner attribute describes owners of requested resources."@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#allOf> <http://www.w3.org/2000/01/rdf-schema#label> "all of"@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#anyOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/solid/acp#Matcher> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#PublicAgent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#apply> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/solid/acp#Policy> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#resource> <http://www.w3.org/2000/01/rdf-schema#label> "resource"@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#accessControlResource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#memberAccessControl> <http://www.w3.org/2000/01/rdf-schema#label> "member access control"@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#attribute> <http://www.w3.org/2000/01/rdf-schema#comment> "Sub-properties of ACP attribute are used to describe instances of resource access."@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#CreatorAgent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#Context> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#PublicClient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#allow> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/solid/acp#AccessMode> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#AlwaysSatisfiedRestriction> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#AuthenticatedClient> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#AuthenticatedClient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#grant> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/solid/acp#AccessGrant> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#> <http://purl.org/spar/cito/citesAsAuthority> <https://www.rfc-editor.org/info/rfc8174> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#accessControlResource> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#AccessMode> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.w3.org/ns/auth/acl#Access> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#grant> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#AccessGrant> <http://www.w3.org/2000/01/rdf-schema#comment> "Instances of the Access Grant class define sets of Access Modes granted in particular Contexts."@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#allOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#allOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#client> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#accessControlResource> <http://www.w3.org/2000/01/rdf-schema#comment> "The access control resource property connects resources to ACRs controlling access to them. It is the inverse of acp:resource."@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#attribute> <http://www.w3.org/2000/01/rdf-schema#comment> "Sub-properties of acp:attribute can be created to fit the specific access control requirements of applications."@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#anyOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#Policy> <http://www.w3.org/2000/01/rdf-schema#comment> "An ACP engine MUST grant exactly those Access Modes allowed by Effective Policies. Effective Policies are the Policies controlling access to a resource. A Policy MUST control access to a resource if: it is applied by an Access Control of an ACR of the resource; or, it is applied by a member Access Control of an ACR of an ancestor of the resource."@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#accessControl> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/solid/acp#AccessControlResource> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#context> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/solid/acp#AccessGrant> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#OwnerAgent> <http://www.w3.org/2000/01/rdf-schema#comment> "In a Matcher, agent attributes using the Owner Agent named individual MUST match Contexts where a defined owner matches the defined agent."@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#PublicAgent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#Context> <http://www.w3.org/2000/01/rdf-schema#label> "Context"@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#issuer> <http://www.w3.org/2000/01/rdf-schema#label> "issuer"@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#AccessMode> <http://www.w3.org/2000/01/rdf-schema#comment> "The ACP specification does not define specific Access Modes. Instead, any Access Mode granted is an instance of the Access Mode class. Access Modes and their granularity can be tailored to the needs of an application and Access Modes defined in other vocabularies can also be used (for example, instances of ACL Access)."@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#accessControl> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/solid/acp#AccessControl> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#Policy> <http://www.w3.org/2000/01/rdf-schema#comment> "A Policy MUST be satisfied if and only if: it references at least one Matcher via an acp:allOf or acp:anyOf property; and, all of its acp:allOf Matchers are satisfied; and, at least one of its acp:anyOf Matchers is satisfied; and, none of its acp:noneOf Matchers are satisfied."@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#owner> <http://www.w3.org/2000/01/rdf-schema#label> "owner"@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#> <http://purl.org/spar/cito/citesAsAuthority> <https://www.rfc-editor.org/info/rfc8288> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#noneOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#PublicClient> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#> <http://purl.org/spar/cito/citesAsAuthority> <https://www.rfc-editor.org/info/rfc2119> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#accessControl> <http://www.w3.org/2000/01/rdf-schema#comment> "The access control property connects ACRs to Access Controls."@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#client> <http://www.w3.org/2000/01/rdf-schema#label> "client"@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#PublicIssuer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/solid/acp#AlwaysSatisfiedRestriction> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#owner> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/solid/acp#attribute> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#AuthenticatedAgent> <http://www.w3.org/2000/01/rdf-schema#label> "Authenticated Agent"@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#AccessControlResource> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#Policy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#Matcher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#noneOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#PublicClient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/solid/acp#AlwaysSatisfiedRestriction> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#Matcher> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.w3.org/TR/rdf11-concepts/> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#agent> <http://www.w3.org/2000/01/rdf-schema#comment> "In a Matcher, agent attributes define a set of agents, at least one of which MUST match the Context for the Matcher to be satisfied."@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#allOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/solid/acp#Matcher> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#AccessControl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#accessControl> <http://www.w3.org/2000/01/rdf-schema#label> "access control"@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#memberAccessControl> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/solid/acp#AccessControlResource> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#CreatorAgent> <http://www.w3.org/2000/01/rdf-schema#comment> "In a Matcher, agent attributes using the Creator Agent named individual MUST match Contexts where a defined creator matches the defined agent."@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#PublicIssuer> <http://www.w3.org/2000/01/rdf-schema#comment> "In a Matcher, issuer attributes using the Public Issuer named individual MUST match all Contexts."@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#PublicIssuer> <http://www.w3.org/2000/01/rdf-schema#label> "Public Issuer"@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#agent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#allOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/solid/acp#Policy> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#AlwaysSatisfiedRestriction> <http://www.w3.org/2000/01/rdf-schema#label> "Always Satisfied Restriction"@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#memberAccessControl> <http://www.w3.org/2000/01/rdf-schema#comment> "The member access control property transitively connects ACRs of member resources to Access Controls."@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#noneOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/solid/acp#Policy> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#client> <http://www.w3.org/2000/01/rdf-schema#comment> "The client attribute describes client applications used to request resources."@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#> <http://purl.org/vocab/vann/preferredNamespaceUri> "http://www.w3.org/ns/solid/acp#"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#allow> <http://www.w3.org/2000/01/rdf-schema#label> "allow"@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#OwnerAgent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#allOf> <http://www.w3.org/2000/01/rdf-schema#comment> "The all of property connects Policies to a set of Matchers, all of which MUST be satisfied for the Policy to be satisfied."@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#AuthenticatedAgent> <http://www.w3.org/2000/01/rdf-schema#comment> "In a Matcher, agent attributes using the Authenticated Agent named individual MUST match Contexts that contain an agent."@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#vc> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#PublicIssuer> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#AuthenticatedIssuer> <http://www.w3.org/2000/01/rdf-schema#comment> "In a Matcher, issuer attributes using the Authenticated Issuer named individual MUST match Contexts that contain an issuer."@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#accessControl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#AuthenticatedIssuer> <http://www.w3.org/2000/01/rdf-schema#label> "Authenticated Issuer"@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#Policy> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.w3.org/TR/sparql11-query/#propertypaths> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#AccessControl> <http://www.w3.org/2000/01/rdf-schema#label> "Access Control"@en <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#AccessMode> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/acp#> <http://www.w3.org/ns/solid/acp#>.
+<http://www.w3.org/ns/solid/acp#apply> <http://www.w3.org/2000/01/rdf-schema#comment> "The apply property connects Access Controls to the Policies they apply to resources."@en <http://www.w3.org/ns/solid/acp#>.

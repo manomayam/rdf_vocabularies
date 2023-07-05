@@ -17,33 +17,33 @@
 use crate::namespace;
 
 namespace!(
-    "http://www.w3.org/ns/posix/stat#",;
-    /// ``: 
-    NAMESPACE_BASE, "",
-    /// `atime`: time of last access
-    atime, "atime",
-    /// `blksize`: blocksize for file system I/O
-    blksize, "blksize",
-    /// `blocks`: number of 512B blocks allocated
-    blocks, "blocks",
-    /// `ctime`: time of last status change
-    ctime, "ctime",
-    /// `dev`: ID of device containing file
-    dev, "dev",
-    /// `gid`: group ID of owner
-    gid, "gid",
-    /// `ino`: inode number
-    ino, "ino",
-    /// `mode`: protection
-    mode, "mode",
-    /// `mtime`: time of last modification
-    mtime, "mtime",
-    /// `nlink`: number of hard links
-    nlink, "nlink",
-    /// `rdev`: device ID (if special file)
-    rdev, "rdev",
-    /// `size`: total size, in bytes
-    size, "size",
-    /// `uid`: user ID of owner
-    uid, "uid"
+    base: "http://www.w3.org/ns/posix/stat#",
+
+    terms: [
+        /// `atime`: time of last access
+        (atime, "atime"),
+        /// `blksize`: blocksize for file system I/O
+        (blksize, "blksize"),
+        /// `blocks`: number of 512B blocks allocated
+        (blocks, "blocks"),
+        /// `ctime`: time of last status change
+        (ctime, "ctime"),
+        /// `dev`: ID of device containing file
+        (dev, "dev"),
+        /// `gid`: group ID of owner
+        (gid, "gid"),
+        /// `ino`: inode number
+        (ino, "ino"),
+        /// `mode`: protection
+        (mode, "mode"),
+        /// `mtime`: time of last modification
+        (mtime, "mtime"),
+        /// `nlink`: number of hard links
+        (nlink, "nlink"),
+        /// `rdev`: device ID (if special file)
+        (rdev, "rdev"),
+        /// `size`: total size, in bytes
+        (size, "size"),
+        /// `uid`: user ID of owner
+        (uid, "uid")    ]
 );

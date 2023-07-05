@@ -17,41 +17,41 @@
 use crate::namespace;
 
 namespace!(
-    "http://www.w3.org/ns/auth/cert#",;
-    /// ``: 
-    NAMESPACE_BASE, "",
-    /// `Certificate`: 
-    Certificate, "Certificate",
-    /// `DSAKey`: 
-    DSAKey, "DSAKey",
-    /// `Key`: 
-    Key, "Key",
-    /// `PGPCertificate`: 
-    PGPCertificate, "PGPCertificate",
-    /// `PrivateKey`: 
-    PrivateKey, "PrivateKey",
-    /// `PublicKey`: 
-    PublicKey, "PublicKey",
-    /// `RSAKey`: 
-    RSAKey, "RSAKey",
-    /// `RSAPrivateKey`: 
-    RSAPrivateKey, "RSAPrivateKey",
-    /// `RSAPublicKey`: 
-    RSAPublicKey, "RSAPublicKey",
-    /// `Signature`: 
-    Signature, "Signature",
-    /// `X509Certificate`: 
-    X509Certificate, "X509Certificate",
-    /// `exponent`: 
-    exponent, "exponent",
-    /// `hex`: 
-    hex, "hex",
-    /// `identity`: 
-    identity, "identity",
-    /// `key`: 
-    key, "key",
-    /// `modulus`: 
-    modulus, "modulus",
-    /// `privateExponent`: 
-    privateExponent, "privateExponent"
+    base: "http://www.w3.org/ns/auth/cert#",
+
+    terms: [
+        /// `Certificate`:
+        (Certificate, "Certificate"),
+        /// `DSAKey`:
+        (DSAKey, "DSAKey"),
+        /// `Key`:
+        (Key, "Key"),
+        /// `PGPCertificate`:
+        (PGPCertificate, "PGPCertificate"),
+        /// `PrivateKey`:
+        (PrivateKey, "PrivateKey"),
+        /// `PublicKey`:
+        (PublicKey, "PublicKey"),
+        /// `RSAKey`:
+        (RSAKey, "RSAKey"),
+        /// `RSAPrivateKey`:
+        (RSAPrivateKey, "RSAPrivateKey"),
+        /// `RSAPublicKey`:
+        (RSAPublicKey, "RSAPublicKey"),
+        /// `Signature`:
+        (Signature, "Signature"),
+        /// `X509Certificate`:
+        (X509Certificate, "X509Certificate"),
+        /// `exponent`:
+        (exponent, "exponent"),
+        /// `hex`:
+        (hex, "hex"),
+        /// `identity`:
+        (identity, "identity"),
+        /// `key`:
+        (key, "key"),
+        /// `modulus`:
+        (modulus, "modulus"),
+        /// `privateExponent`:
+        (privateExponent, "privateExponent")    ]
 );

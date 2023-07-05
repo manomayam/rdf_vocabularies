@@ -70,15 +70,16 @@ pub fn update_features_table(
 pub fn compute_features_table(vocab_index: &VocabIndex) -> Table {
     let mut table = Table::new();
     let ns_dep_features = Value::Array(Array::new());
-    let mut dataset_dep_features_list = Array::new();
-    dataset_dep_features_list.insert(0, Value::String("dataset".into()));
-    let dataset_dep_features = Value::Array(dataset_dep_features_list);
+    // let mut dataset_dep_features_list = Array::new();
+    // dataset_dep_features_list.insert(0, Value::String("dataset".into()));
+    // let dataset_dep_features = Value::Array(dataset_dep_features_list);
+
     for vocab in vocab_index.index.values() {
         table.insert(feature_ns_for(&vocab.safe_prefix), ns_dep_features.clone());
-        table.insert(
-            feature_dataset_for(&vocab.safe_prefix),
-            dataset_dep_features.clone(),
-        );
+        // table.insert(
+        //     feature_dataset_for(&vocab.safe_prefix),
+        //     dataset_dep_features.clone(),
+        // );
     }
     table
 }

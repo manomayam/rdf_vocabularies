@@ -17,43 +17,45 @@
 use crate::namespace;
 
 namespace!(
-    "http://www.w3.org/ns/lemon/vartrans#",;
-    /// `ConceptualRelation`: 
-    ConceptualRelation, "ConceptualRelation",
-    /// `LexicalRelation`: 
-    LexicalRelation, "LexicalRelation",
-    /// `LexicoSemanticRelation`: 
-    LexicoSemanticRelation, "LexicoSemanticRelation",
-    /// `SenseRelation`: 
-    SenseRelation, "SenseRelation",
-    /// `TerminologicalRelation`: 
-    TerminologicalRelation, "TerminologicalRelation",
-    /// `Translation`: 
-    Translation, "Translation",
-    /// `TranslationSet`: 
-    TranslationSet, "TranslationSet",
-    /// `category`: 
-    category, "category",
-    /// `conceptRel`: 
-    conceptRel, "conceptRel",
-    /// `imports`: 
-    imports, "imports",
-    /// `lexicalRel`: 
-    lexicalRel, "lexicalRel",
-    /// `relates`: 
-    relates, "relates",
-    /// `senseRel`: 
-    senseRel, "senseRel",
-    /// `source`: 
-    source, "source",
-    /// `target`: 
-    target, "target",
-    /// `trans`: 
-    trans, "trans",
-    /// `translatableAs`: 
-    translatableAs, "translatableAs",
-    /// `translation`: 
-    translation, "translation",
-    /// `versionInfo`: 
-    versionInfo, "versionInfo"
+    base: "http://www.w3.org/ns/lemon/vartrans#",
+
+    terms: [
+        /// `ConceptualRelation`:
+        (ConceptualRelation, "ConceptualRelation"),
+        /// `LexicalRelation`:
+        (LexicalRelation, "LexicalRelation"),
+        /// `LexicoSemanticRelation`:
+        (LexicoSemanticRelation, "LexicoSemanticRelation"),
+        /// `SenseRelation`:
+        (SenseRelation, "SenseRelation"),
+        /// `TerminologicalRelation`:
+        (TerminologicalRelation, "TerminologicalRelation"),
+        /// `Translation`:
+        (Translation, "Translation"),
+        /// `TranslationSet`:
+        (TranslationSet, "TranslationSet"),
+        /// `category`:
+        (category, "category"),
+        /// `conceptRel`:
+        (conceptRel, "conceptRel"),
+        /// `imports`:
+        (imports, "imports"),
+        /// `lexicalRel`:
+        (lexicalRel, "lexicalRel"),
+        /// `relates`:
+        (relates, "relates"),
+        /// `senseRel`:
+        (senseRel, "senseRel"),
+        /// `source`:
+        (source, "source"),
+        /// `target`:
+        (target, "target"),
+        /// `trans`:
+        (trans, "trans"),
+        /// `translatableAs`:
+        (translatableAs, "translatableAs"),
+        /// `translation`:
+        (translation, "translation"),
+        /// `versionInfo`:
+        (versionInfo, "versionInfo")    ]
 );

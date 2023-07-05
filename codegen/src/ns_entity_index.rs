@@ -87,11 +87,14 @@ impl NSEntityIndex {
         vocab_ns_base: &ArcIri,
     ) -> Option<NSEntity> {
         let term_suffix: String = id.match_ns(vocab_ns_base)?.collect();
+
         let safe_term_suffix = if term_suffix.is_empty() {
-            NAMESPACE_BASE_TERM_IDENT.into()
+            return None;
+            // NAMESPACE_BASE_TERM_IDENT.into()
         } else {
             sanitize_ident(&term_suffix)
         };
+
         let label = if let Some(val) = get_lang_literal_object_of_statement_with(
             vocab_dataset,
             id,

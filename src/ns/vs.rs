@@ -17,13 +17,13 @@
 use crate::namespace;
 
 namespace!(
-    "http://www.w3.org/2003/06/sw-vocab-status/ns#",;
-    /// ``: 
-    NAMESPACE_BASE, "",
-    /// `more info`: more information about the status etc of a term, typically human oriented
-    moreinfo, "moreinfo",
-    /// `term status`: the status of a vocabulary term, expressed as a short symbolic string; known values include 'unstable','testing', 'stable' and 'archaic'
-    term_status, "term_status",
-    /// `user docs`: human-oriented documentation, examples etc for use of this term
-    userdocs, "userdocs"
+    base: "http://www.w3.org/2003/06/sw-vocab-status/ns#",
+
+    terms: [
+        /// `more info`: more information about the status etc of a term, typically human oriented
+        (moreinfo, "moreinfo"),
+        /// `term status`: the status of a vocabulary term, expressed as a short symbolic string; known values include 'unstable','testing', 'stable' and 'archaic'
+        (term_status, "term_status"),
+        /// `user docs`: human-oriented documentation, examples etc for use of this term
+        (userdocs, "userdocs")    ]
 );
